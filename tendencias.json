@@ -1,24 +1,94 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-28T23:40:00-03:00",
-  "edition": "28 de outubro de 2026",
-  "summary": "Com o Andromeda (o novo sistema de entrega da Meta), o criativo virou a segmentação: o algoritmo procura o público a partir do anúncio. Ganha quem roda vários conceitos realmente diferentes (não 5 variações da mesma peça), com vídeo vertical curto, cara de conteúdo orgânico e gancho nos 2 primeiros segundos.",
+  "updatedAt": "2026-10-30T05:50:00-03:00",
+  "edition": "30 de outubro de 2026",
+  "summary": "O criativo segue sendo a segmentação: ganha quem mantém 15 a 20 anúncios ativos com ganchos e conceitos diferentes, em vídeo vertical de 15 a 30 s com a informação principal nos primeiros segundos. Novidade do mês: a Meta liberou para todos a função que transforma imagem estática em vídeo dentro do Advantage+ creative.",
   "rules": [
-    { "title": "10 a 20 criativos diferentes por conjunto", "text": "O Andromeda agrupa anúncios parecidos como se fossem um só. Trocar só a cor ou o texto não conta: varie o conceito (prova social, oferta, bastidores, tutorial, comparação).", "source": 1 },
-    { "title": "Teste 3 ganchos antes de trocar o formato", "text": "Quando um anúncio cai, quase sempre o problema é a abertura. Grave 3 inícios diferentes para o mesmo vídeo e deixe o algoritmo escolher.", "source": 3 },
-    { "title": "Vida útil caiu para 2 a 4 semanas", "text": "Os anúncios rendem mais na primeira semana. Se não performou em 7 dias, troque. Renove pelo menos 30% dos criativos a cada mês.", "source": 4 },
-    { "title": "Uma peça, três proporções", "text": "Entregue cada criativo em 9:16 (Reels e Stories), 4:5 (feed no celular) e 1:1. Quem faz isso tem resultado bem melhor por posicionamento.", "source": 4 },
-    { "title": "Legenda sempre", "text": "A maior parte dos vídeos no feed é vista sem som. Texto na tela e legenda queimada não são opcionais.", "source": 2 }
+    {
+      "title": "15 a 20 anúncios ativos, com ângulos diferentes",
+      "text": "O sistema da Meta trabalha melhor com muitos criativos no ar. Varie gancho e formato, não só a cor ou o texto.",
+      "source": 4
+    },
+    {
+      "title": "Teste 5 a 10 ganchos sobre o mesmo vídeo",
+      "text": "Quando um anúncio cai, quase sempre o problema é a abertura. Troque o início antes de jogar o vídeo fora.",
+      "source": 1
+    },
+    {
+      "title": "O principal nos 2 ou 3 primeiros segundos",
+      "text": "Produto, preço ou resultado aparecem logo na abertura. Logo, vinheta e apresentação ficam para o fim (ou saem).",
+      "source": 4
+    },
+    {
+      "title": "Achou a mensagem que vende? Repita em várias roupas",
+      "text": "Os anúncios que ficam semanas no ar repetem a mesma mensagem em foto, vídeo e carrossel. Mude o formato e o cenário, mantenha a promessa.",
+      "source": 3
+    },
+    {
+      "title": "Vídeo entre 15 e 30 segundos",
+      "text": "É a faixa mais comum entre os vídeos que rodam por muito tempo. Acima de 60 s só para decisão complexa.",
+      "source": 1
+    },
+    {
+      "title": "Negócio local: horário e raio contam",
+      "text": "Rode no horário em que o cliente compra (almoço e jantar no delivery) e num raio que você atende de verdade.",
+      "source": 7
+    }
   ],
   "formats": [
-    { "name": "Vídeo vertical 9 a 20 s (Reels)", "trend": "up", "note": "Formato dominante para público frio. Anúncios abaixo de 15 s têm taxa de conclusão bem maior que os de 30 s ou mais." },
-    { "name": "UGC / cara de orgânico", "trend": "up", "note": "Pessoa real falando para a câmera, gravado no celular. Melhor formato para resposta direta no Meta." },
-    { "name": "Carrossel", "trend": "up", "note": "Voltou forte no meio do funil: comparação, passo a passo, antes e depois, vários produtos." },
-    { "name": "Anúncio com criador (parceria)", "trend": "up", "note": "Influenciador local no cabeçalho do anúncio: alcance com credibilidade." },
-    { "name": "Imagem estática", "trend": "steady", "note": "Não lidera, mas converte bem em remarketing, oferta direta e público que já conhece a marca." },
-    { "name": "Vídeo longo (60 s ou mais)", "trend": "down", "note": "Menos de 10% dos anúncios que rodam por muito tempo. Use só para decisão complexa." }
+    {
+      "name": "Vídeo vertical 15 a 30 s (Reels)",
+      "trend": "up",
+      "note": "Faixa mais comum entre os vídeos que ficam semanas no ar. 9:16 tem a maior distribuição."
+    },
+    {
+      "name": "Variações automáticas (Advantage+ creative)",
+      "trend": "up",
+      "note": "27 de 40 anúncios analisados na Biblioteca usavam criativo dinâmico ou de catálogo. Agora também gera vídeo a partir da imagem."
+    },
+    {
+      "name": "Motion design / animação",
+      "trend": "up",
+      "note": "Em imobiliárias, foi o tipo de peça que mais durou no ar no 1º trimestre."
+    },
+    {
+      "name": "UGC / cara de orgânico",
+      "trend": "steady",
+      "note": "Segue forte para prova social e serviços locais, mas em imobiliárias durou menos no ar que peças animadas."
+    },
+    {
+      "name": "Anúncio com criador (parceria)",
+      "trend": "up",
+      "note": "Creator Marketing Hub chegou a todos os países em setembro, com anúncio em parceria em um clique."
+    },
+    {
+      "name": "Carrossel",
+      "trend": "steady",
+      "note": "Bom para combos, comparação e objeções no meio do funil. Raro entre os anúncios mais antigos analisados."
+    },
+    {
+      "name": "Imagem estática",
+      "trend": "steady",
+      "note": "Ótima para oferta e remarketing, e agora é ponto de partida para vídeo automático."
+    },
+    {
+      "name": "Vídeo longo (60 s ou mais)",
+      "trend": "down",
+      "note": "Menos de 10% dos anúncios que rodam por muito tempo. Use só para decisão complexa."
+    }
   ],
-  "niches": ["Restaurantes", "Saúde e odontologia", "Estética", "Imobiliárias", "Academias", "Varejo e lojas", "Automotivo e financiamento", "Pet", "Indústria e B2B", "Todos"],
+  "niches": [
+    "Restaurantes",
+    "Saúde e odontologia",
+    "Estética",
+    "Imobiliárias",
+    "Academias",
+    "Varejo e lojas",
+    "Automotivo e financiamento",
+    "Pet",
+    "Indústria e B2B",
+    "Todos"
+  ],
   "ideas": [
     {
       "id": "ugc-dono",
@@ -28,12 +98,26 @@
       "duration": "15 a 25 s",
       "ratio": "9:16",
       "status": "em-alta",
-      "niches": ["Todos"],
-      "why": "É o formato que mais converte no Meta hoje: sem logo, sem trilha de comercial, parece conteúdo de um perfil comum. Anúncios com cara de criador têm conclusão bem maior que peças produzidas.",
-      "how": ["Escolha UMA dor ou objeção do cliente (preço, demora, medo).", "Grave no celular, em pé, luz de janela, olhando para a lente.", "Responda a objeção nos primeiros 3 segundos e mostre o lugar/produto.", "Termine com um convite simples: \"chama no WhatsApp\"."],
-      "hooks": ["\"Todo mundo me pergunta por que a gente é mais caro. Vou te mostrar.\"", "\"Se você mora em [bairro] e ainda não conhece a gente…\"", "\"3 coisas que ninguém te conta antes de [serviço].\""],
+      "niches": [
+        "Todos"
+      ],
+      "why": "Pessoa real falando para a câmera, gravado no celular, parece conteúdo de um perfil comum e passa confiança. Depoimento vertical sem edição é um dos formatos recomendados para prova social em 2026. Atenção: em imobiliárias, peças com cara de UGC duraram menos no ar que vídeos com motion design.",
+      "how": [
+        "Escolha UMA dor ou objeção do cliente (preço, demora, medo).",
+        "Grave no celular, em pé, luz de janela, olhando para a lente.",
+        "Responda a objeção nos primeiros 3 segundos e mostre o lugar/produto.",
+        "Termine com um convite simples: \"chama no WhatsApp\"."
+      ],
+      "hooks": [
+        "\"Todo mundo me pergunta por que a gente é mais caro. Vou te mostrar.\"",
+        "\"Se você mora em [bairro] e ainda não conhece a gente…\"",
+        "\"3 coisas que ninguém te conta antes de [serviço].\""
+      ],
       "avoid": "Roteiro decorado e lido: tira a energia. Dê tópicos e grave de primeira.",
-      "sources": [2, 3, 5]
+      "sources": [
+        4,
+        9
+      ]
     },
     {
       "id": "tres-ganchos",
@@ -43,12 +127,24 @@
       "duration": "9 a 15 s",
       "ratio": "9:16",
       "status": "em-alta",
-      "niches": ["Todos"],
-      "why": "O gancho decide o resultado. Com o Andromeda, cada abertura diferente vira uma nova chance de achar público. Anunciantes chegam a rodar 8 a 12 inícios para a mesma peça.",
-      "how": ["Grave o miolo do vídeo uma vez só.", "Grave 3 começos: uma pergunta, um resultado e uma quebra de padrão (algo inesperado na tela).", "Suba os 3 no mesmo conjunto e mantenha o que tiver melhor retenção nos 3 primeiros segundos."],
-      "hooks": ["Pergunta: \"Você sabia que…?\"", "Resultado: \"Esse cliente economizou R$ 400 assim.\"", "Quebra de padrão: começar já no meio da ação, sem apresentação."],
+      "niches": [
+        "Todos"
+      ],
+      "why": "O gancho decide o resultado. Na Biblioteca de Anúncios é comum ver o mesmo anunciante rodando de 8 a 12 versões do mesmo anúncio só com a abertura trocada. A recomendação é testar de 5 a 10 ganchos sobre o mesmo miolo.",
+      "how": [
+        "Grave o miolo do vídeo uma vez só.",
+        "Grave 3 começos: uma pergunta, um resultado e uma quebra de padrão (algo inesperado na tela).",
+        "Suba os 3 no mesmo conjunto e mantenha o que tiver melhor retenção nos 3 primeiros segundos."
+      ],
+      "hooks": [
+        "Pergunta: \"Você sabia que…?\"",
+        "Resultado: \"Esse cliente economizou R$ 400 assim.\"",
+        "Quebra de padrão: começar já no meio da ação, sem apresentação."
+      ],
       "avoid": "Logo e vinheta nos primeiros segundos.",
-      "sources": [3, 5]
+      "sources": [
+        1
+      ]
     },
     {
       "id": "antes-depois",
@@ -58,12 +154,26 @@
       "duration": "12 a 15 s",
       "ratio": "9:16",
       "status": "consolidado",
-      "niches": ["Estética", "Saúde e odontologia", "Imobiliárias", "Automotivo e financiamento"],
-      "why": "Mostra o resultado sem precisar explicar. Em clínicas estéticas, vídeo de 15 s com antes e depois, legenda e chamada para o WhatsApp é um dos formatos com menor custo por contato citado no mercado brasileiro.",
-      "how": ["Abra com o \"depois\" (o resultado) nos 2 primeiros segundos.", "Volte ao \"antes\" e mostre 2 ou 3 etapas rápidas do processo.", "Feche com o resultado de novo e a chamada para o WhatsApp entre 10 e 15 s."],
-      "hooks": ["\"Olha como chegou e como saiu.\"", "\"1 sessão. Sem filtro.\""],
+      "niches": [
+        "Estética",
+        "Saúde e odontologia",
+        "Imobiliárias",
+        "Automotivo e financiamento"
+      ],
+      "why": "Mostra o resultado sem precisar explicar. Funciona para serviço com transformação visível (dente, pele, reforma, carro). Mostrar o resultado logo nos primeiros segundos segura quem está rolando o feed.",
+      "how": [
+        "Abra com o \"depois\" (o resultado) nos 2 primeiros segundos.",
+        "Volte ao \"antes\" e mostre 2 ou 3 etapas rápidas do processo.",
+        "Feche com o resultado de novo e a chamada para o WhatsApp entre 10 e 15 s."
+      ],
+      "hooks": [
+        "\"Olha como chegou e como saiu.\"",
+        "\"1 sessão. Sem filtro.\""
+      ],
       "avoid": "Em saúde, a política da Meta proíbe falar da condição de quem assiste (\"você tem dente torto?\"). Fale do serviço e do resultado.",
-      "sources": [2, 6]
+      "sources": [
+        4
+      ]
     },
     {
       "id": "carrossel-objecoes",
@@ -73,12 +183,28 @@
       "duration": "4 a 6 cards",
       "ratio": "4:5 ou 1:1",
       "status": "em-alta",
-      "niches": ["Imobiliárias", "Saúde e odontologia", "Indústria e B2B", "Automotivo e financiamento", "Academias"],
-      "why": "O carrossel voltou a crescer entre os anúncios que rodam por muito tempo. Tem CTR bem maior que imagem única e funciona no meio do funil, quando a pessoa ainda está comparando.",
-      "how": ["Card 1: gancho visual e uma promessa clara.", "Cards 2 a 5: uma objeção por card, com a resposta (preço, prazo, garantia, como funciona).", "Último card: oferta e chamada.", "Conte uma história que puxa para o próximo card; não faça apresentação institucional."],
-      "hooks": ["\"5 perguntas que todo mundo faz antes de [comprar/fechar]\"", "\"Arraste para ver quanto custa de verdade\""],
+      "niches": [
+        "Imobiliárias",
+        "Saúde e odontologia",
+        "Indústria e B2B",
+        "Automotivo e financiamento",
+        "Academias"
+      ],
+      "why": "O carrossel funciona no meio do funil, quando a pessoa ainda está comparando: um card por dúvida, na ordem em que ela aparece. Em restaurantes, também é o formato indicado para mostrar combos.",
+      "how": [
+        "Card 1: gancho visual e uma promessa clara.",
+        "Cards 2 a 5: uma objeção por card, com a resposta (preço, prazo, garantia, como funciona).",
+        "Último card: oferta e chamada.",
+        "Conte uma história que puxa para o próximo card; não faça apresentação institucional."
+      ],
+      "hooks": [
+        "\"5 perguntas que todo mundo faz antes de [comprar/fechar]\"",
+        "\"Arraste para ver quanto custa de verdade\""
+      ],
       "avoid": "Muito texto por card. Uma ideia por tela.",
-      "sources": [2, 4, 5]
+      "sources": [
+        7
+      ]
     },
     {
       "id": "bastidores",
@@ -88,42 +214,27 @@
       "duration": "10 a 20 s",
       "ratio": "9:16",
       "status": "em-alta",
-      "niches": ["Restaurantes", "Indústria e B2B", "Varejo e lojas", "Pet"],
-      "why": "Conteúdo autêntico e demonstração do produto em uso estão entre os formatos com mais relevância em 2026. Bastidores mostram cuidado e justificam o preço sem dizer \"qualidade\".",
-      "how": ["Mostre o processo em cortes de 1 a 2 segundos (preparo, montagem, embalagem).", "Use o som ambiente ou uma música em alta, com legenda curta.", "Feche no produto pronto e na oferta."],
-      "hooks": ["\"O que acontece antes do seu pedido chegar\"", "\"Ninguém vê essa parte\""],
+      "niches": [
+        "Restaurantes",
+        "Indústria e B2B",
+        "Varejo e lojas",
+        "Pet"
+      ],
+      "why": "Bastidores mostram cuidado e justificam o preço sem dizer \"qualidade\". Em restaurantes, a sugestão é dedicar um dia da semana a vídeo de cozinha e balcão.",
+      "how": [
+        "Mostre o processo em cortes de 1 a 2 segundos (preparo, montagem, embalagem).",
+        "Use o som ambiente ou uma música em alta, com legenda curta.",
+        "Feche no produto pronto e na oferta."
+      ],
+      "hooks": [
+        "\"O que acontece antes do seu pedido chegar\"",
+        "\"Ninguém vê essa parte\""
+      ],
       "avoid": "Imagem de banco de imagens: quebra a autenticidade.",
-      "sources": [2, 7]
-    },
-    {
-      "id": "nao-somos-baratos",
-      "title": "\"A gente não é o mais barato, e é por isso\"",
-      "format": "ugc",
-      "formatLabel": "Vídeo UGC",
-      "duration": "20 a 30 s",
-      "ratio": "9:16",
-      "status": "novo",
-      "niches": ["Saúde e odontologia", "Estética", "Indústria e B2B", "Academias", "Varejo e lojas"],
-      "why": "Enfrentar a objeção de preço de frente virou um formato próprio. Responder um comentário real (\"por que é tão caro?\") mostrando o que está por trás do preço gera confiança.",
-      "how": ["Mostre na tela um comentário real perguntando do preço.", "Responda mostrando material, equipe, garantia ou processo.", "Compare com a opção barata e o que ela não tem."],
-      "hooks": ["\"Respondendo quem disse que a gente é caro\"", "\"Barato que sai caro: olha a diferença\""],
-      "avoid": "Falar mal de concorrente pelo nome.",
-      "sources": [3]
-    },
-    {
-      "id": "lista-motivos",
-      "title": "Lista: \"3 motivos para…\"",
-      "format": "video",
-      "formatLabel": "Vídeo curto ou carrossel",
-      "duration": "15 a 25 s",
-      "ratio": "9:16 ou 4:5",
-      "status": "em-alta",
-      "niches": ["Todos"],
-      "why": "Listas numeradas cobrem vários benefícios em um anúncio só e prendem até o fim. Deixe o motivo mais forte por último para aumentar a conclusão.",
-      "how": ["Escolha 3 a 5 motivos, do menos ao mais forte.", "Use o motivo mais forte na capa (miniatura), não o primeiro.", "Um motivo por cena, com número grande na tela."],
-      "hooks": ["\"3 coisas que ninguém te conta antes de [serviço]\"", "\"5 motivos para escolher [bairro/cidade] para morar\""],
-      "avoid": "Lista longa demais: passe de 5 itens vira aula.",
-      "sources": [3]
+      "sources": [
+        7,
+        8
+      ]
     },
     {
       "id": "oferta-concreta",
@@ -133,12 +244,28 @@
       "duration": "—",
       "ratio": "4:5",
       "status": "consolidado",
-      "niches": ["Restaurantes", "Varejo e lojas", "Academias", "Pet"],
-      "why": "Para quem já conhece a marca (remarketing), a imagem estática com oferta visível ainda tem CTR maior que vídeo. Um combo com preço fechado e botão direto funciona muito em delivery e varejo.",
-      "how": ["Um foco só: o produto ou combo, em uso real (não foto em fundo branco).", "Até 7 palavras na imagem: oferta + preço.", "Selo de prova social (avaliação, número de clientes).", "Botão direto: \"Pedir agora\" ou \"Chamar no WhatsApp\"."],
-      "hooks": ["\"Combo família: 2 pizzas + refri por R$ 79\"", "\"Primeira aula grátis esta semana\""],
+      "niches": [
+        "Restaurantes",
+        "Varejo e lojas",
+        "Academias",
+        "Pet"
+      ],
+      "why": "Para quem já conhece a marca, imagem com oferta visível e prazo resolve rápido. Na análise de 40 anúncios que rodavam havia semanas, só 12 faziam uma oferta explícita: oferta clara ainda é diferencial.",
+      "how": [
+        "Um foco só: o produto ou combo, em uso real (não foto em fundo branco).",
+        "Até 7 palavras na imagem: oferta + preço.",
+        "Selo de prova social (avaliação, número de clientes).",
+        "Botão direto: \"Pedir agora\" ou \"Chamar no WhatsApp\"."
+      ],
+      "hooks": [
+        "\"Combo família: 2 pizzas + refri por R$ 79\"",
+        "\"Primeira aula grátis esta semana\""
+      ],
       "avoid": "Promoção sem prazo: perde a urgência.",
-      "sources": [2, 4, 6]
+      "sources": [
+        3,
+        7
+      ]
     },
     {
       "id": "tour-local",
@@ -148,12 +275,26 @@
       "duration": "10 a 20 s",
       "ratio": "9:16",
       "status": "consolidado",
-      "niches": ["Academias", "Imobiliárias", "Restaurantes", "Saúde e odontologia"],
-      "why": "Para negócio local, mostrar o espaço do ponto de vista de quem chega tira o medo do desconhecido. Em academias, o tour com o professor converte melhor que imagem de corpo \"ideal\".",
-      "how": ["Grave andando, como se fosse o cliente entrando.", "Pare em 3 pontos fortes (equipamento, sala, vista, cozinha).", "Termine com o convite: aula experimental, visita ou reserva."],
-      "hooks": ["\"POV: seu primeiro dia aqui\"", "\"Vem conhecer o apartamento comigo\""],
-      "avoid": "Imagem de antes e depois do corpo em academia: a política da Meta restringe.",
-      "sources": [6]
+      "niches": [
+        "Academias",
+        "Restaurantes",
+        "Saúde e odontologia",
+        "Estética"
+      ],
+      "why": "Para negócio local, mostrar o espaço do ponto de vista de quem chega tira o medo do desconhecido e convida para a primeira visita.",
+      "how": [
+        "Grave andando, como se fosse o cliente entrando.",
+        "Pare em 3 pontos fortes (equipamento, sala, vista, cozinha).",
+        "Termine com o convite: aula experimental, visita ou reserva."
+      ],
+      "hooks": [
+        "\"POV: seu primeiro dia aqui\"",
+        "\"Vem conhecer o apartamento comigo\""
+      ],
+      "avoid": "Imagem de antes e depois do corpo em academia: a política da Meta restringe. Para imóveis, use a ideia específica de tour de imóvel.",
+      "sources": [
+        10
+      ]
     },
     {
       "id": "parceria-criador",
@@ -163,52 +304,248 @@
       "duration": "15 a 30 s",
       "ratio": "9:16",
       "status": "em-alta",
-      "niches": ["Restaurantes", "Estética", "Varejo e lojas", "Pet", "Academias"],
-      "why": "A Meta destaca o criador no cabeçalho do anúncio. Dá alcance com a credibilidade de alguém que o público da cidade já segue.",
-      "how": ["Escolha um criador da cidade com público parecido com o cliente.", "Peça para ele usar o produto/serviço de verdade e gravar do jeito dele.", "Rode como anúncio em parceria: o anúncio aparece com o nome do criador e do cliente."],
-      "hooks": ["\"Fui testar o [lugar] que todo mundo está falando\""],
+      "niches": [
+        "Restaurantes",
+        "Estética",
+        "Varejo e lojas",
+        "Pet",
+        "Academias"
+      ],
+      "why": "A Meta destaca o criador no cabeçalho do anúncio. Em setembro de 2026 o Creator Marketing Hub chegou a todos os países, com criação de anúncio em parceria em um clique.",
+      "how": [
+        "Escolha um criador da cidade com público parecido com o cliente.",
+        "Peça para ele usar o produto/serviço de verdade e gravar do jeito dele.",
+        "Rode como anúncio em parceria: o anúncio aparece com o nome do criador e do cliente."
+      ],
+      "hooks": [
+        "\"Fui testar o [lugar] que todo mundo está falando\""
+      ],
       "avoid": "Roteiro engessado: o público percebe e o efeito some.",
-      "sources": [5]
+      "sources": [
+        5
+      ]
     },
     {
-      "id": "prova-social-viva",
-      "title": "Post orgânico que já bombou, virando anúncio",
-      "format": "ugc",
-      "formatLabel": "Post impulsionado",
-      "duration": "o do post",
+      "id": "estatico-para-video",
+      "title": "Imagem vencedora vira vídeo (ferramenta da Meta)",
+      "format": "video",
+      "formatLabel": "Vídeo gerado da imagem",
+      "duration": "5 a 10 s",
+      "ratio": "9:16 e 4:5",
+      "status": "novo",
+      "niches": [
+        "Todos"
+      ],
+      "why": "Desde 6 de outubro a função que transforma imagem estática em vídeo está liberada para todos no Advantage+ creative. A Meta diz que quem adota as recomendações dela costuma ter 5% mais conversões pelo mesmo custo. É o jeito mais barato de levar uma arte que já vende para Reels e Stories.",
+      "how": [
+        "Escolha a imagem com melhor custo por resultado do mês.",
+        "No anúncio, ative a opção de imagem para vídeo do Advantage+ creative e confira a prévia.",
+        "Rode lado a lado com a imagem original por 5 a 7 dias e fique com o que for melhor.",
+        "Para novos conceitos, mude a mensagem ou o cenário, não só a animação."
+      ],
+      "hooks": [
+        "Mantenha o título da arte vencedora como texto da primeira tela."
+      ],
+      "avoid": "Aprovar sem olhar a prévia: a animação automática pode distorcer rosto, produto ou texto. Pessoas geradas por IA no lugar de clientes reais em depoimento.",
+      "sources": [
+        5
+      ]
+    },
+    {
+      "id": "numero-prova",
+      "title": "Número real como prova, falando com \"você\"",
+      "format": "imagem",
+      "formatLabel": "Imagem ou vídeo curto",
+      "duration": "— ou 8 a 15 s",
+      "ratio": "4:5 e 9:16",
+      "status": "novo",
+      "niches": [
+        "Todos"
+      ],
+      "why": "Em uma análise de 40 anúncios que estavam no ar havia semanas, 23 usavam um número como prova e 22 falavam diretamente com quem lê. A mesma mensagem vencedora aparecia em várias versões: eram só 23 mensagens diferentes nos 40 anúncios.",
+      "how": [
+        "Pegue um número verdadeiro do cliente (pedidos, anos de casa, avaliações, clientes atendidos).",
+        "Coloque o número grande na tela e uma frase com \"você\".",
+        "Faça 3 roupas para a mesma frase: foto, vídeo curto e carrossel."
+      ],
+      "hooks": [
+        "\"[Número] famílias de [cidade] já pediram. Falta você.\"",
+        "\"[Número] anos fazendo [serviço] em [bairro].\"",
+        "\"Nota [x] no Google com [número] avaliações.\""
+      ],
+      "avoid": "Número inventado ou arredondado para cima. Em saúde e estética, não use número de \"resultado garantido\".",
+      "sources": [
+        3
+      ]
+    },
+    {
+      "id": "desejo-15s-restaurante",
+      "title": "Vídeo de desejo em 4 tempos (restaurante e delivery)",
+      "format": "video",
+      "formatLabel": "Vídeo curto",
+      "duration": "10 a 15 s",
       "ratio": "9:16",
       "status": "novo",
-      "niches": ["Todos"],
-      "why": "Rodar como anúncio um Reels orgânico que já foi bem, com os comentários reais aparecendo, soma prova social ao vivo ao criativo.",
-      "how": ["Procure no perfil do cliente os Reels com mais salvamentos e comentários positivos.", "Use o próprio post como anúncio (assim os comentários vêm junto).", "Só funciona com comentários reais e bons."],
-      "hooks": ["O do próprio post"],
-      "avoid": "Fabricar comentários: o público percebe e a Meta pode punir.",
-      "sources": [3]
+      "niches": [
+        "Restaurantes"
+      ],
+      "why": "A fórmula que mais aparece para delivery: gancho visual em 1,5 segundo (queijo puxando, chapa chiando, molho caindo), alguns segundos de vontade, um motivo para pedir hoje e a chamada. Legenda na tela, porque muita gente assiste sem som.",
+      "how": [
+        "0 a 1,5 s: close do momento mais apetitoso, sem logo.",
+        "1,5 a 8 s: 3 ou 4 cortes rápidos do prato sendo montado ou servido.",
+        "8 a 12 s: motivo para pedir agora (\"só hoje até as 23h\").",
+        "Final: \"Peça pelo WhatsApp\" ou botão de pedido."
+      ],
+      "hooks": [
+        "\"Olha esse queijo…\" (só o som e o close)",
+        "\"Hoje é dia de [prato] e só vai até as 23h.\"",
+        "\"O mais pedido da casa, saindo agora.\""
+      ],
+      "avoid": "Foto de banco de imagens e prato que não é o da casa. Vídeo horizontal.",
+      "sources": [
+        7,
+        8
+      ]
     },
     {
-      "id": "variacoes-ia",
-      "title": "Variações com IA a partir do vencedor",
-      "format": "imagem",
-      "formatLabel": "Imagem e vídeo",
-      "duration": "—",
-      "ratio": "9:16, 4:5 e 1:1",
-      "status": "em-alta",
-      "niches": ["Todos"],
-      "why": "Com o criativo vencedor em mãos, a IA ajuda a gerar fundos, títulos e roteiros diferentes em escala. Mas variação pequena conta como o mesmo anúncio para o Andromeda: mude o conceito, não só a cor.",
-      "how": ["Pegue o criativo com melhor custo por resultado do mês.", "Gere 3 conceitos novos a partir dele: outro cenário, outro ângulo de mensagem, outra pessoa.", "Rode com pouco orçamento por 48 a 72 h e escale os 3 a 5 melhores."],
-      "hooks": ["Mantenha o gancho vencedor e troque o resto."],
-      "avoid": "Pessoas geradas por IA no lugar de clientes reais em depoimento.",
-      "sources": [1, 5]
+      "id": "oferta-dia-horario",
+      "title": "Oferta do dia, no horário e no raio de entrega",
+      "format": "stories",
+      "formatLabel": "Stories e Reels com oferta",
+      "duration": "6 a 10 s",
+      "ratio": "9:16",
+      "status": "novo",
+      "niches": [
+        "Restaurantes",
+        "Varejo e lojas",
+        "Pet"
+      ],
+      "why": "Para delivery, o criativo rende mais quando bate com o momento: ofertas de dia da semana e cupom com hora marcada, rodando só no horário de almoço e jantar e num raio um pouco menor que a área de entrega. A referência de mercado para delivery no Brasil é CTR de 1,5% a 3,5%.",
+      "how": [
+        "Crie um nome fixo para o dia (\"Terça do Hambúrguer\").",
+        "Mostre o combo com preço fechado e o horário do cupom na tela.",
+        "Programe o anúncio para 10h30–14h e 18h–22h30 e use um raio menor que a entrega (ex.: 4 km se entrega até 5 km).",
+        "Separe 20% a 30% da verba para remarketing de quem interagiu."
+      ],
+      "hooks": [
+        "\"Terça do Hambúrguer: [desconto] só hoje.\"",
+        "\"Combo casal por R$ [valor], até as 21h.\"",
+        "\"Cupom [CÓDIGO] vale das 19h às 21h.\""
+      ],
+      "avoid": "Promoção sem prazo e anúncio rodando de madrugada para quem não pode receber.",
+      "sources": [
+        7
+      ]
+    },
+    {
+      "id": "tour-imovel-dados",
+      "title": "Tour do imóvel com preço e metragem logo de cara",
+      "format": "video",
+      "formatLabel": "Vídeo tour",
+      "duration": "15 a 30 s",
+      "ratio": "9:16",
+      "status": "novo",
+      "niches": [
+        "Imobiliárias"
+      ],
+      "why": "Em vídeo de imóvel, quem para de rolar quer saber se cabe no bolso. A orientação é pôr preço, quartos, metragem e bairro na tela nos 3 primeiros segundos e não abrir com o corretor se apresentando. Para Reels, 15 a 30 s.",
+      "how": [
+        "Abra com a melhor imagem (fachada ou vista) e os dados na tela: valor, quartos, m², bairro.",
+        "Passe de 5 a 8 segundos nos cômodos principais, com movimento lento.",
+        "Grave a fachada no fim de tarde.",
+        "Feche com \"Chama no WhatsApp para agendar a visita\"."
+      ],
+      "hooks": [
+        "\"[2] quartos em [bairro] por R$ [valor]. Entra comigo.\"",
+        "\"Esse é o apartamento mais procurado da semana.\"",
+        "\"Varanda gourmet, [x] m², a [x] minutos do [ponto conhecido].\""
+      ],
+      "avoid": "Imóveis e crédito imobiliário são categoria especial na Meta: segmentação limitada por idade, gênero e CEP. Não escreva \"para casais jovens\" ou exclua grupos no texto.",
+      "sources": [
+        10
+      ]
+    },
+    {
+      "id": "lancamento-motion",
+      "title": "Lançamento imobiliário em motion design com frase forte",
+      "format": "video",
+      "formatLabel": "Vídeo animado",
+      "duration": "10 a 20 s",
+      "ratio": "9:16 e 4:5",
+      "status": "novo",
+      "niches": [
+        "Imobiliárias",
+        "Automotivo e financiamento",
+        "Indústria e B2B"
+      ],
+      "why": "Em 1,7 mil anúncios de imobiliárias na Biblioteca de Anúncios (1º tri de 2026), peças em motion design ficaram no ar 18 dias (mediana), contra 8 dias das com cara de UGC. Ganchos de afirmação forte, presentes em 36,8% dos vídeos, duraram em média 26 dias, o maior tempo entre os tipos de gancho.",
+      "how": [
+        "Comece com uma afirmação curta e forte sobre o empreendimento.",
+        "Anime planta, fachada e localização no mapa, com texto grande.",
+        "Mostre condição (entrada, parcelas) só se for real e com prazo.",
+        "Faça versões em 9:16 e 4:5."
+      ],
+      "hooks": [
+        "\"O último lançamento com vista para [ponto] em [cidade].\"",
+        "\"Entrada facilitada até [data].\"",
+        "\"[Bairro] vai ganhar isso aqui.\""
+      ],
+      "avoid": "Tempo no ar é sinal, não garantia de resultado. Não prometa valorização nem aprovação de crédito.",
+      "sources": [
+        9
+      ]
     }
   ],
   "sources": [
-    { "id": 1, "title": "Meta Andromeda: guia de 2026 (Confect)", "url": "https://confect.io/tactics/meta-andromeda-2026" },
-    { "id": 2, "title": "Criativo para anúncios: o que funciona no Meta em 2026 (QG21)", "url": "https://qg21studio.com.br/blog/criativo-para-anuncios-meta-2026" },
-    { "id": 3, "title": "7 Meta Ad Formats That Are Actually Converting in 2026 (Spresh)", "url": "https://spreshapp.com/article/7-meta-ad-formats-converting-2026" },
-    { "id": 4, "title": "Ad Creative Formats That Convert in 2026 (Stackmatix)", "url": "https://www.stackmatix.com/blog/ad-creative-formats-that-convert-2026" },
-    { "id": 5, "title": "Facebook Ad Creative Trends 2026 (Adligator)", "url": "https://adligator.com/blog/facebook-ad-creative-trends-2026" },
-    { "id": 6, "title": "Facebook ads por segmento (AdsUploader)", "url": "https://adsuploader.com/blog/facebook-ads-by-industry" },
-    { "id": 7, "title": "Meta Ads em 2026: o que mudou (DGAZ)", "url": "https://www.dgaz.com.br/blog/meta-ads-em-2026-o-que-mudou-e-como-adaptar-suas-campanhas/" },
-    { "id": 8, "title": "Novos formatos de criativos pós-Andromeda (Fatima Matheus)", "url": "https://fatimamatheus.com.br/quais-sao-os-novos-formatos-de-criativos-que-funcionam-no-meta-ads-pos-andromeda/" }
+    {
+      "id": 1,
+      "title": "Facebook Ad Creative Trends 2026 (Adligator)",
+      "url": "https://adligator.com/blog/facebook-ad-creative-trends-2026"
+    },
+    {
+      "id": 2,
+      "title": "Winning Facebook Ad Examples: 10 anúncios analisados (Adligator)",
+      "url": "https://adligator.com/blog/winning-facebook-ad-examples-breakdown-analysis-2026"
+    },
+    {
+      "id": 3,
+      "title": "We Analyzed 40 Competitor Ads in the Meta Ad Library (Markifact)",
+      "url": "https://www.markifact.com/blog/competitor-ads-meta-ad-library-analysis"
+    },
+    {
+      "id": 4,
+      "title": "O Meta Ads mudou tudo em 2026 (E-Commerce Brasil)",
+      "url": "https://www.ecommercebrasil.com.br/artigos/o-meta-ads-mudou-tudo-em-2026-quem-nao-sabe-isso-esta-pagando-para-aprender-da-pior-forma"
+    },
+    {
+      "id": 5,
+      "title": "Meta Ads Updates outubro de 2026 (AdsUploader)",
+      "url": "https://adsuploader.com/blog/meta-ads-updates"
+    },
+    {
+      "id": 6,
+      "title": "Meta's 3 New Ad Updates: outubro de 2026 (1ClickReport)",
+      "url": "https://www.1clickreport.com/blog/meta-ads-three-new-updates-october-2026"
+    },
+    {
+      "id": 7,
+      "title": "Tráfego pago pra delivery: táticas que convertem em 2026 (Trafius)",
+      "url": "https://trafius.com.br/blog/trafego-pago-pra-delivery-taticas-que-convertem-em-2026"
+    },
+    {
+      "id": 8,
+      "title": "Instagram Reels Tactics That Drive Restaurant Delivery Orders (RAY)",
+      "url": "https://blog.rayapp.ai/?p=28568"
+    },
+    {
+      "id": 9,
+      "title": "Real Estate: Creative DNA Benchmarks Q1 2026 (Benly)",
+      "url": "https://benly.ai/benchmarks/q1-2026/real-estate"
+    },
+    {
+      "id": 10,
+      "title": "Real Estate Video Tour Advertising (Stackmatix)",
+      "url": "https://stackmatix.com/blog/real-estate-video-tour-advertising"
+    }
   ]
 }
