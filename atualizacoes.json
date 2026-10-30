@@ -1,35 +1,84 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-29T19:30:00-03:00",
-  "edition": "29 de outubro de 2026",
-  "summary": "Semana pesada de mudanças às vésperas da Black Friday. Desde 28/10 a Meta liga sozinha a navegação de produtos nos anúncios que já estão rodando. Os novos termos comerciais, que deixam o anunciante responsável pelo que a IA da Meta muda nos anúncios, foram adiados para 20/11. O Threads está entrando como posicionamento padrão. Vale revisar as melhorias automáticas do Advantage+ em todas as contas antes de escalar.",
+  "updatedAt": "2026-10-30T07:00:00-03:00",
+  "edition": "30 de outubro de 2026",
+  "summary": "O mais urgente: a partir de 12/11 a Meta liga sozinha, em todo pixel e API de Conversões, a medição de conversões no aparelho do cliente, o que pode aumentar as compras atribuídas às campanhas bem na Black Friday. Anote antes de 12/11 o número de vendas reais de cada cliente para comparar depois. No WhatsApp, as respostas de atendimento pela API passaram a ser cobradas desde 1º/10, mas conversas que começam num anúncio de clique para o WhatsApp seguem com 72 horas grátis. A Graph API v24.0 é desligada em 10/11.",
   "api": {
     "latest": "v26.0",
     "latestDate": "2026-07-29",
-    "note": "Desde 27/10/2026 a maioria das restrições da v26.0 vale para todas as versões, inclusive a v25.0. Nenhum dos campos removidos é usado pelo VIGILO, que só lê dados.",
-    "sources": [4, 5]
+    "note": "A v26.0 continua sendo a mais nova. A v24.0 deixa de funcionar em 10/11/2026 e a v25.0 em 23/02/2027. Em outubro a Meta só adicionou campos novos na API (pareamento de criativo com público e campanhas de vendas unificadas), sem remover nada que o VIGILO lê.",
+    "sources": [
+      4,
+      5,
+      16,
+      17
+    ]
   },
   "watch": [
+    {
+      "date": "2026-11-10",
+      "title": "Graph API v24.0 é desligada",
+      "text": "Ferramentas e integrações que ainda chamam a v24.0 param de funcionar. Confira se os conectores e relatórios da agência já usam a v25.0 ou a v26.0.",
+      "sources": [
+        16
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Pixel passa a medir conversões no aparelho do cliente",
+      "text": "Ligado por padrão em todo conjunto de dados que já envia eventos. Pode ser desligado nas configurações de cada pixel no Gerenciador de Eventos. Registre as vendas reais antes da data para comparar.",
+      "sources": [
+        14,
+        15
+      ]
+    },
     {
       "date": "2026-11-20",
       "title": "Novos Termos Comerciais da Meta entram em vigor",
       "text": "Inclui a seção de recursos de IA: o anunciante passa a responder pelo que a IA da Meta cria ou muda nos anúncios, mesmo quando o recurso vem ligado por padrão. Continuar anunciando depois da data vale como aceite.",
-      "sources": [2, 3]
+      "sources": [
+        2,
+        3
+      ]
     },
     {
       "date": "2026-11-27",
       "title": "Black Friday",
       "text": "Revise antes as melhorias automáticas do Advantage+ criativo e a navegação de produtos. Escalar com uma edição automática indesejada no ar multiplica o problema.",
-      "sources": [1, 2]
+      "sources": [
+        1,
+        2
+      ]
     },
     {
-      "date": "2027-01-21",
-      "title": "Graph API v21.0 é desligada",
-      "text": "Afeta só ferramentas que ainda usam a v21. O VIGILO usa uma versão mais nova e não é afetado.",
-      "sources": [5]
+      "date": "2027-02-23",
+      "title": "Graph API v25.0 é desligada",
+      "text": "Próximo desligamento depois da v24.0. Integrações devem migrar para a v26.0 até lá.",
+      "sources": [
+        16
+      ]
     }
   ],
   "updates": [
+    {
+      "id": "2026-11-12-pixel-medicao-aparelho",
+      "date": "2026-11-12",
+      "firstSeen": "2026-10-30",
+      "title": "Pixel vai medir conversões no aparelho do cliente a partir de 12/11, ligado por padrão",
+      "category": "medicao",
+      "impact": "alto",
+      "status": "anunciado",
+      "region": "Global",
+      "confirmed": true,
+      "summary": "Uma nova opção do pixel, já ligada em todas as contas que enviam eventos, deve fazer a Meta atribuir mais vendas às campanhas.",
+      "what": "A Meta avisou os anunciantes que, a partir de 12/11/2026, a opção \"Medir conversões nos dispositivos dos clientes\" passa a valer em todo conjunto de dados que já envia eventos pelo pixel ou pela API de Conversões. Parte das compras no site é cruzada no próprio aparelho, usando o e-mail que o cliente deu à empresa. Segundo relatos citando a central de ajuda, não vale na União Europeia e no Reino Unido, exige o pixel direto na página e site com login por e-mail ou celular. A janela de atribuição não muda.",
+      "effect": "O Gerenciador pode passar a mostrar mais compras atribuídas do que antes, bem na Black Friday, sem que as vendas reais tenham subido na mesma proporção. A Meta não disse se essas conversões a mais entram na otimização dos lances.",
+      "action": "Antes de 12/11, anote as vendas reais por dia de cada cliente de e-commerce e compare depois com as compras do Gerenciador. A opção pode ser desligada em Gerenciador de Eventos > Fontes de dados > pixel > Configurações; mantenha a API de Conversões ligada.",
+      "sources": [
+        14,
+        15
+      ]
+    },
     {
       "id": "2026-10-28-navegacao-produtos",
       "date": "2026-10-28",
@@ -41,26 +90,14 @@
       "region": "Global",
       "confirmed": true,
       "summary": "Um toque no anúncio pode abrir uma vitrine de produtos dentro do Facebook ou Instagram antes de levar ao site.",
-      "what": "A partir de 28/10 a Meta adiciona a navegação de produtos aos anúncios existentes. Quando a pessoa toca, pode aparecer primeiro uma tela com detalhes e sugestões de produtos, e só depois o site do anunciante. A Meta não diz em quantos toques isso acontece nem quais formatos entram.",
+      "what": "A partir de 28/10 a Meta adiciona a navegação de produtos aos anúncios existentes. Quando a pessoa toca, pode aparecer primeiro uma tela com detalhes e sugestões de produtos, e só depois o site do anunciante. A Meta afirma que, num teste com cerca de 117,7 mil anunciantes, a mudança trouxe em média 3% mais conversões, sem dizer qual conversão mediu nem quais formatos entram.",
       "effect": "Pode mudar a taxa de cliques para o site, as visualizações da página de destino e o caminho até a conversão. Para negócios que vendem pelo WhatsApp ou captam lead no site, isso pode atrapalhar o funil.",
       "action": "Nas contas onde o cliente não quer essa vitrine, desligue nas configurações de Advantage+ criativo e destino, anúncio por anúncio. Compare cliques no link e visualizações da página de destino antes e depois de 28/10.",
-      "sources": [1, 9]
-    },
-    {
-      "id": "2026-10-23-termos-ia-adiados",
-      "date": "2026-10-23",
-      "firstSeen": "2026-10-29",
-      "title": "Termos que deixam o anunciante responsável pela IA da Meta foram adiados para 20/11",
-      "category": "politicas",
-      "impact": "alto",
-      "status": "adiado",
-      "region": "Global",
-      "confirmed": true,
-      "summary": "A Meta empurrou de 30/10 para 20/11 os novos Termos Comerciais e de anúncios autoatendidos. O texto não mudou.",
-      "what": "Os novos termos incluem uma seção de recursos de IA. Ela diz que o anunciante é o único responsável pelas alterações que a IA da Meta faz nos anúncios, mesmo nos recursos que a Meta liga sozinha: melhorias do Advantage+ criativo (fundo, brilho, formato, variações), sitelinks automáticos, tradução de texto e imagens geradas a partir das fotos da marca. Também dizem que a IA pode errar e que o risco é do anunciante.",
-      "effect": "Não muda a entrega diretamente, mas um anúncio editado pela IA com promessa errada, preço errado ou imagem fora da marca passa a ser responsabilidade da agência e do cliente.",
-      "action": "Até 20/11, revise campanha por campanha as melhorias automáticas do Advantage+ criativo e desligue o que o cliente não aprovou. Combine com cada cliente quem responde por edições automáticas e se esse controle entra no escopo do contrato.",
-      "sources": [2, 3]
+      "sources": [
+        1,
+        9,
+        22
+      ]
     },
     {
       "id": "2026-10-27-api-v26-todas-versoes",
@@ -76,7 +113,83 @@
       "what": "Em 27/10 a Meta estendeu para todas as versões da API o que a v26.0 trouxe em julho: o posicionamento Explorar do Instagram dá erro se for escolhido, Messenger Stories é retirado em silêncio dos conjuntos, não dá mais para criar anúncios de enquete e os campos de estimativa de entrega (curva de resultados diários e público diário estimado) deixaram de existir, sem substituto.",
       "effect": "Conjuntos que dependiam do Explorar ou de enquetes passam a entregar em outros posicionamentos. Ferramentas que usavam a estimativa de entrega para prever resultado ou ritmo perderam esse dado. O VIGILO não usa esses campos.",
       "action": "Se algum cliente tinha campanha com enquete ou posicionamento fixo no Explorar, revise. Ao editar conjuntos de habitação, emprego ou produtos financeiros, defina o público Advantage+ como ligado ou desligado de forma explícita.",
-      "sources": [4, 5]
+      "sources": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "2026-10-23-termos-ia-adiados",
+      "date": "2026-10-23",
+      "firstSeen": "2026-10-29",
+      "title": "Termos que deixam o anunciante responsável pela IA da Meta foram adiados para 20/11",
+      "category": "politicas",
+      "impact": "alto",
+      "status": "adiado",
+      "region": "Global",
+      "confirmed": true,
+      "summary": "A Meta empurrou de 30/10 para 20/11 os novos Termos Comerciais e de anúncios autoatendidos. O texto não mudou.",
+      "what": "Os novos termos incluem uma seção de recursos de IA. Ela diz que o anunciante é o único responsável pelas alterações que a IA da Meta faz nos anúncios, mesmo nos recursos que a Meta liga sozinha: melhorias do Advantage+ criativo (fundo, brilho, formato, variações), sitelinks automáticos, tradução de texto e imagens geradas a partir das fotos da marca. Também dizem que a IA pode errar e que o risco é do anunciante.",
+      "effect": "Não muda a entrega diretamente, mas um anúncio editado pela IA com promessa errada, preço errado ou imagem fora da marca passa a ser responsabilidade da agência e do cliente.",
+      "action": "Até 20/11, revise campanha por campanha as melhorias automáticas do Advantage+ criativo e desligue o que o cliente não aprovou. Combine com cada cliente quem responde por edições automáticas e se esse controle entra no escopo do contrato.",
+      "sources": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "2026-10-22-api-campos-novos",
+      "date": "2026-10-22",
+      "firstSeen": "2026-10-30",
+      "title": "API ganha campos de pareamento de criativo com público e de campanhas de vendas unificadas",
+      "category": "api",
+      "impact": "baixo",
+      "status": "em-vigor",
+      "region": "Global",
+      "confirmed": true,
+      "summary": "Duas mudanças fora do calendário, em todas as versões, só adicionam campos.",
+      "what": "Em 19/10 a Meta adicionou à API o pareamento de criativo com público (creative_audience_pairing na automação de segmentação do conjunto, com uma persona ligada a cada anúncio). Em 22/10 adicionou o campo is_pca_unified nas campanhas, que só aceita o objetivo Vendas e não pode ser mudado depois de criado.",
+      "effect": "Sinal de que a Meta vai combinar cada criativo com um tipo de público automaticamente e unificar as campanhas de vendas. Nada foi removido.",
+      "action": "Nada a fazer agora. Se aparecer no Gerenciador uma opção de pareamento de criativo com público, teste primeiro numa conta com bastante conversão.",
+      "sources": [
+        17
+      ]
+    },
+    {
+      "id": "2026-10-21-aprendizado-black-friday",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-30",
+      "title": "Meta reforça: conjunto com menos de 50 conversões por semana fica mais caro",
+      "category": "algoritmo",
+      "impact": "medio",
+      "status": "em-vigor",
+      "region": "Global",
+      "confirmed": true,
+      "summary": "Na orientação para o fim de ano, a Meta diz que conjuntos abaixo de cerca de 50 conversões semanais tiveram custo por compra 28% maior.",
+      "what": "Em orientação de 21/10 para a alta temporada, a Meta repetiu que um conjunto precisa de cerca de 50 conversões por semana para sair da fase de aprendizado e disse que os que ficaram abaixo disso pagaram 28% mais por compra. A Meta não informou amostra nem método.",
+      "effect": "Contas com orçamento espalhado em muitos conjuntos pequenos tendem a ficar presas no aprendizado e pagar mais caro nas datas fortes.",
+      "action": "Antes da Black Friday, junte conjuntos parecidos para concentrar conversões e evite editar campanhas que acabaram de sair do aprendizado. Em clientes com poucas vendas, otimize para um evento mais frequente (adicionar ao carrinho, lead, conversa).",
+      "sources": [
+        15
+      ]
+    },
+    {
+      "id": "2026-10-21-preco-medio-anuncio",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-30",
+      "title": "Preço médio do anúncio na Meta subiu 14% em um ano",
+      "category": "algoritmo",
+      "impact": "baixo",
+      "status": "em-vigor",
+      "region": "Global",
+      "confirmed": true,
+      "summary": "No 3º trimestre, as impressões cresceram 10% e o preço médio por anúncio 14%, segundo o balanço da Meta.",
+      "what": "O resultado da Meta do 3º trimestre de 2026 mostrou receita de anúncios de US$ 63,06 bilhões, alta de 26%. As impressões subiram 10% e o preço médio por anúncio 14% no mundo. Nos EUA e Canadá o preço subiu 23%.",
+      "effect": "Há mais concorrência pelo mesmo espaço, o que pressiona o custo por mil, ainda mais no fim de ano.",
+      "action": "Use esse número ao explicar para o cliente por que o custo por mil subiu em relação a 2025, junto com o repasse de impostos no Brasil.",
+      "sources": [
+        18
+      ]
     },
     {
       "id": "2026-10-19-threads-padrao",
@@ -92,23 +205,10 @@
       "what": "A página oficial de anúncios no Threads diz que campanhas no Gerenciador entram no Threads por padrão. Uma agência relatou que a Meta passou a ligar o Threads em todas as campanhas a partir de 19/10. A Meta ainda permite tirar o Threads em posicionamentos manuais.",
       "effect": "Parte do orçamento pode ir para o Threads, que tem público e comportamento diferentes do Instagram. O custo por mil pode ser menor, mas o resultado varia por nicho.",
       "action": "Olhe o detalhamento por posicionamento das contas dos clientes. Se o Threads gastar sem trazer resultado, use posicionamentos manuais para desmarcar, ou uma regra de valor para reduzir o lance (até 90%).",
-      "sources": [8, 9]
-    },
-    {
-      "id": "2026-10-13-gem",
-      "date": "2026-10-13",
-      "firstSeen": "2026-10-29",
-      "title": "Modelo GEM da Meta passa a guiar a entrega automaticamente",
-      "category": "algoritmo",
-      "impact": "medio",
-      "status": "em-vigor",
-      "region": "Global",
-      "confirmed": true,
-      "summary": "A Meta diz que o GEM, seu modelo central de anúncios, melhorou as conversões em 18,9% e a taxa de cliques em 12%.",
-      "what": "O GEM (Generative Ads Model) aprende com o uso de Facebook, Instagram, Reels e outros apps e alimenta os modelos que escolhem qual anúncio cada pessoa vê. Não há botão para ligar ou desligar. Os números são da própria Meta, sem base de comparação divulgada.",
-      "effect": "A entrega depende cada vez mais de sinais da Meta e menos da segmentação manual. Campanhas com público amplo e criativos variados tendem a aproveitar mais.",
-      "action": "Não há o que configurar. Compare o custo por resultado dos clientes nas últimas semanas (aba Evolução) para ver se houve mudança real na sua carteira.",
-      "sources": [6]
+      "sources": [
+        8,
+        9
+      ]
     },
     {
       "id": "2026-10-15-super-burst",
@@ -124,7 +224,9 @@
       "what": "O Ads Super Burst permite reservar de 3 a 24 horas no Facebook e Instagram, podendo bloquear concorrentes da mesma categoria. O First Impression Ads está em teste nos EUA. O Reels Trending Ads ganhou 15 categorias fixas. A Meta também testa o Aggregated View Time, que soma o tempo que a pessoa passou com a marca na semana.",
       "effect": "Voltados a grandes marcas e lançamento gradual. Pouco efeito para negócios locais por enquanto.",
       "action": "Só acompanhar. Se chegar ao Brasil, pode servir para clientes com datas fortes, como inaugurações e grandes promoções.",
-      "sources": [7]
+      "sources": [
+        7
+      ]
     },
     {
       "id": "2026-10-14-landing-ia",
@@ -140,7 +242,27 @@
       "what": "Segundo o registro de mudanças da agência Common Thread, a Meta testa páginas de destino geradas por IA em menos de 5% das impressões. O pixel e o GA4 do anunciante podem não disparar nessas páginas. A Meta não publicou nota sobre isso.",
       "effect": "Conversões podem aparecer menos no pixel e no Analytics, mesmo com a venda acontecendo.",
       "action": "Se um cliente mostrar queda de eventos do pixel sem queda de vendas reais, confira as configurações de destino do Advantage+ criativo. A aba Saúde das contas do VIGILO avisa quando o pixel para de receber eventos.",
-      "sources": [9]
+      "sources": [
+        9
+      ]
+    },
+    {
+      "id": "2026-10-13-gem",
+      "date": "2026-10-13",
+      "firstSeen": "2026-10-29",
+      "title": "Modelo GEM da Meta passa a guiar a entrega automaticamente",
+      "category": "algoritmo",
+      "impact": "medio",
+      "status": "em-vigor",
+      "region": "Global",
+      "confirmed": true,
+      "summary": "A Meta diz que o GEM, seu modelo central de anúncios, melhorou as conversões em 18,9% e a taxa de cliques em 12%.",
+      "what": "O GEM (Generative Ads Model) aprende com o uso de Facebook, Instagram, Reels e outros apps e alimenta os modelos que escolhem qual anúncio cada pessoa vê. Não há botão para ligar ou desligar. Os números são da própria Meta, sem base de comparação divulgada.",
+      "effect": "A entrega depende cada vez mais de sinais da Meta e menos da segmentação manual. Campanhas com público amplo e criativos variados tendem a aproveitar mais.",
+      "action": "Não há o que configurar. Compare o custo por resultado dos clientes nas últimas semanas (aba Evolução) para ver se houve mudança real na sua carteira.",
+      "sources": [
+        6
+      ]
     },
     {
       "id": "2026-10-11-ciclo-cliente",
@@ -156,7 +278,9 @@
       "what": "De acordo com a Common Thread, a Customer Lifecycle Strategy ficou disponível para todos os anunciantes: um único ajuste no conjunto faz a Meta priorizar quem não comprou nos últimos 180 dias.",
       "effect": "Ajuda campanhas de aquisição a não gastar com quem já é cliente, o que costuma baixar o custo por cliente novo.",
       "action": "Teste em clientes que vendem para público recorrente (clínicas, lojas, academias) quando a meta for trazer gente nova.",
-      "sources": [9]
+      "sources": [
+        9
+      ]
     },
     {
       "id": "2026-10-07-assistente-ia",
@@ -172,23 +296,46 @@
       "what": "A Common Thread registra que a Meta levou um assistente de IA ao Gerenciador de Anúncios, capaz de criar campanhas e ajustar público e orçamento a partir de pedidos em linguagem natural.",
       "effect": "Facilita o trabalho, mas aumenta o risco de mudanças que ninguém da equipe percebeu.",
       "action": "Use a aba Alterações do VIGILO para conferir o que mudou em cada conta e quem mudou.",
-      "sources": [9]
+      "sources": [
+        9
+      ]
     },
     {
-      "id": "2026-09-22-threads-sem-instagram",
-      "date": "2026-09-22",
-      "firstSeen": "2026-10-29",
-      "title": "Anúncios no Threads não exigem mais conta no Instagram",
-      "category": "formatos",
-      "impact": "baixo",
+      "id": "2026-10-01-whatsapp-mensagens-servico",
+      "date": "2026-10-01",
+      "firstSeen": "2026-10-30",
+      "title": "WhatsApp: respostas de atendimento pela API passaram a ser cobradas",
+      "category": "cobranca",
+      "impact": "medio",
       "status": "em-vigor",
       "region": "Global",
-      "confirmed": false,
-      "summary": "Marcas sem perfil no Instagram podem anunciar no Threads.",
-      "what": "Segundo a Common Thread, desde 22/09 não é mais preciso ter conta no Instagram para rodar anúncios no Threads.",
-      "effect": "Mais anunciantes no Threads pode aumentar a concorrência nesse posicionamento.",
-      "action": "Nada a fazer agora.",
-      "sources": [9]
+      "confirmed": true,
+      "summary": "Desde 1º/10 a Meta cobra cada mensagem de atendimento na API do WhatsApp, mas conversas vindas de anúncio de clique para o WhatsApp seguem com 72 horas grátis.",
+      "what": "Desde 1º/10/2026, as mensagens livres de atendimento dentro da janela de 24 horas na API do WhatsApp (por atendente ou robô que não seja o da Meta) são cobradas por mensagem, no mesmo valor dos modelos de utilidade de cada país, sem desconto por volume. Os modelos de utilidade dentro da janela também deixaram de ser grátis. O exemplo da Meta para o Brasil é de cerca de US$ 0,0068 por mensagem. O app WhatsApp Business gratuito não muda.",
+      "effect": "Clientes que atendem muito pela API (clínicas, imobiliárias, financiamento de veículos) passam a ter custo por conversa maior. Conversas que começam num anúncio de clique para o WhatsApp ficam com a janela grátis de 72 horas, o que deixa esse tipo de anúncio mais vantajoso.",
+      "action": "Avise os clientes que usam a API do WhatsApp (por plataformas de atendimento) que a fatura de mensagens aumentou desde outubro. Some esse custo ao custo por lead das campanhas de mensagem e prefira o anúncio de clique para o WhatsApp como porta de entrada.",
+      "sources": [
+        19,
+        20
+      ]
+    },
+    {
+      "id": "2026-09-29-muse-pequenas-empresas",
+      "date": "2026-09-29",
+      "firstSeen": "2026-10-30",
+      "title": "Agente Muse da Meta passa a se conectar a contas de anúncios",
+      "category": "gerenciador",
+      "impact": "baixo",
+      "status": "em-vigor",
+      "region": "EUA e Canadá",
+      "confirmed": true,
+      "summary": "A versão para pequenas empresas do Muse lê contas de anúncios, páginas e 15 ferramentas externas.",
+      "what": "Em 29/09 a Meta lançou o Muse para pequenas empresas nos EUA e Canadá, com acesso a contas de anúncios, páginas do Facebook, análises do Instagram e 15 ferramentas como Canva, Shopify e Slack. A Meta diz que nada é publicado ou gasto sem aprovação, mas não deixou claro se ele altera orçamento e campanhas.",
+      "effect": "Ainda sem efeito no Brasil. Quando chegar, o dono do negócio pode mexer na conta por conta própria pelo agente.",
+      "action": "Só acompanhar. Se chegar ao Brasil, combine com os clientes quem pode fazer alterações na conta e acompanhe pela aba Alterações do VIGILO.",
+      "sources": [
+        21
+      ]
     },
     {
       "id": "2026-09-29-lives-instagram",
@@ -204,7 +351,27 @@
       "what": "A Common Thread registra que, desde 29/09, lives de criadores no Instagram podem ser amplificadas como anúncios de parceria.",
       "effect": "Nova opção para lançamentos, inaugurações e promoções relâmpago com influenciadores locais.",
       "action": "Considere para clientes que já fazem lives com influenciadores.",
-      "sources": [9]
+      "sources": [
+        9
+      ]
+    },
+    {
+      "id": "2026-09-22-threads-sem-instagram",
+      "date": "2026-09-22",
+      "firstSeen": "2026-10-29",
+      "title": "Anúncios no Threads não exigem mais conta no Instagram",
+      "category": "formatos",
+      "impact": "baixo",
+      "status": "em-vigor",
+      "region": "Global",
+      "confirmed": false,
+      "summary": "Marcas sem perfil no Instagram podem anunciar no Threads.",
+      "what": "Segundo a Common Thread, desde 22/09 não é mais preciso ter conta no Instagram para rodar anúncios no Threads.",
+      "effect": "Mais anunciantes no Threads pode aumentar a concorrência nesse posicionamento.",
+      "action": "Nada a fazer agora.",
+      "sources": [
+        9
+      ]
     },
     {
       "id": "2026-08-26-diversidade-criativa",
@@ -220,7 +387,9 @@
       "what": "O Gerenciador passou a mostrar uma nota de diversidade criativa por conjunto, que a própria Meta chama de estimada e em desenvolvimento. Ela olha estilo, mensagem, tipo de gancho, formato e quem aparece no anúncio.",
       "effect": "Criativos muito parecidos tendem a ser tratados como um só pelo algoritmo, o que pode limitar o alcance. Esse efeito é análise de agência, não confirmado pela Meta.",
       "action": "Mantenha pelo menos três formatos realmente diferentes por conjunto (vídeo com pessoa, arte estática, carrossel, depoimento). A aba Criativos do VIGILO mostra os anúncios que cansaram.",
-      "sources": [10]
+      "sources": [
+        10
+      ]
     },
     {
       "id": "2026-08-26-exclusao-posicionamentos",
@@ -236,7 +405,10 @@
       "what": "Parte dos anunciantes deixou de ver a escolha manual de posicionamentos no conjunto. A substituta sugerida são as regras de valor, que só reduzem o lance em até 90% e não zeram a entrega. A Meta não anunciou uma remoção geral, e a central de ajuda ainda descreve a escolha manual.",
       "effect": "Fica mais difícil impedir que o orçamento vá para a Audience Network, o Threads ou outros posicionamentos fracos.",
       "action": "Confira se as contas dos clientes ainda têm posicionamentos manuais. Se não tiverem, use regras de valor nos posicionamentos que gastam sem resultado.",
-      "sources": [11, 8]
+      "sources": [
+        11,
+        8
+      ]
     },
     {
       "id": "2026-07-27-texto-em-imagem",
@@ -252,7 +424,10 @@
       "what": "Segundo a Common Thread, desde 27/07 o Advantage+ criativo pode reescrever o texto que está dentro das imagens enviadas, criando até 8 variações de título.",
       "effect": "Risco de promessa, preço ou termo proibido aparecer num anúncio que ninguém da agência escreveu. Com os novos termos, a responsabilidade é do anunciante.",
       "action": "Cadastre palavras proibidas nas configurações de marca e desligue a melhoria de texto nos clientes de saúde, financeiro e outros setores sensíveis.",
-      "sources": [9, 2]
+      "sources": [
+        9,
+        2
+      ]
     },
     {
       "id": "2026-02-19-views",
@@ -268,7 +443,9 @@
       "what": "Com a v25.0 a Meta padronizou os relatórios orgânicos em visualizações e retirou as métricas antigas de alcance e impressões de páginas e publicações em todas as versões da API.",
       "effect": "Relatórios orgânicos de ferramentas antigas mudam de número. Métricas de anúncios do Gerenciador não foram retiradas.",
       "action": "Ao comparar orgânico de antes e depois de 2026 nos relatórios dos clientes, explique a troca de métrica.",
-      "sources": [13]
+      "sources": [
+        13
+      ]
     },
     {
       "id": "2026-01-01-impostos-brasil",
@@ -284,7 +461,9 @@
       "what": "Desde 1º de janeiro de 2026, por causa da transição da reforma tributária, a Meta repassa os impostos que antes absorvia. No pós-pago, R$ 100 de anúncio viram R$ 113,83 na fatura. No pré-pago, os mesmos R$ 100 compram R$ 87,15 de anúncio.",
       "effect": "O mesmo orçamento entrega menos. O custo por resultado aparente sobe para quem compara com 2025.",
       "action": "Considere o repasse ao comparar com o ano passado e ao combinar orçamento com os clientes. Nas contas pré-pagas, o saldo acaba mais rápido. A aba Saldo previsto do VIGILO já usa o gasto real.",
-      "sources": [12]
+      "sources": [
+        12
+      ]
     }
   ],
   "categories": {
@@ -300,18 +479,115 @@
     "cobranca": "Cobrança e impostos"
   },
   "sources": [
-    { "id": 1, "title": "PPC Land: Meta liga a navegação de produtos nos anúncios existentes em 28/10", "url": "https://ppc.land/meta-will-turn-on-product-browsing-in-existing-ads-on-october-28/" },
-    { "id": 2, "title": "PPC Land: anunciante passa a responder pelas edições da IA da Meta", "url": "https://ppc.land/meta-makes-advertisers-solely-responsible-for-its-ai-ad-edits-from-oct-30/" },
-    { "id": 3, "title": "PPC Land: Meta adia os novos termos para 20/11", "url": "https://ppc.land/meta-delays-website-crawling-terms-to-nov-20-after-publisher-complaints/" },
-    { "id": 4, "title": "Meta for Developers: changelog da Graph API v26.0", "url": "https://developers.facebook.com/docs/graph-api/changelog/version26.0" },
-    { "id": 5, "title": "PPC Land: o que muda com a Graph API v26.0", "url": "https://ppc.land/meta-blocks-47-commerce-endpoints-as-graph-api-v26-0-lands-today/" },
-    { "id": 6, "title": "PPC Land: Meta diz que o GEM aumentou as conversões em 18,9%", "url": "https://ppc.land/meta-says-its-gem-ads-model-lifted-conversions-18-9-across-its-apps/" },
-    { "id": 7, "title": "PPC Land: Ads Super Burst e novos produtos para marcas", "url": "https://ppc.land/meta-sells-brands-3-to-24-hour-ad-windows-that-shut-out-category-rivals/" },
-    { "id": 8, "title": "Build MVP Fast: Threads como posicionamento padrão", "url": "https://www.buildmvpfast.com/blog/threads-ads-default-placement-meta-opt-out-2026" },
-    { "id": 9, "title": "Common Thread: registro de mudanças da Meta em 2026", "url": "https://commonthreadco.com/blogs/coachs-corner/meta-ads-changes-2026" },
-    { "id": 10, "title": "Common Thread: nota de diversidade criativa", "url": "https://commonthreadco.com/blogs/coachs-corner/metas-new-creative-diversity-score-is-live-in-ads-manager-what-ecommerce-brands-must-act-on-now" },
-    { "id": 11, "title": "PPC Land: anunciantes perdem a exclusão de posicionamentos", "url": "https://ppc.land/some-meta-advertisers-lose-placement-controls-with-bid-cuts-capped-at-90/" },
-    { "id": 12, "title": "Canaltech: anunciar no Instagram e Facebook fica mais caro no Brasil", "url": "https://canaltech.com.br/apps/anunciar-no-instagram-e-facebook-ficara-mais-caro-no-brasil-entenda/" },
-    { "id": 13, "title": "Mobile Marketing Reads: Meta troca métricas de alcance por visualizações", "url": "https://mobilemarketingreads.com/?p=50224" }
+    {
+      "id": 1,
+      "title": "PPC Land: Meta liga a navegação de produtos nos anúncios existentes em 28/10",
+      "url": "https://ppc.land/meta-will-turn-on-product-browsing-in-existing-ads-on-october-28/"
+    },
+    {
+      "id": 2,
+      "title": "PPC Land: anunciante passa a responder pelas edições da IA da Meta",
+      "url": "https://ppc.land/meta-makes-advertisers-solely-responsible-for-its-ai-ad-edits-from-oct-30/"
+    },
+    {
+      "id": 3,
+      "title": "PPC Land: Meta adia os novos termos para 20/11",
+      "url": "https://ppc.land/meta-delays-website-crawling-terms-to-nov-20-after-publisher-complaints/"
+    },
+    {
+      "id": 4,
+      "title": "Meta for Developers: changelog da Graph API v26.0",
+      "url": "https://developers.facebook.com/docs/graph-api/changelog/version26.0"
+    },
+    {
+      "id": 5,
+      "title": "PPC Land: o que muda com a Graph API v26.0",
+      "url": "https://ppc.land/meta-blocks-47-commerce-endpoints-as-graph-api-v26-0-lands-today/"
+    },
+    {
+      "id": 6,
+      "title": "PPC Land: Meta diz que o GEM aumentou as conversões em 18,9%",
+      "url": "https://ppc.land/meta-says-its-gem-ads-model-lifted-conversions-18-9-across-its-apps/"
+    },
+    {
+      "id": 7,
+      "title": "PPC Land: Ads Super Burst e novos produtos para marcas",
+      "url": "https://ppc.land/meta-sells-brands-3-to-24-hour-ad-windows-that-shut-out-category-rivals/"
+    },
+    {
+      "id": 8,
+      "title": "Build MVP Fast: Threads como posicionamento padrão",
+      "url": "https://www.buildmvpfast.com/blog/threads-ads-default-placement-meta-opt-out-2026"
+    },
+    {
+      "id": 9,
+      "title": "Common Thread: registro de mudanças da Meta em 2026",
+      "url": "https://commonthreadco.com/blogs/coachs-corner/meta-ads-changes-2026"
+    },
+    {
+      "id": 10,
+      "title": "Common Thread: nota de diversidade criativa",
+      "url": "https://commonthreadco.com/blogs/coachs-corner/metas-new-creative-diversity-score-is-live-in-ads-manager-what-ecommerce-brands-must-act-on-now"
+    },
+    {
+      "id": 11,
+      "title": "PPC Land: anunciantes perdem a exclusão de posicionamentos",
+      "url": "https://ppc.land/some-meta-advertisers-lose-placement-controls-with-bid-cuts-capped-at-90/"
+    },
+    {
+      "id": 12,
+      "title": "Canaltech: anunciar no Instagram e Facebook fica mais caro no Brasil",
+      "url": "https://canaltech.com.br/apps/anunciar-no-instagram-e-facebook-ficara-mais-caro-no-brasil-entenda/"
+    },
+    {
+      "id": 13,
+      "title": "Mobile Marketing Reads: Meta troca métricas de alcance por visualizações",
+      "url": "https://mobilemarketingreads.com/?p=50224"
+    },
+    {
+      "id": 14,
+      "title": "PPC Land: pixel vai contar mais conversões a partir de 12/11 se o anunciante não desligar",
+      "url": "https://ppc.land/meta-pixel-will-count-more-conversions-from-nov-12-unless-advertisers-opt-out/"
+    },
+    {
+      "id": 15,
+      "title": "PPC Land: pixel conta mais vendas a partir de 12/11 e orientação de fim de ano da Meta",
+      "url": "https://ppc.land/meta-pixel-counts-more-sales-from-nov-12-as-ai-ads-go-undisclosed/"
+    },
+    {
+      "id": 16,
+      "title": "Meta for Developers: histórico de versões da Marketing API",
+      "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/marketing-api-changelog/versions"
+    },
+    {
+      "id": 17,
+      "title": "Meta for Developers: mudanças fora do calendário da Marketing API em 2026",
+      "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/out-of-cycle-changes/occ-2026"
+    },
+    {
+      "id": 18,
+      "title": "PPC Land: resultado da Meta no 3º trimestre de 2026",
+      "url": "https://ppc.land/meta-takes-9-89bn-teen-settlement-charge-as-ad-revenue-gains-26/"
+    },
+    {
+      "id": 19,
+      "title": "WATI: cobrança das mensagens de atendimento do WhatsApp a partir de outubro",
+      "url": "https://www.wati.io/en/blog/whatsapp-service-message-pricing/"
+    },
+    {
+      "id": 20,
+      "title": "Chatfuel: mudanças de preço do WhatsApp em 1º de outubro de 2026",
+      "url": "https://chatfuel.com/docs/whatsapp/whatsapp-pricing-changes-2026"
+    },
+    {
+      "id": 21,
+      "title": "PPC Land: agente Muse ganha acesso a contas de anúncios",
+      "url": "https://ppc.land/metas-muse-agent-gains-access-to-ad-accounts-and-15-business-tools/"
+    },
+    {
+      "id": 22,
+      "title": "Relevant Audience: aviso da Meta sobre navegação de produtos em 28/10",
+      "url": "https://www.relevantaudience.com/meta/meta-product-browsing-existing-ads-october-28/"
+    }
   ]
 }
