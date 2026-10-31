@@ -1,17 +1,17 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-30T07:00:00-03:00",
-  "edition": "30 de outubro de 2026",
-  "summary": "O mais urgente: a partir de 12/11 a Meta liga sozinha, em todo pixel e API de Conversões, a medição de conversões no aparelho do cliente, o que pode aumentar as compras atribuídas às campanhas bem na Black Friday. Anote antes de 12/11 o número de vendas reais de cada cliente para comparar depois. No WhatsApp, as respostas de atendimento pela API passaram a ser cobradas desde 1º/10, mas conversas que começam num anúncio de clique para o WhatsApp seguem com 72 horas grátis. A Graph API v24.0 é desligada em 10/11.",
+  "updatedAt": "2026-10-31T07:00:00-03:00",
+  "edition": "31 de outubro de 2026",
+  "summary": "Nada mudou nos prazos desde ontem: o mais urgente segue sendo 12/11, quando a Meta liga sozinha a medição de conversões no aparelho do cliente em todo pixel e API de Conversões; anote antes disso as vendas reais de cada cliente para comparar depois. O balanço da Meta mostrou que o preço médio por anúncio subiu 24% no grupo de países que inclui o Brasil, bom argumento para explicar CPM mais alto ao cliente. No Gerenciador, os anúncios com várias peças passaram a mostrar o resultado de cada imagem e vídeo. A Graph API v24.0 é desligada em 10/11.",
   "api": {
     "latest": "v26.0",
     "latestDate": "2026-07-29",
-    "note": "A v26.0 continua sendo a mais nova. A v24.0 deixa de funcionar em 10/11/2026 e a v25.0 em 23/02/2027. Em outubro a Meta só adicionou campos novos na API (pareamento de criativo com público e campanhas de vendas unificadas), sem remover nada que o VIGILO lê.",
+    "note": "A v26.0 (29/07/2026) continua sendo a mais nova; não há v27.0 listada. A v24.0 deixa de funcionar em 10/11/2026 e a v25.0 em 23/02/2027. As mudanças recentes só removeram campos de estimativa de entrega e anúncios de enquete, nada do que o VIGILO lê.",
     "sources": [
       4,
       5,
       16,
-      17
+      23
     ]
   },
   "watch": [
@@ -80,6 +80,24 @@
       ]
     },
     {
+      "id": "2026-10-28-relatorio-por-criativo",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-31",
+      "title": "Gerenciador mostra resultado de cada imagem e vídeo dentro do anúncio",
+      "category": "gerenciador",
+      "impact": "medio",
+      "status": "em-vigor",
+      "region": "Global",
+      "confirmed": false,
+      "summary": "Anúncios flexíveis, de criativo dinâmico e do Advantage+ de vendas passam a mostrar gasto, CTR, custo por resultado e ROAS de cada peça.",
+      "what": "Segundo o registro semanal da agência Common Thread, a aba Anúncios ganhou o detalhamento por peça em Detalhamento > Criativo > Mídia, com gasto, CTR, custo por aquisição e ROAS de cada imagem ou vídeo em anúncios flexíveis, de criativo dinâmico e de vendas Advantage+. A Meta não publicou comunicado sobre essa data.",
+      "effect": "Fica mais fácil ver qual peça está puxando o resultado e qual só gasta verba dentro do mesmo anúncio.",
+      "action": "Abra o detalhamento por mídia nos anúncios com várias peças e troque as que gastam sem trazer resultado. Se a opção ainda não aparecer na conta, ela deve chegar nas próximas semanas.",
+      "sources": [
+        9
+      ]
+    },
+    {
       "id": "2026-10-28-navegacao-produtos",
       "date": "2026-10-28",
       "firstSeen": "2026-10-29",
@@ -97,6 +115,24 @@
         1,
         9,
         22
+      ]
+    },
+    {
+      "id": "2026-10-27-eua-periodo-restricao-politica",
+      "date": "2026-10-27",
+      "firstSeen": "2026-10-31",
+      "title": "EUA: anúncios políticos novos ficam bloqueados até 3/11",
+      "category": "politicas",
+      "impact": "baixo",
+      "status": "em-vigor",
+      "region": "EUA",
+      "confirmed": true,
+      "summary": "Nos Estados Unidos, de 27/10 a 3/11 não é possível criar anúncios novos sobre política, eleições ou temas sociais.",
+      "what": "A Meta abriu o período de restrição antes da eleição americana: entre 27/10 e 3/11 (horário do Pacífico) anúncios novos de política e temas sociais nos EUA não podem ser criados.",
+      "effect": "Não afeta contas que anunciam só no Brasil. Contas que segmentam os EUA com temas sociais podem ter anúncios barrados no período.",
+      "action": "Nada a fazer para clientes que anunciam só no Brasil. Se algum anúncio for para os EUA e tocar em tema social, espere até 4/11.",
+      "sources": [
+        23
       ]
     },
     {
@@ -177,18 +213,19 @@
       "id": "2026-10-21-preco-medio-anuncio",
       "date": "2026-10-21",
       "firstSeen": "2026-10-30",
-      "title": "Preço médio do anúncio na Meta subiu 14% em um ano",
+      "title": "Preço médio do anúncio na Meta subiu 14% em um ano (24% na região que inclui o Brasil)",
       "category": "algoritmo",
       "impact": "baixo",
       "status": "em-vigor",
       "region": "Global",
       "confirmed": true,
-      "summary": "No 3º trimestre, as impressões cresceram 10% e o preço médio por anúncio 14%, segundo o balanço da Meta.",
-      "what": "O resultado da Meta do 3º trimestre de 2026 mostrou receita de anúncios de US$ 63,06 bilhões, alta de 26%. As impressões subiram 10% e o preço médio por anúncio 14% no mundo. Nos EUA e Canadá o preço subiu 23%.",
+      "summary": "No 3º trimestre, as impressões cresceram 10% e o preço médio por anúncio 14% no mundo; no grupo \"Resto do mundo\", onde entra o Brasil, o preço subiu 24%.",
+      "what": "O resultado da Meta do 3º trimestre de 2026 mostrou receita de anúncios de US$ 63,06 bilhões, alta de 26%. As impressões subiram 10% e o preço médio por anúncio 14% no mundo. Nos EUA e Canadá o preço subiu 23%. No grupo \"Resto do mundo\" (onde a Meta coloca a América Latina) as impressões subiram 8% e o preço médio por anúncio 24%, a maior alta entre as regiões.",
       "effect": "Há mais concorrência pelo mesmo espaço, o que pressiona o custo por mil, ainda mais no fim de ano.",
       "action": "Use esse número ao explicar para o cliente por que o custo por mil subiu em relação a 2025, junto com o repasse de impostos no Brasil.",
       "sources": [
-        18
+        18,
+        24
       ]
     },
     {
@@ -257,11 +294,12 @@
       "region": "Global",
       "confirmed": true,
       "summary": "A Meta diz que o GEM, seu modelo central de anúncios, melhorou as conversões em 18,9% e a taxa de cliques em 12%.",
-      "what": "O GEM (Generative Ads Model) aprende com o uso de Facebook, Instagram, Reels e outros apps e alimenta os modelos que escolhem qual anúncio cada pessoa vê. Não há botão para ligar ou desligar. Os números são da própria Meta, sem base de comparação divulgada.",
+      "what": "O GEM (Generative Ads Model) aprende com o uso de Facebook, Instagram, Reels e outros apps e alimenta os modelos que escolhem qual anúncio cada pessoa vê. Não há botão para ligar ou desligar. Os números são da própria Meta, sem base de comparação divulgada. Em 29/10 a Meta publicou detalhes técnicos de melhorias no Andromeda (que escolhe os anúncios candidatos) e no GEM (que ordena), falando em 15,7% mais conversões e 8,3% mais cliques em anúncios no Facebook, segundo relato da agência Common Thread.",
       "effect": "A entrega depende cada vez mais de sinais da Meta e menos da segmentação manual. Campanhas com público amplo e criativos variados tendem a aproveitar mais.",
       "action": "Não há o que configurar. Compare o custo por resultado dos clientes nas últimas semanas (aba Evolução) para ver se houve mudança real na sua carteira.",
       "sources": [
-        6
+        6,
+        9
       ]
     },
     {
@@ -588,6 +626,16 @@
       "id": 22,
       "title": "Relevant Audience: aviso da Meta sobre navegação de produtos em 28/10",
       "url": "https://www.relevantaudience.com/meta/meta-product-browsing-existing-ads-october-28/"
+    },
+    {
+      "id": 23,
+      "title": "Qwestyon — Meta Ads Updates & News (outubro de 2026)",
+      "url": "https://www.qwestyon.com/blog/meta-ads-updates"
+    },
+    {
+      "id": 24,
+      "title": "Relevant Audience — Meta Q3 2026: preço por anúncio e impressões por região",
+      "url": "https://www.relevantaudience.com/meta/meta-q3-2026-ad-price-impressions-asia-pacific/"
     }
   ]
 }
