@@ -1,16 +1,17 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-31T07:00:00-03:00",
-  "edition": "31 de outubro de 2026",
-  "summary": "Nada mudou nos prazos desde ontem: o mais urgente segue sendo 12/11, quando a Meta liga sozinha a medição de conversões no aparelho do cliente em todo pixel e API de Conversões; anote antes disso as vendas reais de cada cliente para comparar depois. O balanço da Meta mostrou que o preço médio por anúncio subiu 24% no grupo de países que inclui o Brasil, bom argumento para explicar CPM mais alto ao cliente. No Gerenciador, os anúncios com várias peças passaram a mostrar o resultado de cada imagem e vídeo. A Graph API v24.0 é desligada em 10/11.",
+  "updatedAt": "2026-11-02T07:02:02-03:00",
+  "edition": "2 de novembro de 2026",
+  "summary": "A Meta suspendeu os novos Termos Comerciais (o que deixa o anunciante responsável pelo que a IA da Meta muda nos anúncios): 20/11 virou data mínima e pode atrasar, e por enquanto valem os termos atuais. O prazo mais urgente continua sendo 12/11, quando o pixel passa a medir conversões no aparelho do cliente; anote as vendas reais antes. Novidades menores: a API agora permite definir idade e gênero por criativo, vídeos podem aparecer na busca do Instagram e o Creator Marketing Hub chegou a todos os anunciantes. A Graph API v24.0 é desligada em 10/11.",
   "api": {
     "latest": "v26.0",
     "latestDate": "2026-07-29",
-    "note": "A v26.0 (29/07/2026) continua sendo a mais nova; não há v27.0 listada. A v24.0 deixa de funcionar em 10/11/2026 e a v25.0 em 23/02/2027. As mudanças recentes só removeram campos de estimativa de entrega e anúncios de enquete, nada do que o VIGILO lê.",
+    "note": "A v26.0 (29/07/2026) continua sendo a mais nova; não há v27.0 listada. A v24.0 deixa de funcionar em 10/11/2026 e a v25.0 em 23/02/2027. As mudanças fora de ciclo de outubro só acrescentaram campos (público por criativo, vídeo na busca do Instagram, campanha de vendas unificada); nada do que o VIGILO lê foi removido.",
     "sources": [
       4,
       5,
       16,
+      17,
       23
     ]
   },
@@ -34,11 +35,11 @@
     },
     {
       "date": "2026-11-20",
-      "title": "Novos Termos Comerciais da Meta entram em vigor",
-      "text": "Inclui a seção de recursos de IA: o anunciante passa a responder pelo que a IA da Meta cria ou muda nos anúncios, mesmo quando o recurso vem ligado por padrão. Continuar anunciando depois da data vale como aceite.",
+      "title": "Data mínima para os novos Termos Comerciais (pode ser adiada)",
+      "text": "A Meta disse que a consulta à indústria pode passar de 20/11 e que, nesse caso, adia de novo. Até lá valem os termos atuais. O texto com a responsabilidade pelas edições da IA não mudou.",
       "sources": [
-        2,
-        3
+        3,
+        26
       ]
     },
     {
@@ -158,19 +159,21 @@
       "id": "2026-10-23-termos-ia-adiados",
       "date": "2026-10-23",
       "firstSeen": "2026-10-29",
-      "title": "Termos que deixam o anunciante responsável pela IA da Meta foram adiados para 20/11",
+      "title": "Termos que deixam o anunciante responsável pela IA da Meta estão suspensos; 20/11 virou data mínima",
       "category": "politicas",
       "impact": "alto",
       "status": "adiado",
       "region": "Global",
       "confirmed": true,
-      "summary": "A Meta empurrou de 30/10 para 20/11 os novos Termos Comerciais e de anúncios autoatendidos. O texto não mudou.",
-      "what": "Os novos termos incluem uma seção de recursos de IA. Ela diz que o anunciante é o único responsável pelas alterações que a IA da Meta faz nos anúncios, mesmo nos recursos que a Meta liga sozinha: melhorias do Advantage+ criativo (fundo, brilho, formato, variações), sitelinks automáticos, tradução de texto e imagens geradas a partir das fotos da marca. Também dizem que a IA pode errar e que o risco é do anunciante.",
-      "effect": "Não muda a entrega diretamente, mas um anúncio editado pela IA com promessa errada, preço errado ou imagem fora da marca passa a ser responsabilidade da agência e do cliente.",
-      "action": "Até 20/11, revise campanha por campanha as melhorias automáticas do Advantage+ criativo e desligue o que o cliente não aprovou. Combine com cada cliente quem responde por edições automáticas e se esse controle entra no escopo do contrato.",
+      "summary": "A Meta disse em 28/10 que não muda os termos sem consultar a indústria e que, se a consulta passar de 20/11, adia de novo; até lá valem os termos atuais.",
+      "what": "Os novos Termos Comerciais e de anúncios autoatendidos incluem uma seção de recursos de IA: o anunciante é o único responsável pelas alterações que a IA da Meta faz nos anúncios, mesmo nos recursos ligados por padrão (melhorias do Advantage+ criativo, sitelinks automáticos, tradução, imagens geradas). Depois de adiar de 30/10 para 20/11, a Meta afirmou em 28/10, por seu diretor de comunicação Andy Stone, que não fará mudanças sem uma consulta completa a grupos da indústria, que essa consulta pode passar de 20/11 e que, nesse caso, adia a vigência; até lá ficam os termos atuais. Um tribunal da Noruega barrou a entrada em vigor lá, e a autoridade de concorrência do Reino Unido abriu investigação sobre os termos.",
+      "effect": "Por enquanto nada muda nas contas. O texto não foi alterado, então o risco de responder pelas edições da IA continua sobre a mesa para quando os termos entrarem em vigor.",
+      "action": "Use o adiamento para revisar com calma as melhorias automáticas do Advantage+ criativo e desligar o que o cliente não aprovou. Acompanhe se a Meta divulga data nova ou texto revisado antes de 20/11.",
       "sources": [
         2,
-        3
+        3,
+        26,
+        27
       ]
     },
     {
@@ -229,6 +232,42 @@
       ]
     },
     {
+      "id": "2026-10-21-whatsapp-mensagens-marketing-api",
+      "date": "2026-10-21",
+      "firstSeen": "2026-11-02",
+      "title": "Mensagens de marketing do WhatsApp vão sair da Cloud API em 13/10/2027",
+      "category": "api",
+      "impact": "baixo",
+      "status": "anunciado",
+      "region": "Global",
+      "confirmed": true,
+      "summary": "Disparos de marketing pelo WhatsApp terão de passar pela Marketing Messages API, não mais pela Cloud API.",
+      "what": "A Meta anunciou no blog de desenvolvedores, em 21/10, que as mensagens de marketing deixam de ser enviadas pela Cloud API e passam para a Marketing Messages API, com desligamento em 13/10/2027.",
+      "effect": "Não muda nada agora. Clientes que fazem disparos de ofertas pelo WhatsApp por plataforma de atendimento vão depender da migração do fornecedor.",
+      "action": "Pergunte à plataforma de WhatsApp dos clientes se ela já usa a Marketing Messages API. Há prazo até outubro de 2027.",
+      "sources": [
+        27
+      ]
+    },
+    {
+      "id": "2026-10-21-creator-marketing-hub",
+      "date": "2026-10-21",
+      "firstSeen": "2026-11-02",
+      "title": "Central de marketing com criadores chegou a todos os anunciantes",
+      "category": "anuncios",
+      "impact": "baixo",
+      "status": "em-vigor",
+      "region": "Global",
+      "confirmed": true,
+      "summary": "A Meta diz que anúncios de parceria cresceram mais de 97% em um ano e liberou para todos a ferramenta de achar criadores e ativar anúncios com eles.",
+      "what": "Na divulgação de resultados de 21/10, a Meta informou que os anúncios de parceria com criadores cresceram mais de 97% e passaram de US$ 15 bilhões por ano, e que o Creator Marketing Hub (busca de criadores, organização de conteúdo e ativação de anúncios de parceria) foi liberado para todos os anunciantes, com mais de 10 milhões de criadores para encontrar.",
+      "effect": "Fica mais fácil achar influenciadores locais e transformar posts deles em anúncios de parceria sem depender de agência de influência.",
+      "action": "Para restaurantes, estética, academias e pet shops, teste um anúncio de parceria com um criador local da cidade e compare o custo por resultado com os criativos da marca.",
+      "sources": [
+        29
+      ]
+    },
+    {
       "id": "2026-10-19-threads-padrao",
       "date": "2026-10-19",
       "firstSeen": "2026-10-29",
@@ -245,6 +284,25 @@
       "sources": [
         8,
         9
+      ]
+    },
+    {
+      "id": "2026-10-19-publico-por-criativo",
+      "date": "2026-10-19",
+      "firstSeen": "2026-11-02",
+      "title": "API permite definir idade e gênero para cada criativo do anúncio",
+      "category": "publicos",
+      "impact": "medio",
+      "status": "em-vigor",
+      "region": "Global",
+      "confirmed": true,
+      "summary": "Em vez de segmentar só no conjunto, dá para indicar a faixa de idade e o gênero mais adequados para cada imagem ou vídeo.",
+      "what": "A Meta adicionou à Marketing API, para todas as versões, a opção de ligar no conjunto o pareamento de público por criativo (creative_audience_pairing) e informar idade e gênero no anúncio ou em cada imagem/vídeo. O exemplo da Meta: um banco indica que o vídeo de previdência combina com pessoas de 50 a 65 anos e o de poupança com todas as idades. Por enquanto a novidade veio pela API, para ferramentas de terceiros; a Meta não falou em botão no Gerenciador.",
+      "effect": "Ajuda a entrega a mostrar cada peça para quem ela foi pensada sem precisar abrir um conjunto por público, o que concentra conversões. Útil para clínicas, estética, academias e financiamento, que têm ofertas por faixa etária.",
+      "action": "Se a agência sobe anúncios por ferramenta que usa a API, pergunte ao fornecedor quando a opção chega. No Gerenciador, continue separando por conjunto até a opção aparecer lá.",
+      "sources": [
+        17,
+        25
       ]
     },
     {
@@ -336,6 +394,24 @@
       "action": "Use a aba Alterações do VIGILO para conferir o que mudou em cada conta e quem mudou.",
       "sources": [
         9
+      ]
+    },
+    {
+      "id": "2026-10-06-videos-busca-instagram",
+      "date": "2026-10-06",
+      "firstSeen": "2026-11-02",
+      "title": "Anúncios em vídeo podem aparecer nos resultados de busca do Instagram",
+      "category": "posicionamentos",
+      "impact": "baixo",
+      "status": "em-vigor",
+      "region": "Global",
+      "confirmed": true,
+      "summary": "O posicionamento de busca do Instagram passou a aceitar vídeo único e carrossel de vídeos, com liberação gradual.",
+      "what": "Segundo o registro oficial de mudanças fora de ciclo da Marketing API, criativos de vídeo único e carrossel de vídeo podem usar o posicionamento de resultados de busca do Instagram, liberado aos poucos para todas as versões.",
+      "effect": "Mais um lugar de entrega para vídeos em campanhas com posicionamentos automáticos; pode aparecer no detalhamento por posicionamento.",
+      "action": "Confira no detalhamento por posicionamento se a busca do Instagram começou a receber verba e como está o custo por resultado ali.",
+      "sources": [
+        17
       ]
     },
     {
@@ -446,6 +522,24 @@
       "sources": [
         11,
         8
+      ]
+    },
+    {
+      "id": "2026-08-03-eventos-automaticos-ia",
+      "date": "2026-08-03",
+      "firstSeen": "2026-11-02",
+      "title": "Pixels novos vêm com 'Eventos automáticos' por IA ligado",
+      "category": "medicao",
+      "impact": "medio",
+      "status": "em-vigor",
+      "region": "Global",
+      "confirmed": false,
+      "summary": "Uma opção no Gerenciador de Eventos deixa a IA da Meta criar e gerenciar eventos padrão no site; pixels criados desde 03/08/2026 vêm com ela ligada.",
+      "what": "O Gerenciador de Eventos ganhou em Configurações a opção 'Eventos automáticos': ao ligar, o anunciante permite que a IA adicione e gerencie eventos padrão no site, com um painel para revisar e apagar o que ela criou. Segundo Jon Loomer, citando a documentação da Meta, todo pixel criado a partir de 03/08/2026 vem com a opção ligada; não está claro se pixels antigos são afetados.",
+      "effect": "Em pixels novos, a IA pode criar eventos como compra ou cadastro que duplicam ou confundem os eventos já configurados, distorcendo a otimização e os relatórios.",
+      "action": "Em todo pixel criado para cliente novo desde agosto, abra Gerenciador de Eventos > Configurações e veja se 'Eventos automáticos' está ligado. Revise os eventos criados pela IA e desligue a opção se o rastreamento já estiver feito à mão ou pela API de Conversões.",
+      "sources": [
+        28
       ]
     },
     {
@@ -636,6 +730,31 @@
       "id": 24,
       "title": "Relevant Audience — Meta Q3 2026: preço por anúncio e impressões por região",
       "url": "https://www.relevantaudience.com/meta/meta-q3-2026-ad-price-impressions-asia-pacific/"
+    },
+    {
+      "id": 25,
+      "title": "Social Media Today: Meta offers creative targeting for ads",
+      "url": "https://www.socialmediatoday.com/news/meta-offers-creative-targeting-for-ads/833672/"
+    },
+    {
+      "id": 26,
+      "title": "Nieman Lab: Meta pledges to consult publishers before finalizing its new terms",
+      "url": "https://www.niemanlab.org/2026/10/meta-pledges-to-consult-publishers-before-finalizing-its-new-terms/"
+    },
+    {
+      "id": 27,
+      "title": "AdsUploader: Meta Ads updates (registro de mudanças)",
+      "url": "https://adsuploader.com/blog/meta-ads-updates"
+    },
+    {
+      "id": 28,
+      "title": "Jon Loomer: Meta introduces a new Automatic Events feature",
+      "url": "https://www.jonloomer.com/meta-automatic-events-feature/"
+    },
+    {
+      "id": 29,
+      "title": "PPC Land: Meta's ads with creators gain 97% to a $15bn annual run rate",
+      "url": "https://ppc.land/metas-ads-with-creators-gain-97-to-a-15bn-annual-run-rate/"
     }
   ]
 }
