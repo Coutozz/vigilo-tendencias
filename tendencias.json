@@ -1,80 +1,80 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-30T05:50:00-03:00",
-  "edition": "30 de outubro de 2026",
-  "summary": "O criativo segue sendo a segmentação: ganha quem mantém 15 a 20 anúncios ativos com ganchos e conceitos diferentes, em vídeo vertical de 15 a 30 s com a informação principal nos primeiros segundos. Novidade do mês: a Meta liberou para todos a função que transforma imagem estática em vídeo dentro do Advantage+ creative.",
+  "updatedAt": "2026-11-02T08:00:00-03:00",
+  "edition": "2 de novembro de 2026",
+  "summary": "Com o Andromeda, ganha quem tem de 8 a 12 conceitos realmente diferentes no ar (gancho, formato e emoção diferentes, não só a cor) e troca de criativo a cada 2 ou 3 semanas. Vídeo vertical com cara nativa segue na frente, e a Meta liberou para mais anunciantes o Ads Creative Studio, que edita gancho, áudio e duração dos vídeos. Em clínicas, o que passa na política e convence é especialista explicando e paciente contando a experiência, não antes e depois.",
   "rules": [
     {
-      "title": "15 a 20 anúncios ativos, com ângulos diferentes",
-      "text": "O sistema da Meta trabalha melhor com muitos criativos no ar. Varie gancho e formato, não só a cor ou o texto.",
-      "source": 4
+      "title": "8 a 12 conceitos diferentes por campanha",
+      "text": "Cada conceito com 2 ou 3 variações. Conceito diferente é outro gancho, formato ou emoção. Mesmo vídeo com outra cor ou outro título conta como cópia e o sistema entrega menos.",
+      "source": 13
     },
     {
-      "title": "Teste 5 a 10 ganchos sobre o mesmo vídeo",
-      "text": "Quando um anúncio cai, quase sempre o problema é a abertura. Troque o início antes de jogar o vídeo fora.",
-      "source": 1
+      "title": "Troque criativo a cada 2 ou 3 semanas",
+      "text": "Um conceito cansa o público em 2 ou 3 semanas. Sinais: CTR caindo mais de 10% na semana, custo por resultado subindo mais de 15% ou frequência acima de 3 em público novo.",
+      "source": 13
     },
     {
-      "title": "O principal nos 2 ou 3 primeiros segundos",
-      "text": "Produto, preço ou resultado aparecem logo na abertura. Logo, vinheta e apresentação ficam para o fim (ou saem).",
-      "source": 4
+      "title": "No feed, 4:5 em vez de quadrado",
+      "text": "O formato vertical 4:5 rende até 15% mais que o 1:1 no feed. Para Reels e Stories, 9:16. Legenda grande, porque muita gente assiste sem som.",
+      "source": 14
     },
     {
-      "title": "Achou a mensagem que vende? Repita em várias roupas",
-      "text": "Os anúncios que ficam semanas no ar repetem a mesma mensagem em foto, vídeo e carrossel. Mude o formato e o cenário, mantenha a promessa.",
-      "source": 3
+      "title": "Saúde e estética: prove com experiência, não com corpo",
+      "text": "Antes e depois é o motivo mais comum de reprovação. Use especialista explicando, estrutura da clínica e depoimento sobre o atendimento. Nunca fale da condição de quem assiste.",
+      "source": 15
     },
     {
-      "title": "Vídeo entre 15 e 30 segundos",
-      "text": "É a faixa mais comum entre os vídeos que rodam por muito tempo. Acima de 60 s só para decisão complexa.",
-      "source": 1
+      "title": "Imagem que já vende vira vídeo",
+      "text": "A função de imagem para vídeo está liberada para todos no Advantage+ creative. Mais de 60% do tempo no Facebook e no Instagram é vídeo: leve suas melhores artes para lá.",
+      "source": 11
     },
     {
-      "title": "Negócio local: horário e raio contam",
-      "text": "Rode no horário em que o cliente compra (almoço e jantar no delivery) e num raio que você atende de verdade.",
-      "source": 7
+      "title": "Negócio local: raio real e formulário que qualifica",
+      "text": "Tire a localização padrão, use o raio que você atende de verdade e coloque uma pergunta aberta no formulário. Confirme o agendamento por telefone.",
+      "source": 16
     }
   ],
   "formats": [
     {
       "name": "Vídeo vertical 15 a 30 s (Reels)",
       "trend": "up",
-      "note": "Faixa mais comum entre os vídeos que ficam semanas no ar. 9:16 tem a maior distribuição."
-    },
-    {
-      "name": "Variações automáticas (Advantage+ creative)",
-      "trend": "up",
-      "note": "27 de 40 anúncios analisados na Biblioteca usavam criativo dinâmico ou de catálogo. Agora também gera vídeo a partir da imagem."
-    },
-    {
-      "name": "Motion design / animação",
-      "trend": "up",
-      "note": "Em imobiliárias, foi o tipo de peça que mais durou no ar no 1º trimestre."
+      "note": "Mais de 60% do tempo no Facebook e no Instagram é gasto vendo vídeo."
     },
     {
       "name": "UGC / cara de orgânico",
-      "trend": "steady",
-      "note": "Segue forte para prova social e serviços locais, mas em imobiliárias durou menos no ar que peças animadas."
+      "trend": "up",
+      "note": "Dono falando, depoimento e cabeça falante seguram a rolagem no Andromeda. Misture com peças mais produzidas."
+    },
+    {
+      "name": "Vídeo com especialista / educativo",
+      "trend": "up",
+      "note": "Novo na lista. Em saúde e estética é dos formatos com mais chance de aprovação. Animação explicativa também entra aqui."
+    },
+    {
+      "name": "Imagem para vídeo e edição com IA da Meta",
+      "trend": "up",
+      "note": "Imagem para vídeo liberada para todos; Ads Creative Studio chegou a mais anunciantes e edita gancho, áudio e duração."
     },
     {
       "name": "Anúncio com criador (parceria)",
       "trend": "up",
-      "note": "Creator Marketing Hub chegou a todos os países em setembro, com anúncio em parceria em um clique."
+      "note": "Creator Marketing Hub em todos os países desde setembro, com anúncio em parceria em um clique."
     },
     {
       "name": "Carrossel",
       "trend": "steady",
-      "note": "Bom para combos, comparação e objeções no meio do funil. Raro entre os anúncios mais antigos analisados."
+      "note": "Bom para objeções, combos e benefícios de clínica no meio do funil."
     },
     {
       "name": "Imagem estática",
       "trend": "steady",
-      "note": "Ótima para oferta e remarketing, e agora é ponto de partida para vídeo automático."
+      "note": "Ótima para oferta, remarketing e cadastro de academia. Use 4:5 no feed."
     },
     {
       "name": "Vídeo longo (60 s ou mais)",
       "trend": "down",
-      "note": "Menos de 10% dos anúncios que rodam por muito tempo. Use só para decisão complexa."
+      "note": "Só para decisão complexa. Em clínica, tour institucional pode ir até 60 s."
     }
   ],
   "niches": [
@@ -101,7 +101,7 @@
       "niches": [
         "Todos"
       ],
-      "why": "Pessoa real falando para a câmera, gravado no celular, parece conteúdo de um perfil comum e passa confiança. Depoimento vertical sem edição é um dos formatos recomendados para prova social em 2026. Atenção: em imobiliárias, peças com cara de UGC duraram menos no ar que vídeos com motion design.",
+      "why": "Pessoa real falando para a câmera, gravado no celular, parece conteúdo de um perfil comum e passa confiança. Com o Andromeda, conteúdo com cara nativa (dono falando, depoimento, cabeça falante) é o que mais segura a rolagem, desde que misturado com peças mais produzidas.",
       "how": [
         "Escolha UMA dor ou objeção do cliente (preço, demora, medo).",
         "Grave no celular, em pé, luz de janela, olhando para a lente.",
@@ -116,7 +116,7 @@
       "avoid": "Roteiro decorado e lido: tira a energia. Dê tópicos e grave de primeira.",
       "sources": [
         4,
-        9
+        13
       ]
     },
     {
@@ -126,15 +126,16 @@
       "formatLabel": "Vídeo curto",
       "duration": "9 a 15 s",
       "ratio": "9:16",
-      "status": "em-alta",
+      "status": "consolidado",
       "niches": [
         "Todos"
       ],
-      "why": "O gancho decide o resultado. Na Biblioteca de Anúncios é comum ver o mesmo anunciante rodando de 8 a 12 versões do mesmo anúncio só com a abertura trocada. A recomendação é testar de 5 a 10 ganchos sobre o mesmo miolo.",
+      "why": "O gancho decide o resultado. A ferramenta Ads Creative Studio, que a Meta liberou para mais anunciantes em outubro, permite editar gancho, áudio, duração e legenda sobre um vídeo já existente. Mas atenção: trocar só o gancho gera variação, não conceito novo. Use para salvar um vídeo que caiu, não para encher a conta de cópias.",
       "how": [
         "Grave o miolo do vídeo uma vez só.",
         "Grave 3 começos: uma pergunta, um resultado e uma quebra de padrão (algo inesperado na tela).",
-        "Suba os 3 no mesmo conjunto e mantenha o que tiver melhor retenção nos 3 primeiros segundos."
+        "Suba os 3 e mantenha o que tiver melhor retenção nos 3 primeiros segundos.",
+        "Se nenhum segurar, o problema é o conceito: grave outro ângulo."
       ],
       "hooks": [
         "Pergunta: \"Você sabia que…?\"",
@@ -143,24 +144,26 @@
       ],
       "avoid": "Logo e vinheta nos primeiros segundos.",
       "sources": [
-        1
+        1,
+        11,
+        13
       ]
     },
     {
       "id": "antes-depois",
-      "title": "Antes e depois em 15 segundos",
+      "title": "Antes e depois (só para imóvel, carro e reforma)",
       "format": "video",
       "formatLabel": "Vídeo curto",
       "duration": "12 a 15 s",
       "ratio": "9:16",
       "status": "consolidado",
       "niches": [
-        "Estética",
-        "Saúde e odontologia",
         "Imobiliárias",
-        "Automotivo e financiamento"
+        "Automotivo e financiamento",
+        "Varejo e lojas",
+        "Indústria e B2B"
       ],
-      "why": "Mostra o resultado sem precisar explicar. Funciona para serviço com transformação visível (dente, pele, reforma, carro). Mostrar o resultado logo nos primeiros segundos segura quem está rolando o feed.",
+      "why": "Mostra o resultado sem precisar explicar e funciona bem para transformação de coisas: reforma, carro, vitrine, peça usinada. Mudança desta edição: saímos de saúde e estética, porque antes e depois de corpo, pele e dente é o motivo mais comum de reprovação em anúncios de clínica.",
       "how": [
         "Abra com o \"depois\" (o resultado) nos 2 primeiros segundos.",
         "Volte ao \"antes\" e mostre 2 ou 3 etapas rápidas do processo.",
@@ -168,11 +171,12 @@
       ],
       "hooks": [
         "\"Olha como chegou e como saiu.\"",
-        "\"1 sessão. Sem filtro.\""
+        "\"Mesma sala, 3 dias depois.\""
       ],
-      "avoid": "Em saúde, a política da Meta proíbe falar da condição de quem assiste (\"você tem dente torto?\"). Fale do serviço e do resultado.",
+      "avoid": "Usar com pessoas (corpo, pele, dente): a Meta reprova com frequência. Em clínicas, use a ideia de depoimento de experiência.",
       "sources": [
-        4
+        4,
+        15
       ]
     },
     {
@@ -182,15 +186,16 @@
       "formatLabel": "Carrossel",
       "duration": "4 a 6 cards",
       "ratio": "4:5 ou 1:1",
-      "status": "em-alta",
+      "status": "consolidado",
       "niches": [
         "Imobiliárias",
         "Saúde e odontologia",
+        "Estética",
         "Indústria e B2B",
         "Automotivo e financiamento",
         "Academias"
       ],
-      "why": "O carrossel funciona no meio do funil, quando a pessoa ainda está comparando: um card por dúvida, na ordem em que ela aparece. Em restaurantes, também é o formato indicado para mostrar combos.",
+      "why": "O carrossel funciona no meio do funil, quando a pessoa ainda está comparando: um card por dúvida, na ordem em que ela aparece. Em clínicas, o carrossel de benefícios (equipe, tecnologia, atendimento, localização, formas de pagamento) está entre os formatos com mais chance de aprovação.",
       "how": [
         "Card 1: gancho visual e uma promessa clara.",
         "Cards 2 a 5: uma objeção por card, com a resposta (preço, prazo, garantia, como funciona).",
@@ -203,7 +208,8 @@
       ],
       "avoid": "Muito texto por card. Uma ideia por tela.",
       "sources": [
-        7
+        7,
+        15
       ]
     },
     {
@@ -213,7 +219,7 @@
       "formatLabel": "Vídeo curto",
       "duration": "10 a 20 s",
       "ratio": "9:16",
-      "status": "em-alta",
+      "status": "consolidado",
       "niches": [
         "Restaurantes",
         "Indústria e B2B",
@@ -250,7 +256,7 @@
         "Academias",
         "Pet"
       ],
-      "why": "Para quem já conhece a marca, imagem com oferta visível e prazo resolve rápido. Na análise de 40 anúncios que rodavam havia semanas, só 12 faziam uma oferta explícita: oferta clara ainda é diferencial.",
+      "why": "Para quem já conhece a marca, imagem com oferta visível e prazo resolve rápido. Entre os anúncios que ficam semanas no ar, oferta explícita ainda é minoria, então oferta clara segue sendo diferencial. No feed, prefira 4:5: testes da Billo mostram até 15% mais desempenho que o quadrado.",
       "how": [
         "Um foco só: o produto ou combo, em uso real (não foto em fundo branco).",
         "Até 7 palavras na imagem: oferta + preço.",
@@ -264,7 +270,8 @@
       "avoid": "Promoção sem prazo: perde a urgência.",
       "sources": [
         3,
-        7
+        7,
+        14
       ]
     },
     {
@@ -281,7 +288,7 @@
         "Saúde e odontologia",
         "Estética"
       ],
-      "why": "Para negócio local, mostrar o espaço do ponto de vista de quem chega tira o medo do desconhecido e convida para a primeira visita.",
+      "why": "Para negócio local, mostrar o espaço do ponto de vista de quem chega tira o medo do desconhecido e convida para a primeira visita. Em clínicas, vídeo da estrutura e da tecnologia é um dos formatos com mais chance de aprovação, porque prova cuidado sem falar de resultado no corpo.",
       "how": [
         "Grave andando, como se fosse o cliente entrando.",
         "Pare em 3 pontos fortes (equipamento, sala, vista, cozinha).",
@@ -293,7 +300,8 @@
       ],
       "avoid": "Imagem de antes e depois do corpo em academia: a política da Meta restringe. Para imóveis, use a ideia específica de tour de imóvel.",
       "sources": [
-        10
+        10,
+        15
       ]
     },
     {
@@ -322,7 +330,7 @@
       ],
       "avoid": "Roteiro engessado: o público percebe e o efeito some.",
       "sources": [
-        5
+        12
       ]
     },
     {
@@ -332,11 +340,11 @@
       "formatLabel": "Vídeo gerado da imagem",
       "duration": "5 a 10 s",
       "ratio": "9:16 e 4:5",
-      "status": "novo",
+      "status": "em-alta",
       "niches": [
         "Todos"
       ],
-      "why": "Desde 6 de outubro a função que transforma imagem estática em vídeo está liberada para todos no Advantage+ creative. A Meta diz que quem adota as recomendações dela costuma ter 5% mais conversões pelo mesmo custo. É o jeito mais barato de levar uma arte que já vende para Reels e Stories.",
+      "why": "Desde 6 de outubro a função que transforma imagem estática em vídeo está liberada para todos no Advantage+ creative. Mais de 60% do tempo no Facebook e no Instagram é gasto vendo vídeo, segundo a Meta, e quem segue as recomendações da ferramenta costuma ter 5% mais conversões pelo mesmo custo.",
       "how": [
         "Escolha a imagem com melhor custo por resultado do mês.",
         "No anúncio, ative a opção de imagem para vídeo do Advantage+ creative e confira a prévia.",
@@ -348,7 +356,8 @@
       ],
       "avoid": "Aprovar sem olhar a prévia: a animação automática pode distorcer rosto, produto ou texto. Pessoas geradas por IA no lugar de clientes reais em depoimento.",
       "sources": [
-        5
+        11,
+        12
       ]
     },
     {
@@ -358,11 +367,11 @@
       "formatLabel": "Imagem ou vídeo curto",
       "duration": "— ou 8 a 15 s",
       "ratio": "4:5 e 9:16",
-      "status": "novo",
+      "status": "consolidado",
       "niches": [
         "Todos"
       ],
-      "why": "Em uma análise de 40 anúncios que estavam no ar havia semanas, 23 usavam um número como prova e 22 falavam diretamente com quem lê. A mesma mensagem vencedora aparecia em várias versões: eram só 23 mensagens diferentes nos 40 anúncios.",
+      "why": "Os anúncios que ficam semanas no ar costumam usar um número verdadeiro como prova e falar diretamente com quem lê (\"você\"). E repetem a mesma mensagem vencedora em várias versões, mudando só a roupa.",
       "how": [
         "Pegue um número verdadeiro do cliente (pedidos, anos de casa, avaliações, clientes atendidos).",
         "Coloque o número grande na tela e uma frase com \"você\".",
@@ -379,120 +388,120 @@
       ]
     },
     {
-      "id": "desejo-15s-restaurante",
-      "title": "Vídeo de desejo em 4 tempos (restaurante e delivery)",
+      "id": "especialista-responde",
+      "title": "Especialista responde uma dúvida em 20 segundos",
       "format": "video",
-      "formatLabel": "Vídeo curto",
-      "duration": "10 a 15 s",
-      "ratio": "9:16",
-      "status": "novo",
-      "niches": [
-        "Restaurantes"
-      ],
-      "why": "A fórmula que mais aparece para delivery: gancho visual em 1,5 segundo (queijo puxando, chapa chiando, molho caindo), alguns segundos de vontade, um motivo para pedir hoje e a chamada. Legenda na tela, porque muita gente assiste sem som.",
-      "how": [
-        "0 a 1,5 s: close do momento mais apetitoso, sem logo.",
-        "1,5 a 8 s: 3 ou 4 cortes rápidos do prato sendo montado ou servido.",
-        "8 a 12 s: motivo para pedir agora (\"só hoje até as 23h\").",
-        "Final: \"Peça pelo WhatsApp\" ou botão de pedido."
-      ],
-      "hooks": [
-        "\"Olha esse queijo…\" (só o som e o close)",
-        "\"Hoje é dia de [prato] e só vai até as 23h.\"",
-        "\"O mais pedido da casa, saindo agora.\""
-      ],
-      "avoid": "Foto de banco de imagens e prato que não é o da casa. Vídeo horizontal.",
-      "sources": [
-        7,
-        8
-      ]
-    },
-    {
-      "id": "oferta-dia-horario",
-      "title": "Oferta do dia, no horário e no raio de entrega",
-      "format": "stories",
-      "formatLabel": "Stories e Reels com oferta",
-      "duration": "6 a 10 s",
-      "ratio": "9:16",
-      "status": "novo",
-      "niches": [
-        "Restaurantes",
-        "Varejo e lojas",
-        "Pet"
-      ],
-      "why": "Para delivery, o criativo rende mais quando bate com o momento: ofertas de dia da semana e cupom com hora marcada, rodando só no horário de almoço e jantar e num raio um pouco menor que a área de entrega. A referência de mercado para delivery no Brasil é CTR de 1,5% a 3,5%.",
-      "how": [
-        "Crie um nome fixo para o dia (\"Terça do Hambúrguer\").",
-        "Mostre o combo com preço fechado e o horário do cupom na tela.",
-        "Programe o anúncio para 10h30–14h e 18h–22h30 e use um raio menor que a entrega (ex.: 4 km se entrega até 5 km).",
-        "Separe 20% a 30% da verba para remarketing de quem interagiu."
-      ],
-      "hooks": [
-        "\"Terça do Hambúrguer: [desconto] só hoje.\"",
-        "\"Combo casal por R$ [valor], até as 21h.\"",
-        "\"Cupom [CÓDIGO] vale das 19h às 21h.\""
-      ],
-      "avoid": "Promoção sem prazo e anúncio rodando de madrugada para quem não pode receber.",
-      "sources": [
-        7
-      ]
-    },
-    {
-      "id": "tour-imovel-dados",
-      "title": "Tour do imóvel com preço e metragem logo de cara",
-      "format": "video",
-      "formatLabel": "Vídeo tour",
+      "formatLabel": "Vídeo curto com especialista",
       "duration": "15 a 30 s",
       "ratio": "9:16",
       "status": "novo",
       "niches": [
-        "Imobiliárias"
+        "Saúde e odontologia",
+        "Estética"
       ],
-      "why": "Em vídeo de imóvel, quem para de rolar quer saber se cabe no bolso. A orientação é pôr preço, quartos, metragem e bairro na tela nos 3 primeiros segundos e não abrir com o corretor se apresentando. Para Reels, 15 a 30 s.",
+      "why": "Pílulas de dúvida com o dentista, médico ou esteticista estão entre os formatos com mais chance de aprovação em saúde: geram autoridade e educam sem prometer resultado. Também ajudam a ter vários conceitos diferentes no ar, o que o Andromeda premia.",
       "how": [
-        "Abra com a melhor imagem (fachada ou vista) e os dados na tela: valor, quartos, m², bairro.",
-        "Passe de 5 a 8 segundos nos cômodos principais, com movimento lento.",
-        "Grave a fachada no fim de tarde.",
-        "Feche com \"Chama no WhatsApp para agendar a visita\"."
+        "Liste as 5 perguntas que a recepção mais ouve no WhatsApp.",
+        "Grave uma pergunta por vídeo: o especialista lê a pergunta na tela e responde em linguagem simples.",
+        "Legenda grande na tela (muita gente assiste sem som).",
+        "Feche com: \"Ficou com dúvida? Chama no WhatsApp que a gente explica.\""
       ],
       "hooks": [
-        "\"[2] quartos em [bairro] por R$ [valor]. Entra comigo.\"",
-        "\"Esse é o apartamento mais procurado da semana.\"",
-        "\"Varanda gourmet, [x] m², a [x] minutos do [ponto conhecido].\""
+        "\"Qual a diferença entre clareamento de consultório e caseiro?\"",
+        "\"Implante dói? Vou te contar como é de verdade.\"",
+        "\"Toxina botulínica e preenchimento são a mesma coisa? Não.\""
       ],
-      "avoid": "Imóveis e crédito imobiliário são categoria especial na Meta: segmentação limitada por idade, gênero e CEP. Não escreva \"para casais jovens\" ou exclua grupos no texto.",
+      "avoid": "Falar da condição de quem assiste (\"Você tem dente amarelo?\", \"Suas rugas…\"): fere a política de atributos pessoais da Meta. Fale do procedimento, não da pessoa. Nada de agulha, sangue ou cirurgia na tela.",
       "sources": [
-        10
+        14,
+        15
       ]
     },
     {
-      "id": "lancamento-motion",
-      "title": "Lançamento imobiliário em motion design com frase forte",
-      "format": "video",
-      "formatLabel": "Vídeo animado",
-      "duration": "10 a 20 s",
-      "ratio": "9:16 e 4:5",
+      "id": "depoimento-experiencia",
+      "title": "Depoimento sobre a experiência, não sobre o corpo",
+      "format": "ugc",
+      "formatLabel": "Vídeo UGC (depoimento)",
+      "duration": "15 a 30 s",
+      "ratio": "9:16",
       "status": "novo",
       "niches": [
-        "Imobiliárias",
-        "Automotivo e financiamento",
-        "Indústria e B2B"
+        "Saúde e odontologia",
+        "Estética"
       ],
-      "why": "Em 1,7 mil anúncios de imobiliárias na Biblioteca de Anúncios (1º tri de 2026), peças em motion design ficaram no ar 18 dias (mediana), contra 8 dias das com cara de UGC. Ganchos de afirmação forte, presentes em 36,8% dos vídeos, duraram em média 26 dias, o maior tempo entre os tipos de gancho.",
+      "why": "É o jeito de usar prova social em clínica sem cair na reprovação de antes e depois. O paciente conta como foi atendido, se sentiu dor, como foi a recepção e o pagamento. Depoimento focado no sorriso e na satisfação, sem close no resultado, passa na política e gera confiança.",
       "how": [
-        "Comece com uma afirmação curta e forte sobre o empreendimento.",
-        "Anime planta, fachada e localização no mapa, com texto grande.",
-        "Mostre condição (entrada, parcelas) só se for real e com prazo.",
-        "Faça versões em 9:16 e 4:5."
+        "Peça autorização por escrito ao paciente.",
+        "Grave na clínica, no celular, com 3 perguntas: como você chegou, como foi o atendimento, o que diria para quem está com medo.",
+        "Corte em 15 a 30 s e abra com a frase mais forte.",
+        "Rode 2 ou 3 depoimentos de perfis diferentes (idade, procedimento) ao mesmo tempo."
       ],
       "hooks": [
-        "\"O último lançamento com vista para [ponto] em [cidade].\"",
-        "\"Entrada facilitada até [data].\"",
-        "\"[Bairro] vai ganhar isso aqui.\""
+        "\"Eu tinha pavor de dentista. Olha o que aconteceu.\"",
+        "\"O que mais me surpreendeu aqui foi o atendimento.\"",
+        "\"Achei que ia ser caro. Parcelei em [x] vezes.\""
       ],
-      "avoid": "Tempo no ar é sinal, não garantia de resultado. Não prometa valorização nem aprovação de crédito.",
+      "avoid": "Close do resultado no rosto, dente ou corpo, e promessas como \"rejuvenesça 10 anos\". Não roteirize demais: o paciente precisa falar do jeito dele.",
       "sources": [
-        9
+        13,
+        15
+      ]
+    },
+    {
+      "id": "academia-lead-imagem",
+      "title": "Academia: imagem única + formulário que já qualifica",
+      "format": "imagem",
+      "formatLabel": "Imagem estática (cadastro)",
+      "duration": "—",
+      "ratio": "4:5",
+      "status": "novo",
+      "niches": [
+        "Academias"
+      ],
+      "why": "Para gerar contato de academia, uma imagem única com texto que fala com o aluno ideal deixa claro o que funciona e o que não. O guia da PushPress recomenda objetivo de cadastro (não tráfego), raio realista em volta da academia e uma pergunta aberta no formulário. Agendamento sozinho comparece cerca de metade das vezes; com uma ligação rápida de confirmação, sobe para perto de 75%.",
+      "how": [
+        "Foto real de um aluno treinando (não foto de turma grande: dá clique, mas não matrícula).",
+        "Faça 2 versões com o mesmo visual e títulos diferentes: um de dor e um positivo.",
+        "Formulário com nome, telefone e a pergunta: \"Qual sua maior dificuldade hoje?\".",
+        "Na tela de agradecimento, botão para agendar a aula experimental, e ligue para confirmar no mesmo dia."
+      ],
+      "hooks": [
+        "\"Cansou de pagar academia e não ir?\"",
+        "\"Treino de 45 minutos com professor do seu lado, aqui em [bairro].\"",
+        "\"Aula experimental grátis: escolha seu horário.\""
+      ],
+      "avoid": "Foto de antes e depois do corpo e promessa de quilos perdidos: a Meta restringe. Raio de cidade inteira, quando a academia atende só o bairro.",
+      "sources": [
+        15,
+        16
+      ]
+    },
+    {
+      "id": "academia-primeira-aula",
+      "title": "Academia: \"sua primeira aula\" sem medo de chegar",
+      "format": "ugc",
+      "formatLabel": "Vídeo UGC",
+      "duration": "15 a 25 s",
+      "ratio": "9:16",
+      "status": "novo",
+      "niches": [
+        "Academias"
+      ],
+      "why": "A maior barreira de quem nunca treinou é a vergonha de chegar. Um vídeo com cara nativa, gravado por um professor ou aluno novo, mostrando como é a primeira aula, responde essa objeção. É um conceito diferente do tour do espaço, o que ajuda a variar os criativos no ar.",
+      "how": [
+        "Grave do ponto de vista do aluno novo: recepção, avaliação, primeiro exercício com o professor ao lado.",
+        "Professor fala para a câmera: \"aqui ninguém fica sozinho no primeiro dia\".",
+        "Legenda grande e fechamento com o convite para a aula experimental."
+      ],
+      "hooks": [
+        "\"Nunca treinou? Olha como é a primeira aula aqui.\"",
+        "\"Vergonha de ir na academia? A gente resolve isso no primeiro dia.\"",
+        "\"POV: você finalmente foi.\""
+      ],
+      "avoid": "Corpos \"perfeitos\" e comparação de corpo: afasta o iniciante e esbarra na política da Meta.",
+      "sources": [
+        13,
+        14
       ]
     }
   ],
@@ -501,11 +510,6 @@
       "id": 1,
       "title": "Facebook Ad Creative Trends 2026 (Adligator)",
       "url": "https://adligator.com/blog/facebook-ad-creative-trends-2026"
-    },
-    {
-      "id": 2,
-      "title": "Winning Facebook Ad Examples: 10 anúncios analisados (Adligator)",
-      "url": "https://adligator.com/blog/winning-facebook-ad-examples-breakdown-analysis-2026"
     },
     {
       "id": 3,
@@ -518,16 +522,6 @@
       "url": "https://www.ecommercebrasil.com.br/artigos/o-meta-ads-mudou-tudo-em-2026-quem-nao-sabe-isso-esta-pagando-para-aprender-da-pior-forma"
     },
     {
-      "id": 5,
-      "title": "Meta Ads Updates outubro de 2026 (AdsUploader)",
-      "url": "https://adsuploader.com/blog/meta-ads-updates"
-    },
-    {
-      "id": 6,
-      "title": "Meta's 3 New Ad Updates: outubro de 2026 (1ClickReport)",
-      "url": "https://www.1clickreport.com/blog/meta-ads-three-new-updates-october-2026"
-    },
-    {
       "id": 7,
       "title": "Tráfego pago pra delivery: táticas que convertem em 2026 (Trafius)",
       "url": "https://trafius.com.br/blog/trafego-pago-pra-delivery-taticas-que-convertem-em-2026"
@@ -538,14 +532,39 @@
       "url": "https://blog.rayapp.ai/?p=28568"
     },
     {
-      "id": 9,
-      "title": "Real Estate: Creative DNA Benchmarks Q1 2026 (Benly)",
-      "url": "https://benly.ai/benchmarks/q1-2026/real-estate"
-    },
-    {
       "id": 10,
       "title": "Real Estate Video Tour Advertising (Stackmatix)",
       "url": "https://stackmatix.com/blog/real-estate-video-tour-advertising"
+    },
+    {
+      "id": 11,
+      "title": "Meta amplia acesso ao Ads Creative Studio e lança recursos de IA para anúncios (Mercado&Consumo, 7/10/2026)",
+      "url": "https://mercadoeconsumo.com.br/07/10/2026/tecnologia/meta-amplia-acesso-ao-ads-creative-studio-e-lanca-recursos-de-ia-para-anuncios/"
+    },
+    {
+      "id": 12,
+      "title": "Atualizações de Meta Ads (outubro de 2026) (AdsUploader)",
+      "url": "https://adsuploader.com/pt/blog/meta-ads-updates"
+    },
+    {
+      "id": 13,
+      "title": "Meta Andromeda Update: The 2026 Creative Strategy Playbook (Segwise)",
+      "url": "https://segwise.ai/blog/meta-andromeda-update-creative-strategy-2026"
+    },
+    {
+      "id": 14,
+      "title": "Meta Ads Best Practices: What Actually Works in 2026 (Billo, 5/10/2026)",
+      "url": "https://billo.app/blog/meta-ads-best-practices"
+    },
+    {
+      "id": 15,
+      "title": "Meta Ads para Clínica de Saúde: Regras, Criativos e Métricas (Trafius)",
+      "url": "https://trafius.com.br/blog/meta-ads-pra-clinica-de-saude-regras-e-criativos"
+    },
+    {
+      "id": 16,
+      "title": "How to Build a Gym Facebook Ad in 30 Minutes (PushPress)",
+      "url": "https://www.pushpress.com/blog/build-meta-ad-for-gym"
     }
   ]
 }
