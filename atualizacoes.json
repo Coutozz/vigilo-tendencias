@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-02T07:02:02-03:00",
-  "edition": "2 de novembro de 2026",
-  "summary": "A Meta suspendeu os novos Termos Comerciais (o que deixa o anunciante responsável pelo que a IA da Meta muda nos anúncios): 20/11 virou data mínima e pode atrasar, e por enquanto valem os termos atuais. O prazo mais urgente continua sendo 12/11, quando o pixel passa a medir conversões no aparelho do cliente; anote as vendas reais antes. Novidades menores: a API agora permite definir idade e gênero por criativo, vídeos podem aparecer na busca do Instagram e o Creator Marketing Hub chegou a todos os anunciantes. A Graph API v24.0 é desligada em 10/11.",
+  "updatedAt": "2026-11-03T07:00:00-03:00",
+  "edition": "3 de novembro de 2026",
+  "summary": "Nada de impacto alto apareceu desde ontem; os prazos continuam os mesmos: 10/11 a Graph API v24.0 é desligada e 12/11 o pixel passa a medir conversões no aparelho do cliente (anote as vendas reais antes). Os novos Termos Comerciais seguem suspensos sem data, com 20/11 como mínimo. Novidades menores: o Advantage+ já gera vídeo a partir de foto estática, a segmentação detalhada vai aceitar descrição do público em texto até o fim do ano, e a Meta detalhou o GenRecs, modelo que ajuda anúncios recém-criados a entregar melhor.",
   "api": {
     "latest": "v26.0",
     "latestDate": "2026-07-29",
@@ -159,21 +159,22 @@
       "id": "2026-10-23-termos-ia-adiados",
       "date": "2026-10-23",
       "firstSeen": "2026-10-29",
-      "title": "Termos que deixam o anunciante responsável pela IA da Meta estão suspensos; 20/11 virou data mínima",
+      "title": "Termos que deixam o anunciante responsável pela IA da Meta estão suspensos sem data; 20/11 é o mínimo",
       "category": "politicas",
       "impact": "alto",
       "status": "adiado",
       "region": "Global",
       "confirmed": true,
       "summary": "A Meta disse em 28/10 que não muda os termos sem consultar a indústria e que, se a consulta passar de 20/11, adia de novo; até lá valem os termos atuais.",
-      "what": "Os novos Termos Comerciais e de anúncios autoatendidos incluem uma seção de recursos de IA: o anunciante é o único responsável pelas alterações que a IA da Meta faz nos anúncios, mesmo nos recursos ligados por padrão (melhorias do Advantage+ criativo, sitelinks automáticos, tradução, imagens geradas). Depois de adiar de 30/10 para 20/11, a Meta afirmou em 28/10, por seu diretor de comunicação Andy Stone, que não fará mudanças sem uma consulta completa a grupos da indústria, que essa consulta pode passar de 20/11 e que, nesse caso, adia a vigência; até lá ficam os termos atuais. Um tribunal da Noruega barrou a entrada em vigor lá, e a autoridade de concorrência do Reino Unido abriu investigação sobre os termos.",
+      "what": "Os novos Termos Comerciais e de anúncios autoatendidos incluem uma seção de recursos de IA: o anunciante é o único responsável pelas alterações que a IA da Meta faz nos anúncios, mesmo nos recursos ligados por padrão (melhorias do Advantage+ criativo, sitelinks automáticos, tradução, imagens geradas). Depois de adiar de 30/10 para 20/11, a Meta afirmou em 28/10 (a Reuters tratou como adiamento por tempo indeterminado), por seu diretor de comunicação Andy Stone, que não fará mudanças sem uma consulta completa a grupos da indústria, que essa consulta pode passar de 20/11 e que, nesse caso, adia a vigência; até lá ficam os termos atuais. Um tribunal da Noruega barrou a entrada em vigor lá, e a autoridade de concorrência do Reino Unido abriu investigação sobre os termos.",
       "effect": "Por enquanto nada muda nas contas. O texto não foi alterado, então o risco de responder pelas edições da IA continua sobre a mesa para quando os termos entrarem em vigor.",
       "action": "Use o adiamento para revisar com calma as melhorias automáticas do Advantage+ criativo e desligar o que o cliente não aprovou. Acompanhe se a Meta divulga data nova ou texto revisado antes de 20/11.",
       "sources": [
         2,
         3,
         26,
-        27
+        27,
+        32
       ]
     },
     {
@@ -352,12 +353,13 @@
       "region": "Global",
       "confirmed": true,
       "summary": "A Meta diz que o GEM, seu modelo central de anúncios, melhorou as conversões em 18,9% e a taxa de cliques em 12%.",
-      "what": "O GEM (Generative Ads Model) aprende com o uso de Facebook, Instagram, Reels e outros apps e alimenta os modelos que escolhem qual anúncio cada pessoa vê. Não há botão para ligar ou desligar. Os números são da própria Meta, sem base de comparação divulgada. Em 29/10 a Meta publicou detalhes técnicos de melhorias no Andromeda (que escolhe os anúncios candidatos) e no GEM (que ordena), falando em 15,7% mais conversões e 8,3% mais cliques em anúncios no Facebook, segundo relato da agência Common Thread.",
-      "effect": "A entrega depende cada vez mais de sinais da Meta e menos da segmentação manual. Campanhas com público amplo e criativos variados tendem a aproveitar mais.",
+      "what": "O GEM (Generative Ads Model) aprende com o uso de Facebook, Instagram, Reels e outros apps e alimenta os modelos que escolhem qual anúncio cada pessoa vê. Não há botão para ligar ou desligar. Os números são da própria Meta, sem base de comparação divulgada. Em 28/10 a Meta detalhou outras melhorias: as mudanças de ranqueamento do 2º trimestre deram 8,3% mais cliques e 15,7% mais conversões no Facebook; o Andromeda (que escolhe os anúncios candidatos) passou a considerar mais produtos de cada empresa e elevou as conversões no Facebook em 1,4% no 3º trimestre; e um novo modelo, o GenRecs, prevê bem anúncios recém-criados, com pouco histórico.",
+      "effect": "A entrega depende cada vez mais de sinais da Meta e menos da segmentação manual. Campanhas com público amplo e criativos variados tendem a aproveitar mais, e anúncios novos podem sair do zero mais rápido.",
       "action": "Não há o que configurar. Compare o custo por resultado dos clientes nas últimas semanas (aba Evolução) para ver se houve mudança real na sua carteira.",
       "sources": [
         6,
-        9
+        9,
+        30
       ]
     },
     {
@@ -387,13 +389,15 @@
       "impact": "medio",
       "status": "em-teste",
       "region": "Global",
-      "confirmed": false,
-      "summary": "Um assistente que entende pedidos em texto e altera segmentação e orçamento, com memória.",
-      "what": "A Common Thread registra que a Meta levou um assistente de IA ao Gerenciador de Anúncios, capaz de criar campanhas e ajustar público e orçamento a partir de pedidos em linguagem natural.",
-      "effect": "Facilita o trabalho, mas aumenta o risco de mudanças que ninguém da equipe percebeu.",
-      "action": "Use a aba Alterações do VIGILO para conferir o que mudou em cada conta e quem mudou.",
+      "confirmed": true,
+      "summary": "O assistente de IA do Gerenciador ganhou memória e vai criar campanhas e mexer em público e orçamento por conversa, sempre com aprovação do anunciante.",
+      "what": "Anunciado pela Meta em 6/10 na Advertising Week, com validade para o Brasil: o assistente de IA ganhou análises do Ads Creative Studio e memória mais detalhada; em breve vai planejar e criar campanhas, gerar imagens e textos e alterar público e orçamento pelo chat. Tarefas agendadas e alertas automáticos estão em teste. O que o agente prepara aparece como rascunho no Gerenciador e cada ação depende de permissão e aprovação explícita. A Meta diz que quem segue as recomendações do assistente tem 5% mais conversões pelo mesmo custo.",
+      "effect": "Facilita o trabalho, mas aumenta o risco de mudanças que ninguém da equipe percebeu, principalmente se alguém aprovar rascunhos sem revisar.",
+      "action": "Use a aba Alterações do VIGILO para conferir o que mudou em cada conta e quem mudou. Combine com a equipe quem pode aprovar rascunhos do assistente.",
       "sources": [
-        9
+        9,
+        30,
+        31
       ]
     },
     {
@@ -412,6 +416,43 @@
       "action": "Confira no detalhamento por posicionamento se a busca do Instagram começou a receber verba e como está o custo por resultado ali.",
       "sources": [
         17
+      ]
+    },
+    {
+      "id": "2026-10-06-video-de-imagem-creative-studio",
+      "date": "2026-10-06",
+      "firstSeen": "2026-11-03",
+      "title": "Advantage+ transforma imagem estática em vídeo e Ads Creative Studio abre para mais anunciantes",
+      "category": "anuncios",
+      "impact": "baixo",
+      "status": "em-vigor",
+      "region": "Global",
+      "confirmed": true,
+      "summary": "Já dá para gerar vídeo a partir de fotos estáticas no Advantage+, e o Ads Creative Studio, com edição de vídeo por IA, chegou a mais contas.",
+      "what": "A Meta anunciou em 6/10, com validade para o Brasil, que a geração de vídeo a partir de imagens estáticas no Advantage+ está disponível, e ampliou o Ads Creative Studio, que cria conceitos e variações de vídeo e permite editar gancho, áudio, duração dos trechos, texto sobreposto, legendas e cena final. Anunciantes com catálogo em beta podem transformar fotos de produto em vídeos em escala.",
+      "effect": "Negócios locais que só têm foto (restaurantes, lojas, clínicas) conseguem testar vídeo em Reels sem produção. Por outro lado, vídeos gerados pela IA podem sair do tom da marca.",
+      "action": "Teste o vídeo gerado a partir das melhores imagens de clientes que só anunciam com foto, e revise a prévia antes de publicar. Não aprove animações em anúncios de saúde ou estética sem conferir se não mudam o resultado mostrado.",
+      "sources": [
+        31,
+        33
+      ]
+    },
+    {
+      "id": "2026-10-06-publico-por-ia-segmentacao",
+      "date": "2026-10-06",
+      "firstSeen": "2026-11-03",
+      "title": "Segmentação detalhada vai aceitar descrição do público em texto até o fim do ano",
+      "category": "publicos",
+      "impact": "baixo",
+      "status": "anunciado",
+      "region": "Global",
+      "confirmed": true,
+      "summary": "A Meta promete para até o fim de 2026 a descoberta de público por IA na segmentação detalhada, a partir de uma descrição em linguagem natural.",
+      "what": "No mesmo anúncio de 6/10, a Meta disse que até o final do ano a segmentação detalhada vai sugerir interesses a partir de uma descrição do público escrita em texto. Também testa um rótulo único de público para excluir um grupo inteiro de clientes atuais.",
+      "effect": "Pode acelerar a montagem de públicos para nichos locais, mas a sugestão ainda passa pelo Advantage+ público, que pode ampliar além do descrito.",
+      "action": "Nada a fazer agora. Quando aparecer, compare as sugestões da IA com os interesses que já funcionam em cada nicho antes de trocar.",
+      "sources": [
+        31
       ]
     },
     {
@@ -755,6 +796,26 @@
       "id": 29,
       "title": "PPC Land: Meta's ads with creators gain 97% to a $15bn annual run rate",
       "url": "https://ppc.land/metas-ads-with-creators-gain-97-to-a-15bn-annual-run-rate/"
+    },
+    {
+      "id": 30,
+      "title": "Social Media Today: Meta diz que a capacidade de processamento ampliada melhora os resultados dos anúncios",
+      "url": "https://www.socialmediatoday.com/news/meta-says-its-expanded-processing-capacity-is-driving-ad-results/873133/"
+    },
+    {
+      "id": 31,
+      "title": "Meio & Mensagem: Meta lança ferramentas e agentes de IA para anunciantes",
+      "url": "https://www.meioemensagem.com.br/midia/meta-ferramentas-agentes-ia-para-anunciantes"
+    },
+    {
+      "id": 32,
+      "title": "Reuters (via Spokesman-Review): Meta adia por tempo indeterminado os novos termos comerciais",
+      "url": "https://www.spokesman.com/stories/2026/oct/28/meta-delays-indefinitely-its-rollout-of-new-commer/"
+    },
+    {
+      "id": 33,
+      "title": "Mercado & Consumo: Meta amplia acesso ao Ads Creative Studio e lança recursos de IA",
+      "url": "https://mercadoeconsumo.com.br/07/10/2026/tecnologia/meta-amplia-acesso-ao-ads-creative-studio-e-lanca-recursos-de-ia-para-anuncios/"
     }
   ]
 }
