@@ -1,18 +1,19 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-03T07:00:00-03:00",
-  "edition": "3 de novembro de 2026",
-  "summary": "Nada de impacto alto apareceu desde ontem; os prazos continuam os mesmos: 10/11 a Graph API v24.0 é desligada e 12/11 o pixel passa a medir conversões no aparelho do cliente (anote as vendas reais antes). Os novos Termos Comerciais seguem suspensos sem data, com 20/11 como mínimo. Novidades menores: o Advantage+ já gera vídeo a partir de foto estática, a segmentação detalhada vai aceitar descrição do público em texto até o fim do ano, e a Meta detalhou o GenRecs, modelo que ajuda anúncios recém-criados a entregar melhor.",
+  "updatedAt": "2026-11-04T07:00:00-03:00",
+  "edition": "4 de novembro de 2026",
+  "summary": "Nenhuma mudança nova de impacto alto desde ontem; os prazos seguem: 10/11 sai do ar a v24.0 da API e 12/11 o pixel passa a medir conversões no aparelho do cliente (anote as vendas reais antes). Os novos Termos Comerciais continuam suspensos e os atuais seguem valendo. Vale ajustar: a Meta confirmou que tira aos poucos a escolha manual de posicionamentos em Vendas e Leads, e a revisão de anúncios também avalia a página de destino, o que pede atenção com clínicas, estética e financiamento.",
   "api": {
     "latest": "v26.0",
     "latestDate": "2026-07-29",
-    "note": "A v26.0 (29/07/2026) continua sendo a mais nova; não há v27.0 listada. A v24.0 deixa de funcionar em 10/11/2026 e a v25.0 em 23/02/2027. As mudanças fora de ciclo de outubro só acrescentaram campos (público por criativo, vídeo na busca do Instagram, campanha de vendas unificada); nada do que o VIGILO lê foi removido.",
+    "note": "A v26.0 (29/07/2026) continua sendo a mais nova na página de versões da Meta; não há v27.0 publicada até 4/11. A v24.0 deixa de funcionar em 10/11/2026 e a v25.0 em 23/02/2027. As mudanças fora de ciclo de outubro só acrescentaram campos; nada do que o VIGILO lê foi removido.",
     "sources": [
       4,
       5,
       16,
       17,
-      23
+      23,
+      38
     ]
   },
   "watch": [
@@ -81,6 +82,24 @@
       ]
     },
     {
+      "id": "2026-10-31-sdk-19-eventos-app",
+      "date": "2026-10-31",
+      "firstSeen": "2026-11-04",
+      "title": "SDK do Facebook 19 envia título da tela e link do app junto com os eventos",
+      "category": "medicao",
+      "impact": "baixo",
+      "status": "em-vigor",
+      "region": "Global",
+      "confirmed": true,
+      "summary": "A versão 19 do SDK do Facebook para apps manda, por padrão, o título de cada tela e o AppLink junto com os eventos do app.",
+      "what": "Segundo o registro de mudanças do SDK citado pela AdMake, a partir da versão 19 (31/10) os eventos de app passam a levar o título da tela e a URL do AppLink sem configuração extra.",
+      "effect": "Só afeta clientes com aplicativo próprio que atualizarem o SDK. Mais dados chegam à Meta, o que pode exigir revisão da política de privacidade do app.",
+      "action": "Nada a fazer para quem não anuncia app. Se algum cliente tiver app, avise o desenvolvedor antes de atualizar o SDK para a versão 19.",
+      "sources": [
+        34
+      ]
+    },
+    {
       "id": "2026-10-28-relatorio-por-criativo",
       "date": "2026-10-28",
       "firstSeen": "2026-10-31",
@@ -122,18 +141,19 @@
       "id": "2026-10-27-eua-periodo-restricao-politica",
       "date": "2026-10-27",
       "firstSeen": "2026-10-31",
-      "title": "EUA: anúncios políticos novos ficam bloqueados até 3/11",
+      "title": "EUA: bloqueio de anúncios políticos novos terminou em 3/11",
       "category": "politicas",
       "impact": "baixo",
-      "status": "em-vigor",
+      "status": "descontinuado",
       "region": "EUA",
       "confirmed": true,
-      "summary": "Nos Estados Unidos, de 27/10 a 3/11 não é possível criar anúncios novos sobre política, eleições ou temas sociais.",
-      "what": "A Meta abriu o período de restrição antes da eleição americana: entre 27/10 e 3/11 (horário do Pacífico) anúncios novos de política e temas sociais nos EUA não podem ser criados.",
-      "effect": "Não afeta contas que anunciam só no Brasil. Contas que segmentam os EUA com temas sociais podem ter anúncios barrados no período.",
-      "action": "Nada a fazer para clientes que anunciam só no Brasil. Se algum anúncio for para os EUA e tocar em tema social, espere até 4/11.",
+      "summary": "O período de restrição de anúncios de política e temas sociais nos EUA acabou em 3/11; desde 4/11 dá para criar e editar esses anúncios de novo.",
+      "what": "A Meta bloqueou, de 27/10 a 3/11 (horário do Pacífico), a criação de anúncios novos de política, eleições e temas sociais nos EUA; durante o período só dava para mexer em lance, orçamento, data de término e pausar. A liberação voltou à 0h de 4/11 (horário do Pacífico).",
+      "effect": "Não afetou contas que anunciam só no Brasil.",
+      "action": "Nada a fazer para clientes que anunciam só no Brasil.",
       "sources": [
-        23
+        23,
+        34
       ]
     },
     {
@@ -166,7 +186,7 @@
       "region": "Global",
       "confirmed": true,
       "summary": "A Meta disse em 28/10 que não muda os termos sem consultar a indústria e que, se a consulta passar de 20/11, adia de novo; até lá valem os termos atuais.",
-      "what": "Os novos Termos Comerciais e de anúncios autoatendidos incluem uma seção de recursos de IA: o anunciante é o único responsável pelas alterações que a IA da Meta faz nos anúncios, mesmo nos recursos ligados por padrão (melhorias do Advantage+ criativo, sitelinks automáticos, tradução, imagens geradas). Depois de adiar de 30/10 para 20/11, a Meta afirmou em 28/10 (a Reuters tratou como adiamento por tempo indeterminado), por seu diretor de comunicação Andy Stone, que não fará mudanças sem uma consulta completa a grupos da indústria, que essa consulta pode passar de 20/11 e que, nesse caso, adia a vigência; até lá ficam os termos atuais. Um tribunal da Noruega barrou a entrada em vigor lá, e a autoridade de concorrência do Reino Unido abriu investigação sobre os termos.",
+      "what": "Os novos Termos Comerciais e de anúncios autoatendidos incluem uma seção de recursos de IA: o anunciante é o único responsável pelas alterações que a IA da Meta faz nos anúncios, mesmo nos recursos ligados por padrão (melhorias do Advantage+ criativo, sitelinks automáticos, tradução, imagens geradas). Depois de adiar de 30/10 para 20/11, a Meta afirmou em 28/10 (a Reuters tratou como adiamento por tempo indeterminado), por seu diretor de comunicação Andy Stone, que não fará mudanças sem uma consulta completa a grupos da indústria, que essa consulta pode passar de 20/11 e que, nesse caso, adia a vigência; até lá ficam os termos atuais. Um tribunal da Noruega barrou a entrada em vigor lá, e a autoridade de concorrência do Reino Unido abriu investigação sobre os termos. Em 29/10 a Meta reafirmou que, por enquanto, os termos atuais continuam valendo; a Comissão Europeia elogiou o adiamento. Segundo a AP (2/11), a Meta tirou a palavra \"treinar\" do trecho sobre rastrear os sites dos anunciantes.",
       "effect": "Por enquanto nada muda nas contas. O texto não foi alterado, então o risco de responder pelas edições da IA continua sobre a mesa para quando os termos entrarem em vigor.",
       "action": "Use o adiamento para revisar com calma as melhorias automáticas do Advantage+ criativo e desligar o que o cliente não aprovou. Acompanhe se a Meta divulga data nova ou texto revisado antes de 20/11.",
       "sources": [
@@ -174,7 +194,8 @@
         3,
         26,
         27,
-        32
+        32,
+        35
       ]
     },
     {
@@ -363,6 +384,24 @@
       ]
     },
     {
+      "id": "2026-10-12-exclusao-clientes-730-dias",
+      "date": "2026-10-12",
+      "firstSeen": "2026-11-04",
+      "title": "Relato: 'Adquirir novos clientes' exclui sozinho quem comprou nos últimos 730 dias",
+      "category": "publicos",
+      "impact": "baixo",
+      "status": "em-teste",
+      "region": "Global",
+      "confirmed": false,
+      "summary": "Jon Loomer relatou que, ao escolher 'Adquirir novos clientes', a Meta passou a excluir automaticamente clientes dos dados de conversão dos últimos 730 dias.",
+      "what": "Relato de um especialista (não confirmado pela Meta): em campanhas de vendas com a opção 'Adquirir novos clientes', aparece a exclusão 'Clientes dos seus dados de conversão (730 dias)'.",
+      "effect": "A campanha pode deixar de falar com quem já comprou, o que muda os números de clientes que vivem de recompra (pet shop, estética, varejo).",
+      "action": "Ao montar campanhas de novos clientes, confira na tela de público quais exclusões vieram marcadas e se fazem sentido para o cliente.",
+      "sources": [
+        34
+      ]
+    },
+    {
       "id": "2026-10-11-ciclo-cliente",
       "date": "2026-10-11",
       "firstSeen": "2026-10-29",
@@ -378,6 +417,42 @@
       "action": "Teste em clientes que vendem para público recorrente (clínicas, lojas, academias) quando a meta for trazer gente nova.",
       "sources": [
         9
+      ]
+    },
+    {
+      "id": "2026-10-08-bloqueio-links-tiktok",
+      "date": "2026-10-08",
+      "firstSeen": "2026-11-04",
+      "title": "Anúncios com link para o TikTok foram proibidos em alguns países",
+      "category": "politicas",
+      "impact": "baixo",
+      "status": "em-vigor",
+      "region": "EUA, Canadá, Egito, Indonésia, Japão, Tailândia e Vietnã",
+      "confirmed": false,
+      "summary": "Segundo a Bloomberg, citada pela AdMake, a Meta proibiu anúncios que levam ao TikTok nos EUA, Canadá, Egito, Indonésia, Japão, Tailândia e Vietnã.",
+      "what": "A regra vale desde 8/10 nos países citados. O Brasil não está na lista.",
+      "effect": "Nenhum efeito nas contas que anunciam só no Brasil.",
+      "action": "Nada a fazer por enquanto. Evite usar o TikTok como destino de anúncios na Meta caso a regra chegue ao Brasil.",
+      "sources": [
+        34
+      ]
+    },
+    {
+      "id": "2026-10-07-revisao-pagina-destino",
+      "date": "2026-10-07",
+      "firstSeen": "2026-11-04",
+      "title": "Revisão de anúncios olha também para a página para onde o anúncio leva",
+      "category": "politicas",
+      "impact": "medio",
+      "status": "em-vigor",
+      "region": "Global",
+      "confirmed": true,
+      "summary": "A Meta disse que a revisão dos anúncios considera para onde o anúncio leva, e não só o que ele mostra.",
+      "what": "Em comunicado de 7/10, a Meta afirmou que a análise dos anúncios leva em conta o destino (site, página de captura, conversa) e não apenas a imagem, o vídeo e o texto.",
+      "effect": "Anúncio com criativo dentro das regras pode ser reprovado ou restringido por causa da página de destino: promessas de resultado em clínica, estética, financiamento ou renda, antes e depois, preços enganosos.",
+      "action": "Revise as páginas de destino dos clientes de saúde, estética e financiamento com o mesmo cuidado dos criativos. Quando um anúncio for reprovado sem motivo aparente no criativo, confira primeiro a página.",
+      "sources": [
+        34
       ]
     },
     {
@@ -465,13 +540,14 @@
       "status": "em-vigor",
       "region": "Global",
       "confirmed": true,
-      "summary": "Desde 1º/10 a Meta cobra cada mensagem de atendimento na API do WhatsApp, mas conversas vindas de anúncio de clique para o WhatsApp seguem com 72 horas grátis.",
-      "what": "Desde 1º/10/2026, as mensagens livres de atendimento dentro da janela de 24 horas na API do WhatsApp (por atendente ou robô que não seja o da Meta) são cobradas por mensagem, no mesmo valor dos modelos de utilidade de cada país, sem desconto por volume. Os modelos de utilidade dentro da janela também deixaram de ser grátis. O exemplo da Meta para o Brasil é de cerca de US$ 0,0068 por mensagem. O app WhatsApp Business gratuito não muda.",
-      "effect": "Clientes que atendem muito pela API (clínicas, imobiliárias, financiamento de veículos) passam a ter custo por conversa maior. Conversas que começam num anúncio de clique para o WhatsApp ficam com a janela grátis de 72 horas, o que deixa esse tipo de anúncio mais vantajoso.",
+      "summary": "Desde 1º/10 a Meta cobra cada mensagem de atendimento na API do WhatsApp, mas conversas vindas de anúncio de clique para o WhatsApp seguem com janela grátis, que passou de 72 horas para até 7 dias.",
+      "what": "Desde 1º/10/2026, as mensagens livres de atendimento dentro da janela de 24 horas na API do WhatsApp (por atendente ou robô que não seja o da Meta) são cobradas por mensagem, no mesmo valor dos modelos de utilidade de cada país, sem desconto por volume. Os modelos de utilidade dentro da janela também deixaram de ser grátis. O exemplo da Meta para o Brasil é de cerca de US$ 0,0068 por mensagem. O app WhatsApp Business gratuito não muda. Desde 29/9, segundo a documentação da Meta citada pela AdMake, a janela grátis de conversas iniciadas por anúncio de clique para o WhatsApp passou de 72 horas para até 7 dias.",
+      "effect": "Clientes que atendem muito pela API (clínicas, imobiliárias, financiamento de veículos) passam a ter custo por conversa maior. Conversas que começam num anúncio de clique para o WhatsApp ficam com a janela grátis (agora de até 7 dias), o que deixa esse tipo de anúncio mais vantajoso.",
       "action": "Avise os clientes que usam a API do WhatsApp (por plataformas de atendimento) que a fatura de mensagens aumentou desde outubro. Some esse custo ao custo por lead das campanhas de mensagem e prefira o anúncio de clique para o WhatsApp como porta de entrada.",
       "sources": [
         19,
-        20
+        20,
+        34
       ]
     },
     {
@@ -550,19 +626,20 @@
       "id": "2026-08-26-exclusao-posicionamentos",
       "date": "2026-08-26",
       "firstSeen": "2026-10-29",
-      "title": "Algumas contas perderam a opção de excluir posicionamentos",
+      "title": "Escolha manual de posicionamentos sai dos conjuntos de Vendas, Leads e Apps",
       "category": "posicionamentos",
       "impact": "medio",
-      "status": "em-teste",
+      "status": "em-vigor",
       "region": "Global",
-      "confirmed": false,
-      "summary": "No lugar da exclusão, regras de valor que reduzem o lance em até 90%.",
-      "what": "Parte dos anunciantes deixou de ver a escolha manual de posicionamentos no conjunto. A substituta sugerida são as regras de valor, que só reduzem o lance em até 90% e não zeram a entrega. A Meta não anunciou uma remoção geral, e a central de ajuda ainda descreve a escolha manual.",
-      "effect": "Fica mais difícil impedir que o orçamento vá para a Audience Network, o Threads ou outros posicionamentos fracos.",
-      "action": "Confira se as contas dos clientes ainda têm posicionamentos manuais. Se não tiverem, use regras de valor nos posicionamentos que gastam sem resultado.",
+      "confirmed": true,
+      "summary": "A Meta avisou em 12/10 que está tirando aos poucos a escolha manual de posicionamentos dos conjuntos de Vendas, Cadastros e Promoção de app; no lugar ficam regras de valor que reduzem o lance em até 90%.",
+      "what": "O que começou em agosto como sumiço em parte das contas virou remoção gradual avisada pela Meta em 12/10 nos conjuntos com objetivo de Vendas, Cadastros (leads) e Promoção de app. A substituta são as regras de valor, que só reduzem o lance em até 90% e não zeram a entrega. A página de ajuda dos posicionamentos também deixou de citar a promessa de custo por resultado 10% menor.",
+      "effect": "Fica mais difícil impedir que o orçamento vá para a Audience Network, o Threads ou outros posicionamentos fracos, justamente nos objetivos mais usados por negócios locais (leads e vendas).",
+      "action": "Confira quais contas já perderam os posicionamentos manuais e acompanhe no VIGILO o gasto por posicionamento. Onde houver gasto sem resultado, use regras de valor para reduzir o lance nesse posicionamento.",
       "sources": [
         11,
-        8
+        8,
+        34
       ]
     },
     {
@@ -816,6 +893,31 @@
       "id": 33,
       "title": "Mercado & Consumo: Meta amplia acesso ao Ads Creative Studio e lança recursos de IA",
       "url": "https://mercadoeconsumo.com.br/07/10/2026/tecnologia/meta-amplia-acesso-ao-ads-creative-studio-e-lanca-recursos-de-ia-para-anuncios/"
+    },
+    {
+      "id": 34,
+      "title": "AdMake AI — Meta Ads Updates: November 2026 Changelog for Media Buyers",
+      "url": "https://admakeai.com/blog/meta-ads-updates-november-2026"
+    },
+    {
+      "id": 35,
+      "title": "AP (News4JAX) — Meta delays new business terms after outcry over potential web scraping of news sites",
+      "url": "https://www.news4jax.com/business/2026/11/02/meta-delays-new-business-terms-after-outcry-over-potential-web-scraping-of-news-sites/"
+    },
+    {
+      "id": 36,
+      "title": "CME Media — Marketing Changes in November 2026: Meta and Google Ads",
+      "url": "https://cmemedia.com/digital-marketing-changes-november-2026/"
+    },
+    {
+      "id": 37,
+      "title": "AdManage — Meta Ads Updates 2026: November News & Rollout Status",
+      "url": "https://admanage.ai/blog/meta-ads-update"
+    },
+    {
+      "id": 38,
+      "title": "Meta for Developers — Graph API: versões",
+      "url": "https://developers.facebook.com/docs/graph-api/changelog/versions"
     }
   ]
 }
