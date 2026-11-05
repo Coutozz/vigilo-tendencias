@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-04T07:00:00-03:00",
-  "edition": "4 de novembro de 2026",
-  "summary": "Nenhuma mudança nova de impacto alto desde ontem; os prazos seguem: 10/11 sai do ar a v24.0 da API e 12/11 o pixel passa a medir conversões no aparelho do cliente (anote as vendas reais antes). Os novos Termos Comerciais continuam suspensos e os atuais seguem valendo. Vale ajustar: a Meta confirmou que tira aos poucos a escolha manual de posicionamentos em Vendas e Leads, e a revisão de anúncios também avalia a página de destino, o que pede atenção com clínicas, estética e financiamento.",
+  "updatedAt": "2026-11-05T07:00:00-03:00",
+  "edition": "5 de novembro de 2026",
+  "summary": "Nenhuma mudança nova confirmada desde a última edição; os prazos seguem: 10/11 sai do ar a v24.0 da API e 12/11 o pixel passa a medir conversões no aparelho do cliente (anote as vendas reais antes para comparar). Os novos Termos Comerciais continuam suspensos e os atuais seguem valendo. Para a Black Friday (27/11), evite mexer muito nos conjuntos que ainda estão em aprendizado.",
   "api": {
     "latest": "v26.0",
     "latestDate": "2026-07-29",
