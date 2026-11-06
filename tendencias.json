@@ -1,9 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-04T05:45:00-03:00",
-  "edition": "4 de novembro de 2026",
-  "summary": "Os anúncios que ficam semanas no ar ganham por mensagem clara, não por produção cara: abrem com a dor ou o resultado (quase nunca com pergunta) e são curtos ou bem explicados, fugindo do meio-termo de 20 a 30 segundos. A Meta agora mostra o resultado de cada imagem e vídeo dentro do anúncio e escolhe sozinha os posicionamentos, então entregue cada peça em 9:16, 4:5 e 1:1. Nesta edição, ideias para imobiliárias e lojas de carro e financiamento: tour vertical do imóvel, captação com avaliação, volta no carro com preço na tela e parcela com condição completa.",
+  "updatedAt": "2026-11-06T07:00:00-03:00",
+  "edition": "6 de novembro de 2026",
+  "summary": "Faltam três semanas para a Black Friday (27/11) e o Natal vem só 28 dias depois: é hora de subir os criativos de oferta, em vídeo vertical curto e em volume bem maior que o normal, porque o cansaço do criativo chega mais rápido na alta temporada. Continua valendo mensagem clara, abertura com dor ou resultado e cada peça em 9:16, 4:5 e 1:1. Nesta edição, ideias para varejo e lojas e para pet: oferta com prova social, guia de presentes por faixa de preço, chegada e saída do banho e tosa e vídeo de problema e solução para produto pet.",
   "rules": [
+    {
+      "title": "Black Friday em 27/11: suba os criativos agora e em volume",
+      "text": "Os quatro dias antes da Black Friday de 2025 já concentraram 65% do gasto do fim de semana. Tenha 3 a 4 vezes mais criativos que o normal, troque a cada semana e deixe ofertas novas prontas para a véspera. Concentre a verba nos conjuntos que já saíram do aprendizado.",
+      "source": 27
+    },
     {
       "title": "8 a 12 conceitos diferentes por campanha",
       "text": "Cada conceito com 2 ou 3 variações. Conceito diferente é outro gancho, formato ou emoção. Mesmo vídeo com outra cor ou outro título conta como cópia e o sistema entrega menos. Troque pelo sinal, não pelo calendário: CTR caindo mais de 10% na semana, custo por resultado subindo mais de 15% ou frequência acima de 3 em público novo.",
@@ -28,18 +33,13 @@
       "title": "Saúde e estética: prove com experiência, não com corpo",
       "text": "Antes e depois é o motivo mais comum de reprovação. Use especialista explicando, estrutura da clínica e depoimento sobre o atendimento. Nunca fale da condição de quem assiste.",
       "source": 15
-    },
-    {
-      "title": "Imóvel e financiamento: o criativo faz o filtro",
-      "text": "Anúncio que fala de crédito, parcela ou financiamento entra na categoria especial de produtos financeiros. Nela, idade, gênero e CEP ficam travados e o raio mínimo é largo. Como a segmentação filtra menos, coloque no próprio criativo para quem é: bairro, faixa de preço, entrada, perfil do carro. Preço e parcela na arte precisam bater com o site e o estoque.",
-      "source": 21
     }
   ],
   "formats": [
     {
       "name": "Vídeo vertical curto (até 20 s) ou explicado (30 a 60 s)",
       "trend": "up",
-      "note": "Mais de 60% do tempo no Facebook e no Instagram é vídeo. Evite o meio-termo de 20 a 30 s, que teve a pior sobrevivência entre anúncios de longa duração."
+      "note": "Mais de 60% do tempo no Facebook e no Instagram é vídeo. Na Black Friday de 2025, o CPM no Reels ficou 30% a 40% menor que no feed. Evite o meio-termo de 20 a 30 s em anúncios de longa duração; para oferta sazonal, 15 a 30 s funciona."
     },
     {
       "name": "UGC / cara de orgânico",
@@ -62,19 +62,19 @@
       "note": "Os anúncios em parceria já somam receita anualizada de 15 bilhões de dólares para a Meta, segundo o resultado do 3º trimestre."
     },
     {
-      "name": "Anúncio de catálogo (estoque de carros e imóveis)",
+      "name": "Anúncio de catálogo (estoque de lojas, carros e imóveis)",
       "trend": "up",
-      "note": "Novo na lista. Puxa foto, preço e modelo direto do estoque. Ótimo para remarketing de quem viu um carro ou imóvel. Desde 28 de outubro a navegação de produtos vem ligada por padrão nos anúncios: confira se faz sentido."
+      "note": "Puxa foto, preço e modelo direto do estoque. Ótimo para remarketing de quem viu um produto, carro ou imóvel, e para a Black Friday no varejo. Desde 28 de outubro a navegação de produtos vem ligada por padrão: confira antes de escalar."
     },
     {
       "name": "Carrossel",
       "trend": "steady",
-      "note": "Bom para objeções e tour de fotos no meio do funil. Teste contra a imagem única: nenhum estudo recente mostra o carrossel vencendo em imóveis."
+      "note": "Bom para objeções, tour de fotos e guia de presentes por faixa de preço no fim de ano. Teste contra a imagem única: nenhum estudo recente mostra o carrossel vencendo em imóveis."
     },
     {
       "name": "Imagem estática",
       "trend": "steady",
-      "note": "Ótima para oferta, remarketing e cadastro. Em imóveis, ainda é 77% dos anúncios, mas o vídeo dura mais no ar."
+      "note": "Boa para oferta, remarketing e cadastro, mas perdendo espaço na temporada: num rastreador do Reino Unido, só 1,9% dos anúncios de Black Friday eram imagem em outubro, contra 6% em 2025. Use junto com vídeo, não no lugar."
     }
   ],
   "niches": [
@@ -131,7 +131,7 @@
       "niches": [
         "Todos"
       ],
-      "why": "O gancho decide o resultado. Num levantamento de 523 anúncios que ficaram 30 dias ou mais no ar, só 8% abriam com pergunta; os que duram abrem com dor, autoridade ou algo visual inesperado. O Ads Creative Studio, que a Meta liberou para mais anunciantes em outubro, edita gancho, áudio, duração e legenda sobre um vídeo existente. Trocar só o gancho gera variação, não conceito novo.",
+      "why": "O gancho decide o resultado. Num levantamento de 523 anúncios que ficaram 30 dias ou mais no ar, só 8% abriam com pergunta; os que duram abrem com dor, autoridade ou algo visual inesperado. O Ads Creative Studio, que a Meta liberou para mais anunciantes em outubro, edita gancho, áudio, duração e legenda sobre um vídeo existente. Trocar só o gancho gera variação, não conceito novo. Para medir: divida as visualizações de 3 segundos pelas impressões. Segundo a Segwise, 25% já é uma taxa de gancho sólida, 30% é boa e acima de 40% é excelente.",
       "how": [
         "Grave o miolo do vídeo uma vez só.",
         "Grave 3 começos: uma dor do cliente, um resultado e uma quebra de padrão (algo inesperado na tela).",
@@ -147,7 +147,130 @@
       "sources": [
         11,
         13,
-        17
+        17,
+        24
+      ]
+    },
+    {
+      "id": "black-friday-oferta-prova",
+      "title": "Black Friday local: oferta com prova social em vídeo curto",
+      "format": "video",
+      "formatLabel": "Vídeo curto (oferta)",
+      "duration": "15 a 30 s",
+      "ratio": "9:16, 4:5 e 1:1",
+      "status": "novo",
+      "niches": [
+        "Varejo e lojas",
+        "Pet",
+        "Restaurantes",
+        "Academias"
+      ],
+      "why": "A Black Friday é em 27 de novembro. Num levantamento da Triple Whale sobre a Black Friday de 2025, os quatro dias antes da data já concentraram 65% do gasto do fim de semana, e a recomendação é vídeo curto de 15 a 30 s e 3 a 4 vezes mais criativos que o normal, porque o cansaço chega rápido. No Reels, o CPM ficou 30% a 40% menor que no feed. Num rastreador de anúncios do Reino Unido, imagem estática era só 1,9% dos anúncios de Black Friday em outubro, contra 6% em 2025: o vídeo tomou conta.",
+      "how": [
+        "Escolha 1 a 3 produtos-isca com desconto real e estoque garantido.",
+        "Grave o dono ou vendedor mostrando o produto na mão, com o preço \"de/por\" escrito na tela no primeiro segundo.",
+        "Acrescente prova social real: número de clientes, nota no Google ou foto da loja cheia.",
+        "Faça pelo menos 3 versões: uma de urgência (prazo), uma de prova e uma de comparação de preço.",
+        "Leve para o WhatsApp ou para a rota até a loja."
+      ],
+      "hooks": [
+        "\"Black Friday de verdade: esse aqui era R$ [x] e até sexta sai por R$ [y].\"",
+        "\"Mais de [número] clientes de [bairro] já levaram. Agora com [x]% de desconto.\"",
+        "\"Só [x] unidades nesse preço. Quando acabar, acabou.\""
+      ],
+      "avoid": "Desconto inflado (aumentar o preço antes para dar desconto) e preço na arte diferente do da loja. Contagem regressiva falsa. Mexer demais nos conjuntos em aprendizado na semana da data.",
+      "sources": [
+        23,
+        27,
+        28
+      ]
+    },
+    {
+      "id": "guia-presentes-faixa-preco",
+      "title": "Guia de presentes por faixa de preço",
+      "format": "carrossel",
+      "formatLabel": "Carrossel ou Stories",
+      "duration": "4 a 6 cards",
+      "ratio": "4:5 (carrossel) e 9:16 (Stories)",
+      "status": "novo",
+      "niches": [
+        "Varejo e lojas",
+        "Pet",
+        "Estética"
+      ],
+      "why": "Este ano o Natal vem só 28 dias depois da Black Friday, cerca de uma semana a menos que o normal, e a decisão de presente fica apertada. Na pesquisa da Meta com quase 15 mil compradores de 18 países, 85% disseram já ter comprado na loja física algo que viram nas redes, e 59% mandaram mensagem direto para a empresa. Guia de presentes é um dos cinco formatos de UGC que a Influee recomenda para a temporada.",
+      "how": [
+        "Card 1: \"Presentes até R$ 50, R$ 100 e R$ 200\" com o melhor produto de cada faixa.",
+        "Um card por faixa de preço, com 2 ou 3 produtos fotografados na loja, de verdade.",
+        "Último card: retirada na loja, entrega no bairro ou embrulho grátis.",
+        "Versão em Stories: a vendedora mostra cada faixa em 3 a 5 s e termina com \"chama no direct\"."
+      ],
+      "hooks": [
+        "\"Não sabe o que dar de presente? Separei por quanto você quer gastar.\"",
+        "\"Presente até R$ 50 que não parece barato.\"",
+        "\"Presente para quem tem pet: 3 opções até R$ [x].\""
+      ],
+      "avoid": "Catálogo com 20 produtos num card só. Preços que não batem com a loja. Prometer entrega antes do Natal sem garantir.",
+      "sources": [
+        23,
+        26
+      ]
+    },
+    {
+      "id": "pet-banho-tosa-chegada-saida",
+      "title": "Banho e tosa: como chegou e como saiu, com o nome do pet",
+      "format": "video",
+      "formatLabel": "Vídeo curto",
+      "duration": "10 a 20 s",
+      "ratio": "9:16",
+      "status": "novo",
+      "niches": [
+        "Pet"
+      ],
+      "why": "No pet, a transformação é do animal, então o antes e depois não cai na restrição de corpo humano e mostra o resultado sem explicação. Guias de anúncios para serviços pet colocam a transformação, o bastidor da equipe cuidando do animal e o nome do pet na chamada entre os ângulos que mais engajam. Pet shop atende o bairro: a segmentação curta em volta da loja combina com esse vídeo.",
+      "how": [
+        "Peça autorização ao tutor para usar o vídeo.",
+        "Grave a chegada (pelo bagunçado), 2 ou 3 cortes rápidos do banho e da tosa e a saída com laço ou bandana.",
+        "Abra com o \"depois\" e escreva o nome do pet na tela.",
+        "Feche com o horário livre da semana e o botão de WhatsApp."
+      ],
+      "hooks": [
+        "\"O Thor chegou assim… olha como ele saiu.\"",
+        "\"Seu cachorro também fica cheiroso só 2 dias? Vem ver como a gente faz.\"",
+        "\"Tosa de verão em [bairro]: ainda tem horário essa semana.\""
+      ],
+      "avoid": "Mostrar o animal estressado, preso de forma desconfortável ou com ferimento. Usar vídeo de pet que não é do seu cliente.",
+      "sources": [
+        29
+      ]
+    },
+    {
+      "id": "pet-produto-problema-solucao",
+      "title": "Produto pet: o problema do tutor e a solução na mão",
+      "format": "ugc",
+      "formatLabel": "Vídeo UGC (demonstração)",
+      "duration": "30 a 60 s",
+      "ratio": "9:16 e 4:5",
+      "status": "novo",
+      "niches": [
+        "Pet",
+        "Varejo e lojas"
+      ],
+      "why": "Na Biblioteca de Anúncios, os anúncios de produtos de cuidado pet que estão há meses no ar seguem o mesmo roteiro: começam pela dor do tutor (pelo no sofá, cheiro, gasto com banho) e mostram o produto funcionando. Um deles roda desde 19 de fevereiro de 2026 e vários desde 28 de agosto; quase todos são vídeos explicados, de 30 segundos a mais de 1 minuto.",
+      "how": [
+        "Escolha um produto que resolve uma dor visível (escova removedora de pelos, tapete higiênico, fonte de água).",
+        "Grave em casa, com o pet do funcionário ou de um cliente, mostrando o problema nos 3 primeiros segundos.",
+        "Mostre o produto em uso e o resultado na mesma cena, sem corte.",
+        "Feche com preço, \"tem na loja\" e retirada ou entrega no bairro."
+      ],
+      "hooks": [
+        "\"Pelo no sofá todo dia? Olha o que saiu com uma passada.\"",
+        "\"Pare de gastar com [problema]: esse aqui resolve em casa.\"",
+        "\"O produto que mais sai aqui na loja, e eu entendo por quê.\""
+      ],
+      "avoid": "Prometer efeito de saúde (\"cura alergia\", \"acaba com pulga para sempre\") ou recomendação veterinária que não existe. Remédio e medicamento veterinário exigem cuidado redobrado com as regras da Meta.",
+      "sources": [
+        30
       ]
     },
     {
@@ -157,7 +280,7 @@
       "formatLabel": "Vídeo curto (tour)",
       "duration": "até 20 s (anúncio) e 45 a 60 s (remarketing)",
       "ratio": "9:16",
-      "status": "novo",
+      "status": "em-alta",
       "niches": [
         "Imobiliárias"
       ],
@@ -180,40 +303,13 @@
       ]
     },
     {
-      "id": "imovel-avaliacao-formulario",
-      "title": "Captação: \"quanto vale o seu imóvel?\" com formulário",
-      "format": "imagem",
-      "formatLabel": "Imagem ou vídeo curto + formulário",
-      "duration": "— ou até 15 s",
-      "ratio": "4:5 e 9:16",
-      "status": "novo",
-      "niches": [
-        "Imobiliárias"
-      ],
-      "why": "Além de vender, a imobiliária precisa de imóvel para vender. O anúncio de avaliação com formulário instantâneo é um formato padrão do setor. O contato vira cliente poucas vezes (algo entre 0,5% e 3% nos dados dos EUA), então o que faz diferença é qualificar: quem devolve à Meta quais contatos viraram negócio, pelo CRM, tem custo por contato qualificado 15% menor, segundo a própria Meta.",
-      "how": [
-        "Arte simples com o bairro e a promessa: avaliação gratuita, sem compromisso.",
-        "No formulário, pergunte o tipo de imóvel, o bairro e quando pretende vender.",
-        "Ligue ou chame no WhatsApp no mesmo dia.",
-        "Marque no CRM quem virou visita e captação e envie esse retorno para a Meta."
-      ],
-      "hooks": [
-        "\"Quanto vale o seu apartamento em [bairro] hoje? A gente avalia de graça.\"",
-        "\"Pensando em vender? Descubra o preço certo antes de anunciar.\""
-      ],
-      "avoid": "Formulário só com nome e telefone: enche de contato frio. Prometer que vende em X dias ou por um valor acima do mercado.",
-      "sources": [
-        20
-      ]
-    },
-    {
       "id": "carro-volta-estoque",
       "title": "Volta no carro com o vendedor + catálogo do estoque no remarketing",
       "format": "video",
       "formatLabel": "Vídeo UGC + catálogo",
       "duration": "até 20 s",
       "ratio": "9:16 (vídeo) e 4:5 ou 1:1 (catálogo)",
-      "status": "novo",
+      "status": "em-alta",
       "niches": [
         "Automotivo e financiamento"
       ],
@@ -233,33 +329,6 @@
       "sources": [
         21,
         22
-      ]
-    },
-    {
-      "id": "financiamento-parcela-clara",
-      "title": "Financiamento: parcela na tela com a condição completa",
-      "format": "imagem",
-      "formatLabel": "Imagem estática ou carrossel",
-      "duration": "—",
-      "ratio": "4:5 e 9:16",
-      "status": "novo",
-      "niches": [
-        "Automotivo e financiamento"
-      ],
-      "why": "Parcela é o que a pessoa quer saber, mas anúncio de crédito entra na categoria especial de produtos financeiros, com idade, gênero e CEP travados. A segmentação filtra menos, então o criativo precisa deixar claro para quem é (entrada, prazo, perfil). E toda condição que aparece na arte tem que bater com o site e com o que o vendedor vai falar.",
-      "how": [
-        "Mostre o carro real e a parcela em destaque, com entrada e número de parcelas logo abaixo.",
-        "Inclua as condições (sujeito a análise de crédito, taxa, prazo) em letra legível.",
-        "Use um carrossel com 3 ou 4 carros de faixas de parcela diferentes.",
-        "Leve para WhatsApp ou formulário com a pergunta: \"Tem valor de entrada?\"."
-      ],
-      "hooks": [
-        "\"[Modelo] com entrada de R$ [x] e parcelas de R$ [y].\"",
-        "\"Saia de carro com parcela que cabe no bolso. Simule pelo WhatsApp.\""
-      ],
-      "avoid": "\"Aprovação garantida\", \"sem consulta\" ou \"para negativado\": promessas que a Meta reprova em crédito e que não se sustentam. Parcela sem as condições. Esquecer de marcar a categoria especial.",
-      "sources": [
-        21
       ]
     },
     {
@@ -358,68 +427,6 @@
       ]
     },
     {
-      "id": "oferta-concreta",
-      "title": "Oferta concreta com preço na tela",
-      "format": "imagem",
-      "formatLabel": "Imagem estática",
-      "duration": "—",
-      "ratio": "4:5",
-      "status": "consolidado",
-      "niches": [
-        "Restaurantes",
-        "Varejo e lojas",
-        "Academias",
-        "Pet"
-      ],
-      "why": "Para quem já conhece a marca, imagem com oferta visível e prazo resolve rápido. Entre os anúncios que ficam semanas no ar, oferta explícita ainda é minoria, então oferta clara segue sendo diferencial. No feed, prefira 4:5: testes da Billo mostram até 15% mais desempenho que o quadrado.",
-      "how": [
-        "Um foco só: o produto ou combo, em uso real (não foto em fundo branco).",
-        "Até 7 palavras na imagem: oferta + preço.",
-        "Selo de prova social (avaliação, número de clientes).",
-        "Botão direto: \"Pedir agora\" ou \"Chamar no WhatsApp\"."
-      ],
-      "hooks": [
-        "\"Combo família: 2 pizzas + refri por R$ 79\"",
-        "\"Primeira aula grátis esta semana\""
-      ],
-      "avoid": "Promoção sem prazo: perde a urgência.",
-      "sources": [
-        3,
-        7,
-        14
-      ]
-    },
-    {
-      "id": "tour-local",
-      "title": "Tour rápido pelo lugar (ponto de vista do cliente)",
-      "format": "video",
-      "formatLabel": "Vídeo curto",
-      "duration": "10 a 20 s",
-      "ratio": "9:16",
-      "status": "consolidado",
-      "niches": [
-        "Academias",
-        "Restaurantes",
-        "Saúde e odontologia",
-        "Estética"
-      ],
-      "why": "Para negócio local, mostrar o espaço do ponto de vista de quem chega tira o medo do desconhecido e convida para a primeira visita. Em clínicas, vídeo da estrutura e da tecnologia é um dos formatos com mais chance de aprovação, porque prova cuidado sem falar de resultado no corpo.",
-      "how": [
-        "Grave andando, como se fosse o cliente entrando.",
-        "Pare em 3 pontos fortes (equipamento, sala, vista, cozinha).",
-        "Termine com o convite: aula experimental, visita ou reserva."
-      ],
-      "hooks": [
-        "\"POV: seu primeiro dia aqui\"",
-        "\"Vem ver onde a sua pizza é feita\""
-      ],
-      "avoid": "Imagem de antes e depois do corpo em academia: a política da Meta restringe. Para imóveis, use a ideia \"Tour do imóvel em vídeo vertical\".",
-      "sources": [
-        10,
-        15
-      ]
-    },
-    {
       "id": "parceria-criador",
       "title": "Anúncio em parceria com criador local",
       "format": "ugc",
@@ -434,7 +441,7 @@
         "Pet",
         "Academias"
       ],
-      "why": "A Meta destaca o criador no cabeçalho do anúncio. O Creator Marketing Hub chegou a todos os países, com criação de anúncio em parceria em um clique, e os anúncios em parceria já somam receita anualizada de 15 bilhões de dólares para a Meta.",
+      "why": "A Meta destaca o criador no cabeçalho do anúncio. O Creator Marketing Hub chegou a todos os países, com criação de anúncio em parceria em um clique, e os anúncios em parceria já somam receita anualizada de 15 bilhões de dólares para a Meta. Em dados divulgados sobre anúncios em parceria no Reels, o custo por alcance caiu 16% e as conversões subiram 29%. Na pesquisa de fim de ano da Meta, 94% dos compradores disseram buscar criadores como referência para os presentes.",
       "how": [
         "Escolha um criador da cidade com público parecido com o cliente.",
         "Peça para ele usar o produto/serviço de verdade e gravar do jeito dele.",
@@ -445,7 +452,9 @@
       ],
       "avoid": "Roteiro engessado: o público percebe e o efeito some.",
       "sources": [
-        12
+        12,
+        25,
+        26
       ]
     },
     {
@@ -511,11 +520,6 @@
   ],
   "sources": [
     {
-      "id": 3,
-      "title": "We Analyzed 40 Competitor Ads in the Meta Ad Library (Markifact)",
-      "url": "https://www.markifact.com/blog/competitor-ads-meta-ad-library-analysis"
-    },
-    {
       "id": 4,
       "title": "O Meta Ads mudou tudo em 2026 (E-Commerce Brasil)",
       "url": "https://www.ecommercebrasil.com.br/artigos/o-meta-ads-mudou-tudo-em-2026-quem-nao-sabe-isso-esta-pagando-para-aprender-da-pior-forma"
@@ -529,11 +533,6 @@
       "id": 8,
       "title": "Instagram Reels Tactics That Drive Restaurant Delivery Orders (RAY)",
       "url": "https://blog.rayapp.ai/?p=28568"
-    },
-    {
-      "id": 10,
-      "title": "Real Estate Video Tour Advertising (Stackmatix)",
-      "url": "https://stackmatix.com/blog/real-estate-video-tour-advertising"
     },
     {
       "id": 11,
@@ -589,6 +588,46 @@
       "id": 22,
       "title": "Car Dealership Facebook Inventory Ads (Stackmatix, 3/9/2026)",
       "url": "https://www.stackmatix.com/blog/car-dealership-facebook-inventory-ads"
+    },
+    {
+      "id": 23,
+      "title": "Meta shares holiday 2026 tips for small businesses (Social Media Today, 2/8/2026)",
+      "url": "https://www.socialmediatoday.com/news/meta-shares-holiday-2026-tips-for-small-businesses/826785/"
+    },
+    {
+      "id": 24,
+      "title": "Meta Creative Strategy for Ecommerce: The 2026 Playbook (Segwise, atualizado 2/11/2026)",
+      "url": "https://segwise.ai/blog/meta-creative-strategy-ecommerce-2026"
+    },
+    {
+      "id": 25,
+      "title": "Meta Ads Updates 2026: Latest Features and Changes (Stackmatix, 3/9/2026)",
+      "url": "https://www.stackmatix.com/blog/meta-ads-updates"
+    },
+    {
+      "id": 26,
+      "title": "Anúncios UGC de Black Friday: formatos, hooks e briefing (Influee, 21/9/2026)",
+      "url": "https://influee.co/br/blog/Black-Friday-UGC-Ads"
+    },
+    {
+      "id": 27,
+      "title": "Black Friday Facebook Ads: Data, Strategies, and AI Automations for 2026 (Triple Whale, 18/8/2026)",
+      "url": "https://www.triplewhale.com/blog/facebook-ads-bfcm"
+    },
+    {
+      "id": 28,
+      "title": "Holiday Ad Tracker 2026: anúncios de Black Friday e Cyber Monday por semana (SociaVault Labs, dados até 1/11/2026)",
+      "url": "https://sociavault.com/labs/reports/holiday-ad-tracker-2026"
+    },
+    {
+      "id": 29,
+      "title": "AI Facebook Ads for Pet Services 2026 Guide (Ryze AI)",
+      "url": "https://www.get-ryze.ai/blog/ai-facebook-ads-for-pet-services-guide"
+    },
+    {
+      "id": 30,
+      "title": "Ad ideas for Pet Grooming on Meta, Updated 2026 (Atria)",
+      "url": "https://www.tryatria.com/ads/meta/pet-grooming-ads"
     }
   ]
 }
