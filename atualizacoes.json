@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-05T07:00:00-03:00",
-  "edition": "5 de novembro de 2026",
-  "summary": "Nenhuma mudança nova confirmada desde a última edição; os prazos seguem: 10/11 sai do ar a v24.0 da API e 12/11 o pixel passa a medir conversões no aparelho do cliente (anote as vendas reais antes para comparar). Os novos Termos Comerciais continuam suspensos e os atuais seguem valendo. Para a Black Friday (27/11), evite mexer muito nos conjuntos que ainda estão em aprendizado.",
+  "updatedAt": "2026-11-06T07:00:00-03:00",
+  "edition": "6 de novembro de 2026",
+  "summary": "Nenhuma mudança nova confirmada desde a edição de 5/11. Os prazos seguem: 10/11 sai do ar a v24.0 da API e 12/11 o pixel passa a medir conversões no aparelho do cliente; anote as vendas reais antes e evite mudanças grandes nas campanhas entre 12 e 18/11, enquanto os números se ajustam. Os novos Termos Comerciais continuam suspensos e os atuais seguem valendo. Para a Black Friday (27/11), não mexa muito nos conjuntos que ainda estão em aprendizado.",
   "api": {
     "latest": "v26.0",
     "latestDate": "2026-07-29",
@@ -28,10 +28,11 @@
     {
       "date": "2026-11-12",
       "title": "Pixel passa a medir conversões no aparelho do cliente",
-      "text": "Ligado por padrão em todo conjunto de dados que já envia eventos. Pode ser desligado nas configurações de cada pixel no Gerenciador de Eventos. Registre as vendas reais antes da data para comparar.",
+      "text": "Ligado por padrão em todo conjunto de dados que já envia eventos. Pode ser desligado nas configurações de cada pixel no Gerenciador de Eventos. Registre as vendas reais antes da data para comparar. Uma agência recomenda evitar mudanças grandes nas campanhas entre 12 e 18/11, para não confundir o efeito da nova contagem com o das alterações.",
       "sources": [
         14,
-        15
+        15,
+        9
       ]
     },
     {
