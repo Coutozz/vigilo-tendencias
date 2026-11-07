@@ -1,19 +1,16 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-06T07:00:00-03:00",
-  "edition": "6 de novembro de 2026",
-  "summary": "Nenhuma mudança nova confirmada desde a edição de 5/11. Os prazos seguem: 10/11 sai do ar a v24.0 da API e 12/11 o pixel passa a medir conversões no aparelho do cliente; anote as vendas reais antes e evite mudanças grandes nas campanhas entre 12 e 18/11, enquanto os números se ajustam. Os novos Termos Comerciais continuam suspensos e os atuais seguem valendo. Para a Black Friday (27/11), não mexa muito nos conjuntos que ainda estão em aprendizado.",
+  "updatedAt": "2026-11-07T07:00:00-03:00",
+  "edition": "7 de novembro de 2026",
+  "summary": "A Meta suspendeu de vez os novos Termos Comerciais: eles não entram em vigor em 20/11, não há data nova e os termos atuais continuam valendo. Saiu a v27.0 da API (4/11): anúncios criados por ela podem ganhar vitrine de produtos e expansão para outros aparelhos por padrão, e a métrica total_video_consumption_rate parou de ser entregue. Antes da Black Friday, confira no Commerce Manager a opção 'Ofertas detectadas', que pode colocar promoções do site nos anúncios. Seguem os prazos de 10/11 (fim da v24.0) e 12/11 (pixel medindo no aparelho).",
   "api": {
-    "latest": "v26.0",
-    "latestDate": "2026-07-29",
-    "note": "A v26.0 (29/07/2026) continua sendo a mais nova na página de versões da Meta; não há v27.0 publicada até 4/11. A v24.0 deixa de funcionar em 10/11/2026 e a v25.0 em 23/02/2027. As mudanças fora de ciclo de outubro só acrescentaram campos; nada do que o VIGILO lê foi removido.",
+    "latest": "v27.0",
+    "latestDate": "2026-11-04",
+    "note": "A Meta lançou a Graph API e a Marketing API v27.0 em 4/11/2026. Para quem só lê dados: a métrica total_video_consumption_rate deixou de retornar dados no início de novembro em todas as versões, sem substituta (na v26.0 já tinham saído espectadores de 3 segundos e alcance de vídeo). Os demais campos de insights, contas, campanhas, anúncios e criativos seguem iguais. A v24.0 sai do ar em 10/11/2026 e a v25.0 em 23/02/2027.",
     "sources": [
-      4,
-      5,
-      16,
-      17,
-      23,
-      38
+      39,
+      40,
+      16
     ]
   },
   "watch": [
@@ -36,21 +33,20 @@
       ]
     },
     {
-      "date": "2026-11-20",
-      "title": "Data mínima para os novos Termos Comerciais (pode ser adiada)",
-      "text": "A Meta disse que a consulta à indústria pode passar de 20/11 e que, nesse caso, adia de novo. Até lá valem os termos atuais. O texto com a responsabilidade pelas edições da IA não mudou.",
-      "sources": [
-        3,
-        26
-      ]
-    },
-    {
       "date": "2026-11-27",
       "title": "Black Friday",
       "text": "Revise antes as melhorias automáticas do Advantage+ criativo e a navegação de produtos. Escalar com uma edição automática indesejada no ar multiplica o problema.",
       "sources": [
         1,
         2
+      ]
+    },
+    {
+      "date": "2027-02-02",
+      "title": "Expansão para outros aparelhos vale em todas as versões da API (data aproximada)",
+      "text": "Cerca de 90 dias após a v27.0, conjuntos de vendas novos criados por qualquer versão da API passam a expandir para outros celulares se o campo de aparelho não for informado. A Meta fala em fevereiro de 2027; a data exata é cálculo do PPC Land.",
+      "sources": [
+        40
       ]
     },
     {
@@ -63,6 +59,61 @@
     }
   ],
   "updates": [
+    {
+      "id": "2026-11-04-api-v27",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-07",
+      "title": "Saiu a API v27.0: anúncios criados por integração ganham vitrine de produtos e mais aparelhos por padrão",
+      "category": "api",
+      "impact": "medio",
+      "status": "em-vigor",
+      "region": "Global",
+      "confirmed": true,
+      "summary": "Na v27.0 da Marketing API, a Meta pode ligar sozinha a vitrine de produtos e a expansão para outros aparelhos em anúncios e conjuntos novos criados pela API.",
+      "what": "Lançada em 4/11/2026 pela Meta. (1) Ao criar um anúncio pela API sem configurar a vitrine de produtos (product showcase), a Meta pode ligá-la quando tiver alta confiança de que um conjunto de produtos do catálogo combina com o anúncio. (2) Conjuntos de vendas novos que miram aparelhos ou sistemas específicos passam a expandir para outros celulares por padrão; ficam de fora categorias especiais (moradia, emprego, crédito) e otimização para apps. Essa expansão chega a todas as versões cerca de 90 dias depois. (3) Públicos semelhantes com país ou local no próprio público semelhante passam a ser recusados na criação; os que já existem continuam rodando. (4) A métrica total_video_consumption_rate deixou de ser entregue em todas as versões, sem substituta. (5) Seis recursos antigos da Graph API foram fechados para apps novos.",
+      "effect": "Ferramentas de subida em massa e integrações que criam anúncios pela API podem publicar peças com produtos do catálogo ou entrega em aparelhos que o gestor não escolheu. Relatórios que usavam a taxa de consumo de vídeo ficam em branco nesse campo.",
+      "action": "Se a agência cria campanhas por ferramenta externa, peça ao fornecedor para desligar a vitrine de produtos (OPT_OUT) e manter os aparelhos escolhidos (device = 0) quando migrar para a v27.0. No Gerenciador, nada muda por enquanto; troque relatórios que usavam a taxa de consumo de vídeo por outras métricas de vídeo.",
+      "sources": [
+        39,
+        40
+      ]
+    },
+    {
+      "id": "2026-11-06-ofertas-detectadas",
+      "date": "2026-11-06",
+      "firstSeen": "2026-11-07",
+      "title": "Relato: Meta pode exibir promoções do site em anúncios copiados, mesmo com promoções desligadas",
+      "category": "anuncios",
+      "impact": "medio",
+      "status": "em-teste",
+      "region": "Global",
+      "confirmed": false,
+      "summary": "Um especialista mostrou no Commerce Manager a opção 'Ofertas detectadas', que deixa a Meta mostrar nos anúncios ofertas encontradas no site e em outros anúncios.",
+      "what": "Segundo post no LinkedIn de um especialista em anúncios da Meta, relatado pelo PPC Land, em Commerce Manager > Configurações > Merchandising de ofertas há a caixa 'Ofertas detectadas' (em Todos os anúncios) e, para anúncios que levam à loja ou à navegação de produtos, 'Eventos de liquidação' e 'Nomes de eventos sazonais'. Ao duplicar um anúncio, a Meta avisa que promoções elegíveis podem aparecer no anúncio novo mesmo com promoções desligadas no original. A Meta não comentou e não se sabe se vem ligado por padrão; na conta mostrada as três caixas estavam marcadas.",
+      "effect": "Um anúncio pode sair com desconto ou condição que o cliente não autorizou ou que já acabou, o que gera reclamação e risco com o Código de Defesa do Consumidor, principalmente em varejo e e-commerce na Black Friday.",
+      "action": "Antes de duplicar campanhas para a Black Friday, abra o Commerce Manager dos clientes com catálogo e desmarque 'Ofertas detectadas' se o cliente não quer promoções automáticas. Confira a prévia dos anúncios copiados.",
+      "sources": [
+        41
+      ]
+    },
+    {
+      "id": "2026-11-06-roas-meta-orcamento-extra",
+      "date": "2026-11-06",
+      "firstSeen": "2026-11-07",
+      "title": "Relato: meta de ROAS em campanhas de número de conversões e orçamento extra por desempenho",
+      "category": "algoritmo",
+      "impact": "baixo",
+      "status": "em-teste",
+      "region": "Global",
+      "confirmed": false,
+      "summary": "Uma agência americana relata que a meta de ROAS passou a aparecer em 'Maximizar número de conversões' e que há um teste de orçamento extra liberado conforme o custo por resultado.",
+      "what": "Segundo a agência ROI Revolution, algumas contas já mostram a opção de meta de ROAS (incluindo um controle 'meta de ROAS flexível') também em campanhas que maximizam o número de conversões, e não só o valor. Também há, em beta, um aumento de orçamento por desempenho: um valor extra acima do orçamento principal, gasto só se o custo por resultado ficar dentro da meta definida. A agência não cita comunicado da Meta nem datas.",
+      "effect": "Pode dar mais controle de retorno a lojas que não enviam valor de compra bem configurado e ajudar a escalar sem estourar o custo nas datas fortes.",
+      "action": "Se a opção aparecer em alguma conta, teste em uma campanha com histórico estável antes de usar na Black Friday. Não há o que fazer nas contas que ainda não têm.",
+      "sources": [
+        45
+      ]
+    },
     {
       "id": "2026-11-12-pixel-medicao-aparelho",
       "date": "2026-11-12",
@@ -178,25 +229,26 @@
     },
     {
       "id": "2026-10-23-termos-ia-adiados",
-      "date": "2026-10-23",
+      "date": "2026-11-05",
       "firstSeen": "2026-10-29",
-      "title": "Termos que deixam o anunciante responsável pela IA da Meta estão suspensos sem data; 20/11 é o mínimo",
+      "title": "Novos Termos Comerciais suspensos: não entram em vigor em 20/11 e não têm data nova",
       "category": "politicas",
       "impact": "alto",
       "status": "adiado",
       "region": "Global",
       "confirmed": true,
-      "summary": "A Meta disse em 28/10 que não muda os termos sem consultar a indústria e que, se a consulta passar de 20/11, adia de novo; até lá valem os termos atuais.",
-      "what": "Os novos Termos Comerciais e de anúncios autoatendidos incluem uma seção de recursos de IA: o anunciante é o único responsável pelas alterações que a IA da Meta faz nos anúncios, mesmo nos recursos ligados por padrão (melhorias do Advantage+ criativo, sitelinks automáticos, tradução, imagens geradas). Depois de adiar de 30/10 para 20/11, a Meta afirmou em 28/10 (a Reuters tratou como adiamento por tempo indeterminado), por seu diretor de comunicação Andy Stone, que não fará mudanças sem uma consulta completa a grupos da indústria, que essa consulta pode passar de 20/11 e que, nesse caso, adia a vigência; até lá ficam os termos atuais. Um tribunal da Noruega barrou a entrada em vigor lá, e a autoridade de concorrência do Reino Unido abriu investigação sobre os termos. Em 29/10 a Meta reafirmou que, por enquanto, os termos atuais continuam valendo; a Comissão Europeia elogiou o adiamento. Segundo a AP (2/11), a Meta tirou a palavra \"treinar\" do trecho sobre rastrear os sites dos anunciantes.",
-      "effect": "Por enquanto nada muda nas contas. O texto não foi alterado, então o risco de responder pelas edições da IA continua sobre a mesa para quando os termos entrarem em vigor.",
-      "action": "Use o adiamento para revisar com calma as melhorias automáticas do Advantage+ criativo e desligar o que o cliente não aprovou. Acompanhe se a Meta divulga data nova ou texto revisado antes de 20/11.",
+      "summary": "A Meta avisou na Central de Ajuda que os novos termos, incluindo a responsabilidade do anunciante pelas edições da IA, estão suspensos e não começam em 20/11; os termos atuais seguem valendo.",
+      "what": "Os novos Termos Comerciais e de anúncios autoatendidos incluem uma seção de recursos de IA: o anunciante é o único responsável pelas alterações que a IA da Meta faz nos anúncios, mesmo nos recursos ligados por padrão (melhorias do Advantage+ criativo, sitelinks automáticos, tradução, imagens geradas). Depois de adiar de 30/10 para 20/11, a Meta publicou aviso (divulgado em 5/11) de que os Termos Comerciais, de Catálogo de Produtos, de anúncios autoatendidos e de IA generativa em criativos atualizados estão suspensos e não entram em vigor em 20/11/2026. Diz que continua consultando o mercado e dará notícia quando tiver novidade; os termos atuais valem até segunda ordem. Um porta-voz disse à Reuters que a empresa quer \"fazer isso direito\". Antes disso, um tribunal da Noruega barrou a entrada em vigor lá, a autoridade de concorrência do Reino Unido abriu investigação em 30/10 e a Comissão Europeia elogiou o adiamento.",
+      "effect": "Nada muda nas contas por enquanto e não há prazo. O texto pode voltar igual ou revisado, então o risco de responder pelas edições da IA não sumiu.",
+      "action": "Não é preciso aceitar nada agora. Mesmo assim, desligue antes da Black Friday as melhorias automáticas do Advantage+ criativo que o cliente não aprovou, e acompanhe se a Meta divulgar texto ou data nova.",
       "sources": [
         2,
         3,
         26,
-        27,
         32,
-        35
+        35,
+        42,
+        43
       ]
     },
     {
@@ -375,13 +427,14 @@
       "region": "Global",
       "confirmed": true,
       "summary": "A Meta diz que o GEM, seu modelo central de anúncios, melhorou as conversões em 18,9% e a taxa de cliques em 12%.",
-      "what": "O GEM (Generative Ads Model) aprende com o uso de Facebook, Instagram, Reels e outros apps e alimenta os modelos que escolhem qual anúncio cada pessoa vê. Não há botão para ligar ou desligar. Os números são da própria Meta, sem base de comparação divulgada. Em 28/10 a Meta detalhou outras melhorias: as mudanças de ranqueamento do 2º trimestre deram 8,3% mais cliques e 15,7% mais conversões no Facebook; o Andromeda (que escolhe os anúncios candidatos) passou a considerar mais produtos de cada empresa e elevou as conversões no Facebook em 1,4% no 3º trimestre; e um novo modelo, o GenRecs, prevê bem anúncios recém-criados, com pouco histórico.",
+      "what": "O GEM (Generative Ads Model) aprende com o uso de Facebook, Instagram, Reels e outros apps e alimenta os modelos que escolhem qual anúncio cada pessoa vê. Não há botão para ligar ou desligar. Os números são da própria Meta, sem base de comparação divulgada. Em 28/10 a Meta detalhou outras melhorias: as mudanças de ranqueamento do 2º trimestre deram 8,3% mais cliques e 15,7% mais conversões no Facebook; o Andromeda (que escolhe os anúncios candidatos) passou a considerar mais produtos de cada empresa e elevou as conversões no Facebook em 1,4% no 3º trimestre; e um novo modelo, o GenRecs, prevê bem anúncios recém-criados, com pouco histórico. Em post de engenharia de 28/10, a Meta disse ainda que a nova versão do Andromeda avalia mais de 1 bilhão de anúncios por segundo e que, desde 2025, ele trouxe 2,4% mais conversões no Facebook.",
       "effect": "A entrega depende cada vez mais de sinais da Meta e menos da segmentação manual. Campanhas com público amplo e criativos variados tendem a aproveitar mais, e anúncios novos podem sair do zero mais rápido.",
       "action": "Não há o que configurar. Compare o custo por resultado dos clientes nas últimas semanas (aba Evolução) para ver se houve mudança real na sua carteira.",
       "sources": [
         6,
         9,
-        30
+        30,
+        44
       ]
     },
     {
@@ -919,6 +972,41 @@
       "id": 38,
       "title": "Meta for Developers — Graph API: versões",
       "url": "https://developers.facebook.com/docs/graph-api/changelog/versions"
+    },
+    {
+      "id": 39,
+      "title": "Social Media Today: Meta adds new capabilities to Graph and Marketing API",
+      "url": "https://www.socialmediatoday.com/news/meta-adds-new-capabilities-to-graph-and-marketing-api/873951/"
+    },
+    {
+      "id": 40,
+      "title": "PPC Land: Meta's API v27 may add catalog products to new ads by default",
+      "url": "https://ppc.land/metas-api-v27-may-add-catalog-products-to-new-ads-by-default/"
+    },
+    {
+      "id": 41,
+      "title": "PPC Land: Meta can add website offers to copied ads even with promotions turned off",
+      "url": "https://ppc.land/meta-can-add-website-offers-to-copied-ads-even-with-promotions-turned-off/"
+    },
+    {
+      "id": 42,
+      "title": "Relevant Audience: Meta pauses Commercial Terms due 20 November 2026",
+      "url": "https://www.relevantaudience.com/meta/meta-pauses-commercial-terms-20-november-2026/"
+    },
+    {
+      "id": 43,
+      "title": "Advertain: Social Media Marketing News, 6 de novembro de 2026",
+      "url": "https://www.advertain.com/blog/social-media-marketing-news-6-november-2026"
+    },
+    {
+      "id": 44,
+      "title": "PPC Land: Meta says Andromeda lifted Facebook conversions 2.4% since 2025",
+      "url": "https://ppc.land/meta-says-andromeda-lifted-facebook-conversions-2-4-since-2025/"
+    },
+    {
+      "id": 45,
+      "title": "ROI Revolution: Meta Ads updates for Holiday 2026",
+      "url": "https://roirevolution.com/blog/new-meta-ads-features/"
     }
   ]
 }
