@@ -1,80 +1,80 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-06T07:00:00-03:00",
-  "edition": "6 de novembro de 2026",
-  "summary": "Faltam três semanas para a Black Friday (27/11) e o Natal vem só 28 dias depois: é hora de subir os criativos de oferta, em vídeo vertical curto e em volume bem maior que o normal, porque o cansaço do criativo chega mais rápido na alta temporada. Continua valendo mensagem clara, abertura com dor ou resultado e cada peça em 9:16, 4:5 e 1:1. Nesta edição, ideias para varejo e lojas e para pet: oferta com prova social, guia de presentes por faixa de preço, chegada e saída do banho e tosa e vídeo de problema e solução para produto pet.",
+  "updatedAt": "2026-11-09T06:00:00-03:00",
+  "edition": "9 de novembro de 2026",
+  "summary": "Faltam 18 dias para a Black Friday (27/11): vídeo vertical curto, gravado no celular e com a oferta clara no primeiro segundo, segue na frente, e o cuidado agora é ter conceitos realmente diferentes em vez de dezenas de cópias. A Meta suspendeu em 5/11 os novos termos que deixariam o anunciante responsável por tudo o que a IA dela muda no anúncio, mas revisar o que o Advantage+ altera continua obrigatório. Nesta edição, ideias para academias (primeira aula guiada e turma de janeiro com vagas reais) e para restaurantes (prato no primeiro segundo e reserva de confraternização com prazo).",
   "rules": [
     {
-      "title": "Black Friday em 27/11: suba os criativos agora e em volume",
-      "text": "Os quatro dias antes da Black Friday de 2025 já concentraram 65% do gasto do fim de semana. Tenha 3 a 4 vezes mais criativos que o normal, troque a cada semana e deixe ofertas novas prontas para a véspera. Concentre a verba nos conjuntos que já saíram do aprendizado.",
+      "title": "Black Friday em 27/11: criativos no ar já nesta semana",
+      "text": "Os quatro dias antes da Black Friday de 2025 concentraram 65% do gasto do fim de semana. Tenha 3 a 4 vezes mais criativos que o normal, troque a cada semana e deixe ofertas novas prontas para a véspera.",
       "source": 27
     },
     {
-      "title": "8 a 12 conceitos diferentes por campanha",
-      "text": "Cada conceito com 2 ou 3 variações. Conceito diferente é outro gancho, formato ou emoção. Mesmo vídeo com outra cor ou outro título conta como cópia e o sistema entrega menos. Troque pelo sinal, não pelo calendário: CTR caindo mais de 10% na semana, custo por resultado subindo mais de 15% ou frequência acima de 3 em público novo.",
-      "source": 13
+      "title": "Menos anúncios por conjunto, mais conceitos diferentes",
+      "text": "A própria Meta diz que anúncio demais no mesmo conjunto pode piorar o resultado: concentre em menos anúncios, cada um com até 10 imagens ou vídeos realmente diferentes (outro gancho, formato ou emoção). Dez versões do mesmo vídeo com outra cor contam como cópia. O conjunto sai do aprendizado com cerca de 50 resultados na semana depois da última grande edição.",
+      "source": 33
     },
     {
       "title": "Abra com a dor ou o resultado, não com pergunta",
-      "text": "Num levantamento de 523 anúncios que rodaram 30 dias ou mais, só 8% abriam com pergunta. Os que mais duram abrem com a dor do cliente, uma autoridade ou algo visual inesperado. Os vídeos de 20 a 30 segundos foram os que menos sobreviveram: faça curto (até 20 s) ou explicado (30 a 60 s).",
+      "text": "Num levantamento de 523 anúncios que rodaram 30 dias ou mais, só 8% abriam com pergunta. Os que mais duram abrem com a dor do cliente, uma autoridade ou algo visual inesperado. Faça curto (até 20 s) ou explicado (30 a 60 s); o meio-termo de 20 a 30 s foi o que menos sobreviveu.",
       "source": 17
     },
     {
-      "title": "Entregue cada peça em 9:16, 4:5 e 1:1",
-      "text": "Desde 12 de outubro não dá mais para excluir posicionamentos no conjunto de anúncios em campanhas de cadastro e vendas: a Meta decide onde mostra. Suba a mesma ideia nas três proporções para não aparecer cortada no Reels, no feed ou na coluna.",
+      "title": "Cada peça em 9:16, 4:5 e 1:1, e veja o resultado de cada uma",
+      "text": "A Meta decide onde mostra (não dá mais para excluir posicionamentos no conjunto) e o Threads entrou como posicionamento padrão. Suba a mesma ideia nas três proporções. No Gerenciador, Detalhamento > Criativo > Mídia mostra o resultado de cada imagem e vídeo: corte o que não entrega.",
       "source": 12
     },
     {
-      "title": "Olhe o resultado de cada imagem e vídeo",
-      "text": "Desde 27 de outubro o Gerenciador mostra o resultado por criativo dentro do mesmo anúncio (Detalhamento > Criativo > Mídia). Corte o que não entrega. Na alta temporada, concentre verba: conjuntos com menos de cerca de 50 conversões por semana tiveram custo por compra cerca de 28% maior.",
-      "source": 12
+      "title": "Revise o que a IA da Meta muda no seu anúncio",
+      "text": "Os novos termos que deixariam o anunciante como único responsável pelas edições da IA foram suspensos em 5/11 e não entram em 20/11; valem os termos atuais. Mesmo assim, houve agência tirando do ar anúncios com imagens e textos gerados pelo Advantage+. Confira a prévia, desligue o que não quer e reveja anúncios antigos.",
+      "source": 32
     },
     {
-      "title": "Saúde e estética: prove com experiência, não com corpo",
-      "text": "Antes e depois é o motivo mais comum de reprovação. Use especialista explicando, estrutura da clínica e depoimento sobre o atendimento. Nunca fale da condição de quem assiste.",
-      "source": 15
+      "title": "Saúde, estética e academia: fale do serviço, não do corpo de quem assiste",
+      "text": "A regra de atributos pessoais proíbe dizer ou insinuar a condição física de quem vê (\"Está acima do peso?\"). Evite vergonha do corpo, resultado garantido e close de gordura; promessa de emagrecimento só para maiores de 18. Não peça peso, IMC ou lesão no formulário. Prove com experiência, atendimento e estrutura.",
+      "source": 35
     }
   ],
   "formats": [
     {
       "name": "Vídeo vertical curto (até 20 s) ou explicado (30 a 60 s)",
       "trend": "up",
-      "note": "Mais de 60% do tempo no Facebook e no Instagram é vídeo. Na Black Friday de 2025, o CPM no Reels ficou 30% a 40% menor que no feed. Evite o meio-termo de 20 a 30 s em anúncios de longa duração; para oferta sazonal, 15 a 30 s funciona."
+      "note": "Mais de 60% do tempo no Facebook e no Instagram é vídeo. Na Black Friday de 2025, o CPM no Reels ficou 30% a 40% menor que no feed. Em academias, vídeo 9:16 com som real da aula vale mais que foto de banco de imagens."
     },
     {
       "name": "UGC / cara de orgânico",
       "trend": "up",
-      "note": "Dono, vendedor ou cliente falando para a câmera. Vence por clareza, não por produção. Misture com peças mais produzidas."
+      "note": "Dono, professor, vendedor ou cliente falando para a câmera, gravado no celular. Em restaurantes, vídeo de cozinha feito no celular costuma superar o muito produzido. Misture com peças mais caprichadas."
     },
     {
       "name": "Vídeo com especialista / educativo",
       "trend": "up",
-      "note": "Em saúde e estética é dos formatos com mais chance de aprovação. Em imobiliária, corretor explicando financiamento e documentação também entra aqui."
+      "note": "Em saúde e estética é dos formatos com mais chance de aprovação. Em academia, o professor explicando como é a primeira aula entra aqui."
     },
     {
       "name": "Imagem para vídeo e edição com IA da Meta",
-      "trend": "up",
-      "note": "Imagem para vídeo liberada para todos no Advantage+ creative; o Ads Creative Studio edita gancho, áudio e duração. Confira a prévia antes de publicar."
+      "trend": "steady",
+      "note": "Imagem para vídeo e Animação de imagem transformam foto de produto em vídeo para o Reels, e o Advantage+ reescreve textos por padrão. Útil para ganhar variação rápida, mas teve marca tirando anúncio do ar por edição indesejada: sempre confira a prévia. Passou de \"em alta\" para \"estável\" por causa desse cuidado."
     },
     {
       "name": "Anúncio com criador (parceria)",
       "trend": "up",
-      "note": "Os anúncios em parceria já somam receita anualizada de 15 bilhões de dólares para a Meta, segundo o resultado do 3º trimestre."
+      "note": "Os anúncios em parceria já somam receita anualizada de 15 bilhões de dólares para a Meta. Para negócio local, prefira microcriador da cidade, escolhido por público e engajamento, não por número de seguidores."
     },
     {
       "name": "Anúncio de catálogo (estoque de lojas, carros e imóveis)",
       "trend": "up",
-      "note": "Puxa foto, preço e modelo direto do estoque. Ótimo para remarketing de quem viu um produto, carro ou imóvel, e para a Black Friday no varejo. Desde 28 de outubro a navegação de produtos vem ligada por padrão: confira antes de escalar."
+      "note": "Puxa foto, preço e modelo direto do estoque. Ótimo para remarketing e para a Black Friday no varejo. A navegação de produtos foi ligada por padrão a partir de 28/10: confira antes de escalar."
     },
     {
       "name": "Carrossel",
       "trend": "steady",
-      "note": "Bom para objeções, tour de fotos e guia de presentes por faixa de preço no fim de ano. Teste contra a imagem única: nenhum estudo recente mostra o carrossel vencendo em imóveis."
+      "note": "Bom para objeções, cardápio de fim de ano e guia de presentes por faixa de preço. Teste contra a imagem única: nenhum estudo recente mostra o carrossel vencendo de forma geral."
     },
     {
       "name": "Imagem estática",
       "trend": "steady",
-      "note": "Boa para oferta, remarketing e cadastro, mas perdendo espaço na temporada: num rastreador do Reino Unido, só 1,9% dos anúncios de Black Friday eram imagem em outubro, contra 6% em 2025. Use junto com vídeo, não no lugar."
+      "note": "Boa para oferta, remarketing e cadastro, mas perdendo espaço na temporada: num rastreador do Reino Unido, só 1,9% dos anúncios de Black Friday eram imagem em outubro, contra 6% em 2025. Em academia, anúncio estático de plano com preço segue rodando há meses na Biblioteca de Anúncios. Use junto com vídeo."
     }
   ],
   "niches": [
@@ -101,7 +101,7 @@
       "niches": [
         "Todos"
       ],
-      "why": "Pessoa real falando para a câmera, gravado no celular, parece conteúdo de um perfil comum e passa confiança. Os criativos que passam de 30 dias no ar costumam ganhar por mensagem clara, não por produção caprichada. Com o Andromeda, conteúdo com cara nativa (dono falando, depoimento, cabeça falante) segura a rolagem, desde que misturado com peças mais produzidas.",
+      "why": "Pessoa real falando para a câmera, gravado no celular, parece conteúdo de um perfil comum e passa confiança. Os criativos que passam de 30 dias no ar costumam ganhar por mensagem clara, não por produção caprichada. Com o Andromeda, conteúdo com cara nativa (dono falando, depoimento, cabeça falante) segura a rolagem, desde que misturado com peças mais produzidas. Num estudo da Motion com US$ 1,3 bilhão em verba, só 4% a 8% dos criativos viraram vencedores: gravar simples permite testar mais ideias.",
       "how": [
         "Escolha UMA dor ou objeção do cliente (preço, demora, medo).",
         "Grave no celular, em pé, luz de janela, olhando para a lente.",
@@ -117,7 +117,8 @@
       "sources": [
         4,
         13,
-        18
+        18,
+        34
       ]
     },
     {
@@ -148,7 +149,97 @@
         11,
         13,
         17,
-        24
+        24,
+        39
+      ]
+    },
+    {
+      "id": "academia-primeira-aula",
+      "title": "Academia: o professor mostra como é a primeira aula",
+      "format": "ugc",
+      "formatLabel": "Vídeo UGC (professor)",
+      "duration": "15 a 30 s",
+      "ratio": "9:16 e 4:5",
+      "status": "novo",
+      "niches": [
+        "Academias"
+      ],
+      "why": "O maior medo de quem nunca treinou é chegar perdido. Vídeo real da academia, com o professor falando para a câmera e explicando a primeira visita, ganha da foto de banco de imagens. Na Biblioteca de Anúncios, ofertas de aula grátis como \"3 sessões grátis, sem contrato\" seguem rodando há meses (uma desde 24/2/2026). Aula grátis só vira matrícula com horário marcado: com acompanhamento organizado, 85,4% das aulas experimentais viraram plano, contra 70,8% no acompanhamento manual (Gymdesk).",
+      "how": [
+        "Grave o professor na recepção: \"chegou, faz isso, depois isso\", andando pela academia em horário de movimento moderado.",
+        "Mostre o espaço e uma turma real (com autorização), com som ambiente e legenda.",
+        "Oferta e bairro na primeira linha do texto: \"Aula experimental grátis em [bairro]\".",
+        "Use formulário instantâneo curto (nome, WhatsApp, melhor horário) e ligue no mesmo dia para marcar a aula.",
+        "Pergunte o CEP ou bairro no formulário para filtrar quem mora longe."
+      ],
+      "hooks": [
+        "\"Nunca treinou? Vou te mostrar exatamente como é o seu primeiro dia aqui.\"",
+        "\"Primeira aula é por nossa conta. Você só escolhe o horário.\"",
+        "\"Aqui ninguém fica perdido no primeiro dia. Olha como funciona.\""
+      ],
+      "avoid": "Falar do corpo de quem assiste (\"Está acima do peso?\", \"Cansado da barriga?\"): fere a política de atributos pessoais. Close de gordura, antes e depois de corpo e resultado garantido. Pedir peso, IMC, lesão ou remédio no formulário.",
+      "sources": [
+        35,
+        36
+      ]
+    },
+    {
+      "id": "academia-turma-janeiro",
+      "title": "Academia: turma de janeiro com vagas reais e depoimento de acolhimento",
+      "format": "video",
+      "formatLabel": "Vídeo curto + card de depoimento",
+      "duration": "até 15 s (Reels e Stories) e card estático",
+      "ratio": "9:16 e 4:5",
+      "status": "novo",
+      "niches": [
+        "Academias"
+      ],
+      "why": "Janeiro é o pico de matrículas: a recomendação é deixar os criativos prontos em dezembro e aumentar a verba de 2 a 3 vezes nas três primeiras semanas do ano. Oferta de \"vagas limitadas\" só funciona se a vaga for real (turma, horário, plano de fundador). Para prova social, depoimento sobre se sentir à vontade (\"achei uma academia onde ninguém me julga\") passa melhor na revisão da Meta que número de quilos perdidos.",
+      "how": [
+        "Defina a oferta com limite verdadeiro: turma nova das 7h, 30 vagas no plano de fundador, matrícula sem taxa até 15/1.",
+        "Grave 10 a 15 s com a turma treinando e o número de vagas na tela.",
+        "Faça cards de depoimento de alunos de perfis diferentes, falando de acolhimento, horário e professor.",
+        "Suba agora para aquecer quem viu o vídeo ou visitou o perfil e escale a verba na primeira semana de janeiro."
+      ],
+      "hooks": [
+        "\"Turma nova das 7h em [bairro]: só 30 vagas para janeiro.\"",
+        "\"Achei uma academia onde ninguém me julga. — [nome], aluna há 1 ano\"",
+        "\"Começa o ano treinando com professor do seu lado. Matrícula sem taxa até [data].\""
+      ],
+      "avoid": "Contador de vagas falso ou prazo que se renova. \"Projeto verão\" com corpo sarado ou promessa de perder X kg. Depoimento com número de quilos e foto de antes e depois de corpo.",
+      "sources": [
+        35,
+        36
+      ]
+    },
+    {
+      "id": "restaurante-prato-primeiro-segundo",
+      "title": "Restaurante: o prato no primeiro segundo e a confraternização com prazo",
+      "format": "video",
+      "formatLabel": "Vídeo curto (celular)",
+      "duration": "8 a 15 s",
+      "ratio": "9:16 e 4:5",
+      "status": "novo",
+      "niches": [
+        "Restaurantes"
+      ],
+      "why": "Em restaurante, os primeiros 3 segundos decidem: abra no momento mais apetitoso (queijo puxando, molho caindo, vapor) e nada de logo ou introdução lenta. Vídeo de cozinha e balcão gravado no celular costuma ganhar do muito produzido, que fica para lançamento de cardápio. Em novembro e dezembro, oferta com prazo real (reserva de confraternização, cardápio de fim de ano, encomenda de ceia) e chamada direta (\"Reserve sua mesa\", \"Peça até sexta\") dão motivo para agir agora.",
+      "how": [
+        "Grave o prato mais pedido sendo finalizado, bem iluminado, e use essa cena como primeiro segundo.",
+        "Mostre 2 ou 3 cortes rápidos da cozinha ou do salão cheio, com som ambiente.",
+        "Feche com a oferta e o prazo na tela: \"Confraternização para até 20 pessoas, reservas até 12/12\".",
+        "Faça a versão de encomenda (ceia, kit, tábua) com retirada ou entrega no bairro.",
+        "Segmente quem mora ou esteve perto; no almoço executivo, mire a região de escritórios."
+      ],
+      "hooks": [
+        "(Sem fala: o queijo puxando no primeiro segundo e o texto \"Só até domingo\".)",
+        "\"A confraternização da firma resolvida: mesa para 20, cardápio fechado, sem dor de cabeça.\"",
+        "\"Encomenda da ceia aberta até [data]. Depois disso, só ano que vem.\""
+      ],
+      "avoid": "Abrir com fachada ou logo. Foto de banco de imagens ou prato que não sai daquele jeito. Prometer data de entrega de ceia sem capacidade. Bebida alcoólica exige público acima de 18 e cuidado com as regras da Meta.",
+      "sources": [
+        37,
+        38
       ]
     },
     {
@@ -158,7 +249,7 @@
       "formatLabel": "Vídeo curto (oferta)",
       "duration": "15 a 30 s",
       "ratio": "9:16, 4:5 e 1:1",
-      "status": "novo",
+      "status": "em-alta",
       "niches": [
         "Varejo e lojas",
         "Pet",
@@ -178,11 +269,13 @@
         "\"Mais de [número] clientes de [bairro] já levaram. Agora com [x]% de desconto.\"",
         "\"Só [x] unidades nesse preço. Quando acabar, acabou.\""
       ],
-      "avoid": "Desconto inflado (aumentar o preço antes para dar desconto) e preço na arte diferente do da loja. Contagem regressiva falsa. Mexer demais nos conjuntos em aprendizado na semana da data.",
+      "avoid": "Desconto inflado (aumentar o preço antes para dar desconto) e preço na arte diferente do da loja. Contagem regressiva falsa. Mexer demais nos conjuntos em aprendizado na semana da data. A partir de 12/11 a Meta passa a medir conversões também no aparelho do cliente (ligado por padrão): evite reestruturar campanhas logo em seguida para não confundir a leitura.",
       "sources": [
         23,
         27,
-        28
+        28,
+        31,
+        39
       ]
     },
     {
@@ -192,7 +285,7 @@
       "formatLabel": "Carrossel ou Stories",
       "duration": "4 a 6 cards",
       "ratio": "4:5 (carrossel) e 9:16 (Stories)",
-      "status": "novo",
+      "status": "em-alta",
       "niches": [
         "Varejo e lojas",
         "Pet",
@@ -223,7 +316,7 @@
       "formatLabel": "Vídeo curto",
       "duration": "10 a 20 s",
       "ratio": "9:16",
-      "status": "novo",
+      "status": "em-alta",
       "niches": [
         "Pet"
       ],
@@ -242,35 +335,6 @@
       "avoid": "Mostrar o animal estressado, preso de forma desconfortável ou com ferimento. Usar vídeo de pet que não é do seu cliente.",
       "sources": [
         29
-      ]
-    },
-    {
-      "id": "pet-produto-problema-solucao",
-      "title": "Produto pet: o problema do tutor e a solução na mão",
-      "format": "ugc",
-      "formatLabel": "Vídeo UGC (demonstração)",
-      "duration": "30 a 60 s",
-      "ratio": "9:16 e 4:5",
-      "status": "novo",
-      "niches": [
-        "Pet",
-        "Varejo e lojas"
-      ],
-      "why": "Na Biblioteca de Anúncios, os anúncios de produtos de cuidado pet que estão há meses no ar seguem o mesmo roteiro: começam pela dor do tutor (pelo no sofá, cheiro, gasto com banho) e mostram o produto funcionando. Um deles roda desde 19 de fevereiro de 2026 e vários desde 28 de agosto; quase todos são vídeos explicados, de 30 segundos a mais de 1 minuto.",
-      "how": [
-        "Escolha um produto que resolve uma dor visível (escova removedora de pelos, tapete higiênico, fonte de água).",
-        "Grave em casa, com o pet do funcionário ou de um cliente, mostrando o problema nos 3 primeiros segundos.",
-        "Mostre o produto em uso e o resultado na mesma cena, sem corte.",
-        "Feche com preço, \"tem na loja\" e retirada ou entrega no bairro."
-      ],
-      "hooks": [
-        "\"Pelo no sofá todo dia? Olha o que saiu com uma passada.\"",
-        "\"Pare de gastar com [problema]: esse aqui resolve em casa.\"",
-        "\"O produto que mais sai aqui na loja, e eu entendo por quê.\""
-      ],
-      "avoid": "Prometer efeito de saúde (\"cura alergia\", \"acaba com pulga para sempre\") ou recomendação veterinária que não existe. Remédio e medicamento veterinário exigem cuidado redobrado com as regras da Meta.",
-      "sources": [
-        30
       ]
     },
     {
@@ -332,36 +396,6 @@
       ]
     },
     {
-      "id": "antes-depois",
-      "title": "Antes e depois (só para imóvel, carro e reforma)",
-      "format": "video",
-      "formatLabel": "Vídeo curto",
-      "duration": "12 a 15 s",
-      "ratio": "9:16",
-      "status": "consolidado",
-      "niches": [
-        "Imobiliárias",
-        "Automotivo e financiamento",
-        "Varejo e lojas",
-        "Indústria e B2B"
-      ],
-      "why": "Mostra o resultado sem precisar explicar e funciona bem para transformação de coisas: reforma, carro, vitrine, peça usinada. Mudança desta edição: saímos de saúde e estética, porque antes e depois de corpo, pele e dente é o motivo mais comum de reprovação em anúncios de clínica.",
-      "how": [
-        "Abra com o \"depois\" (o resultado) nos 2 primeiros segundos.",
-        "Volte ao \"antes\" e mostre 2 ou 3 etapas rápidas do processo.",
-        "Feche com o resultado de novo e a chamada para o WhatsApp entre 10 e 15 s."
-      ],
-      "hooks": [
-        "\"Olha como chegou e como saiu.\"",
-        "\"Mesma sala, 3 dias depois.\""
-      ],
-      "avoid": "Usar com pessoas (corpo, pele, dente): a Meta reprova com frequência. Em clínicas, use a ideia de depoimento de experiência.",
-      "sources": [
-        4,
-        15
-      ]
-    },
-    {
       "id": "carrossel-objecoes",
       "title": "Carrossel que derruba objeções",
       "format": "carrossel",
@@ -375,9 +409,10 @@
         "Estética",
         "Indústria e B2B",
         "Automotivo e financiamento",
-        "Academias"
+        "Academias",
+        "Restaurantes"
       ],
-      "why": "O carrossel funciona no meio do funil, quando a pessoa ainda está comparando: um card por dúvida, na ordem em que ela aparece. Em clínicas, o carrossel de benefícios está entre os formatos com mais chance de aprovação. Atenção: entre anúncios de longa duração, o carrossel só se manteve de forma constante em moda, e não há estudo recente mostrando que ele vence a imagem única em imóveis. Rode sempre ao lado de uma imagem ou vídeo.",
+      "why": "O carrossel funciona no meio do funil, quando a pessoa ainda está comparando: um card por dúvida, na ordem em que ela aparece. Em clínicas, o carrossel de benefícios está entre os formatos com mais chance de aprovação. Atenção: não há estudo recente mostrando que ele vence a imagem única de forma geral. Rode sempre ao lado de uma imagem ou vídeo.",
       "how": [
         "Card 1: gancho visual e uma promessa clara.",
         "Cards 2 a 5: uma objeção por card, com a resposta (preço, prazo, garantia, como funciona).",
@@ -397,36 +432,6 @@
       ]
     },
     {
-      "id": "bastidores",
-      "title": "Bastidores: como é feito",
-      "format": "video",
-      "formatLabel": "Vídeo curto",
-      "duration": "10 a 20 s",
-      "ratio": "9:16",
-      "status": "consolidado",
-      "niches": [
-        "Restaurantes",
-        "Indústria e B2B",
-        "Varejo e lojas",
-        "Pet"
-      ],
-      "why": "Bastidores mostram cuidado e justificam o preço sem dizer \"qualidade\". Em restaurantes, a sugestão é dedicar um dia da semana a vídeo de cozinha e balcão.",
-      "how": [
-        "Mostre o processo em cortes de 1 a 2 segundos (preparo, montagem, embalagem).",
-        "Use o som ambiente ou uma música em alta, com legenda curta.",
-        "Feche no produto pronto e na oferta."
-      ],
-      "hooks": [
-        "\"O que acontece antes do seu pedido chegar\"",
-        "\"Ninguém vê essa parte\""
-      ],
-      "avoid": "Imagem de banco de imagens: quebra a autenticidade.",
-      "sources": [
-        7,
-        8
-      ]
-    },
-    {
       "id": "parceria-criador",
       "title": "Anúncio em parceria com criador local",
       "format": "ugc",
@@ -443,9 +448,10 @@
       ],
       "why": "A Meta destaca o criador no cabeçalho do anúncio. O Creator Marketing Hub chegou a todos os países, com criação de anúncio em parceria em um clique, e os anúncios em parceria já somam receita anualizada de 15 bilhões de dólares para a Meta. Em dados divulgados sobre anúncios em parceria no Reels, o custo por alcance caiu 16% e as conversões subiram 29%. Na pesquisa de fim de ano da Meta, 94% dos compradores disseram buscar criadores como referência para os presentes.",
       "how": [
-        "Escolha um criador da cidade com público parecido com o cliente.",
+        "Escolha um microcriador da cidade pelo público, pelo bairro e pelo engajamento, não só pelo número de seguidores.",
+        "Combine por escrito o que ele entrega, por quanto tempo você pode usar o vídeo e a marcação de parceria.",
         "Peça para ele usar o produto/serviço de verdade e gravar do jeito dele.",
-        "Rode como anúncio em parceria: o anúncio aparece com o nome do criador e do cliente."
+        "Rode como anúncio em parceria: aparece com o nome do criador e do cliente."
       ],
       "hooks": [
         "\"Fui testar o [lugar] que todo mundo está falando\""
@@ -454,7 +460,8 @@
       "sources": [
         12,
         25,
-        26
+        26,
+        37
       ]
     },
     {
@@ -528,11 +535,6 @@
       "id": 7,
       "title": "Tráfego pago pra delivery: táticas que convertem em 2026 (Trafius)",
       "url": "https://trafius.com.br/blog/trafego-pago-pra-delivery-taticas-que-convertem-em-2026"
-    },
-    {
-      "id": 8,
-      "title": "Instagram Reels Tactics That Drive Restaurant Delivery Orders (RAY)",
-      "url": "https://blog.rayapp.ai/?p=28568"
     },
     {
       "id": 11,
@@ -625,9 +627,49 @@
       "url": "https://www.get-ryze.ai/blog/ai-facebook-ads-for-pet-services-guide"
     },
     {
-      "id": 30,
-      "title": "Ad ideas for Pet Grooming on Meta, Updated 2026 (Atria)",
-      "url": "https://www.tryatria.com/ads/meta/pet-grooming-ads"
+      "id": 31,
+      "title": "Meta Ads Updates: November 2026 Changelog for Media Buyers (AdMakeAI, 2/11/2026)",
+      "url": "https://admakeai.com/blog/meta-ads-updates-november-2026"
+    },
+    {
+      "id": 32,
+      "title": "Meta halts its Nov 20 terms that would let it crawl business websites (PPC Land, 8/11/2026)",
+      "url": "https://ppc.land/meta-halts-its-nov-20-terms-that-would-let-it-crawl-business-websites/"
+    },
+    {
+      "id": 33,
+      "title": "Meta Andromeda 2.0: What Meta Changed and What to Do Now (Segwise, 3/11/2026)",
+      "url": "https://segwise.ai/blog/meta-andromeda-2-0"
+    },
+    {
+      "id": 34,
+      "title": "Study of $1.3B in Meta Ad Spend Suggests Creative Output, Not Creative Intuition, Drives Results (Net Influencer/Pulse, 27/2/2026)",
+      "url": "https://www.pulse.bot/media/news/study-of-13b-in-meta-ad-spend-suggests-creative-output-not-creative-intuition-drives-results-008f4a3e-6d3c-4efa-b0c3-08edc93c60bb"
+    },
+    {
+      "id": 35,
+      "title": "Facebook Ads para academias: custos, ofertas e a conta que fecha (AdsUploader, 19/10/2026)",
+      "url": "https://adsuploader.com/pt/blog/facebook-ads-for-gyms"
+    },
+    {
+      "id": 36,
+      "title": "Facebook Ads for Gyms: Membership Campaign Structures (Stackmatix, 6/9/2026)",
+      "url": "https://www.stackmatix.com/blog/gym-facebook-ads-membership-campaigns"
+    },
+    {
+      "id": 37,
+      "title": "2026 Holiday Marketing Strategy: What Meta Says Will Win This Season (TechWyse, 28/9/2026)",
+      "url": "https://www.techwyse.com/blog/social-media-marketing/2026-holiday-marketing-strategy-meta-ads"
+    },
+    {
+      "id": 38,
+      "title": "3 Effective Instagram Restaurant Ads Examples for 2026 (GetHookd)",
+      "url": "https://www.gethookd.ai/learn/3-effective-instagram-restaurant-ads-examples-for-2026/"
+    },
+    {
+      "id": 39,
+      "title": "Every Meta Ads Change in 2026, atualizado semanalmente (Common Thread Collective, novembro de 2026)",
+      "url": "https://commonthreadco.com/blogs/coachs-corner/meta-ads-changes-2026"
     }
   ]
 }
