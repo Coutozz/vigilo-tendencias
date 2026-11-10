@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-09T07:00:00-03:00",
-  "edition": "9 de novembro de 2026",
-  "summary": "Sem mudança relevante da Meta em anúncios desde a edição de 7/11. A Social Media Today repercutiu o caso das 'Ofertas detectadas' (promoções do site aparecendo em anúncios mesmo com promoções desligadas): antes da Black Friday, revise essa opção no Commerce Manager. Atenção aos prazos desta semana: a v24.0 da API sai do ar amanhã (10/11) e o pixel começa a medir conversões no aparelho do cliente em 12/11; evite mexer na estrutura das campanhas nesses dias para não confundir a leitura dos resultados.",
+  "updatedAt": "2026-11-10T07:00:00-03:00",
+  "edition": "10 de novembro de 2026",
+  "summary": "Sem mudança relevante da Meta em anúncios desde a edição de 9/11. O foco segue nos prazos desta semana: a v24.0 da API sai do ar hoje (10/11), então confira se conectores e relatórios já usam versão mais nova, e o pixel começa a medir conversões no aparelho do cliente na quinta (12/11). Anote as vendas reais de cada cliente de e-commerce antes de 12/11 e evite mudanças grandes nas campanhas entre 12 e 18/11 para não confundir a leitura dos resultados antes da Black Friday.",
   "api": {
     "latest": "v27.0",
     "latestDate": "2026-11-04",
@@ -17,7 +17,7 @@
     {
       "date": "2026-11-10",
       "title": "Graph API v24.0 é desligada",
-      "text": "Ferramentas e integrações que ainda chamam a v24.0 param de funcionar. Confira se os conectores e relatórios da agência já usam a v25.0 ou a v26.0.",
+      "text": "Hoje. Ferramentas e integrações que ainda chamam a v24.0 param de funcionar. Confira se os conectores e relatórios da agência já usam a v25.0 ou a v26.0.",
       "sources": [
         16
       ]
