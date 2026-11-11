@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-10T07:00:00-03:00",
-  "edition": "10 de novembro de 2026",
-  "summary": "Sem mudança relevante da Meta em anúncios desde a edição de 9/11. O foco segue nos prazos desta semana: a v24.0 da API sai do ar hoje (10/11), então confira se conectores e relatórios já usam versão mais nova, e o pixel começa a medir conversões no aparelho do cliente na quinta (12/11). Anote as vendas reais de cada cliente de e-commerce antes de 12/11 e evite mudanças grandes nas campanhas entre 12 e 18/11 para não confundir a leitura dos resultados antes da Black Friday.",
+  "updatedAt": "2026-11-11T07:00:00-03:00",
+  "edition": "11 de novembro de 2026",
+  "summary": "Sem mudança relevante da Meta em anúncios desde a edição de 10/11. O ponto principal é amanhã (12/11): o pixel começa a medir conversões no aparelho do cliente, ligado por padrão, e os resultados de e-commerce podem subir sem que as vendas reais mudem. Anote hoje as vendas reais de cada cliente, decida pixel a pixel se mantém a opção ligada e evite mudanças grandes nas campanhas entre 12 e 18/11. A v24.0 da API saiu do ar ontem: se algum relatório parou, confira a versão usada pelo conector.",
   "api": {
     "latest": "v27.0",
     "latestDate": "2026-11-04",
@@ -17,7 +17,7 @@
     {
       "date": "2026-11-10",
       "title": "Graph API v24.0 é desligada",
-      "text": "Hoje. Ferramentas e integrações que ainda chamam a v24.0 param de funcionar. Confira se os conectores e relatórios da agência já usam a v25.0 ou a v26.0.",
+      "text": "Ontem. Ferramentas e integrações que ainda chamavam a v24.0 pararam de funcionar. Se algum relatório ou conector deu erro desde 10/11, confira se ele já usa a v25.0 ou mais nova.",
       "sources": [
         16
       ]
@@ -25,7 +25,7 @@
     {
       "date": "2026-11-12",
       "title": "Pixel passa a medir conversões no aparelho do cliente",
-      "text": "Ligado por padrão em todo conjunto de dados que já envia eventos. Pode ser desligado nas configurações de cada pixel no Gerenciador de Eventos. Registre as vendas reais antes da data para comparar. Uma agência recomenda evitar mudanças grandes nas campanhas entre 12 e 18/11, para não confundir o efeito da nova contagem com o das alterações.",
+      "text": "Amanhã. Ligado por padrão em todo conjunto de dados que já envia eventos. Pode ser desligado nas configurações de cada pixel no Gerenciador de Eventos. Registre as vendas reais antes da data para comparar. Uma agência recomenda evitar mudanças grandes nas campanhas entre 12 e 18/11, para não confundir o efeito da nova contagem com o das alterações.",
       "sources": [
         14,
         15,
