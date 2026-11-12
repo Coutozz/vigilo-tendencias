@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-11T07:00:00-03:00",
-  "edition": "11 de novembro de 2026",
-  "summary": "Sem mudança relevante da Meta em anúncios desde a edição de 10/11. O ponto principal é amanhã (12/11): o pixel começa a medir conversões no aparelho do cliente, ligado por padrão, e os resultados de e-commerce podem subir sem que as vendas reais mudem. Anote hoje as vendas reais de cada cliente, decida pixel a pixel se mantém a opção ligada e evite mudanças grandes nas campanhas entre 12 e 18/11. A v24.0 da API saiu do ar ontem: se algum relatório parou, confira a versão usada pelo conector.",
+  "updatedAt": "2026-11-12T07:00:00-03:00",
+  "edition": "12 de novembro de 2026",
+  "summary": "Sem mudança nova da Meta em anúncios desde a edição de 11/11; nenhuma fonte relatou adiamento da medição no aparelho do cliente. Hoje (12/11) o pixel começa a medir conversões no aparelho do cliente, ligado por padrão fora da União Europeia e do Reino Unido, e as conversões relatadas podem subir sem que as vendas reais mudem. Compare os resultados do Gerenciador com as vendas reais de cada cliente, decida pixel a pixel se mantém a opção ligada e evite mudanças grandes nas campanhas até 18/11.",
   "api": {
     "latest": "v27.0",
     "latestDate": "2026-11-04",
@@ -119,19 +119,21 @@
       "id": "2026-11-12-pixel-medicao-aparelho",
       "date": "2026-11-12",
       "firstSeen": "2026-10-30",
-      "title": "Pixel vai medir conversões no aparelho do cliente a partir de 12/11, ligado por padrão",
+      "title": "Pixel passa a medir conversões no aparelho do cliente a partir de hoje (12/11), ligado por padrão",
       "category": "medicao",
       "impact": "alto",
-      "status": "anunciado",
+      "status": "em-vigor",
       "region": "Global",
       "confirmed": true,
       "summary": "Uma nova opção do pixel, já ligada em todas as contas que enviam eventos, deve fazer a Meta atribuir mais vendas às campanhas.",
-      "what": "A Meta avisou os anunciantes que, a partir de 12/11/2026, a opção \"Medir conversões nos dispositivos dos clientes\" passa a valer em todo conjunto de dados que já envia eventos pelo pixel ou pela API de Conversões. Parte das compras no site é cruzada no próprio aparelho, usando o e-mail que o cliente deu à empresa. Segundo relatos citando a central de ajuda, não vale na União Europeia e no Reino Unido, exige o pixel direto na página e site com login por e-mail ou celular. A janela de atribuição não muda.",
+      "what": "Desde 12/11/2026, conforme o aviso da Meta aos anunciantes, a opção \"Medir conversões nos dispositivos dos clientes\" passa a valer em todo conjunto de dados que já envia eventos pelo pixel ou pela API de Conversões. Parte das compras no site é cruzada no próprio aparelho, usando o e-mail que o cliente deu à empresa. Segundo relatos citando a central de ajuda, não vale na União Europeia e no Reino Unido, exige o pixel direto na página e site com login por e-mail ou celular. A janela de atribuição não muda.",
       "effect": "O Gerenciador pode passar a mostrar mais compras atribuídas do que antes, bem na Black Friday, sem que as vendas reais tenham subido na mesma proporção. A Meta não disse se essas conversões a mais entram na otimização dos lances.",
-      "action": "Antes de 12/11, anote as vendas reais por dia de cada cliente de e-commerce e compare depois com as compras do Gerenciador. A opção pode ser desligada em Gerenciador de Eventos > Fontes de dados > pixel > Configurações; mantenha a API de Conversões ligada.",
+      "action": "Compare, a partir de hoje, as vendas reais por dia de cada cliente de e-commerce com as compras do Gerenciador e com os números de antes de 12/11. A opção pode ser desligada em Gerenciador de Eventos > Fontes de dados > pixel > Configurações; mantenha a API de Conversões ligada e evite mudanças grandes nas campanhas entre 12 e 18/11.",
       "sources": [
         14,
-        15
+        15,
+        47,
+        48
       ]
     },
     {
@@ -1013,6 +1015,16 @@
       "id": 46,
       "title": "Social Media Today: Meta's AI ads included unapproved discounts",
       "url": "https://www.socialmediatoday.com/news/metas-ai-ads-included-unapproved-discounts/874067/"
+    },
+    {
+      "id": 47,
+      "title": "Relevant Audience: Meta Pixel liga 'Medir conversões nos aparelhos dos clientes' por padrão",
+      "url": "https://www.relevantaudience.com/meta/meta-pixel-measure-conversions-on-customer-devices/"
+    },
+    {
+      "id": 48,
+      "title": "Stape: medição de conversões no aparelho da Meta",
+      "url": "https://stape.io/news/meta-on-device-conversion-measurement"
     }
   ]
 }
