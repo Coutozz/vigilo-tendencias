@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-11T06:00:00-03:00",
-  "edition": "11 de novembro de 2026",
-  "summary": "Faltam 16 dias para a Black Friday (27/11): vídeo vertical curto, com a oferta clara no primeiro segundo e vários conceitos diferentes no ar, segue na frente. A partir de amanhã (12/11) a Meta mede conversões também no aparelho do cliente, então evite reestruturar campanhas até 18/11. Nesta edição, ideias novas para clínicas odontológicas (primeira consulta e oferta com preço claro) e para indústria e B2B (bastidor da fábrica e pedido de orçamento no próprio anúncio).",
+  "updatedAt": "2026-11-13T06:00:00-03:00",
+  "edition": "13 de novembro de 2026",
+  "summary": "Faltam 14 dias para a Black Friday (27/11): vídeo vertical curto com a oferta no primeiro segundo, vários conceitos diferentes e peças no ar até 20/11 seguem na frente. Desde ontem (12/11) a Meta mede conversões também no aparelho do cliente: até 18/11, suba criativo novo, mas não mexa na estrutura das campanhas. Nesta edição, ideias novas para academias (aula experimental já agendada e comunidade sem julgamento, pensando em janeiro) e para pet shop (banho e tosa mostrando o pet antes e depois).",
   "rules": [
     {
-      "title": "Black Friday em 27/11: tudo no ar até a próxima semana",
-      "text": "Os quatro dias antes da Black Friday de 2025 concentraram 65% do gasto do fim de semana. Tenha 3 a 4 vezes mais criativos que o normal, suba as peças até 20/11 para passarem pelo aprendizado e deixe ofertas novas prontas para a véspera.",
+      "title": "Black Friday em 27/11: peças no ar até 20/11",
+      "text": "Os quatro dias antes da Black Friday de 2025 concentraram 65% do gasto do fim de semana. Tenha 3 a 4 vezes mais criativos que o normal, suba tudo até 20/11 para passar pelo aprendizado e deixe ofertas novas prontas para a véspera. Mudanças constantes atrapalham: a própria Meta pede menos edições de campanha na alta temporada.",
       "source": 27
     },
     {
@@ -15,8 +15,8 @@
       "source": 33
     },
     {
-      "title": "De 12 a 18/11, não mexa na estrutura das campanhas",
-      "text": "A partir de 12/11 a Meta passa a medir conversões também no aparelho do cliente, ligado por padrão, e diz recuperar até 15% mais compras atribuídas. Nessa semana, não troque estrutura, objetivo nem divida conjuntos: o número vai mudar por causa da medição, não do criativo. Criativo novo pode entrar normalmente.",
+      "title": "Até 18/11, não mexa na estrutura das campanhas",
+      "text": "Desde 12/11 a Meta mede conversões também no aparelho do cliente, ligado por padrão, e diz recuperar até 15% mais compras atribuídas. Até 18/11, não troque estrutura, objetivo nem divida conjuntos: o número muda por causa da medição, não do criativo. Compare com as vendas reais do cliente. Criativo novo pode entrar normalmente.",
       "source": 39
     },
     {
@@ -26,8 +26,8 @@
     },
     {
       "title": "Cada peça em 9:16, 4:5 e 1:1, e veja o resultado de cada uma",
-      "text": "A Meta decide onde mostra: em novembro a escolha manual de posicionamentos saiu também das campanhas de Cadastros e Vendas, e o Threads virou posicionamento padrão. Suba a mesma ideia nas três proporções. No Gerenciador, Detalhamento > Criativo > Mídia mostra gasto, CTR e custo de cada imagem e vídeo: corte o que não entrega.",
-      "source": 40
+      "text": "A Meta decide onde mostra: em Cadastros, Vendas e Apps não dá mais para escolher posicionamento manualmente no conjunto. Suba a mesma ideia nas três proporções. A Meta liberou o detalhamento por peça no Gerenciador (Detalhamento > Criativo), com o resultado de cada imagem, vídeo e título: corte o que não entrega.",
+      "source": 47
     },
     {
       "title": "Saúde, estética e academia: fale do serviço, não de quem assiste",
@@ -39,7 +39,7 @@
     {
       "name": "Vídeo vertical curto (até 20 s) ou explicado (30 a 60 s)",
       "trend": "up",
-      "note": "Mais de 60% do tempo no Facebook e no Instagram é vídeo. Na Black Friday de 2025, o CPM no Reels ficou 30% a 40% menor que no feed. Numa leitura de 81 anúncios ativos de uma grande rede de clínicas odontológicas dos EUA, 81% eram vídeo, com cortes de 15 e 30 s e metade com 19 s ou menos."
+      "note": "Mais de 60% do tempo no Facebook e no Instagram é vídeo. Na Black Friday de 2025, o CPM no Reels ficou 30% a 40% menor que no feed. A Meta também anunciou os anúncios Reels Trending, que aparecem junto de conteúdos em alta no Reels."
     },
     {
       "name": "UGC / cara de orgânico",
@@ -54,7 +54,7 @@
     {
       "name": "Imagem para vídeo e edição com IA da Meta",
       "trend": "steady",
-      "note": "Imagem para vídeo e Animação de imagem transformam foto de produto em vídeo para o Reels, e o Ads Creative Studio edita gancho, áudio, duração e final de um vídeo existente (disponível no Brasil). Os novos termos que jogariam toda a responsabilidade da IA no anunciante foram adiados sem data, mas sempre confira a prévia antes de publicar."
+      "note": "A Animação de imagem do Advantage+ criativo transforma foto de produto em vídeo dentro do Gerenciador, e o Ads Creative Studio edita gancho, áudio, duração e final de um vídeo existente. Os novos termos que jogariam toda a responsabilidade da IA no anunciante foram adiados sem data, mas revise as melhorias automáticas e a prévia antes de escalar na Black Friday."
     },
     {
       "name": "Anúncio com criador (parceria)",
@@ -73,8 +73,8 @@
     },
     {
       "name": "Imagem estática",
-      "trend": "down",
-      "note": "Ainda boa para oferta com preço legível, remarketing e cadastro, mas perdendo espaço: num rastreador do Reino Unido, só 1,9% dos anúncios de Black Friday eram imagem em outubro, contra 6% em 2025, e na rede de clínicas analisada a imagem única era só 6% dos anúncios. Use junto com vídeo, não no lugar dele."
+      "trend": "steady",
+      "note": "Perdeu espaço no volume (num rastreador do Reino Unido, só 1,9% dos anúncios de Black Friday eram imagem em outubro, contra 6% em 2025), mas quando roda dura tanto quanto vídeo: em 546 anúncios dos EUA na Biblioteca de Anúncios, a mediana foi de 82 dias para imagem e 68 para vídeo. Em pet, foto de produto bem feita foi o tipo de peça que mais durou. Boa para oferta com preço legível, remarketing e cadastro, junto com vídeo."
     }
   ],
   "niches": [
@@ -161,7 +161,7 @@
       "formatLabel": "Vídeo curto (equipe e consultório)",
       "duration": "15 a 30 s",
       "ratio": "9:16 e 4:5",
-      "status": "novo",
+      "status": "em-alta",
       "niches": [
         "Saúde e odontologia"
       ],
@@ -183,42 +183,13 @@
       ]
     },
     {
-      "id": "odonto-oferta-preco-claro",
-      "title": "Clínica odontológica: oferta por procedimento com o preço escrito",
-      "format": "video",
-      "formatLabel": "Vídeo curto + card de oferta",
-      "duration": "até 20 s (vídeo) e card estático",
-      "ratio": "9:16, 4:5 e 1:1",
-      "status": "novo",
-      "niches": [
-        "Saúde e odontologia"
-      ],
-      "why": "Numa leitura de 81 anúncios ativos de uma grande rede de clínicas odontológicas dos EUA, 81% eram vídeo, metade com 19 s ou menos, e 45 dos 81 traziam preço ou valor no texto: avaliação, plano anual, prótese, implante. Isso mostra o que a rede escolheu rodar, não o resultado. A mesma leitura mostra que a rede relançou 51 anúncios numa só manhã: conjunto de ofertas renovado com frequência, não um anúncio eterno. Oferta de entrada (avaliação, limpeza) só se paga se você acompanhar quantos viram tratamento.",
-      "how": [
-        "Escolha uma oferta por anúncio: avaliação, limpeza, clareamento ou parcelamento de implante.",
-        "Vídeo de 10 a 20 s com o dentista falando a oferta e o preço na tela, e um card estático legível com o mesmo valor.",
-        "Faça uma versão por procedimento e uma versão por unidade/bairro, levando para a página ou WhatsApp daquela unidade.",
-        "Anote no CRM quem veio pela oferta e quantos fecharam tratamento."
-      ],
-      "hooks": [
-        "\"Avaliação completa em [bairro] por R$ [x]. Esta semana ainda tem horário.\"",
-        "\"Clareamento de consultório em até [x]x sem juros.\"",
-        "\"Implante: a gente explica o valor antes, sem surpresa.\""
-      ],
-      "avoid": "Preço na arte que não é o praticado ou com letra miúda escondendo condições. \"Implante sem dor\" ou \"dentes novos no mesmo dia\" sem ressalva. Parcelamento e financiamento podem exigir a categoria especial de produtos financeiros: confira antes de subir.",
-      "sources": [
-        42,
-        43
-      ]
-    },
-    {
       "id": "industria-bastidor-maquina",
       "title": "Indústria: a máquina funcionando e o técnico explicando",
       "format": "video",
       "formatLabel": "Vídeo de bastidor (Reels)",
       "duration": "15 a 30 s",
       "ratio": "9:16 e 4:5",
-      "status": "novo",
+      "status": "em-alta",
       "niches": [
         "Indústria e B2B"
       ],
@@ -241,35 +212,6 @@
       ]
     },
     {
-      "id": "industria-orcamento-formulario",
-      "title": "Indústria e B2B: pedido de orçamento ou ficha técnica no próprio anúncio",
-      "format": "imagem",
-      "formatLabel": "Imagem ou carrossel + formulário instantâneo",
-      "duration": "—",
-      "ratio": "4:5 e 1:1",
-      "status": "novo",
-      "niches": [
-        "Indústria e B2B"
-      ],
-      "why": "Para B2B, conteúdo útil e específico (ficha técnica, catálogo, guia de escolha) funciona melhor que mensagem de venda direta, e o formulário instantâneo evita perder o comprador na página. Em campanhas de indústria na América Latina e na Ásia, a Spilno (citada pela Web Tonic) viu formulário no anúncio converter 25% a 40% mais que mandar para página. Uma ou duas perguntas de qualificação no formulário separam comprador de curioso.",
-      "how": [
-        "Ofereça algo concreto: ficha técnica, tabela de medidas, catálogo em PDF ou orçamento em 24 h.",
-        "Arte limpa com o produto real e o benefício técnico; carrossel se for guia em partes.",
-        "Formulário com nome, WhatsApp, empresa e uma ou duas perguntas (volume mensal, cidade).",
-        "Ligue ou mande mensagem no mesmo dia e mande a ficha na hora."
-      ],
-      "hooks": [
-        "\"Baixe a ficha técnica do [produto] e compare antes de comprar.\"",
-        "\"Orçamento de [produto] em até 24 h para empresas de [região].\"",
-        "\"Guia rápido: como escolher [produto] para a sua linha.\""
-      ],
-      "avoid": "Formulário só com nome e e-mail (atrai curioso) ou com perguntas demais. Prometer prazo ou preço que o comercial não cumpre. Deixar o contato esfriar por dias.",
-      "sources": [
-        44,
-        46
-      ]
-    },
-    {
       "id": "black-friday-oferta-prova",
       "title": "Black Friday local: oferta com prova social em vídeo curto",
       "format": "video",
@@ -283,7 +225,7 @@
         "Restaurantes",
         "Academias"
       ],
-      "why": "A Black Friday é em 27 de novembro, daqui a 16 dias. Num levantamento da Triple Whale sobre a Black Friday de 2025, os quatro dias antes da data já concentraram 65% do gasto do fim de semana, e a recomendação é vídeo curto de 15 a 30 s e 3 a 4 vezes mais criativos que o normal, porque o cansaço chega rápido. No Reels, o CPM ficou 30% a 40% menor que no feed. Num rastreador de anúncios do Reino Unido, imagem estática era só 1,9% dos anúncios de Black Friday em outubro, contra 6% em 2025: o vídeo tomou conta.",
+      "why": "A Black Friday é em 27 de novembro, daqui a 14 dias. Num levantamento da Triple Whale sobre a Black Friday de 2025, os quatro dias antes da data já concentraram 65% do gasto do fim de semana, e a recomendação é vídeo curto de 15 a 30 s e 3 a 4 vezes mais criativos que o normal, porque o cansaço chega rápido. No Reels, o CPM ficou 30% a 40% menor que no feed. Num rastreador de anúncios do Reino Unido, imagem estática era só 1,9% dos anúncios de Black Friday em outubro, contra 6% em 2025: o vídeo tomou conta.",
       "how": [
         "Escolha 1 a 3 produtos-isca com desconto real e estoque garantido.",
         "Grave o dono ou vendedor mostrando o produto na mão, com o preço \"de/por\" escrito na tela no primeiro segundo.",
@@ -296,7 +238,7 @@
         "\"Mais de [número] clientes de [bairro] já levaram. Agora com [x]% de desconto.\"",
         "\"Só [x] unidades nesse preço. Quando acabar, acabou.\""
       ],
-      "avoid": "Desconto inflado (aumentar o preço antes para dar desconto) e preço na arte diferente do da loja. Contagem regressiva falsa. Mexer na estrutura dos conjuntos entre 12 e 18/11, quando entra a medição no aparelho do cliente: suba criativos novos, mas não reestruture.",
+      "avoid": "Desconto inflado (aumentar o preço antes para dar desconto) e preço na arte diferente do da loja. Contagem regressiva falsa. Reestruturar conjuntos até 18/11, enquanto a nova medição no aparelho do cliente se estabiliza: suba criativos novos, mas não mexa na estrutura.",
       "sources": [
         23,
         27,
@@ -464,36 +406,6 @@
       ]
     },
     {
-      "id": "especialista-responde",
-      "title": "Especialista responde uma dúvida em 20 segundos",
-      "format": "video",
-      "formatLabel": "Vídeo curto com especialista",
-      "duration": "15 a 30 s",
-      "ratio": "9:16",
-      "status": "em-alta",
-      "niches": [
-        "Saúde e odontologia",
-        "Estética"
-      ],
-      "why": "Pílulas de dúvida com o dentista, médico ou esteticista estão entre os formatos com mais chance de aprovação em saúde: geram autoridade e educam sem prometer resultado. Também ajudam a ter vários conceitos diferentes no ar, o que o Andromeda premia.",
-      "how": [
-        "Liste as 5 perguntas que a recepção mais ouve no WhatsApp.",
-        "Grave uma pergunta por vídeo: a pergunta vem escrita na tela e a primeira frase falada já é a resposta.",
-        "Legenda grande na tela (muita gente assiste sem som).",
-        "Feche com: \"Ficou com dúvida? Chama no WhatsApp que a gente explica.\""
-      ],
-      "hooks": [
-        "\"Qual a diferença entre clareamento de consultório e caseiro?\"",
-        "\"Implante dói? Vou te contar como é de verdade.\"",
-        "\"Toxina botulínica e preenchimento são a mesma coisa? Não.\""
-      ],
-      "avoid": "Falar da condição de quem assiste (\"Você tem dente amarelo?\", \"Suas rugas…\"): fere a política de atributos pessoais da Meta. Fale do procedimento, não da pessoa. Nada de agulha, sangue ou cirurgia na tela.",
-      "sources": [
-        14,
-        15
-      ]
-    },
-    {
       "id": "depoimento-experiencia",
       "title": "Depoimento sobre a experiência, não sobre o corpo",
       "format": "ugc",
@@ -522,6 +434,91 @@
         13,
         15
       ]
+    },
+    {
+      "id": "academia-aula-experimental-agendada",
+      "title": "Academia: aula experimental com dia e hora marcados, pelo formulário do anúncio",
+      "format": "video",
+      "formatLabel": "Vídeo curto + formulário instantâneo",
+      "duration": "15 a 30 s",
+      "ratio": "9:16 e 4:5",
+      "status": "novo",
+      "niches": [
+        "Academias"
+      ],
+      "why": "Semana grátis sem horário marcado vira cupom que ninguém usa; o que converte é a aula experimental já agendada. Num caso divulgado pela Meta, a rede de academias GymNation teve 64% mais cadastros e custo por cadastro 39% menor com formulário instantâneo do que com formulário no site. Cadastro barato ainda não é aluno: acompanhe quantos aparecem e se matriculam. Dezembro é a hora de montar isso para janeiro: na Gupta Media, o CPM de janeiro de 2025 foi cerca de 24% menor que o de dezembro de 2024.",
+      "how": [
+        "Grave o professor na recepção ou na sala mostrando como é a primeira aula: quem recebe, o que acontece, quanto tempo dura.",
+        "Oferta específica na tela: \"3 aulas grátis\" ou \"primeira aula com avaliação\", com bairro e horários.",
+        "Formulário instantâneo com nome, WhatsApp e uma pergunta: \"Quando você quer começar?\".",
+        "Responda em minutos, já sugerindo dia e hora, e mande lembrete na véspera."
+      ],
+      "hooks": [
+        "\"Vou te mostrar exatamente como é a sua primeira aula aqui.\"",
+        "\"3 aulas grátis em [bairro]. Você escolhe o horário.\"",
+        "\"Nunca treinou? A primeira aula é comigo, no seu ritmo.\""
+      ],
+      "avoid": "\"Você está acima do peso?\", \"Cansado da sua barriga?\" ou qualquer frase sobre o corpo de quem assiste: fere a política de atributos pessoais. Antes e depois de corpo, promessa de quilos ou de prazo, close de barriga ou gordura. Perguntar peso, IMC, lesão ou remédio no formulário, ou mandar isso para o pixel.",
+      "sources": [
+        48
+      ]
+    },
+    {
+      "id": "academia-comunidade-sem-julgamento",
+      "title": "Academia: \"aqui ninguém te julga\" com alunos e professores reais",
+      "format": "ugc",
+      "formatLabel": "Vídeo UGC (alunos e professor)",
+      "duration": "até 15 s (Reels) ou até 30 s (feed)",
+      "ratio": "9:16",
+      "status": "novo",
+      "niches": [
+        "Academias"
+      ],
+      "why": "Para quem tem receio de começar, o que pesa é o clima, não o corpo de ninguém. Guias de anúncio para academias apontam vídeo de comunidade (alunos conversando, professor acompanhando) e frase de aluno sobre se sentir acolhido como peças que passam melhor na revisão da Meta que a transformação física. Também dá vários conceitos diferentes para o Andromeda: aula cheia, professor apresentando, aluno iniciante.",
+      "how": [
+        "Grave no celular uma aula de verdade: chegada, professor corrigindo alguém, turma rindo no final.",
+        "Peça para 2 ou 3 alunos (com autorização por escrito) dizerem em uma frase por que ficaram.",
+        "Faça uma versão por público: iniciante, mais velho, quem treina cedo.",
+        "Termine com a oferta de aula experimental e o bairro."
+      ],
+      "hooks": [
+        "\"Finalmente achei uma academia onde ninguém fica olhando torto.\"",
+        "\"Aqui o professor sabe o seu nome.\"",
+        "\"Turma das 6h: começa o dia assim com a gente.\""
+      ],
+      "avoid": "Corpos sem camisa em close, comparação de corpos e qualquer menção a peso ou emagrecimento, inclusive na fala de criador ou aluno (a Meta reprova também o que é dito no áudio). Usar aluno sem autorização.",
+      "sources": [
+        48,
+        50
+      ]
+    },
+    {
+      "id": "pet-banho-tosa-antes-depois",
+      "title": "Pet shop: banho e tosa com o pet chegando e saindo",
+      "format": "video",
+      "formatLabel": "Vídeo curto (bastidor)",
+      "duration": "10 a 20 s",
+      "ratio": "9:16",
+      "status": "novo",
+      "niches": [
+        "Pet"
+      ],
+      "why": "A transformação aqui é do pet, não de uma pessoa, então o antes e depois não cai na regra de atributos pessoais e mostra o serviço na hora. No levantamento da Benly com 6.108 anúncios de 23 marcas de pet na Biblioteca de Anúncios, vídeo foi 49,9% das peças, acima da média geral de 41,4%, e a mediana de vida no ar foi de 30 dias: renove todo mês. 72,9% das peças tinham desconto, então um bastidor sem desconto se destaca.",
+      "how": [
+        "Grave o pet chegando, cenas rápidas do banho e da secagem, e a saída com laço ou lenço.",
+        "Mostre o tutor buscando e a reação do pet (com autorização do tutor).",
+        "Escreva na tela o bairro e se tem leva e traz.",
+        "Faça uma versão por porte ou raça comum na região e leve para o WhatsApp com horário."
+      ],
+      "hooks": [
+        "\"Chegou assim… e olha como saiu.\"",
+        "\"O dia de spa do [nome do pet] em 15 segundos.\"",
+        "\"Banho e tosa em [bairro] com leva e traz. Tem horário sábado.\""
+      ],
+      "avoid": "Pet assustado, preso de forma que pareça maus-tratos ou ferido na tosa. Usar pet de cliente sem autorização do tutor. Prometer resultado de pele ou pelo como tratamento de saúde: isso é com o veterinário.",
+      "sources": [
+        51
+      ]
     }
   ],
   "sources": [
@@ -549,11 +546,6 @@
       "id": 13,
       "title": "Meta Andromeda Update: The 2026 Creative Strategy Playbook (Segwise)",
       "url": "https://segwise.ai/blog/meta-andromeda-update-creative-strategy-2026"
-    },
-    {
-      "id": 14,
-      "title": "Meta Ads Best Practices: What Actually Works in 2026 (Billo, 5/10/2026)",
-      "url": "https://billo.app/blog/meta-ads-best-practices"
     },
     {
       "id": 15,
@@ -646,11 +638,6 @@
       "url": "https://commonthreadco.com/blogs/coachs-corner/meta-ads-changes-2026"
     },
     {
-      "id": 40,
-      "title": "(November 9) 2026 Meta & Facebook updates and news (SocialBee, 9/11/2026)",
-      "url": "https://socialbee.com/blog/meta-facebook-updates-news/"
-    },
-    {
       "id": 41,
       "title": "Meta lança ferramentas e agentes de IA para anunciantes (Meio & Mensagem, 6/10/2026)",
       "url": "https://www.meioemensagem.com.br/midia/meta-ferramentas-agentes-ia-para-anunciantes"
@@ -661,11 +648,6 @@
       "url": "https://adsuploader.com/pt/blog/facebook-ads-dental"
     },
     {
-      "id": 43,
-      "title": "Aspen Dental relaunched 51 Meta ads in one morning: análise de 81 anúncios ativos (Improvado, 1/10/2026)",
-      "url": "https://improvado.io/marketing-research/ad-library/aspen-dental"
-    },
-    {
       "id": 44,
       "title": "Manufacturing Facebook & Meta Ads Statistics 2026 (Web Tonic, atualizado 9/10/2026)",
       "url": "https://www.webtonic.io/blog/manufacturing-facebook-ads-statistics"
@@ -674,6 +656,31 @@
       "id": 46,
       "title": "Facebook Ads for B2B: what works in 2026 (Priority Pixels, atualizado 2/10/2026)",
       "url": "https://prioritypixels.co.uk/insights/facebook-ads-for-b2b-what-works-in-2026/"
+    },
+    {
+      "id": 47,
+      "title": "November 2026 Digital News Updates: Meta Ad Formats, LinkedIn Creator Tools (Boot Camp Digital, 5/11/2026)",
+      "url": "https://bootcampdigital.com/blog/november-2026-digital-news-updates/"
+    },
+    {
+      "id": 48,
+      "title": "Facebook Ads para academias: custos, ofertas e conformidade (AdsUploader, 19/10/2026)",
+      "url": "https://adsuploader.com/pt/blog/facebook-ads-for-gyms"
+    },
+    {
+      "id": 50,
+      "title": "Gym Facebook Ads: membership campaigns (Stackmatix, 6/9/2026)",
+      "url": "https://stackmatix.com/blog/gym-facebook-ads-membership-campaigns"
+    },
+    {
+      "id": 51,
+      "title": "Pets & Animals — Creative DNA Benchmarks Q1 2026 (Benly)",
+      "url": "https://benly.ai/benchmarks/pets-animals"
+    },
+    {
+      "id": 52,
+      "title": "Meta Ad Longevity: 546 anúncios da Biblioteca de Anúncios (ShortsIntel, 1/11/2026)",
+      "url": "https://www.shortsintel.com/statistics/meta-ad-longevity"
     }
   ]
 }
