@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-12T07:00:00-03:00",
-  "edition": "12 de novembro de 2026",
-  "summary": "Sem mudança nova da Meta em anúncios desde a edição de 11/11; nenhuma fonte relatou adiamento da medição no aparelho do cliente. Hoje (12/11) o pixel começa a medir conversões no aparelho do cliente, ligado por padrão fora da União Europeia e do Reino Unido, e as conversões relatadas podem subir sem que as vendas reais mudem. Compare os resultados do Gerenciador com as vendas reais de cada cliente, decida pixel a pixel se mantém a opção ligada e evite mudanças grandes nas campanhas até 18/11.",
+  "updatedAt": "2026-11-13T07:00:00-03:00",
+  "edition": "13 de novembro de 2026",
+  "summary": "Semana sem mudança grande nova da Meta em anúncios desde a edição de 12/11; a única novidade é um lançamento na Tailândia e em outros países da Ásia (vídeo por IA e medição de vendas no varejo), sem data para o Brasil. O ponto de atenção continua sendo a medição de conversões no aparelho do cliente, ligada por padrão desde ontem (12/11): as compras no Gerenciador podem subir sem que as vendas reais mudem. Compare os números do Gerenciador com as vendas reais de cada cliente e evite mudanças grandes nas campanhas até 18/11. Os novos termos comerciais da Meta seguem suspensos, sem nova data.",
   "api": {
     "latest": "v27.0",
     "latestDate": "2026-11-04",
-    "note": "A Meta lançou a Graph API e a Marketing API v27.0 em 4/11/2026. Para quem só lê dados: a métrica total_video_consumption_rate deixou de retornar dados no início de novembro em todas as versões, sem substituta (na v26.0 já tinham saído espectadores de 3 segundos e alcance de vídeo). Os demais campos de insights, contas, campanhas, anúncios e criativos seguem iguais. A v24.0 sai do ar em 10/11/2026 e a v25.0 em 23/02/2027.",
+    "note": "A Meta lançou a Graph API e a Marketing API v27.0 em 4/11/2026. Para quem só lê dados: a métrica total_video_consumption_rate deixou de retornar dados no início de novembro em todas as versões, sem substituta (na v26.0 já tinham saído espectadores de 3 segundos e alcance de vídeo). Os demais campos de insights, contas, campanhas, anúncios e criativos seguem iguais. A v24.0 saiu do ar em 10/11/2026; a v25.0 sai em 23/02/2027.",
     "sources": [
       39,
       40,
@@ -15,17 +15,9 @@
   },
   "watch": [
     {
-      "date": "2026-11-10",
-      "title": "Graph API v24.0 é desligada",
-      "text": "Ontem. Ferramentas e integrações que ainda chamavam a v24.0 pararam de funcionar. Se algum relatório ou conector deu erro desde 10/11, confira se ele já usa a v25.0 ou mais nova.",
-      "sources": [
-        16
-      ]
-    },
-    {
       "date": "2026-11-12",
-      "title": "Pixel passa a medir conversões no aparelho do cliente",
-      "text": "Amanhã. Ligado por padrão em todo conjunto de dados que já envia eventos. Pode ser desligado nas configurações de cada pixel no Gerenciador de Eventos. Registre as vendas reais antes da data para comparar. Uma agência recomenda evitar mudanças grandes nas campanhas entre 12 e 18/11, para não confundir o efeito da nova contagem com o das alterações.",
+      "title": "Pixel começou a medir conversões no aparelho do cliente",
+      "text": "Em vigor desde 12/11, ligado por padrão em todo conjunto de dados que já envia eventos. Pode ser desligado nas configurações de cada pixel no Gerenciador de Eventos. Compare as compras do Gerenciador com as vendas reais dos dias anteriores. Uma agência recomenda evitar mudanças grandes nas campanhas entre 12 e 18/11.",
       "sources": [
         14,
         15,
@@ -59,6 +51,24 @@
     }
   ],
   "updates": [
+    {
+      "id": "2026-11-12-dream-render-omnicanal-asia",
+      "date": "2026-11-12",
+      "firstSeen": "2026-11-13",
+      "title": "Meta testa na Ásia o Dream Render (vídeo por IA) e anúncios colaborativos que medem vendas em loja física",
+      "category": "formatos",
+      "impact": "baixo",
+      "status": "em-teste",
+      "region": "Tailândia, Coreia do Sul, Filipinas e Singapura",
+      "confirmed": false,
+      "summary": "Segundo a imprensa tailandesa, a Meta lançou na Ásia uma ferramenta que transforma roteiro ou foto de produto em vídeo e anúncios com varejistas que somam vendas no site, no app e na loja.",
+      "what": "Relatos de 12 e 13/11/2026 na imprensa da Tailândia: (1) Dream Render, ferramenta de IA em beta que cria vídeo a partir de briefing, roteiro ou foto de produto, lançada primeiro na Tailândia, Coreia do Sul, Filipinas e Singapura, com 100 créditos grátis por semana (cerca de 2 a 3 vídeos); (2) Omnichannel Collaborative Ads, anúncios no Facebook e Instagram feitos com varejistas parceiros que medem as vendas totais no site, no app e nas lojas físicas, liberados aos poucos para parceiros elegíveis. Não há anúncio no site oficial da Meta nem data para o Brasil.",
+      "effect": "Nada muda nas contas brasileiras por enquanto. Indica para onde a Meta está indo: mais vídeo gerado por IA para quem não tem produção e medição de venda em loja física, útil para varejo e indústria que vendem por redes de lojas.",
+      "action": "Nenhuma ação agora. Se o Dream Render ou os anúncios colaborativos omnicanal aparecerem no Gerenciador de algum cliente no Brasil, teste em pequena escala antes de usar nas campanhas principais.",
+      "sources": [
+        49
+      ]
+    },
     {
       "id": "2026-11-04-api-v27",
       "date": "2026-11-04",
@@ -1025,6 +1035,11 @@
       "id": 48,
       "title": "Stape: medição de conversões no aparelho da Meta",
       "url": "https://stape.io/news/meta-on-device-conversion-measurement"
+    },
+    {
+      "id": 49,
+      "title": "Relevant Audience: Meta lança Omnichannel Collaborative Ads e Dream Render na Tailândia",
+      "url": "https://www.relevantaudience.com/meta/meta-omnichannel-collaborative-ads-dream-render-thailand/"
     }
   ]
 }
