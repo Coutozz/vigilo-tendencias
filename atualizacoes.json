@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-13T07:00:00-03:00",
-  "edition": "13 de novembro de 2026",
-  "summary": "Semana sem mudança grande nova da Meta em anúncios desde a edição de 12/11; a única novidade é um lançamento na Tailândia e em outros países da Ásia (vídeo por IA e medição de vendas no varejo), sem data para o Brasil. O ponto de atenção continua sendo a medição de conversões no aparelho do cliente, ligada por padrão desde ontem (12/11): as compras no Gerenciador podem subir sem que as vendas reais mudem. Compare os números do Gerenciador com as vendas reais de cada cliente e evite mudanças grandes nas campanhas até 18/11. Os novos termos comerciais da Meta seguem suspensos, sem nova data.",
+  "updatedAt": "2026-11-14T07:00:00-03:00",
+  "edition": "14 de novembro de 2026",
+  "summary": "Nenhuma mudança relevante da Meta em anúncios desde a edição de 13/11: o site oficial da Meta e os registros de agências não trazem novidade para anunciantes nos últimos dias. O ponto de atenção segue sendo a medição de conversões no aparelho do cliente, ligada por padrão desde 12/11: as compras no Gerenciador podem subir sem que as vendas reais mudem, então compare com as vendas de cada cliente e evite mudanças grandes nas campanhas até 18/11. Os novos termos comerciais da Meta continuam suspensos, sem nova data (textos que ainda falam em 20/11 estão desatualizados), e a Black Friday é em 27/11.",
   "api": {
     "latest": "v27.0",
     "latestDate": "2026-11-04",
