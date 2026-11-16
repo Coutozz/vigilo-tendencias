@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-14T07:00:00-03:00",
-  "edition": "14 de novembro de 2026",
-  "summary": "Nenhuma mudança relevante da Meta em anúncios desde a edição de 13/11: o site oficial da Meta e os registros de agências não trazem novidade para anunciantes nos últimos dias. O ponto de atenção segue sendo a medição de conversões no aparelho do cliente, ligada por padrão desde 12/11: as compras no Gerenciador podem subir sem que as vendas reais mudem, então compare com as vendas de cada cliente e evite mudanças grandes nas campanhas até 18/11. Os novos termos comerciais da Meta continuam suspensos, sem nova data (textos que ainda falam em 20/11 estão desatualizados), e a Black Friday é em 27/11.",
+  "updatedAt": "2026-11-16T07:00:00-03:00",
+  "edition": "16 de novembro de 2026",
+  "summary": "Semana calma: nenhuma mudança de impacto alto desde 14/11. As novidades são pequenas: o relatório da API agora separa resultados de anúncios de parceria por criador, o WhatsApp mudou regras para contatos só com nome de usuário e a Meta ampliou a detecção de idade de adolescentes no Instagram. O que pede atenção continua igual: compare as compras do Gerenciador com as vendas reais desde que o pixel passou a medir no aparelho do cliente (12/11), revise ofertas automáticas e melhorias do Advantage+ antes da Black Friday (27/11) e lembre que os novos termos comerciais seguem suspensos, sem data.",
   "api": {
     "latest": "v27.0",
     "latestDate": "2026-11-04",
@@ -14,16 +14,6 @@
     ]
   },
   "watch": [
-    {
-      "date": "2026-11-12",
-      "title": "Pixel começou a medir conversões no aparelho do cliente",
-      "text": "Em vigor desde 12/11, ligado por padrão em todo conjunto de dados que já envia eventos. Pode ser desligado nas configurações de cada pixel no Gerenciador de Eventos. Compare as compras do Gerenciador com as vendas reais dos dias anteriores. Uma agência recomenda evitar mudanças grandes nas campanhas entre 12 e 18/11.",
-      "sources": [
-        14,
-        15,
-        9
-      ]
-    },
     {
       "date": "2026-11-27",
       "title": "Black Friday",
@@ -51,6 +41,60 @@
     }
   ],
   "updates": [
+    {
+      "id": "2026-11-05-parceria-por-criador",
+      "date": "2026-11-05",
+      "firstSeen": "2026-11-16",
+      "title": "Relatórios da API separam resultados de anúncios de parceria por criador",
+      "category": "api",
+      "impact": "baixo",
+      "status": "em-vigor",
+      "region": "Global",
+      "confirmed": true,
+      "summary": "A Marketing API ganhou um detalhamento que mostra os números dos anúncios de parceria separados pelo @ do criador no Instagram.",
+      "what": "Segundo o registro de mudanças fora de ciclo da Marketing API, citado pelo AdsUploader, desde 5/11/2026 existe o detalhamento pa_creator_ig_handle em todas as versões da API, nos níveis de conta, campanha, conjunto e anúncio. Ele traz impressões, alcance, cliques no link e métricas de vídeo, não pode ser combinado com outros detalhamentos e ainda não mostra conversões.",
+      "effect": "Agências que usam criadores (estética, academias, restaurantes, varejo) conseguem ver pela API quanto alcance e clique cada criador trouxe, sem planilha manual. Para vendas e leads por criador ainda não serve.",
+      "action": "Nenhuma ação obrigatória. Se a agência paga criadores por desempenho, peça a quem cuida dos relatórios para puxar esse detalhamento e comparar o custo por clique de cada criador.",
+      "sources": [
+        27
+      ]
+    },
+    {
+      "id": "2026-11-04-whatsapp-usuario-chamadas",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-16",
+      "title": "WhatsApp: mensagens de marketing com preço máximo não chegam a contatos só com nome de usuário",
+      "category": "api",
+      "impact": "baixo",
+      "status": "em-vigor",
+      "region": "Global",
+      "confirmed": true,
+      "summary": "Modelos de marketing e de autenticação enviados com preço máximo falham para contatos identificados só pelo nome de usuário, e surgiu uma opção para controlar ligações iniciadas pela empresa.",
+      "what": "Segundo o AdsUploader, citando o registro de mudanças para desenvolvedores do WhatsApp: desde 4/11/2026 mensagens de marketing e de autenticação com preço máximo enviadas a contatos que só têm nome de usuário (sem número) dão o erro 131062. Em 12/11 foi adicionada a configuração call_permission_mode, que permite à empresa entrar ou sair das ligações iniciadas pela empresa liberadas conforme a qualidade da conta.",
+      "effect": "Disparos de campanhas pelo WhatsApp a partir de ferramentas que usam a API podem falhar para parte da base, sem aparecer no Gerenciador de Anúncios. Não afeta anúncios de clique para o WhatsApp.",
+      "action": "Se algum cliente faz disparos de marketing pelo WhatsApp com preço máximo, peça ao fornecedor da ferramenta para checar o erro 131062 nos envios da Black Friday. Fora isso, nada a fazer.",
+      "sources": [
+        27
+      ]
+    },
+    {
+      "id": "2026-11-09-idade-adolescentes-global",
+      "date": "2026-11-09",
+      "firstSeen": "2026-11-16",
+      "title": "Instagram amplia para o mundo todo a detecção de idade de adolescentes",
+      "category": "publicos",
+      "impact": "baixo",
+      "status": "anunciado",
+      "region": "Global",
+      "confirmed": true,
+      "summary": "A Meta passou a identificar por IA adolescentes que dizem ser adultos no Instagram em todo o mundo; Facebook e Threads vêm depois.",
+      "what": "Em 9/11/2026 a Meta anunciou a expansão mundial da detecção de idade das contas de adolescentes no Instagram, com o Facebook em seguida e o Threads mais tarde no ano, segundo o AdsUploader, que cita a sala de imprensa da Meta. O anúncio não fala de anúncios.",
+      "effect": "Mais pessoas de 13 a 17 anos devem ser tratadas como adolescentes, o que pode reduzir um pouco o público alcançável abaixo de 18 anos em academias, cursos, lojas e eventos. Contas adultas não mudam.",
+      "action": "Nenhuma ação agora. Se um cliente anuncia para menores de 18 (curso, escola, esporte), acompanhe o alcance desse público nas próximas semanas.",
+      "sources": [
+        27
+      ]
+    },
     {
       "id": "2026-11-12-dream-render-omnicanal-asia",
       "date": "2026-11-12",
@@ -129,7 +173,7 @@
       "id": "2026-11-12-pixel-medicao-aparelho",
       "date": "2026-11-12",
       "firstSeen": "2026-10-30",
-      "title": "Pixel passa a medir conversões no aparelho do cliente a partir de hoje (12/11), ligado por padrão",
+      "title": "Pixel passou a medir conversões no aparelho do cliente desde 12/11, ligado por padrão",
       "category": "medicao",
       "impact": "alto",
       "status": "em-vigor",
@@ -138,7 +182,7 @@
       "summary": "Uma nova opção do pixel, já ligada em todas as contas que enviam eventos, deve fazer a Meta atribuir mais vendas às campanhas.",
       "what": "Desde 12/11/2026, conforme o aviso da Meta aos anunciantes, a opção \"Medir conversões nos dispositivos dos clientes\" passa a valer em todo conjunto de dados que já envia eventos pelo pixel ou pela API de Conversões. Parte das compras no site é cruzada no próprio aparelho, usando o e-mail que o cliente deu à empresa. Segundo relatos citando a central de ajuda, não vale na União Europeia e no Reino Unido, exige o pixel direto na página e site com login por e-mail ou celular. A janela de atribuição não muda.",
       "effect": "O Gerenciador pode passar a mostrar mais compras atribuídas do que antes, bem na Black Friday, sem que as vendas reais tenham subido na mesma proporção. A Meta não disse se essas conversões a mais entram na otimização dos lances.",
-      "action": "Compare, a partir de hoje, as vendas reais por dia de cada cliente de e-commerce com as compras do Gerenciador e com os números de antes de 12/11. A opção pode ser desligada em Gerenciador de Eventos > Fontes de dados > pixel > Configurações; mantenha a API de Conversões ligada e evite mudanças grandes nas campanhas entre 12 e 18/11.",
+      "action": "Compare as vendas reais por dia de cada cliente de e-commerce com as compras do Gerenciador e com os números de antes de 12/11. A opção pode ser desligada em Gerenciador de Eventos > Fontes de dados > pixel > Configurações; mantenha a API de Conversões ligada e evite mudanças grandes nas campanhas até 18/11.",
       "sources": [
         14,
         15,
