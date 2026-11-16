@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-13T06:00:00-03:00",
-  "edition": "13 de novembro de 2026",
-  "summary": "Faltam 14 dias para a Black Friday (27/11): vídeo vertical curto com a oferta no primeiro segundo, vários conceitos diferentes e peças no ar até 20/11 seguem na frente. Desde ontem (12/11) a Meta mede conversões também no aparelho do cliente: até 18/11, suba criativo novo, mas não mexa na estrutura das campanhas. Nesta edição, ideias novas para academias (aula experimental já agendada e comunidade sem julgamento, pensando em janeiro) e para pet shop (banho e tosa mostrando o pet antes e depois).",
+  "updatedAt": "2026-11-16T06:00:00-03:00",
+  "edition": "16 de novembro de 2026",
+  "summary": "Faltam 11 dias para a Black Friday (27/11): vídeo vertical de até 15 s com a oferta no primeiro segundo, renovado toda semana, e catálogo em carrossel no varejo seguem na frente; a contagem regressiva fica para as últimas 72 horas. Até quarta (18/11) a medição no aparelho do cliente ainda se estabiliza: suba criativo novo, mas não mexa na estrutura. Nesta edição, ideias novas para restaurantes (Reels de 15 s com close do prato e \"top 5 do cardápio\") e para estética (profissional explicando na sala e oferta de avaliação com resposta rápida).",
   "rules": [
     {
-      "title": "Black Friday em 27/11: peças no ar até 20/11",
-      "text": "Os quatro dias antes da Black Friday de 2025 concentraram 65% do gasto do fim de semana. Tenha 3 a 4 vezes mais criativos que o normal, suba tudo até 20/11 para passar pelo aprendizado e deixe ofertas novas prontas para a véspera. Mudanças constantes atrapalham: a própria Meta pede menos edições de campanha na alta temporada.",
-      "source": 27
+      "title": "Black Friday em 27/11: renove toda semana, urgência só no fim",
+      "text": "Em dados da AppLovin sobre a Black Friday de 2025, quem subiu criativo novo quase toda semana teve ROAS 23% maior no 7º dia do que quem renovou uma ou duas vezes, e peças subidas em novembro renderam 20% mais que peças com mais de 60 dias. Até 24/11, renove semanalmente com conceitos realmente diferentes; deixe \"últimas horas\" e contagem regressiva para as últimas 72 horas. O CPM sobe: na Black Month de 2025, anúncios de catálogo pagaram cerca de 45% a mais por mil impressões.",
+      "source": 54
     },
     {
       "title": "Menos anúncios por conjunto, mais conceitos diferentes",
@@ -15,8 +15,8 @@
       "source": 33
     },
     {
-      "title": "Até 18/11, não mexa na estrutura das campanhas",
-      "text": "Desde 12/11 a Meta mede conversões também no aparelho do cliente, ligado por padrão, e diz recuperar até 15% mais compras atribuídas. Até 18/11, não troque estrutura, objetivo nem divida conjuntos: o número muda por causa da medição, não do criativo. Compare com as vendas reais do cliente. Criativo novo pode entrar normalmente.",
+      "title": "Até quarta (18/11), não mexa na estrutura das campanhas",
+      "text": "Desde 12/11 a Meta mede conversões também no aparelho do cliente, ligado por padrão, e diz recuperar até 15% mais compras atribuídas. Até 18/11, não troque estrutura, objetivo nem divida conjuntos: o número muda por causa da medição, não do criativo. Compare com as vendas reais do cliente. Criativo novo pode entrar normalmente. Em anúncio com desconto, prazo ou entrega, desligue as variações automáticas de texto do Advantage+ criativo, para a Meta não reescrever a oferta.",
       "source": 39
     },
     {
@@ -26,8 +26,8 @@
     },
     {
       "title": "Cada peça em 9:16, 4:5 e 1:1, e veja o resultado de cada uma",
-      "text": "A Meta decide onde mostra: em Cadastros, Vendas e Apps não dá mais para escolher posicionamento manualmente no conjunto. Suba a mesma ideia nas três proporções. A Meta liberou o detalhamento por peça no Gerenciador (Detalhamento > Criativo), com o resultado de cada imagem, vídeo e título: corte o que não entrega.",
-      "source": 47
+      "text": "A Meta decide onde mostra: em Cadastros, Vendas e Apps não dá mais para escolher posicionamento manualmente no conjunto, e o Threads virou posicionamento padrão em todas as campanhas desde o fim de outubro. Suba a mesma ideia nas três proporções, começando pelo 9:16. Use o detalhamento por peça no Gerenciador (Detalhamento > Criativo) para ver o resultado de cada imagem, vídeo e título e cortar o que não entrega.",
+      "source": 39
     },
     {
       "title": "Saúde, estética e academia: fale do serviço, não de quem assiste",
@@ -37,9 +37,9 @@
   ],
   "formats": [
     {
-      "name": "Vídeo vertical curto (até 20 s) ou explicado (30 a 60 s)",
+      "name": "Vídeo vertical curto (até 15 s) ou explicado (30 a 60 s)",
       "trend": "up",
-      "note": "Mais de 60% do tempo no Facebook e no Instagram é vídeo. Na Black Friday de 2025, o CPM no Reels ficou 30% a 40% menor que no feed. A Meta também anunciou os anúncios Reels Trending, que aparecem junto de conteúdos em alta no Reels."
+      "note": "Na Black Friday de 2025, em dados da AppLovin, vídeos com menos de 16 s tiveram o maior ganho de ROAS (83%), contra 39% para 16 a 29 s e 24% para 30 s ou mais. Grave primeiro em 9:16 e adapte para o feed depois. Mais de 60% do tempo no Facebook e no Instagram é vídeo."
     },
     {
       "name": "UGC / cara de orgânico",
@@ -49,7 +49,7 @@
     {
       "name": "Vídeo com especialista, educativo ou de bastidor",
       "trend": "up",
-      "note": "Em saúde e estética é dos formatos com mais chance de aprovação: vídeo da equipe e do consultório ganha da foto de banco de imagens. Na indústria, o bastidor (máquina funcionando, controle de qualidade, expedição) é o equivalente: em levantamento da Web Tonic, o CPM médio de indústria no Meta foi de US$ 2,40, bem abaixo da média geral."
+      "note": "Em saúde e estética é dos formatos com mais chance de aprovação: profissional explicando o procedimento na sala e vídeo de celular costumam render mais que peça muito produzida. Na indústria, o bastidor (máquina funcionando, controle de qualidade, expedição) é o equivalente. Em levantamento da Web Tonic, o CPM médio de indústria no Meta foi de US$ 2,40, bem abaixo da média geral."
     },
     {
       "name": "Imagem para vídeo e edição com IA da Meta",
@@ -58,23 +58,23 @@
     },
     {
       "name": "Anúncio com criador (parceria)",
-      "trend": "up",
-      "note": "Os anúncios em parceria já somam receita anualizada de 15 bilhões de dólares para a Meta. Para negócio local, prefira microcriador da cidade, escolhido por público e engajamento, não por número de seguidores."
+      "trend": "steady",
+      "note": "Os anúncios em parceria já somam receita anualizada de 15 bilhões de dólares para a Meta. Para negócio local, prefira microcriador da cidade e use o criador como mais um conceito no conjunto, não como a única peça."
     },
     {
       "name": "Anúncio de catálogo (estoque de lojas, carros e imóveis)",
       "trend": "up",
-      "note": "Puxa foto, preço e modelo direto do estoque. Ótimo para remarketing e para a Black Friday no varejo. A navegação de produtos foi ligada por padrão a partir de 28/10: confira antes de escalar."
+      "note": "Puxa foto, preço e modelo direto do estoque. No estudo da Confect com 2,6 bilhões de impressões de catálogo na Black Month de 2025, o catálogo em carrossel teve ROAS 8,8% acima da média, e a imagem única foi 25% pior para público novo e 9% melhor no remarketing. Catálogos com menos de 500 produtos renderam 21% menos."
     },
     {
       "name": "Carrossel",
-      "trend": "steady",
-      "note": "Bom para objeções, cardápio de fim de ano, guia de presentes por faixa de preço e, no B2B, para dividir um guia ou catálogo técnico em cards. Teste contra a imagem única: nenhum estudo recente confiável mostra o carrossel vencendo de forma geral."
+      "trend": "up",
+      "note": "Voltou a ganhar força no catálogo (ver acima) e segue bom para objeções, \"top 5 do cardápio\" e guia de presentes por faixa de preço. Fora do catálogo, teste contra a imagem única: não há estudo recente mostrando o carrossel vencendo em geral."
     },
     {
       "name": "Imagem estática",
       "trend": "steady",
-      "note": "Perdeu espaço no volume (num rastreador do Reino Unido, só 1,9% dos anúncios de Black Friday eram imagem em outubro, contra 6% em 2025), mas quando roda dura tanto quanto vídeo: em 546 anúncios dos EUA na Biblioteca de Anúncios, a mediana foi de 82 dias para imagem e 68 para vídeo. Em pet, foto de produto bem feita foi o tipo de peça que mais durou. Boa para oferta com preço legível, remarketing e cadastro, junto com vídeo."
+      "note": "Perdeu volume na Black Friday, mas dura: na lista dos 12 anúncios mais antigos ainda no ar do levantamento da Volume (3.928 anúncios, medido em 15/11), 6 eram imagem estática e 2 eram o dono falando para a câmera. Em 546 anúncios dos EUA, a mediana de vida foi de 82 dias para imagem e 68 para vídeo. Boa para oferta com preço legível, remarketing e cadastro."
     }
   ],
   "niches": [
@@ -119,39 +119,6 @@
         13,
         18,
         34
-      ]
-    },
-    {
-      "id": "tres-ganchos",
-      "title": "Mesmo vídeo, 3 aberturas diferentes",
-      "format": "video",
-      "formatLabel": "Vídeo curto",
-      "duration": "9 a 15 s",
-      "ratio": "9:16",
-      "status": "consolidado",
-      "niches": [
-        "Todos"
-      ],
-      "why": "O gancho decide o resultado. Num levantamento de 523 anúncios que ficaram 30 dias ou mais no ar, só 8% abriam com pergunta; os que duram abrem com dor, autoridade ou algo visual inesperado. O Ads Creative Studio, que a Meta liberou para mais anunciantes em outubro, edita gancho, áudio, duração e legenda sobre um vídeo existente. Trocar só o gancho gera variação, não conceito novo. Para medir: divida as visualizações de 3 segundos pelas impressões. Segundo a Segwise, 25% já é uma taxa de gancho sólida, 30% é boa e acima de 40% é excelente.",
-      "how": [
-        "Grave o miolo do vídeo uma vez só.",
-        "Grave 3 começos: uma dor do cliente, um resultado e uma quebra de padrão (algo inesperado na tela).",
-        "Suba os 3 e mantenha o que tiver melhor retenção nos 3 primeiros segundos.",
-        "Se nenhum segurar, o problema é o conceito: grave outro ângulo."
-      ],
-      "hooks": [
-        "Dor: \"Cansado de pagar [problema] todo mês?\"",
-        "Resultado: \"Esse cliente economizou R$ 400 assim.\"",
-        "Quebra de padrão: começar já no meio da ação, sem apresentação."
-      ],
-      "avoid": "Logo e vinheta nos primeiros segundos. Abrir com \"Você sabia que…?\": é o gancho que menos dura no ar.",
-      "sources": [
-        11,
-        13,
-        17,
-        24,
-        39,
-        41
       ]
     },
     {
@@ -216,8 +183,8 @@
       "title": "Black Friday local: oferta com prova social em vídeo curto",
       "format": "video",
       "formatLabel": "Vídeo curto (oferta)",
-      "duration": "15 a 30 s",
-      "ratio": "9:16, 4:5 e 1:1",
+      "duration": "até 15 s",
+      "ratio": "9:16 primeiro, depois 4:5 e 1:1",
       "status": "em-alta",
       "niches": [
         "Varejo e lojas",
@@ -225,12 +192,12 @@
         "Restaurantes",
         "Academias"
       ],
-      "why": "A Black Friday é em 27 de novembro, daqui a 14 dias. Num levantamento da Triple Whale sobre a Black Friday de 2025, os quatro dias antes da data já concentraram 65% do gasto do fim de semana, e a recomendação é vídeo curto de 15 a 30 s e 3 a 4 vezes mais criativos que o normal, porque o cansaço chega rápido. No Reels, o CPM ficou 30% a 40% menor que no feed. Num rastreador de anúncios do Reino Unido, imagem estática era só 1,9% dos anúncios de Black Friday em outubro, contra 6% em 2025: o vídeo tomou conta.",
+      "why": "A Black Friday é em 27 de novembro, daqui a 11 dias. Em dados da AppLovin sobre a Black Friday de 2025, vídeos com menos de 16 s tiveram ganho de ROAS de 83%, mais que o dobro dos de 16 a 29 s, e quem renovou criativo quase toda semana teve ROAS 23% maior. Os quatro dias antes da data concentraram 65% do gasto do fim de semana, segundo a Triple Whale. No Reels, o CPM ficou 30% a 40% menor que no feed.",
       "how": [
         "Escolha 1 a 3 produtos-isca com desconto real e estoque garantido.",
         "Grave o dono ou vendedor mostrando o produto na mão, com o preço \"de/por\" escrito na tela no primeiro segundo.",
         "Acrescente prova social real: número de clientes, nota no Google ou foto da loja cheia.",
-        "Faça pelo menos 3 versões: uma de urgência (prazo), uma de prova e uma de comparação de preço.",
+        "Até 24/11, suba 2 a 3 conceitos novos por semana (prova, comparação de preço, presente). De 24/11 em diante, entre com o prazo real e a contagem regressiva.",
         "Leve para o WhatsApp ou para a rota até a loja."
       ],
       "hooks": [
@@ -238,44 +205,12 @@
         "\"Mais de [número] clientes de [bairro] já levaram. Agora com [x]% de desconto.\"",
         "\"Só [x] unidades nesse preço. Quando acabar, acabou.\""
       ],
-      "avoid": "Desconto inflado (aumentar o preço antes para dar desconto) e preço na arte diferente do da loja. Contagem regressiva falsa. Reestruturar conjuntos até 18/11, enquanto a nova medição no aparelho do cliente se estabiliza: suba criativos novos, mas não mexa na estrutura.",
+      "avoid": "Desconto inflado (aumentar o preço antes para dar desconto) e preço na arte diferente do da loja. Contagem regressiva falsa ou antes da hora. Deixar as variações automáticas de texto do Advantage+ ligadas em anúncio com preço e prazo. Reestruturar conjuntos até 18/11: suba criativos novos, mas não mexa na estrutura.",
       "sources": [
-        23,
+        54,
+        55,
         27,
-        28,
-        31,
         39
-      ]
-    },
-    {
-      "id": "guia-presentes-faixa-preco",
-      "title": "Guia de presentes por faixa de preço",
-      "format": "carrossel",
-      "formatLabel": "Carrossel ou Stories",
-      "duration": "4 a 6 cards",
-      "ratio": "4:5 (carrossel) e 9:16 (Stories)",
-      "status": "em-alta",
-      "niches": [
-        "Varejo e lojas",
-        "Pet",
-        "Estética"
-      ],
-      "why": "Este ano o Natal vem só 28 dias depois da Black Friday, cerca de uma semana a menos que o normal, e a decisão de presente fica apertada. Na pesquisa da Meta com quase 15 mil compradores de 18 países, 85% disseram já ter comprado na loja física algo que viram nas redes, e 59% mandaram mensagem direto para a empresa. Guia de presentes é um dos cinco formatos de UGC que a Influee recomenda para a temporada.",
-      "how": [
-        "Card 1: \"Presentes até R$ 50, R$ 100 e R$ 200\" com o melhor produto de cada faixa.",
-        "Um card por faixa de preço, com 2 ou 3 produtos fotografados na loja, de verdade.",
-        "Último card: retirada na loja, entrega no bairro ou embrulho grátis.",
-        "Versão em Stories: a vendedora mostra cada faixa em 3 a 5 s e termina com \"chama no direct\"."
-      ],
-      "hooks": [
-        "\"Não sabe o que dar de presente? Separei por quanto você quer gastar.\"",
-        "\"Presente até R$ 50 que não parece barato.\"",
-        "\"Presente para quem tem pet: 3 opções até R$ [x].\""
-      ],
-      "avoid": "Catálogo com 20 produtos num card só. Preços que não batem com a loja. Prometer entrega antes do Natal sem garantir.",
-      "sources": [
-        23,
-        26
       ]
     },
     {
@@ -350,8 +285,7 @@
         "Estética",
         "Indústria e B2B",
         "Automotivo e financiamento",
-        "Academias",
-        "Restaurantes"
+        "Academias"
       ],
       "why": "O carrossel funciona no meio do funil, quando a pessoa ainda está comparando: um card por dúvida, na ordem em que ela aparece. Em clínicas, o carrossel de benefícios está entre os formatos com mais chance de aprovação. Atenção: não há estudo recente mostrando que ele vence a imagem única de forma geral. Rode sempre ao lado de uma imagem ou vídeo.",
       "how": [
@@ -373,76 +307,13 @@
       ]
     },
     {
-      "id": "parceria-criador",
-      "title": "Anúncio em parceria com criador local",
-      "format": "ugc",
-      "formatLabel": "Vídeo com criador",
-      "duration": "15 a 30 s",
-      "ratio": "9:16",
-      "status": "em-alta",
-      "niches": [
-        "Restaurantes",
-        "Estética",
-        "Varejo e lojas",
-        "Pet",
-        "Academias"
-      ],
-      "why": "A Meta destaca o criador no cabeçalho do anúncio. O Creator Marketing Hub chegou a todos os países, com criação de anúncio em parceria em um clique, e os anúncios em parceria já somam receita anualizada de 15 bilhões de dólares para a Meta. Em dados divulgados sobre anúncios em parceria no Reels, o custo por alcance caiu 16% e as conversões subiram 29%. Na pesquisa de fim de ano da Meta, 94% dos compradores disseram buscar criadores como referência para os presentes.",
-      "how": [
-        "Escolha um microcriador da cidade pelo público, pelo bairro e pelo engajamento, não só pelo número de seguidores.",
-        "Combine por escrito o que ele entrega, por quanto tempo você pode usar o vídeo e a marcação de parceria.",
-        "Peça para ele usar o produto/serviço de verdade e gravar do jeito dele.",
-        "Rode como anúncio em parceria: aparece com o nome do criador e do cliente."
-      ],
-      "hooks": [
-        "\"Fui testar o [lugar] que todo mundo está falando\""
-      ],
-      "avoid": "Roteiro engessado: o público percebe e o efeito some.",
-      "sources": [
-        12,
-        25,
-        26,
-        37
-      ]
-    },
-    {
-      "id": "depoimento-experiencia",
-      "title": "Depoimento sobre a experiência, não sobre o corpo",
-      "format": "ugc",
-      "formatLabel": "Vídeo UGC (depoimento)",
-      "duration": "15 a 30 s",
-      "ratio": "9:16",
-      "status": "em-alta",
-      "niches": [
-        "Saúde e odontologia",
-        "Estética"
-      ],
-      "why": "É o jeito de usar prova social em clínica sem cair na reprovação de antes e depois. O paciente conta como foi atendido, se sentiu dor, como foi a recepção e o pagamento. Depoimento focado no sorriso e na satisfação, sem close no resultado, passa na política e gera confiança.",
-      "how": [
-        "Peça autorização por escrito ao paciente.",
-        "Grave na clínica, no celular, com 3 perguntas: como você chegou, como foi o atendimento, o que diria para quem está com medo.",
-        "Corte em 15 a 30 s e abra com a frase mais forte.",
-        "Rode 2 ou 3 depoimentos de perfis diferentes (idade, procedimento) ao mesmo tempo."
-      ],
-      "hooks": [
-        "\"Eu tinha pavor de dentista. Olha o que aconteceu.\"",
-        "\"O que mais me surpreendeu aqui foi o atendimento.\"",
-        "\"Achei que ia ser caro. Parcelei em [x] vezes.\""
-      ],
-      "avoid": "Close do resultado no rosto, dente ou corpo, e promessas como \"rejuvenesça 10 anos\". Não roteirize demais: o paciente precisa falar do jeito dele.",
-      "sources": [
-        13,
-        15
-      ]
-    },
-    {
       "id": "academia-aula-experimental-agendada",
       "title": "Academia: aula experimental com dia e hora marcados, pelo formulário do anúncio",
       "format": "video",
       "formatLabel": "Vídeo curto + formulário instantâneo",
       "duration": "15 a 30 s",
       "ratio": "9:16 e 4:5",
-      "status": "novo",
+      "status": "em-alta",
       "niches": [
         "Academias"
       ],
@@ -464,42 +335,13 @@
       ]
     },
     {
-      "id": "academia-comunidade-sem-julgamento",
-      "title": "Academia: \"aqui ninguém te julga\" com alunos e professores reais",
-      "format": "ugc",
-      "formatLabel": "Vídeo UGC (alunos e professor)",
-      "duration": "até 15 s (Reels) ou até 30 s (feed)",
-      "ratio": "9:16",
-      "status": "novo",
-      "niches": [
-        "Academias"
-      ],
-      "why": "Para quem tem receio de começar, o que pesa é o clima, não o corpo de ninguém. Guias de anúncio para academias apontam vídeo de comunidade (alunos conversando, professor acompanhando) e frase de aluno sobre se sentir acolhido como peças que passam melhor na revisão da Meta que a transformação física. Também dá vários conceitos diferentes para o Andromeda: aula cheia, professor apresentando, aluno iniciante.",
-      "how": [
-        "Grave no celular uma aula de verdade: chegada, professor corrigindo alguém, turma rindo no final.",
-        "Peça para 2 ou 3 alunos (com autorização por escrito) dizerem em uma frase por que ficaram.",
-        "Faça uma versão por público: iniciante, mais velho, quem treina cedo.",
-        "Termine com a oferta de aula experimental e o bairro."
-      ],
-      "hooks": [
-        "\"Finalmente achei uma academia onde ninguém fica olhando torto.\"",
-        "\"Aqui o professor sabe o seu nome.\"",
-        "\"Turma das 6h: começa o dia assim com a gente.\""
-      ],
-      "avoid": "Corpos sem camisa em close, comparação de corpos e qualquer menção a peso ou emagrecimento, inclusive na fala de criador ou aluno (a Meta reprova também o que é dito no áudio). Usar aluno sem autorização.",
-      "sources": [
-        48,
-        50
-      ]
-    },
-    {
       "id": "pet-banho-tosa-antes-depois",
       "title": "Pet shop: banho e tosa com o pet chegando e saindo",
       "format": "video",
       "formatLabel": "Vídeo curto (bastidor)",
       "duration": "10 a 20 s",
       "ratio": "9:16",
-      "status": "novo",
+      "status": "em-alta",
       "niches": [
         "Pet"
       ],
@@ -518,6 +360,154 @@
       "avoid": "Pet assustado, preso de forma que pareça maus-tratos ou ferido na tosa. Usar pet de cliente sem autorização do tutor. Prometer resultado de pele ou pelo como tratamento de saúde: isso é com o veterinário.",
       "sources": [
         51
+      ]
+    },
+    {
+      "id": "restaurante-reels-close-15s",
+      "title": "Restaurante: Reels de 15 s que abre no close do prato",
+      "format": "video",
+      "formatLabel": "Vídeo curto (Reels)",
+      "duration": "até 15 s",
+      "ratio": "9:16",
+      "status": "novo",
+      "niches": [
+        "Restaurantes"
+      ],
+      "why": "Comida é dos conteúdos que mais seguram a rolagem no Meta, e o close de algo acontecendo (queijo puxando, chapa chiando, molho caindo) funciona como gancho sem precisar de fala. A estrutura recomendada é gancho de 1 a 3 s, corpo de 5 a 10 s com o salão, a cozinha e gente comendo, e chamada de 1 a 2 s. Segundo dados citados pela Sovran, 59% dos clientes usam o Facebook para achar lugar novo para comer. Vídeo curto também foi o que mais ganhou na Black Friday passada.",
+      "how": [
+        "Grave no celular, na vertical, o prato sendo finalizado em close (primeiros 2 segundos).",
+        "Corte para o salão cheio, a mesa sendo servida e uma pessoa dando a primeira garfada.",
+        "Escreva na tela o bairro e a oferta (rodízio, combo, happy hour).",
+        "Termine com \"Reserve pelo WhatsApp\" ou \"Peça no delivery\" e faça uma versão por prato carro-chefe."
+      ],
+      "hooks": [
+        "\"Esse é o prato que mais sai aqui em [bairro].\"",
+        "\"Sexta à noite em [nome do restaurante] é assim.\"",
+        "\"Você ainda não provou o [prato] mais pedido de [cidade]?\""
+      ],
+      "avoid": "Foto de banco de imagens e prato que não existe no cardápio. Cliente filmado sem autorização. Objetivo de Tráfego para restaurante de salão: prefira mensagens no WhatsApp, cadastro ou visitas ao local.",
+      "sources": [
+        59,
+        60
+      ]
+    },
+    {
+      "id": "restaurante-top5-cardapio",
+      "title": "Restaurante: \"os 5 mais pedidos\" em carrossel ou vídeo-lista",
+      "format": "carrossel",
+      "formatLabel": "Carrossel ou vídeo-lista",
+      "duration": "5 cards ou 15 a 20 s",
+      "ratio": "4:5 (carrossel) ou 9:16 (vídeo)",
+      "status": "novo",
+      "niches": [
+        "Restaurantes"
+      ],
+      "why": "A lista \"top 5\" ajuda quem ainda não conhece a casa a escolher, puxa para o próximo card e mostra variedade sem virar cardápio inteiro. A Sovran aponta o \"top 5\" em vídeo ou carrossel como um dos ângulos que funcionam para restaurantes, e imagem estática com foto real em close e um comentário de cliente escrito na tela vai bem no remarketing. Para fim de ano, dá para fazer o \"top 5 para a ceia\" ou para a confraternização.",
+      "how": [
+        "Pegue os 5 itens mais vendidos do mês no sistema de pedidos.",
+        "Um card ou cena por prato: foto real em close, luz natural, nome e preço.",
+        "No último card, coloque um comentário real de cliente (Google ou iFood) e a chamada.",
+        "Rode uma versão para quem nunca veio e outra de remarketing para quem já interagiu."
+      ],
+      "hooks": [
+        "\"Os 5 pratos mais pedidos do mês. O 3º esgota toda sexta.\"",
+        "\"Primeira vez aqui? Começa por esses.\"",
+        "\"Top 5 para a sua confraternização de fim de ano.\""
+      ],
+      "avoid": "Muito texto por card e foto escura. Promoção que o delivery não aceita. Segmentar por aniversário ou datas pessoais com mensagem que exponha o dado da pessoa.",
+      "sources": [
+        59
+      ]
+    },
+    {
+      "id": "estetica-profissional-explica",
+      "title": "Estética: a profissional explica o procedimento na própria sala",
+      "format": "video",
+      "formatLabel": "Vídeo educativo (especialista)",
+      "duration": "20 a 40 s",
+      "ratio": "9:16",
+      "status": "novo",
+      "niches": [
+        "Estética",
+        "Saúde e odontologia"
+      ],
+      "why": "Em clínicas de estética, vídeo com a profissional explicando, gravado na sala de atendimento, e vídeo de celular com cara de orgânico costumam render mais que peça muito produzida, segundo levantamento da Web Tonic. Falar do procedimento e do cuidado, em vez do resultado no corpo de alguém, também é o caminho mais seguro com a política da Meta e com as normas dos conselhos profissionais no Brasil.",
+      "how": [
+        "A profissional responde, na sala, uma dúvida comum: quanto tempo dura a sessão, como é o preparo, quando volta à rotina.",
+        "Mostre o equipamento, a higienização e o ambiente, sem cena de agulha ou sangue.",
+        "Escreva na tela o nome do procedimento e \"avaliação com [nome], [bairro]\".",
+        "Grave 3 ou 4 dúvidas diferentes e rode como conceitos separados no mesmo conjunto."
+      ],
+      "hooks": [
+        "\"Quanto tempo dura uma sessão de [procedimento]? Vou te mostrar aqui na sala.\"",
+        "\"O que acontece na sua primeira avaliação com a gente.\"",
+        "\"3 perguntas que eu mais escuto sobre [procedimento].\""
+      ],
+      "avoid": "Antes e depois, promessa de resultado (\"tire 10 anos\") e qualquer frase sobre a aparência de quem assiste (\"Cansada das suas rugas?\"). Cena explícita do procedimento. Depoimento de paciente sobre resultado: além da Meta, muitos conselhos profissionais proíbem.",
+      "sources": [
+        58,
+        61
+      ]
+    },
+    {
+      "id": "estetica-avaliacao-resposta-rapida",
+      "title": "Estética: oferta de avaliação pelo formulário, com retorno em 5 minutos",
+      "format": "imagem",
+      "formatLabel": "Imagem ou vídeo curto + formulário",
+      "duration": "—",
+      "ratio": "4:5 e 9:16",
+      "status": "novo",
+      "niches": [
+        "Estética",
+        "Saúde e odontologia"
+      ],
+      "why": "A oferta de entrada (avaliação, primeira sessão) traz o cliente mais barato que o anúncio genérico, e a velocidade de resposta pesa tanto quanto o criativo: em dados citados pela Web Tonic, quem é atendido em até 5 minutos tem 21 vezes mais chance de virar cliente do que quem espera mais de 30. Para negócio local, o caminho mais simples é anúncio que leva para conversa no WhatsApp ou formulário instantâneo, medindo o custo por avaliação agendada.",
+      "how": [
+        "Defina uma oferta clara e honesta: avaliação gratuita ou valor de entrada com data limite.",
+        "Arte simples com foto real da clínica ou da equipe, a oferta grande e o bairro.",
+        "Use WhatsApp ou formulário instantâneo com 2 ou 3 perguntas (procedimento de interesse, melhor horário).",
+        "Combine com a recepção: responder em até 5 minutos no horário comercial e acompanhar o custo por avaliação agendada."
+      ],
+      "hooks": [
+        "\"Avaliação gratuita em [bairro] esta semana. Agende pelo WhatsApp.\"",
+        "\"Conheça a clínica antes de decidir: primeira avaliação por nossa conta.\"",
+        "\"Últimos horários de novembro para avaliação com [nome].\""
+      ],
+      "avoid": "Pedir no formulário dado de saúde ou condição da pessoa e enviar isso para a Meta. Promoção que vire \"preço de banana\" de procedimento médico. Lead parado sem resposta: o anúncio paga a conversa, a venda depende do retorno.",
+      "sources": [
+        58,
+        61
+      ]
+    },
+    {
+      "id": "catalogo-carrossel-black-friday",
+      "title": "Black Friday no varejo: catálogo em carrossel para público novo, imagem única no remarketing",
+      "format": "carrossel",
+      "formatLabel": "Carrossel de catálogo",
+      "duration": "—",
+      "ratio": "1:1 ou 4:5",
+      "status": "novo",
+      "niches": [
+        "Varejo e lojas",
+        "Pet",
+        "Automotivo e financiamento"
+      ],
+      "why": "No estudo da Confect com 2,6 bilhões de impressões de anúncios de catálogo na Black Month de 2025, o carrossel teve ROAS 8,8% acima da média; a imagem única foi 25% pior para público novo, mas 9% melhor no remarketing. Quem também rodou tráfego ou engajamento antes da Black Month teve 39% mais ROAS, e conjuntos com público manual renderam 19% menos que os abertos. O mínimo recomendado são duas peças: uma para quem não conhece, outra para quem voltou.",
+      "how": [
+        "Revise o catálogo: preço \"de/por\" correto, fotos limpas e estoque atualizado.",
+        "Monte o carrossel de catálogo com moldura da loja (logo, selo de desconto, \"entrega em [cidade]\") para público aberto.",
+        "Para quem visitou o site ou chamou no WhatsApp, use imagem única do produto visto com o preço.",
+        "Confira a navegação de produtos, ligada por padrão desde 28/10, antes de escalar."
+      ],
+      "hooks": [
+        "\"Black Friday [loja]: arraste e veja os preços de verdade.\"",
+        "\"Ainda pensando no [produto]? Ele está por R$ [y] até sexta.\"",
+        "\"Os mais vendidos da semana, com entrega em [cidade].\""
+      ],
+      "avoid": "Catálogo com preço desatualizado ou produto esgotado. Moldura que cobre o produto. Segmentação manual muito fechada: deixe o público aberto e use o criativo para falar com cada tipo de cliente.",
+      "sources": [
+        53,
+        39
       ]
     }
   ],
@@ -681,6 +671,46 @@
       "id": 52,
       "title": "Meta Ad Longevity: 546 anúncios da Biblioteca de Anúncios (ShortsIntel, 1/11/2026)",
       "url": "https://www.shortsintel.com/statistics/meta-ad-longevity"
+    },
+    {
+      "id": 53,
+      "title": "Black Friday 2026: the 2.6B impression Meta study (Confect, 25/9/2026)",
+      "url": "https://confect.io/tactics/black-friday-2026-meta-ads-study"
+    },
+    {
+      "id": 54,
+      "title": "Black Friday video ads 2026: what to run before November 27 (AdFace, 9/11/2026)",
+      "url": "https://www.adface.ai/blog/black-friday-video-ads-2026"
+    },
+    {
+      "id": 55,
+      "title": "Meta's new ad terms are paused and prices are rising: what to do before Black Friday (Giovanni Perilli, 14/11/2026)",
+      "url": "https://giovanniperilli.com/en/blog/meta-ads-new-terms-black-friday/"
+    },
+    {
+      "id": 56,
+      "title": "Longest-running Meta ads by niche, semana de 15/11/2026 (Volume)",
+      "url": "https://tryvolume.app/working/ads"
+    },
+    {
+      "id": 58,
+      "title": "How Medical Spa & Aesthetics Businesses Use Ad Creative in 2026 (Web Tonic, atualizado 9/10/2026)",
+      "url": "https://www.webtonic.io/blog/medical-spa-ad-creative-statistics"
+    },
+    {
+      "id": 59,
+      "title": "Restaurant Facebook Ads: A 2026 ROI Playbook (Sovran, atualizado 25/10/2026)",
+      "url": "https://sovran.ai/blog/restaurant-facebook-ads"
+    },
+    {
+      "id": 60,
+      "title": "Restaurant Advertising in 2026: The Google and Meta Playbook (Bloom Intelligence, 5/10/2026)",
+      "url": "https://bloomintelligence.com/blog/restaurant-advertising-playbook/"
+    },
+    {
+      "id": 61,
+      "title": "Tráfego pago para clínica, estética e saúde (ValorFinal, atualizado 6/11/2026)",
+      "url": "https://valorfinal.com.br/cursos/trafego-pago/estrategia-por-tipo-de-negocio/clinica-estetica-saude"
     }
   ]
 }
