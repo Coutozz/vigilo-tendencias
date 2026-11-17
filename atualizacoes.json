@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-16T07:00:00-03:00",
-  "edition": "16 de novembro de 2026",
-  "summary": "Semana calma: nenhuma mudança de impacto alto desde 14/11. As novidades são pequenas: o relatório da API agora separa resultados de anúncios de parceria por criador, o WhatsApp mudou regras para contatos só com nome de usuário e a Meta ampliou a detecção de idade de adolescentes no Instagram. O que pede atenção continua igual: compare as compras do Gerenciador com as vendas reais desde que o pixel passou a medir no aparelho do cliente (12/11), revise ofertas automáticas e melhorias do Advantage+ antes da Black Friday (27/11) e lembre que os novos termos comerciais seguem suspensos, sem data.",
+  "updatedAt": "2026-11-17T07:00:00-03:00",
+  "edition": "17 de novembro de 2026",
+  "summary": "Sem mudança relevante da Meta desde a edição de 16/11: nenhum anúncio novo em anúncios, API ou WhatsApp nos registros oficiais e nas fontes do setor. Os pontos de atenção continuam os mesmos: compare as compras do Gerenciador com as vendas reais desde que o pixel passou a medir no aparelho do cliente (12/11), revise ofertas automáticas e melhorias do Advantage+ antes da Black Friday (27/11) e lembre que os novos termos comerciais seguem suspensos, sem data.",
   "api": {
     "latest": "v27.0",
     "latestDate": "2026-11-04",
