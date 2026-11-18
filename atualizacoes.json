@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-17T07:00:00-03:00",
-  "edition": "17 de novembro de 2026",
-  "summary": "Sem mudança relevante da Meta desde a edição de 16/11: nenhum anúncio novo em anúncios, API ou WhatsApp nos registros oficiais e nas fontes do setor. Os pontos de atenção continuam os mesmos: compare as compras do Gerenciador com as vendas reais desde que o pixel passou a medir no aparelho do cliente (12/11), revise ofertas automáticas e melhorias do Advantage+ antes da Black Friday (27/11) e lembre que os novos termos comerciais seguem suspensos, sem data.",
+  "updatedAt": "2026-11-18T07:00:00-03:00",
+  "edition": "18 de novembro de 2026",
+  "summary": "Semana sem mudança oficial de impacto alto: as duas novidades vistas no Gerenciador vêm de relatos, ainda sem comunicado da Meta — anúncio com até 5 publicações existentes e ThruPlay contado a partir de 6 segundos. Se usar ThruPlay de 6 s, não compare o custo com campanhas antigas de 15 s. Para a Black Friday (27/11), siga conferindo as compras do pixel contra as vendas reais desde a medição no aparelho do cliente (12/11) e revise ofertas automáticas; os novos termos comerciais continuam suspensos, sem data.",
   "api": {
     "latest": "v27.0",
     "latestDate": "2026-11-04",
@@ -41,6 +41,42 @@
     }
   ],
   "updates": [
+    {
+      "id": "2026-11-17-ate-5-posts-por-anuncio",
+      "date": "2026-11-17",
+      "firstSeen": "2026-11-18",
+      "title": "Relato: um anúncio com 'Usar publicação existente' pode reunir até 5 posts",
+      "category": "formatos",
+      "impact": "medio",
+      "status": "em-teste",
+      "region": "Global",
+      "confirmed": false,
+      "summary": "Contas começaram a ver a opção de escolher até 5 publicações já feitas num único anúncio, e a Meta mostra a cada pessoa a que tem mais chance de engajar.",
+      "what": "Na seção de criativo do anúncio, o campo 'Publicações' passou a mostrar '1 de 5 publicações selecionadas' em algumas contas. Antes era 1 publicação por anúncio; agora a Meta escolhe, pessoa a pessoa, qual dos até 5 posts exibir. O relato veio de um especialista no LinkedIn, sem comunicado da Meta, sem data de liberação, sem lista de países e sem dizer se vale para todos os objetivos ou se o relatório mostra o resultado de cada post.",
+      "effect": "Fica mais fácil impulsionar vários posts orgânicos de um cliente (cardápio, antes e depois, imóveis) sem criar 5 anúncios, e os comentários e curtidas de cada post são preservados. Em troca, a Meta decide o vencedor e você enxerga menos por que ele ganhou.",
+      "action": "Se a opção aparecer, use para juntar posts parecidos de um mesmo cliente, mas mantenha um anúncio separado para o post que você quer testar de verdade. Confira se o relatório por criativo mostra o resultado de cada publicação antes de tirar conclusões.",
+      "sources": [
+        51
+      ]
+    },
+    {
+      "id": "2026-11-16-thruplay-6-segundos",
+      "date": "2026-11-16",
+      "firstSeen": "2026-11-18",
+      "title": "Relato: ThruPlay pode contar a partir de 6 segundos em campanhas de reconhecimento e engajamento",
+      "category": "medicao",
+      "impact": "medio",
+      "status": "em-teste",
+      "region": "Global",
+      "confirmed": false,
+      "summary": "Apareceu no Gerenciador o campo 'Duração do ThruPlay', com opção de 6 segundos além dos 15 segundos padrão.",
+      "what": "Em campanhas de Reconhecimento e Engajamento (leilão e reserva), a meta 'Maximizar visualizações ThruPlay' ganhou o campo 'Duração do ThruPlay': 6 ou 15 segundos. Com 6 segundos, a entrega busca quem tende a assistir pelo menos 6 segundos do vídeo (ou 97% dele, se for mais curto). O relato é de um especialista no LinkedIn; a Meta não fez anúncio e não disse se a cobrança por ThruPlay passa a considerar os 6 segundos.",
+      "effect": "O custo por ThruPlay tende a parecer menor com 6 segundos, porque mais visualizações entram na conta. Comparar campanhas de 6 s com as antigas de 15 s distorce o histórico do cliente.",
+      "action": "Ao usar 6 segundos em vídeos curtos de Reels e Stories, anote isso no nome da campanha e não compare o custo por ThruPlay com campanhas de 15 segundos. Olhe também retenção e cliques no perfil ou no WhatsApp para saber se o vídeo funcionou.",
+      "sources": [
+        50
+      ]
+    },
     {
       "id": "2026-11-05-parceria-por-criador",
       "date": "2026-11-05",
@@ -1084,6 +1120,16 @@
       "id": 49,
       "title": "Relevant Audience: Meta lança Omnichannel Collaborative Ads e Dream Render na Tailândia",
       "url": "https://www.relevantaudience.com/meta/meta-omnichannel-collaborative-ads-dream-render-thailand/"
+    },
+    {
+      "id": 50,
+      "title": "PPC Land: Meta permite otimizar ThruPlay de 6 segundos (16/11/2026)",
+      "url": "https://ppc.land/six-seconds-can-now-count-as-a-watched-video-ad-on-meta/"
+    },
+    {
+      "id": 51,
+      "title": "PPC Land: um anúncio da Meta pode reunir até 5 publicações existentes (17/11/2026)",
+      "url": "https://ppc.land/one-meta-ad-can-now-carry-up-to-5-existing-posts"
     }
   ]
 }
