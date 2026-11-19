@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-18T07:00:00-03:00",
-  "edition": "18 de novembro de 2026",
-  "summary": "Semana sem mudança oficial de impacto alto: as duas novidades vistas no Gerenciador vêm de relatos, ainda sem comunicado da Meta — anúncio com até 5 publicações existentes e ThruPlay contado a partir de 6 segundos. Se usar ThruPlay de 6 s, não compare o custo com campanhas antigas de 15 s. Para a Black Friday (27/11), siga conferindo as compras do pixel contra as vendas reais desde a medição no aparelho do cliente (12/11) e revise ofertas automáticas; os novos termos comerciais continuam suspensos, sem data.",
+  "updatedAt": "2026-11-19T07:00:00-03:00",
+  "edition": "19 de novembro de 2026",
+  "summary": "Sem mudança oficial de impacto alto desde ontem. A novidade é um relato: na criação de públicos de vídeo, as opções por segundos e porcentagem viraram três níveis (todos, engajados, muito engajados) — não apague os públicos antigos de 75%/95% antes de conferir se seguem ativos. Para a Black Friday (27/11), continue comparando as compras do pixel com as vendas reais desde a medição no aparelho do cliente (12/11); os novos termos comerciais seguem suspensos, sem data.",
   "api": {
     "latest": "v27.0",
     "latestDate": "2026-11-04",
@@ -42,6 +42,25 @@
   ],
   "updates": [
     {
+      "id": "2026-11-16-publicos-video-3-opcoes",
+      "date": "2026-11-16",
+      "firstSeen": "2026-11-19",
+      "title": "Relato: públicos personalizados de vídeo caem de 7 para 3 opções",
+      "category": "publicos",
+      "impact": "medio",
+      "status": "em-teste",
+      "region": "Global",
+      "confirmed": false,
+      "summary": "Na criação de público de quem assistiu vídeos, as opções por segundos e por porcentagem deram lugar a três níveis: todos, engajados e muito engajados.",
+      "what": "Onde a mudança já chegou, a tela de criar público personalizado de vídeo troca as sete opções antigas (3 s, 10 s, 15 s/ThruPlay, 25%, 50%, 75% e 95%) por três: 'Todos os espectadores' (3 segundos ou mais), 'Espectadores engajados' (uma parte significativa do vídeo) e 'Espectadores muito engajados' (a maior parte ou todo o vídeo). A Meta não publicou os limites dos dois níveis novos nem anunciou a mudança; o relato é de Jon Loomer. Continua sendo preciso escolher os vídeos um a um.",
+      "effect": "Fica mais difícil montar funis de remarketing finos (ex.: só quem viu 75% do vídeo do procedimento ou do imóvel). Não está claro se os públicos antigos por porcentagem seguem atualizando.",
+      "action": "Antes de recriar públicos de vídeo, confira se os que já existem (25%, 50%, 75%, 95%) ainda aparecem como ativos e com tamanho atualizado, e não os apague. Nos novos, use 'muito engajados' no lugar do antigo 75%/95% e acompanhe o tamanho por alguns dias.",
+      "sources": [
+        52,
+        53
+      ]
+    },
+    {
       "id": "2026-11-17-ate-5-posts-por-anuncio",
       "date": "2026-11-17",
       "firstSeen": "2026-11-18",
@@ -74,7 +93,8 @@
       "effect": "O custo por ThruPlay tende a parecer menor com 6 segundos, porque mais visualizações entram na conta. Comparar campanhas de 6 s com as antigas de 15 s distorce o histórico do cliente.",
       "action": "Ao usar 6 segundos em vídeos curtos de Reels e Stories, anote isso no nome da campanha e não compare o custo por ThruPlay com campanhas de 15 segundos. Olhe também retenção e cliques no perfil ou no WhatsApp para saber se o vídeo funcionou.",
       "sources": [
-        50
+        50,
+        53
       ]
     },
     {
@@ -1130,6 +1150,16 @@
       "id": 51,
       "title": "PPC Land: um anúncio da Meta pode reunir até 5 publicações existentes (17/11/2026)",
       "url": "https://ppc.land/one-meta-ad-can-now-carry-up-to-5-existing-posts"
+    },
+    {
+      "id": 52,
+      "title": "Jon Loomer: Meta simplifica os públicos personalizados de vídeo",
+      "url": "https://www.jonloomer.com/qvt/video-custom-audiences/"
+    },
+    {
+      "id": 53,
+      "title": "JXT Group: mudanças de Google e Meta Ads na semana de 11 a 17/11/2026",
+      "url": "https://www.jxtgroup.com/this-week-google-meta-ads-nov-17-2026/"
     }
   ]
 }
