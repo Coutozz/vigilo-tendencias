@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-18T06:00:00-03:00",
-  "edition": "18 de novembro de 2026",
-  "summary": "Faltam 9 dias para a Black Friday (27/11): vídeo vertical de até 15 s com a oferta no primeiro segundo, renovado toda semana, e catálogo em carrossel no varejo seguem na frente; a contagem regressiva fica para as últimas 72 horas. Anúncio de promoção sai do ar rápido (mediana de 15 dias), e o que dura meses é a oferta permanente, então deixe uma rodando ao lado da Black Friday. Nesta edição, ideias novas para imobiliárias (corretor contando a história do imóvel, já pensando no feed de vídeos do ZAP e VivaReal a partir de 23/11) e para pet shop (vídeo problema e solução).",
+  "updatedAt": "2026-11-20T05:45:00-03:00",
+  "edition": "20 de novembro de 2026",
+  "summary": "Falta uma semana para a Black Friday (27/11): os anúncios de oferta já deveriam estar no ar, e de 26 a 30/11 a regra é não mexer no que está rodando; criativo novo entra em conjunto novo. No que escala, o padrão segue: vídeo vertical, cara de UGC e texto na tela já no primeiro segundo. Nesta edição, ideias novas para restaurantes (oferta de dia fixo e encomendas de fim de ano) e para academias (professor gravando no celular, já preparando janeiro).",
   "rules": [
     {
-      "title": "Black Friday em 27/11: renove toda semana, urgência só no fim",
-      "text": "Em dados da AppLovin sobre a Black Friday de 2025, quem subiu criativo novo quase toda semana teve ROAS 23% maior no 7º dia do que quem renovou uma ou duas vezes, e peças subidas em novembro renderam 20% mais que peças com mais de 60 dias. Até 24/11, renove semanalmente com conceitos realmente diferentes; deixe \"últimas horas\" e contagem regressiva para as últimas 72 horas. O CPM sobe: na Black Month de 2025, anúncios de catálogo pagaram cerca de 45% a mais por mil impressões.",
-      "source": 54
+      "title": "Semana da Black Friday: não mexa no que está rodando",
+      "text": "A orientação é ter os conjuntos de oferta entregando até 20/11 e não fazer edição grande de 26 a 30/11: criativo novo vai num conjunto novo, não no que já está no ar, para não voltar ao aprendizado (que pede cerca de 50 resultados na semana). Deixe pronto um substituto realmente diferente para cada anúncio. O CPM sobe muito: num levantamento da Lebesgue com US$ 22,6 milhões em verba de 2025, o CPM mediano ficou 27% acima de setembro em 20/11 e 84% acima na Black Friday, mas na semana da data a conversão subiu 48% e o custo por compra caiu 20%. Julgue pelo custo por venda, não pelo CPM.",
+      "source": 70
     },
     {
       "title": "Menos anúncios por conjunto, mais conceitos diferentes",
@@ -16,13 +16,13 @@
     },
     {
       "title": "Antes de 27/11, revise o que a Meta liga sozinha",
-      "text": "Desde 28/10 a navegação de produtos foi ligada por padrão em anúncios existentes do Facebook e do Instagram: o toque pode abrir informações e sugestões de produto, e a Meta diz que isso trouxe 3% mais conversões em média num teste. Desde 12/11 a medição de conversões no aparelho do cliente também vem ligada. Antes de escalar a verba na Black Friday, abra a prévia de cada anúncio, desligue a navegação de produtos onde ela não faz sentido (serviço local, WhatsApp) e as variações automáticas de texto em anúncio com preço e prazo, e compare as compras do Gerenciador com as vendas reais do cliente.",
-      "source": 68
+      "text": "Além da navegação de produtos (ligada por padrão desde 28/10) e da medição de conversões no aparelho do cliente (desde 12/11), a Meta passou a poder colocar nos anúncios descontos que encontra no site e em outros anúncios (\"ofertas detectadas\", no Gerenciador de Comércio), e em anúncios novos via API a vitrine de produtos pode ligar sozinha. Abra a prévia de cada anúncio, desligue o que não faz sentido para serviço local ou WhatsApp e confira se nenhum desconto antigo aparece na peça. A Meta diz que quem aceita as recomendações do Advantage+ criativo costuma ter 5% mais conversões pelo mesmo custo, mas em saúde e em anúncio com preço vale desligar retoque visual, fundo gerado e tradução.",
+      "source": 71
     },
     {
-      "title": "Abra com a dor ou o resultado, não com pergunta",
-      "text": "Num levantamento de 523 anúncios que rodaram 30 dias ou mais, só 8% abriam com pergunta. Os que mais duram abrem com a dor do cliente, uma autoridade ou algo visual inesperado. Faça curto (até 20 s) ou explicado (30 a 60 s); o meio-termo de 20 a 30 s foi o que menos sobreviveu.",
-      "source": 17
+      "title": "Texto na tela no primeiro segundo, gancho sem pergunta",
+      "text": "Num levantamento da Winning Hunter com 10.000 anúncios que escalaram em 2026, 82% tinham texto na tela já no primeiro segundo (6 a 9 palavras) e 71% abriam com quebra de padrão (34%), com o problema (24%) ou com o resultado (13%). O produto aparecendo funcionando entre o 3º e o 8º segundo foi o mais comum. Os que mais duram raramente abrem com pergunta.",
+      "source": 69
     },
     {
       "title": "Cada peça em 9:16, 4:5 e 1:1, e veja o resultado de cada uma",
@@ -39,12 +39,12 @@
     {
       "name": "Vídeo vertical curto (até 15 s) ou explicado (30 a 60 s)",
       "trend": "up",
-      "note": "Na Black Friday de 2025, em dados da AppLovin, vídeos com menos de 16 s tiveram o maior ganho de ROAS (83%), contra 39% para 16 a 29 s e 24% para 30 s ou mais. Grave primeiro em 9:16 e adapte para o feed depois. Mais de 60% do tempo no Facebook e no Instagram é vídeo."
+      "note": "Na Black Friday de 2025, em dados da AppLovin, vídeos com menos de 16 s tiveram o maior ganho de ROAS (83%). Fora de data de oferta, o vídeo pode ser mais longo: entre 10.000 anúncios que escalaram em 2026 (Winning Hunter), a mediana foi de 27 s, 58% eram 9:16 e o vídeo superou a imagem em cerca de 3 para 1. Grave primeiro em 9:16, com legenda em todas as falas."
     },
     {
       "name": "UGC / cara de orgânico",
       "trend": "up",
-      "note": "Dono, professor, vendedor ou cliente falando para a câmera, gravado no celular. Em restaurantes, vídeo de cozinha feito no celular costuma superar o muito produzido. Misture com peças mais caprichadas."
+      "note": "Dono, professor, vendedor ou cliente falando para a câmera, gravado no celular. No levantamento da Winning Hunter, 64% dos anúncios que escalaram tinham cara de UGC; o melhor padrão foi o híbrido: abre como UGC, mostra o produto bem filmado e fecha de novo com a pessoa. Em academias, vídeo do professor no celular costuma render mais que comercial produzido."
     },
     {
       "name": "Vídeo com especialista, educativo ou de bastidor",
@@ -54,7 +54,7 @@
     {
       "name": "Imagem para vídeo e edição com IA da Meta",
       "trend": "steady",
-      "note": "A Animação de imagem do Advantage+ criativo transforma foto de produto em vídeo dentro do Gerenciador, e o Ads Creative Studio edita gancho, áudio, duração e final de um vídeo existente. Os novos termos que jogariam toda a responsabilidade da IA no anunciante foram adiados sem data, mas revise as melhorias automáticas e a prévia antes de escalar na Black Friday."
+      "note": "A transformação de imagem em vídeo está liberada no Advantage+ criativo desde 6/10, e o Ads Creative Studio chegou a mais anunciantes. Os novos termos que jogariam toda a responsabilidade da IA no anunciante continuam suspensos, sem data. Marcas começaram a desligar retoques e fundos gerados por IA em categorias sensíveis: confira a prévia antes de escalar."
     },
     {
       "name": "Anúncio com criador (parceria)",
@@ -101,7 +101,7 @@
       "niches": [
         "Todos"
       ],
-      "why": "Pessoa real falando para a câmera, gravado no celular, parece conteúdo de um perfil comum e passa confiança. Os criativos que passam de 30 dias no ar costumam ganhar por mensagem clara, não por produção caprichada. Com o Andromeda, conteúdo com cara nativa (dono falando, depoimento, cabeça falante) segura a rolagem, desde que misturado com peças mais produzidas. Num estudo da Motion com US$ 1,3 bilhão em verba, só 4% a 8% dos criativos viraram vencedores: gravar simples permite testar mais ideias.",
+      "why": "Pessoa real falando para a câmera, gravado no celular, parece conteúdo de um perfil comum e passa confiança. Os criativos que passam de 30 dias no ar costumam ganhar por mensagem clara, não por produção caprichada. Com o Andromeda, conteúdo com cara nativa (dono falando, depoimento, cabeça falante) segura a rolagem, desde que misturado com peças mais produzidas. Num estudo da Motion com US$ 1,3 bilhão em verba, só 4% a 8% dos criativos viraram vencedores: gravar simples permite testar mais ideias. Num levantamento da Winning Hunter com 10.000 anúncios que escalaram em 2026, 64% tinham cara de UGC.",
       "how": [
         "Escolha UMA dor ou objeção do cliente (preço, demora, medo).",
         "Grave no celular, em pé, luz de janela, olhando para a lente.",
@@ -118,7 +118,8 @@
         4,
         13,
         18,
-        34
+        34,
+        69
       ]
     },
     {
@@ -135,12 +136,12 @@
         "Restaurantes",
         "Academias"
       ],
-      "why": "A Black Friday é em 27 de novembro, daqui a 9 dias. Em dados da AppLovin sobre a Black Friday de 2025, vídeos com menos de 16 s tiveram ganho de ROAS de 83%, mais que o dobro dos de 16 a 29 s, e quem renovou criativo quase toda semana teve ROAS 23% maior. Os quatro dias antes da data concentraram 65% do gasto do fim de semana, segundo a Triple Whale. No Reels, o CPM ficou 30% a 40% menor que no feed.",
+      "why": "A Black Friday é em 27 de novembro, daqui a 7 dias. Em dados da AppLovin sobre a Black Friday de 2025, vídeos com menos de 16 s tiveram ganho de ROAS de 83%, mais que o dobro dos de 16 a 29 s. Na semana da data de 2025, segundo a Lebesgue, o CPM mediano subiu 59%, mas a conversão subiu 48% e o custo por compra caiu 20%: quem tem oferta clara e prova paga mais caro pela impressão e ainda vende mais barato.",
       "how": [
         "Escolha 1 a 3 produtos-isca com desconto real e estoque garantido.",
         "Grave o dono ou vendedor mostrando o produto na mão, com o preço \"de/por\" escrito na tela no primeiro segundo.",
         "Acrescente prova social real: número de clientes, nota no Google ou foto da loja cheia.",
-        "Até 24/11, suba 2 a 3 conceitos novos por semana (prova, comparação de preço, presente). De 24/11 em diante, entre com o prazo real e a contagem regressiva.",
+        "A partir de agora, suba a contagem regressiva e o prazo real num conjunto novo. De 26 a 30/11, não edite os anúncios que estão rodando; só pause o que piorar muito.",
         "Leve para o WhatsApp ou para a rota até a loja."
       ],
       "hooks": [
@@ -151,7 +152,7 @@
       "avoid": "Desconto inflado (aumentar o preço antes para dar desconto) e preço na arte diferente do da loja. Contagem regressiva falsa ou antes da hora. Deixar as variações automáticas de texto do Advantage+ ligadas em anúncio com preço e prazo. Escalar a verba sem conferir a prévia: a navegação de produtos ligada por padrão pode desviar o toque de quem queria chamar no WhatsApp.",
       "sources": [
         54,
-        55,
+        70,
         27,
         68
       ]
@@ -163,7 +164,7 @@
       "formatLabel": "Imagem ou vídeo curto + WhatsApp ou formulário",
       "duration": "—",
       "ratio": "4:5 e 9:16",
-      "status": "novo",
+      "status": "em-alta",
       "niches": [
         "Saúde e odontologia",
         "Estética",
@@ -230,7 +231,7 @@
       "formatLabel": "Vídeo UGC (corretor)",
       "duration": "30 a 60 s",
       "ratio": "9:16",
-      "status": "novo",
+      "status": "em-alta",
       "niches": [
         "Imobiliárias"
       ],
@@ -254,44 +255,13 @@
       ]
     },
     {
-      "id": "imovel-tour-vertical",
-      "title": "Tour do imóvel em vídeo vertical, com o preço logo no começo",
-      "format": "video",
-      "formatLabel": "Vídeo curto (tour)",
-      "duration": "até 20 s (anúncio) e 45 a 60 s (remarketing)",
-      "ratio": "9:16",
-      "status": "em-alta",
-      "niches": [
-        "Imobiliárias"
-      ],
-      "why": "Num levantamento de 1.672 anúncios de imóveis na Biblioteca de Anúncios, o vídeo é só 23% das peças, mas fica mais tempo no ar: mediana de 16 dias contra 10 da imagem. Vídeo com movimento e animação também ficou entre os de maior sobrevivência. Ou seja: pouca concorrência em vídeo e sinal de que ele segura melhor. O mesmo vídeo vai servir fora da Meta: a partir de 23/11 o ZAP Imóveis e o VivaReal ganham um feed de vídeos verticais em tela cheia, com botão para chamar no chat ou no WhatsApp. O OLX Group diz que o volume de anúncios com vídeo curto cresceu quase 1.900% em 12 meses.",
-      "how": [
-        "Grave na vertical, andando devagar, da porta de entrada até o cômodo mais bonito.",
-        "Nos 2 primeiros segundos, mostre o melhor ângulo com bairro, preço ou parcela escritos na tela.",
-        "Deixe livre de texto cerca de 14% do topo e 20% de baixo da tela, onde ficam os botões do Reels.",
-        "Faça uma versão curta para atrair e uma de 45 a 60 s, com todos os cômodos, para quem já interagiu.",
-        "Suba o mesmo 9:16 no anúncio do portal: no feed novo, anúncio sem vídeo aparece só como fotos em sequência."
-      ],
-      "hooks": [
-        "\"Cansado de pagar aluguel? Olha o que dá para ter com parcela de R$ [x].\"",
-        "\"3 quartos em [bairro] por menos do que você imagina.\"",
-        "\"Essa varanda vende o apartamento sozinha.\""
-      ],
-      "avoid": "Abrir com logo da imobiliária ou fachada sem graça. Foto ou vídeo que não é do imóvel anunciado. Prometer valorização garantida.",
-      "sources": [
-        19,
-        20,
-        64
-      ]
-    },
-    {
       "id": "pet-problema-solucao",
       "title": "Pet shop: vídeo \"problema e solução\" com o pelo pela casa",
       "format": "video",
       "formatLabel": "Vídeo curto (problema e solução)",
       "duration": "20 a 40 s",
       "ratio": "9:16 e 4:5",
-      "status": "novo",
+      "status": "em-alta",
       "niches": [
         "Pet"
       ],
@@ -315,62 +285,62 @@
       ]
     },
     {
-      "id": "pet-banho-tosa-antes-depois",
-      "title": "Pet shop: banho e tosa com o pet chegando e saindo",
-      "format": "video",
-      "formatLabel": "Vídeo curto (bastidor)",
-      "duration": "10 a 20 s",
-      "ratio": "9:16",
-      "status": "em-alta",
-      "niches": [
-        "Pet"
-      ],
-      "why": "A transformação aqui é do pet, não de uma pessoa, então o antes e depois não cai na regra de atributos pessoais e mostra o serviço na hora. No levantamento da Benly com 6.108 anúncios de 23 marcas de pet na Biblioteca de Anúncios, vídeo foi 49,9% das peças, acima da média geral de 41,4%, e a mediana de vida no ar foi de 30 dias: renove todo mês. 72,9% das peças tinham desconto, então um bastidor sem desconto se destaca.",
-      "how": [
-        "Grave o pet chegando, cenas rápidas do banho e da secagem, e a saída com laço ou lenço.",
-        "Mostre o tutor buscando e a reação do pet (com autorização do tutor).",
-        "Escreva na tela o bairro e se tem leva e traz.",
-        "Faça uma versão por porte ou raça comum na região e leve para o WhatsApp com horário."
-      ],
-      "hooks": [
-        "\"Chegou assim… e olha como saiu.\"",
-        "\"O dia de spa do [nome do pet] em 15 segundos.\"",
-        "\"Banho e tosa em [bairro] com leva e traz. Tem horário sábado.\""
-      ],
-      "avoid": "Pet assustado, preso de forma que pareça maus-tratos ou ferido na tosa. Usar pet de cliente sem autorização do tutor. Prometer resultado de pele ou pelo como tratamento de saúde: isso é com o veterinário.",
-      "sources": [
-        51
-      ]
-    },
-    {
-      "id": "restaurante-reels-close-15s",
-      "title": "Restaurante: Reels de 15 s que abre no close do prato",
+      "id": "restaurante-oferta-dia-fixo",
+      "title": "Restaurante: oferta de dia fixo com o preço na tela no primeiro segundo",
       "format": "video",
       "formatLabel": "Vídeo curto (Reels)",
       "duration": "até 15 s",
-      "ratio": "9:16",
-      "status": "em-alta",
+      "ratio": "9:16 e 4:5",
+      "status": "novo",
       "niches": [
         "Restaurantes"
       ],
-      "why": "Comida é dos conteúdos que mais seguram a rolagem no Meta, e o close de algo acontecendo (queijo puxando, chapa chiando, molho caindo) funciona como gancho sem precisar de fala. A estrutura recomendada é gancho de 1 a 3 s, corpo de 5 a 10 s com o salão, a cozinha e gente comendo, e chamada de 1 a 2 s. Segundo dados citados pela Sovran, 59% dos clientes usam o Facebook para achar lugar novo para comer. Vídeo curto também foi o que mais ganhou na Black Friday passada.",
+      "why": "Nos anúncios de restaurante que estavam no ar em novembro de 2026 reunidos pela Madgicx, 6 de 8 eram vídeo vertical e a maioria punha o texto na tela no primeiro segundo; o padrão era um prato com nome e preço e uma oferta recorrente (ex.: um prato especial toda quinta \"até acabar\"). Na mesma fonte, o CPM mediano de restaurantes no Meta em setembro de 2026 foi de US$ 2,26, contra US$ 9,72 na média geral: dá para aparecer muito no bairro com pouca verba. Oferta de dia fixo vira hábito e não precisa de peça nova toda semana.",
       "how": [
-        "Grave no celular, na vertical, o prato sendo finalizado em close (primeiros 2 segundos).",
-        "Corte para o salão cheio, a mesa sendo servida e uma pessoa dando a primeira garfada.",
-        "Escreva na tela o bairro e a oferta (rodízio, combo, happy hour).",
-        "Termine com \"Reserve pelo WhatsApp\" ou \"Peça no delivery\" e faça uma versão por prato carro-chefe.",
-        "Para fim de ano, grave também um \"top 5 para a confraternização\" com os pratos mais vendidos do mês."
+        "Escolha um dia fraco e um carro-chefe: \"Terça do hambúrguer\", \"Quinta da pizza\", \"Feijoada de sábado\".",
+        "Abra no close do prato sendo finalizado, com nome do prato e preço escritos na tela já no primeiro segundo.",
+        "Raio de entrega realista (ex.: até 5 km) e anúncio concentrado no horário da refeição, como 18h às 22h para o jantar.",
+        "Termine com o botão certo para o destino: \"Peça agora\" para o delivery, \"Chame no WhatsApp\" para encomenda ou reserva.",
+        "Use um cupom diferente por anúncio para saber, no caixa, qual peça trouxe o pedido."
       ],
       "hooks": [
-        "\"Esse é o prato que mais sai aqui em [bairro].\"",
-        "\"Sexta à noite em [nome do restaurante] é assim.\"",
-        "\"Você ainda não provou o [prato] mais pedido de [cidade]?\"",
-        "\"Os 5 mais pedidos do mês em 15 segundos. O 3º esgota toda sexta.\""
+        "\"Toda terça aqui em [bairro]: [prato] por R$ [x].\"",
+        "\"Quinta é dia de [prato]. Quando acaba, acabou.\"",
+        "\"Peça hoje até as 22h com o cupom [CÓDIGO] e ganhe a sobremesa.\""
       ],
-      "avoid": "Foto de banco de imagens e prato que não existe no cardápio. Cliente filmado sem autorização. Objetivo de Tráfego para restaurante de salão: prefira mensagens no WhatsApp, cadastro ou visitas ao local.",
+      "avoid": "Foto de banco de imagens ou prato que não existe no cardápio. Preço na arte diferente do aplicativo ou do cardápio. Raio grande demais, em que a comida chega fria. Mudar o dia da oferta toda semana: o hábito é o que faz a peça durar.",
       "sources": [
-        59,
-        60
+        74,
+        75
+      ]
+    },
+    {
+      "id": "restaurante-encomenda-fim-de-ano",
+      "title": "Restaurante: encomendas de Natal e confraternização com prazo real",
+      "format": "carrossel",
+      "formatLabel": "Carrossel ou vídeo curto + WhatsApp",
+      "duration": "—",
+      "ratio": "4:5 e 9:16",
+      "status": "novo",
+      "niches": [
+        "Restaurantes"
+      ],
+      "why": "Depois da Black Friday, a orientação é trocar a mensagem de desconto por presente e prazo, e os custos de mídia seguem altos nos primeiros dias de dezembro. Para restaurante, isso é ceia, kit de festa, bolo e confraternização de empresa, com data-limite real de encomenda. A peça pode subir já na semana da Black Friday, num conjunto separado, e trocar só o prazo depois.",
+      "how": [
+        "Monte o cardápio de fim de ano em 4 a 6 itens com foto real de cada um e o preço por pessoa ou por kit.",
+        "Carrossel: 1º cartão com a oferta e o prazo (\"encomendas até 20/12\"), depois um cartão por item, último com o WhatsApp.",
+        "Versão em vídeo: a cozinha montando a ceia ou a mesa posta, com o prazo escrito na tela.",
+        "Para empresas, uma peça separada: \"confraternização para 10 a 50 pessoas\", com pacote fechado.",
+        "Leve tudo para o WhatsApp com mensagem pronta (\"Quero o cardápio de Natal\")."
+      ],
+      "hooks": [
+        "\"Ceia de Natal pronta, para [x] pessoas, a partir de R$ [y]. Encomendas até [data].\"",
+        "\"Confraternização da empresa sem dor de cabeça: a gente cuida de tudo.\"",
+        "\"Esse ano, a ceia sai da nossa cozinha. Veja o cardápio.\""
+      ],
+      "avoid": "Prazo falso ou que muda toda hora. Foto de prato pronto de banco de imagens. Prometer entrega no dia 24 sem ter certeza da capacidade da cozinha.",
+      "sources": [
+        70
       ]
     },
     {
@@ -460,6 +430,36 @@
       ]
     },
     {
+      "id": "academia-professor-celular",
+      "title": "Academia: professor mostra o treino no celular (e já prepara janeiro)",
+      "format": "ugc",
+      "formatLabel": "Vídeo UGC (professor)",
+      "duration": "15 a 30 s",
+      "ratio": "9:16",
+      "status": "novo",
+      "niches": [
+        "Academias"
+      ],
+      "why": "Em fitness, vídeo simples do professor costuma vencer comercial caprichado: num levantamento da Web Tonic, conteúdo com o professor teve 1,7 vez o engajamento de conteúdo falado pela marca, e vídeo de demonstração de treino converteu 34% mais que conteúdo de estilo de vida (números de fornecedor, sem método publicado). No Reels do Instagram, a faixa citada de CTR foi de 1,1% a 2,3%, a mais alta entre os posicionamentos. Janeiro costuma ser a melhor janela do ano para academia (1 a 21/1, segundo a Stackmatix): grave em dezembro e deixe as peças aprovadas antes da virada.",
+      "how": [
+        "Peça a 2 ou 3 professores para gravarem no celular, na vertical, um exercício ou uma parte da aula explicando para quem nunca treinou.",
+        "Texto na tela no primeiro segundo com o que a pessoa vai ver (\"Seu primeiro treino aqui, em 20 segundos\").",
+        "Mostre o ambiente de verdade: recepção, área de musculação, a turma da aula coletiva.",
+        "Feche com a oferta e o bairro, e leve para o formulário instantâneo ou WhatsApp com a pergunta \"Quando você quer começar?\".",
+        "Em dezembro, grave uma versão \"comece em janeiro\" e suba antes do dia 1º, para não depender da revisão da Meta na virada."
+      ],
+      "hooks": [
+        "\"Nunca treinou? Esse é o primeiro exercício que eu passo para todo aluno novo.\"",
+        "\"20 segundos para você ver como é uma aula de [modalidade] aqui em [bairro].\"",
+        "\"Janeiro começa aqui: primeira semana com acompanhamento do professor.\""
+      ],
+      "avoid": "Antes e depois de corpo, promessa de quilos ou de resultado garantido e frase que sugira que o corpo de quem assiste precisa ser consertado (\"Cansado da barriga?\"): fere a política de atributos pessoais e pode levar a conta a revisão. Close de barriga ou gordura. Perguntar peso, lesão ou remédio no formulário.",
+      "sources": [
+        77,
+        78
+      ]
+    },
+    {
       "id": "carro-volta-estoque",
       "title": "Volta no carro com o vendedor + catálogo do estoque no remarketing",
       "format": "video",
@@ -530,24 +530,9 @@
       "url": "https://segwise.ai/blog/meta-andromeda-update-creative-strategy-2026"
     },
     {
-      "id": 17,
-      "title": "Winning Meta Ad Patterns 2026: 523 anúncios com 30+ dias no ar (Brandsearch, atualizado 2/11/2026)",
-      "url": "https://brandsearch.co/blog/winning-meta-ad-patterns-2026"
-    },
-    {
       "id": 18,
       "title": "Why Some Boring Ads Beat Polished Ads on Meta (Segwise)",
       "url": "https://segwise.ai/blog/why-boring-ads-beat-polished-ads"
-    },
-    {
-      "id": 19,
-      "title": "Real Estate — Creative DNA Benchmarks Q1 2026 (Benly)",
-      "url": "https://benly.ai/benchmarks/real-estate"
-    },
-    {
-      "id": 20,
-      "title": "Anúncios imobiliários no Facebook (AdsUploader, 7/10/2026)",
-      "url": "https://adsuploader.com/pt/blog/real-estate-ads-for-facebook"
     },
     {
       "id": 21,
@@ -615,24 +600,9 @@
       "url": "https://www.adface.ai/blog/black-friday-video-ads-2026"
     },
     {
-      "id": 55,
-      "title": "Meta's new ad terms are paused and prices are rising: what to do before Black Friday (Giovanni Perilli, 14/11/2026)",
-      "url": "https://giovanniperilli.com/en/blog/meta-ads-new-terms-black-friday/"
-    },
-    {
       "id": 58,
       "title": "How Medical Spa & Aesthetics Businesses Use Ad Creative in 2026 (Web Tonic, atualizado 9/10/2026)",
       "url": "https://www.webtonic.io/blog/medical-spa-ad-creative-statistics"
-    },
-    {
-      "id": 59,
-      "title": "Restaurant Facebook Ads: A 2026 ROI Playbook (Sovran, atualizado 25/10/2026)",
-      "url": "https://sovran.ai/blog/restaurant-facebook-ads"
-    },
-    {
-      "id": 60,
-      "title": "Restaurant Advertising in 2026: The Google and Meta Playbook (Bloom Intelligence, 5/10/2026)",
-      "url": "https://bloomintelligence.com/blog/restaurant-advertising-playbook/"
     },
     {
       "id": 61,
@@ -648,11 +618,6 @@
       "id": 63,
       "title": "Mercado imobiliário de alto padrão mira o TikTok para transformar atenção em venda (ABC da Comunicação, 11/9/2026)",
       "url": "https://www.abcdacomunicacao.com.br/mercado-imobiliario-de-alto-padrao-mira-o-tiktok-para-transformar-atencao-em-venda/"
-    },
-    {
-      "id": 64,
-      "title": "ZAP Imóveis e VivaReal ganham feed de vídeos verticais no estilo Instagram (Canaltech, 13/11/2026)",
-      "url": "https://canaltech.com.br/apps/zap-imoveis-e-vivareal-ganham-feed-de-videos-verticais-no-estilo-instagram/"
     },
     {
       "id": 65,
@@ -673,6 +638,41 @@
       "id": 68,
       "title": "Meta Ads Updates 2026: What They Mean for Your Creative (Segwise, 3/11/2026)",
       "url": "https://segwise.ai/blog/meta-ads-updates"
+    },
+    {
+      "id": 69,
+      "title": "Anatomy of a Scaling Meta Ad: 10.000 criativos que escalaram em 2026 (Winning Hunter, 15/9/2026)",
+      "url": "https://winninghunter.com/tr/blog/anatomy-of-a-scaling-meta-ad"
+    },
+    {
+      "id": 70,
+      "title": "Black Friday Facebook Ads 2026: Q4 Meta Playbook (Segwise, 3/11/2026)",
+      "url": "https://segwise.ai/blog/black-friday-facebook-ads-2026"
+    },
+    {
+      "id": 71,
+      "title": "Meta Ads Updates (November 2026): What's Changing and What to Do (AdsUploader, atualizado 15/11/2026)",
+      "url": "https://adsuploader.com/blog/meta-ads-updates"
+    },
+    {
+      "id": 74,
+      "title": "Restaurant Ad Examples That Fill Tables on Facebook (Madgicx, atualizado 12/11/2026)",
+      "url": "https://madgicx.com/blog/restaurant-ad-examples"
+    },
+    {
+      "id": 75,
+      "title": "Tráfego pago para restaurante e delivery (ValorFinal, atualizado 6/11/2026)",
+      "url": "https://valorfinal.com.br/cursos/trafego-pago/estrategia-por-tipo-de-negocio/restaurante-e-delivery"
+    },
+    {
+      "id": 77,
+      "title": "Fitness Ad Creative Statistics: UGC, Video & Testing Benchmarks 2026 (Web Tonic, atualizado 9/10/2026)",
+      "url": "https://www.webtonic.io/blog/fitness-ad-creative-statistics"
+    },
+    {
+      "id": 78,
+      "title": "Facebook Ads for Gyms: Membership Campaign Structures (Stackmatix, 6/9/2026)",
+      "url": "https://www.stackmatix.com/blog/gym-facebook-ads-membership-campaigns"
     }
   ]
 }
