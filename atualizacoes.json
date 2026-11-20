@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-19T07:00:00-03:00",
-  "edition": "19 de novembro de 2026",
-  "summary": "Sem mudança oficial de impacto alto desde ontem. A novidade é um relato: na criação de públicos de vídeo, as opções por segundos e porcentagem viraram três níveis (todos, engajados, muito engajados) — não apague os públicos antigos de 75%/95% antes de conferir se seguem ativos. Para a Black Friday (27/11), continue comparando as compras do pixel com as vendas reais desde a medição no aparelho do cliente (12/11); os novos termos comerciais seguem suspensos, sem data.",
+  "updatedAt": "2026-11-20T07:00:00-03:00",
+  "edition": "20 de novembro de 2026",
+  "summary": "Sem mudança de impacto alto nas contas desde ontem. Os novos Termos Comerciais não entraram em vigor hoje (20/11) e, pelo plano que a Meta divulgou em 18/11, não devem voltar antes do início de 2027 — os termos atuais seguem valendo. Para a Black Friday (27/11), revise as melhorias automáticas do Advantage+ criativo e compare as compras do pixel com as vendas reais; ao gerar criativos com IA a partir de fotos de pessoas, garanta autorização de uso de imagem por escrito.",
   "api": {
     "latest": "v27.0",
     "latestDate": "2026-11-04",
@@ -41,6 +41,60 @@
     }
   ],
   "updates": [
+    {
+      "id": "2026-11-18-processo-anuncios-ia-fotos-antigas",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-20",
+      "title": "Processo nos EUA: marca é acusada de usar fotos antigas de modelo para gerar anúncios de IA no Instagram",
+      "category": "politicas",
+      "impact": "baixo",
+      "status": "em-vigor",
+      "region": "EUA",
+      "confirmed": false,
+      "summary": "Um modelo processou uma marca de roupas por transformar, com IA, fotos de um ensaio de 2021 em novas imagens e vídeo para anúncios no Instagram sem autorização assinada.",
+      "what": "Segundo o PPC Land, a ação foi aberta em 18/11/2026 num tribunal federal da Califórnia. O modelo diz que não assinou autorização de uso de imagem; a marca mudou de dono em 2025 e o novo dono teria reconhecido que as edições por IA foram feitas depois da compra. O conteúdo foi retirado após notificação em junho. São cinco pedidos, entre eles falso endosso e direito de imagem. A ação não acusa a Meta; as alegações ainda não foram provadas.",
+      "effect": "Não muda nada nas contas, mas mostra o risco de pegar fotos antigas de pessoas (pacientes, modelos, funcionários) e criar anúncios novos com IA, inclusive pelas ferramentas de IA da própria Meta. Rótulo de 'feito com IA' não substitui autorização.",
+      "action": "Antes de usar IA para gerar imagens ou vídeos a partir de fotos de pessoas reais, confirme que o cliente tem autorização de uso de imagem por escrito que cubra esse uso. Vale em especial para clínicas, estética e academias com fotos de antes e depois.",
+      "sources": [
+        55
+      ]
+    },
+    {
+      "id": "2026-11-16-instagram-direct-app",
+      "date": "2026-11-16",
+      "firstSeen": "2026-11-20",
+      "title": "Instagram testa o Direct, app só de mensagens que dispensa conta no Instagram",
+      "category": "posicionamentos",
+      "impact": "baixo",
+      "status": "em-teste",
+      "region": "Turquia e Tailândia",
+      "confirmed": true,
+      "summary": "A Meta anunciou o teste de um app separado de mensagens do Instagram, por enquanto só na Turquia e na Tailândia, sem anúncios.",
+      "what": "Segundo o PPC Land, citando a publicação da Meta de 16/11/2026, o Direct funciona no Android e no iOS e permite cadastro por e-mail ou telefone, sem conta no Instagram. A Meta não falou de anúncios, contas comerciais nem mensagens de marcas, e não anunciou outros países.",
+      "effect": "Nenhum efeito nas contas no Brasil por enquanto. Se chegar aqui, pode mudar onde chegam as conversas de anúncios de mensagem do Instagram.",
+      "action": "Nada a fazer agora; só acompanhe se o teste chegar ao Brasil.",
+      "sources": [
+        56
+      ]
+    },
+    {
+      "id": "2026-11-12-guia-incrementalidade-orcamento",
+      "date": "2026-11-12",
+      "firstSeen": "2026-11-20",
+      "title": "Meta publica guia para usar testes de incrementalidade na divisão de orçamento",
+      "category": "medicao",
+      "impact": "baixo",
+      "status": "em-vigor",
+      "region": "Global",
+      "confirmed": true,
+      "summary": "A Meta publicou orientações para usar a medição de incrementalidade (quanto do resultado só aconteceu por causa dos anúncios) na hora de decidir onde colocar o orçamento.",
+      "what": "Segundo o AdsUploader, a Meta publicou em 12/11/2026 no Meta for Business um texto sobre passar da medição para a alocação de verba. É orientação, não um recurso novo no Gerenciador.",
+      "effect": "Nenhuma mudança nas contas. Reforça a mensagem da Meta de comparar campanhas pelo resultado incremental, e não só pelo que o pixel atribui — ainda mais depois da medição no aparelho do cliente (12/11), que aumenta as conversões contadas.",
+      "action": "Nada obrigatório. Para clientes com verba maior, considere um teste de incrementalidade (estudo de conversão) depois da Black Friday antes de mudar a divisão de orçamento.",
+      "sources": [
+        27
+      ]
+    },
     {
       "id": "2026-11-16-publicos-video-3-opcoes",
       "date": "2026-11-16",
@@ -342,18 +396,18 @@
     },
     {
       "id": "2026-10-23-termos-ia-adiados",
-      "date": "2026-11-05",
+      "date": "2026-11-18",
       "firstSeen": "2026-10-29",
-      "title": "Novos Termos Comerciais suspensos: não entram em vigor em 20/11 e não têm data nova",
+      "title": "Novos Termos Comerciais seguem suspensos: Meta prevê consulta em fases até o início de 2027",
       "category": "politicas",
       "impact": "alto",
       "status": "adiado",
       "region": "Global",
       "confirmed": true,
-      "summary": "A Meta avisou na Central de Ajuda que os novos termos, incluindo a responsabilidade do anunciante pelas edições da IA, estão suspensos e não começam em 20/11; os termos atuais seguem valendo.",
-      "what": "Os novos Termos Comerciais e de anúncios autoatendidos incluem uma seção de recursos de IA: o anunciante é o único responsável pelas alterações que a IA da Meta faz nos anúncios, mesmo nos recursos ligados por padrão (melhorias do Advantage+ criativo, sitelinks automáticos, tradução, imagens geradas). Depois de adiar de 30/10 para 20/11, a Meta publicou aviso (divulgado em 5/11) de que os Termos Comerciais, de Catálogo de Produtos, de anúncios autoatendidos e de IA generativa em criativos atualizados estão suspensos e não entram em vigor em 20/11/2026. Diz que continua consultando o mercado e dará notícia quando tiver novidade; os termos atuais valem até segunda ordem. Um porta-voz disse à Reuters que a empresa quer \"fazer isso direito\". Antes disso, um tribunal da Noruega barrou a entrada em vigor lá, a autoridade de concorrência do Reino Unido abriu investigação em 30/10 e a Comissão Europeia elogiou o adiamento.",
-      "effect": "Nada muda nas contas por enquanto e não há prazo. O texto pode voltar igual ou revisado, então o risco de responder pelas edições da IA não sumiu.",
-      "action": "Não é preciso aceitar nada agora. Mesmo assim, desligue antes da Black Friday as melhorias automáticas do Advantage+ criativo que o cliente não aprovou, e acompanhe se a Meta divulgar texto ou data nova.",
+      "summary": "Os novos termos, incluindo a responsabilidade do anunciante pelas edições da IA, não entraram em vigor em 20/11; em 18/11 a Meta descreveu uma consulta em três fases que vai até o início de 2027, e os termos atuais seguem valendo.",
+      "what": "Os novos Termos Comerciais e de anúncios autoatendidos incluem uma seção de recursos de IA: o anunciante é o único responsável pelas alterações que a IA da Meta faz nos anúncios, mesmo nos recursos ligados por padrão (melhorias do Advantage+ criativo, sitelinks automáticos, tradução, imagens geradas). Depois de adiar de 30/10 para 20/11, a Meta publicou aviso (divulgado em 5/11) de que os Termos Comerciais, de Catálogo de Produtos, de anúncios autoatendidos e de IA generativa em criativos atualizados estão suspensos e não entram em vigor em 20/11/2026. Diz que continua consultando o mercado e dará notícia quando tiver novidade; os termos atuais valem até segunda ordem. Em 18/11 a Meta publicou como vai revisar os termos: 1ª fase, conversas com veículos de notícia e associações do setor \"nos próximos meses\"; 2ª fase, reunir as opiniões e revisar o texto; 3ª fase, nova rodada com veículos, entidades e reguladores no \"início de 2027\", antes de lançar, com um documento explicativo. A Meta diz que avisará os titulares das contas com antecedência e dará um período para revisar os termos novos. Um porta-voz disse à Reuters que a empresa quer \"fazer isso direito\". Antes disso, um tribunal da Noruega barrou a entrada em vigor lá, a autoridade de concorrência do Reino Unido abriu investigação em 30/10 e a Comissão Europeia elogiou o adiamento.",
+      "effect": "Nada muda nas contas por enquanto. Pelo cronograma da própria Meta, termos novos não devem chegar antes do início de 2027, e o texto pode voltar igual ou revisado — o risco de responder pelas edições da IA não sumiu.",
+      "action": "Não é preciso aceitar nada agora; os termos atuais continuam valendo. Mesmo assim, desligue antes da Black Friday as melhorias automáticas do Advantage+ criativo que o cliente não aprovou, e fique atento ao aviso que a Meta promete mandar antes de qualquer termo novo.",
       "sources": [
         2,
         3,
@@ -361,7 +415,8 @@
         32,
         35,
         42,
-        43
+        43,
+        54
       ]
     },
     {
@@ -1160,6 +1215,21 @@
       "id": 53,
       "title": "JXT Group: mudanças de Google e Meta Ads na semana de 11 a 17/11/2026",
       "url": "https://www.jxtgroup.com/this-week-google-meta-ads-nov-17-2026/"
+    },
+    {
+      "id": 54,
+      "title": "Let's Data Science: Meta detalha consulta em fases sobre os termos comerciais suspensos",
+      "url": "https://letsdatascience.com/news/meta-outlines-phased-consultation-on-paused-commercial-terms-c4bbfa1c"
+    },
+    {
+      "id": 55,
+      "title": "PPC Land: modelo processa marca por anúncios no Instagram gerados por IA com fotos de 2021",
+      "url": "https://ppc.land/model-sues-romperjack-after-2021-photos-became-ai-generated-instagram-ads/"
+    },
+    {
+      "id": 56,
+      "title": "PPC Land: Instagram testa o Direct, app de conversa que dispensa conta no Instagram",
+      "url": "https://ppc.land/instagram-tests-direct-a-chat-app-that-needs-no-instagram-account/"
     }
   ]
 }
