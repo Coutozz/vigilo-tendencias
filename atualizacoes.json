@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T07:00:00-03:00",
-  "edition": "20 de novembro de 2026",
-  "summary": "Sem mudança de impacto alto nas contas desde ontem. Os novos Termos Comerciais não entraram em vigor hoje (20/11) e, pelo plano que a Meta divulgou em 18/11, não devem voltar antes do início de 2027 — os termos atuais seguem valendo. Para a Black Friday (27/11), revise as melhorias automáticas do Advantage+ criativo e compare as compras do pixel com as vendas reais; ao gerar criativos com IA a partir de fotos de pessoas, garanta autorização de uso de imagem por escrito.",
+  "updatedAt": "2026-11-21T07:00:00-03:00",
+  "edition": "21 de novembro de 2026",
+  "summary": "Nenhuma mudança da Meta de impacto alto desde ontem; os Termos Comerciais novos seguem suspensos e os atuais continuam valendo. No Brasil, a ANPD publicou em inglês o guia do ECA Digital, que proíbe usar perfil de comportamento de menores para direcionar publicidade — evite públicos e criativos voltados a menores de 18 anos. Para a Black Friday (27/11), evite mexer demais nas campanhas na semana da data, revise as melhorias automáticas do Advantage+ criativo e compare as compras do pixel com as vendas reais.",
   "api": {
     "latest": "v27.0",
     "latestDate": "2026-11-04",
@@ -41,6 +41,24 @@
     }
   ],
   "updates": [
+    {
+      "id": "2026-10-28-eca-digital-guia-anpd",
+      "date": "2026-10-28",
+      "firstSeen": "2026-11-21",
+      "title": "ECA Digital: guia da ANPD proíbe publicidade direcionada a menores com base em perfil",
+      "category": "politicas",
+      "impact": "baixo",
+      "status": "em-vigor",
+      "region": "Brasil",
+      "confirmed": true,
+      "summary": "A ANPD publicou o guia do ECA Digital (Lei 15.211), que veda perfilar crianças e adolescentes para direcionar publicidade comercial.",
+      "what": "O guia da ANPD (adotado em português em 28/10/2026 e publicado em inglês em novembro) lista 8 tipos de serviço que se presume serem acessados por menores, entre eles redes sociais, e reforça que serviços pagos por publicidade estão sujeitos à lei. Os artigos 22 e 26 proíbem usar perfil de comportamento, análise emocional ou realidade aumentada/virtual para direcionar publicidade comercial a crianças e adolescentes; o art. 6º trata de publicidade enganosa e de produtos como apostas, tabaco e álcool. A lei está em vigor desde 17/03/2026.",
+      "effect": "A obrigação principal é das plataformas, mas anúncios voltados a menores passam a ser indício usado pela fiscalização. Para negócios locais, o risco cresce em campanhas de academias, cursos, estética e lojas que miram adolescentes.",
+      "action": "Não direcione anúncios a menores de 18 anos nem use criativos feitos para atrair esse público. Em contas de academias, cursos e estética, confira a idade mínima dos conjuntos e evite ofertas que pareçam dirigidas a adolescentes.",
+      "sources": [
+        57
+      ]
+    },
     {
       "id": "2026-11-18-processo-anuncios-ia-fotos-antigas",
       "date": "2026-11-18",
@@ -1230,6 +1248,11 @@
       "id": 56,
       "title": "PPC Land: Instagram testa o Direct, app de conversa que dispensa conta no Instagram",
       "url": "https://ppc.land/instagram-tests-direct-a-chat-app-that-needs-no-instagram-account/"
+    },
+    {
+      "id": 57,
+      "title": "PPC Land: ANPD lista 8 tipos de plataforma presumidamente sujeitos ao ECA Digital",
+      "url": "https://ppc.land/brazils-anpd-names-8-platform-types-presumed-to-face-child-safety-law/"
     }
   ]
 }
