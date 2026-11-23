@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T07:00:00-03:00",
-  "edition": "21 de novembro de 2026",
-  "summary": "Nenhuma mudança da Meta de impacto alto desde ontem; os Termos Comerciais novos seguem suspensos e os atuais continuam valendo. No Brasil, a ANPD publicou em inglês o guia do ECA Digital, que proíbe usar perfil de comportamento de menores para direcionar publicidade — evite públicos e criativos voltados a menores de 18 anos. Para a Black Friday (27/11), evite mexer demais nas campanhas na semana da data, revise as melhorias automáticas do Advantage+ criativo e compare as compras do pixel com as vendas reais.",
+  "updatedAt": "2026-11-23T07:00:00-03:00",
+  "edition": "23 de novembro de 2026",
+  "summary": "Semana sem mudança de impacto alto nas contas: os Termos Comerciais novos seguem suspensos, sem data, e os atuais continuam valendo — no Brasil, a Justiça de São Paulo também barrou a cláusula de rastreamento de sites para associados de entidades de mídia. A novidade local é o Achados, app da Meta lançado no Brasil que reúne itens à venda do Marketplace, Grupos e Instagram, ainda sem anúncios pagos. Para a Black Friday (27/11), não faça mudanças grandes nas campanhas nesta semana, revise as melhorias automáticas do Advantage+ criativo e compare as compras do pixel com as vendas reais.",
   "api": {
     "latest": "v27.0",
     "latestDate": "2026-11-04",
@@ -41,6 +41,25 @@
     }
   ],
   "updates": [
+    {
+      "id": "2026-11-17-achados-app-brasil",
+      "date": "2026-11-17",
+      "firstSeen": "2026-11-23",
+      "title": "Meta lança no Brasil o Achados, app que reúne itens à venda do Marketplace, Grupos e Instagram",
+      "category": "posicionamentos",
+      "impact": "baixo",
+      "status": "em-vigor",
+      "region": "Brasil",
+      "confirmed": true,
+      "summary": "O Achados, app só para Android no Brasil, junta anúncios de compra e venda do Facebook Marketplace, dos Grupos do Facebook e do Instagram, com conversa pelo WhatsApp.",
+      "what": "A Meta lançou em 17/11/2026 o Achados, disponível para Android no Brasil pelo Google Play, para maiores de 18 anos com acesso ao Marketplace. O app reúne itens novos e usados do Marketplace, dos Grupos do Facebook e do Instagram, com busca por categoria, preço e distância, a seção 'Garimpo de hoje', selo de achado por comparação de preço e faixa de preço estimada. A IA sugere título, descrição, categoria, estado e preço do item, e o que é publicado ali também aparece no Marketplace. O comprador fala com o vendedor pelo WhatsApp ou no próprio app; pagamento e retirada são combinados direto entre as partes. A Meta não citou anúncios pagos nem perfis de empresa no Achados.",
+      "effect": "Não muda nada nas campanhas por enquanto. É mais uma vitrine gratuita da Meta para o comércio local, que tende a concorrer com OLX e Enjoei e pode, no futuro, virar espaço de anúncio.",
+      "action": "Nada a fazer nas contas agora. Para lojas e varejo local com estoque de produtos, vale testar publicar itens no Marketplace (que aparecem no Achados) e acompanhar se a Meta abre o app para anúncios.",
+      "sources": [
+        58,
+        59
+      ]
+    },
     {
       "id": "2026-10-28-eca-digital-guia-anpd",
       "date": "2026-10-28",
@@ -423,7 +442,7 @@
       "region": "Global",
       "confirmed": true,
       "summary": "Os novos termos, incluindo a responsabilidade do anunciante pelas edições da IA, não entraram em vigor em 20/11; em 18/11 a Meta descreveu uma consulta em três fases que vai até o início de 2027, e os termos atuais seguem valendo.",
-      "what": "Os novos Termos Comerciais e de anúncios autoatendidos incluem uma seção de recursos de IA: o anunciante é o único responsável pelas alterações que a IA da Meta faz nos anúncios, mesmo nos recursos ligados por padrão (melhorias do Advantage+ criativo, sitelinks automáticos, tradução, imagens geradas). Depois de adiar de 30/10 para 20/11, a Meta publicou aviso (divulgado em 5/11) de que os Termos Comerciais, de Catálogo de Produtos, de anúncios autoatendidos e de IA generativa em criativos atualizados estão suspensos e não entram em vigor em 20/11/2026. Diz que continua consultando o mercado e dará notícia quando tiver novidade; os termos atuais valem até segunda ordem. Em 18/11 a Meta publicou como vai revisar os termos: 1ª fase, conversas com veículos de notícia e associações do setor \"nos próximos meses\"; 2ª fase, reunir as opiniões e revisar o texto; 3ª fase, nova rodada com veículos, entidades e reguladores no \"início de 2027\", antes de lançar, com um documento explicativo. A Meta diz que avisará os titulares das contas com antecedência e dará um período para revisar os termos novos. Um porta-voz disse à Reuters que a empresa quer \"fazer isso direito\". Antes disso, um tribunal da Noruega barrou a entrada em vigor lá, a autoridade de concorrência do Reino Unido abriu investigação em 30/10 e a Comissão Europeia elogiou o adiamento.",
+      "what": "Os novos Termos Comerciais e de anúncios autoatendidos incluem uma seção de recursos de IA: o anunciante é o único responsável pelas alterações que a IA da Meta faz nos anúncios, mesmo nos recursos ligados por padrão (melhorias do Advantage+ criativo, sitelinks automáticos, tradução, imagens geradas). Depois de adiar de 30/10 para 20/11, a Meta publicou aviso (divulgado em 5/11) de que os Termos Comerciais, de Catálogo de Produtos, de anúncios autoatendidos e de IA generativa em criativos atualizados estão suspensos e não entram em vigor em 20/11/2026. Diz que continua consultando o mercado e dará notícia quando tiver novidade; os termos atuais valem até segunda ordem. Em 18/11 a Meta publicou como vai revisar os termos: 1ª fase, conversas com veículos de notícia e associações do setor \"nos próximos meses\"; 2ª fase, reunir as opiniões e revisar o texto; 3ª fase, nova rodada com veículos, entidades e reguladores no \"início de 2027\", antes de lançar, com um documento explicativo. A Meta diz que avisará os titulares das contas com antecedência e dará um período para revisar os termos novos. Um porta-voz disse à Reuters que a empresa quer \"fazer isso direito\". Antes disso, um tribunal da Noruega barrou a entrada em vigor lá, a autoridade de concorrência do Reino Unido abriu investigação em 30/10 e a Comissão Europeia elogiou o adiamento. No Brasil, a Justiça de São Paulo suspendeu em 3/11 a cláusula de rastreamento de sites para os associados de três entidades nacionais de mídia, com multa de R$ 1 milhão por dia, limitada a R$ 100 milhões.",
       "effect": "Nada muda nas contas por enquanto. Pelo cronograma da própria Meta, termos novos não devem chegar antes do início de 2027, e o texto pode voltar igual ou revisado — o risco de responder pelas edições da IA não sumiu.",
       "action": "Não é preciso aceitar nada agora; os termos atuais continuam valendo. Mesmo assim, desligue antes da Black Friday as melhorias automáticas do Advantage+ criativo que o cliente não aprovou, e fique atento ao aviso que a Meta promete mandar antes de qualquer termo novo.",
       "sources": [
@@ -434,7 +453,8 @@
         35,
         42,
         43,
-        54
+        54,
+        60
       ]
     },
     {
@@ -1253,6 +1273,21 @@
       "id": 57,
       "title": "PPC Land: ANPD lista 8 tipos de plataforma presumidamente sujeitos ao ECA Digital",
       "url": "https://ppc.land/brazils-anpd-names-8-platform-types-presumed-to-face-child-safety-law/"
+    },
+    {
+      "id": 58,
+      "title": "Meta (Sala de Imprensa Brasil): Chegou o Achados, o melhor lugar para garimpar tudo o que você ama",
+      "url": "https://about.fb.com/br/news/2026/11/chegou-o-achados-o-melhor-lugar-para-garimpar-tudo-o-que-voce-ama/"
+    },
+    {
+      "id": 59,
+      "title": "Meio & Mensagem: Meta lança Achados, app para vendas de itens usados",
+      "url": "https://www.meioemensagem.com.br/midia/meta-lanca-achados-app-para-vendas-de-itens-usados"
+    },
+    {
+      "id": 60,
+      "title": "PPC Land: termos de rastreamento de sites da Meta seguem engavetados até 2027",
+      "url": "https://ppc.land/metas-website-crawling-terms-stay-shelved-into-2027-as-publisher-talks-run/"
     }
   ]
 }
