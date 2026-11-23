@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T05:45:00-03:00",
-  "edition": "20 de novembro de 2026",
-  "summary": "Falta uma semana para a Black Friday (27/11): os anúncios de oferta já deveriam estar no ar, e de 26 a 30/11 a regra é não mexer no que está rodando; criativo novo entra em conjunto novo. No que escala, o padrão segue: vídeo vertical, cara de UGC e texto na tela já no primeiro segundo. Nesta edição, ideias novas para restaurantes (oferta de dia fixo e encomendas de fim de ano) e para academias (professor gravando no celular, já preparando janeiro).",
+  "updatedAt": "2026-11-23T05:45:00-03:00",
+  "edition": "23 de novembro de 2026",
+  "summary": "Faltam 4 dias para a Black Friday (27/11): o que está rodando não se mexe até o dia 30, e criativo novo entra em conjunto novo. Já deixe pronta a virada para dezembro: a mensagem troca de desconto para presente, prazo e retirada na loja. Nesta edição, ideias novas para varejo (Natal com prazo e vale-presente) e para automotivo (comparação \"este ou aquele\" e vídeo explicando o financiamento).",
   "rules": [
     {
-      "title": "Semana da Black Friday: não mexa no que está rodando",
-      "text": "A orientação é ter os conjuntos de oferta entregando até 20/11 e não fazer edição grande de 26 a 30/11: criativo novo vai num conjunto novo, não no que já está no ar, para não voltar ao aprendizado (que pede cerca de 50 resultados na semana). Deixe pronto um substituto realmente diferente para cada anúncio. O CPM sobe muito: num levantamento da Lebesgue com US$ 22,6 milhões em verba de 2025, o CPM mediano ficou 27% acima de setembro em 20/11 e 84% acima na Black Friday, mas na semana da data a conversão subiu 48% e o custo por compra caiu 20%. Julgue pelo custo por venda, não pelo CPM.",
+      "title": "Semana da Black Friday: não mexa no que está rodando, prepare dezembro",
+      "text": "De 26 a 30/11, não faça edição grande nos conjuntos de oferta: criativo novo vai num conjunto novo, para não voltar ao aprendizado (que pede cerca de 50 resultados na semana). O CPM sobe muito: num levantamento da Lebesgue com US$ 22,6 milhões em verba de 2025, o CPM mediano ficou 84% acima de setembro na Black Friday, mas na semana da data a conversão subiu 48% e o custo por compra caiu 20%. Julgue pelo custo por venda, não pelo CPM, e não aumente a verba só porque é Black Friday: escale o que está dando lucro. Deixe aprovadas até 30/11 as peças de dezembro (presente, prazo de entrega, retirada na loja, vale-presente).",
       "source": 70
     },
     {
@@ -15,9 +15,9 @@
       "source": 33
     },
     {
-      "title": "Antes de 27/11, revise o que a Meta liga sozinha",
-      "text": "Além da navegação de produtos (ligada por padrão desde 28/10) e da medição de conversões no aparelho do cliente (desde 12/11), a Meta passou a poder colocar nos anúncios descontos que encontra no site e em outros anúncios (\"ofertas detectadas\", no Gerenciador de Comércio), e em anúncios novos via API a vitrine de produtos pode ligar sozinha. Abra a prévia de cada anúncio, desligue o que não faz sentido para serviço local ou WhatsApp e confira se nenhum desconto antigo aparece na peça. A Meta diz que quem aceita as recomendações do Advantage+ criativo costuma ter 5% mais conversões pelo mesmo custo, mas em saúde e em anúncio com preço vale desligar retoque visual, fundo gerado e tradução.",
-      "source": 71
+      "title": "Revise o que a Meta liga sozinha (e os termos de IA)",
+      "text": "Além da navegação de produtos (ligada por padrão desde 28/10) e da medição de conversões no aparelho do cliente (desde 12/11), o Advantage+ criativo ganhou em 2/11 a animação de imagem, que transforma foto parada em vídeo para Reels, e desde 19/10 a Meta permite escolher idade e gênero por criativo, o que apareceu ligado por padrão em campanhas de Vendas. As fontes divergem sobre os novos termos que deixam o anunciante responsável por tudo que a IA da Meta gerar: uma diz que entraram em vigor em 20/11, outra que seguem suspensos. Na dúvida, trate como se valessem: abra a prévia de cada anúncio e desligue retoque visual, fundo gerado e tradução em saúde, estética e anúncio com preço.",
+      "source": 39
     },
     {
       "title": "Texto na tela no primeiro segundo, gancho sem pergunta",
@@ -49,12 +49,12 @@
     {
       "name": "Vídeo com especialista, educativo ou de bastidor",
       "trend": "up",
-      "note": "Em saúde e estética é dos formatos com mais chance de aprovação: profissional explicando o procedimento na sala e vídeo de celular costumam render mais que peça muito produzida. Na indústria, o bastidor (máquina funcionando, controle de qualidade, expedição) é o equivalente. Em levantamento da Web Tonic, o CPM médio de indústria no Meta foi de US$ 2,40, bem abaixo da média geral. Em imóveis, o corretor narrando o próprio imóvel cumpre o mesmo papel."
+      "note": "Em saúde e estética é dos formatos com mais chance de aprovação: profissional explicando o procedimento na sala e vídeo de celular costumam render mais que peça muito produzida. Na indústria, o bastidor (máquina funcionando, controle de qualidade, expedição) é o equivalente. Em levantamento da Web Tonic, o CPM médio de indústria no Meta foi de US$ 2,40, bem abaixo da média geral. Em imóveis, o corretor narrando o próprio imóvel cumpre o mesmo papel. Em concessionária, o vendedor ou o responsável pelo financiamento explicando parcela, entrada e avaliação do usado cumpre o mesmo papel."
     },
     {
       "name": "Imagem para vídeo e edição com IA da Meta",
-      "trend": "steady",
-      "note": "A transformação de imagem em vídeo está liberada no Advantage+ criativo desde 6/10, e o Ads Creative Studio chegou a mais anunciantes. Os novos termos que jogariam toda a responsabilidade da IA no anunciante continuam suspensos, sem data. Marcas começaram a desligar retoques e fundos gerados por IA em categorias sensíveis: confira a prévia antes de escalar."
+      "trend": "up",
+      "note": "A transformação de imagem em vídeo está no Advantage+ criativo desde 6/10, e em 2/11 chegou a animação de imagem, que faz um Reels a partir da foto do produto dentro do Gerenciador. Bom atalho para quem não tem vídeo, mas confira a prévia: marcas começaram a desligar retoques e fundos gerados por IA em categorias sensíveis, e há dúvida se os novos termos de responsabilidade já valem."
     },
     {
       "name": "Anúncio com criador (parceria)",
@@ -68,13 +68,13 @@
     },
     {
       "name": "Carrossel",
-      "trend": "up",
-      "note": "Voltou a ganhar força no catálogo (ver acima) e segue bom para objeções, \"top 5 do cardápio\" e guia de presentes por faixa de preço. Fora do catálogo, teste contra a imagem única: não há estudo recente mostrando o carrossel vencendo em geral."
+      "trend": "steady",
+      "note": "Forte no catálogo (no estudo da Confect com 2,6 bilhões de impressões da Black Month de 2025, o catálogo em carrossel teve ROAS 8,8% acima da média) e bom para guia de presentes por faixa de preço, objeções e \"top 5 do cardápio\". Fora do catálogo, teste contra a imagem única: num levantamento da ShortsIntel com 546 anúncios dos EUA, só 18 eram carrossel, pouco para concluir que dura mais."
     },
     {
       "name": "Imagem estática",
       "trend": "steady",
-      "note": "Perdeu volume na Black Friday, mas dura: na lista dos 12 anúncios mais antigos ainda no ar do levantamento da Volume (3.928 anúncios, medido em 15/11), 6 eram imagem estática e 2 eram o dono falando para a câmera. Em 546 anúncios dos EUA, a mediana de vida foi de 82 dias para imagem e 68 para vídeo. Boa para oferta com preço legível, remarketing e cadastro. Num levantamento da SociaVault com cerca de 7.000 anúncios de 42 anunciantes do Reino Unido, o anúncio mais longo era uma imagem oferecendo um e-book grátis, no ar por 858 dias."
+      "note": "Perdeu volume na Black Friday, mas dura: num levantamento da ShortsIntel com 546 anúncios dos EUA (1/11/2026), a mediana de vida foi de 82 dias para imagem e 68 para vídeo, diferença que a própria fonte considera pequena; 41,6% dos anúncios passavam de 90 dias no ar. Na lista dos 12 anúncios mais antigos ainda no ar da Volume, 6 eram imagem estática. Boa para oferta com preço legível, remarketing, vale-presente e cadastro."
     }
   ],
   "niches": [
@@ -97,7 +97,7 @@
       "formatLabel": "Vídeo UGC",
       "duration": "até 20 s",
       "ratio": "9:16",
-      "status": "em-alta",
+      "status": "consolidado",
       "niches": [
         "Todos"
       ],
@@ -134,14 +134,16 @@
         "Varejo e lojas",
         "Pet",
         "Restaurantes",
-        "Academias"
+        "Academias",
+        "Automotivo e financiamento"
       ],
-      "why": "A Black Friday é em 27 de novembro, daqui a 7 dias. Em dados da AppLovin sobre a Black Friday de 2025, vídeos com menos de 16 s tiveram ganho de ROAS de 83%, mais que o dobro dos de 16 a 29 s. Na semana da data de 2025, segundo a Lebesgue, o CPM mediano subiu 59%, mas a conversão subiu 48% e o custo por compra caiu 20%: quem tem oferta clara e prova paga mais caro pela impressão e ainda vende mais barato.",
+      "why": "A Black Friday é nesta sexta, 27 de novembro. Em dados da AppLovin sobre a Black Friday de 2025, vídeos com menos de 16 s tiveram ganho de ROAS de 83%, mais que o dobro dos de 16 a 29 s. Na semana da data de 2025, segundo a Lebesgue, o CPM mediano subiu 59%, mas a conversão subiu 48% e o custo por compra caiu 20%: quem tem oferta clara e prova paga mais caro pela impressão e ainda vende mais barato.",
       "how": [
         "Escolha 1 a 3 produtos-isca com desconto real e estoque garantido.",
         "Grave o dono ou vendedor mostrando o produto na mão, com o preço \"de/por\" escrito na tela no primeiro segundo.",
         "Acrescente prova social real: número de clientes, nota no Google ou foto da loja cheia.",
         "A partir de agora, suba a contagem regressiva e o prazo real num conjunto novo. De 26 a 30/11, não edite os anúncios que estão rodando; só pause o que piorar muito.",
+        "No varejo com catálogo, use o carrossel de catálogo para público novo e a imagem única do produto visto no remarketing: no estudo da Confect, a imagem única foi 25% pior para público novo e 9% melhor no remarketing.",
         "Leve para o WhatsApp ou para a rota até a loja."
       ],
       "hooks": [
@@ -154,7 +156,39 @@
         54,
         70,
         27,
-        68
+        68,
+        53
+      ]
+    },
+    {
+      "id": "varejo-natal-presente-prazo",
+      "title": "Varejo no Natal: guia de presentes por faixa de preço, com prazo e retirada na loja",
+      "format": "carrossel",
+      "formatLabel": "Carrossel ou Reels + WhatsApp",
+      "duration": "—",
+      "ratio": "4:5 e 9:16",
+      "status": "novo",
+      "niches": [
+        "Varejo e lojas",
+        "Pet"
+      ],
+      "why": "Depois da Black Friday, quem compra presente quer resolver rápido: preço, prazo e onde pegar. A orientação para dezembro é falar de vale-presente, retirada na loja e prazos claros de entrega, e testar Reels contra imagem com ideias de presente e demonstração do produto. Segundo o guia de fim de ano da Meta para 2026, 1 em cada 3 compradores costuma comprar na loja física depois de ver o produto nas redes: para loja de bairro, dizer \"retire hoje\" pesa tanto quanto o desconto.",
+      "how": [
+        "Separe 4 a 6 produtos por faixa: \"até R$ 50\", \"até R$ 100\", \"até R$ 200\".",
+        "Carrossel: 1º cartão com a faixa de preço e \"retire hoje na loja\" ou o prazo de entrega real; um cartão por produto com foto real e preço; último cartão com endereço e WhatsApp.",
+        "Versão Reels: vendedor pegando os produtos na prateleira e mostrando na mão, com a faixa de preço na tela no primeiro segundo.",
+        "Troque o criativo, não a campanha: suba a peça de Natal num conjunto novo da mesma campanha a partir de 1/12.",
+        "Perto do dia 20, troque o prazo de entrega por \"retire na loja até dia 24\" e lance o vale-presente."
+      ],
+      "hooks": [
+        "\"Presente até R$ 100 que ninguém vai trocar: arrasta pro lado.\"",
+        "\"Comprou hoje, retira hoje aqui em [bairro].\"",
+        "\"Ainda falta o presente de alguém? A gente embrulha e você leva na hora.\""
+      ],
+      "avoid": "Prazo de entrega que a loja não cumpre. Papai Noel de banco de imagens e arte cheia de texto. Usar a mesma peça de desconto da Black Friday em dezembro: o motivo de compra mudou.",
+      "sources": [
+        80,
+        81
       ]
     },
     {
@@ -194,34 +228,63 @@
       ]
     },
     {
-      "id": "catalogo-carrossel-black-friday",
-      "title": "Black Friday no varejo: catálogo em carrossel para público novo, imagem única no remarketing",
-      "format": "carrossel",
-      "formatLabel": "Carrossel de catálogo",
-      "duration": "—",
-      "ratio": "1:1 ou 4:5",
-      "status": "em-alta",
+      "id": "carro-este-ou-aquele",
+      "title": "Concessionária: \"este ou aquele\" com dois carros lado a lado + catálogo do estoque",
+      "format": "video",
+      "formatLabel": "Vídeo UGC (vendedor) + catálogo",
+      "duration": "20 a 40 s",
+      "ratio": "9:16 (vídeo) e 4:5 ou 1:1 (catálogo)",
+      "status": "novo",
       "niches": [
-        "Varejo e lojas",
-        "Pet",
         "Automotivo e financiamento"
       ],
-      "why": "No estudo da Confect com 2,6 bilhões de impressões de anúncios de catálogo na Black Month de 2025, o carrossel teve ROAS 8,8% acima da média; a imagem única foi 25% pior para público novo, mas 9% melhor no remarketing. Quem também rodou tráfego ou engajamento antes da Black Month teve 39% mais ROAS, e conjuntos com público manual renderam 19% menos que os abertos. O mínimo recomendado são duas peças: uma para quem não conhece, outra para quem voltou.",
+      "why": "Comparar dois carros do pátio (\"este ou aquele?\") responde a dúvida real de quem está decidindo e faz a pessoa comentar. Guias de 2026 para concessionárias recomendam que a maior parte do conteúdo seja estoque em movimento, com vendedores reais e não imagens genéricas. Num caso divulgado pela Phyron (fornecedora de vídeo), um grupo de concessionárias que trocou fotos por vídeos do estoque nos anúncios da Meta teve 76% mais contatos e custo por contato 22% menor. Depois, o catálogo puxa foto, preço e modelo para quem já viu algum carro.",
       "how": [
-        "Revise o catálogo: preço \"de/por\" correto, fotos limpas e estoque atualizado.",
-        "Monte o carrossel de catálogo com moldura da loja (logo, selo de desconto, \"entrega em [cidade]\") para público aberto.",
-        "Para quem visitou o site ou chamou no WhatsApp, use imagem única do produto visto com o preço.",
-        "Confira a navegação de produtos, ligada por padrão desde 28/10, antes de escalar."
+        "Escolha dois carros da mesma faixa de preço (ex.: um hatch e um sedã até R$ [x]).",
+        "Grave na vertical o vendedor entre os dois, mostrando porta-malas, painel e quilometragem de cada um.",
+        "Na tela: modelo, ano, km e preço ou parcela de cada carro.",
+        "Termine perguntando qual a pessoa levaria e chamando para o WhatsApp ou para o test drive.",
+        "Para quem assistiu metade do vídeo ou viu o carro no site, rode o catálogo do estoque com foto de frente ou lateral, bem iluminada; atualize o estoque todo dia."
       ],
       "hooks": [
-        "\"Black Friday [loja]: arraste e veja os preços de verdade.\"",
-        "\"Ainda pensando no [produto]? Ele está por R$ [y] até sexta.\"",
-        "\"Os mais vendidos da semana, com entrega em [cidade].\""
+        "\"Mesmo preço, dois carros: qual você levaria?\"",
+        "\"[Modelo A] ou [Modelo B] até R$ [x]? Vou te mostrar a diferença em 30 segundos.\"",
+        "\"Os dois chegaram ontem. Um deles não passa desta semana.\""
       ],
-      "avoid": "Catálogo com preço desatualizado ou produto esgotado. Moldura que cobre o produto. Segmentação manual muito fechada: deixe o público aberto e use o criativo para falar com cada tipo de cliente.",
+      "avoid": "Foto da montadora no lugar do carro real, preço na arte diferente do estoque e carro vendido ainda no catálogo. Falar mal de marca concorrente. Esconder defeito ou quilometragem.",
       "sources": [
-        53,
-        39
+        82,
+        84,
+        21
+      ]
+    },
+    {
+      "id": "carro-financiamento-explica",
+      "title": "Financiamento: o vendedor explica parcela, entrada e avaliação do usado em linguagem simples",
+      "format": "video",
+      "formatLabel": "Vídeo educativo (especialista)",
+      "duration": "20 a 45 s",
+      "ratio": "9:16 e 4:5",
+      "status": "novo",
+      "niches": [
+        "Automotivo e financiamento"
+      ],
+      "why": "O que trava a compra de carro é a conta, não o carro. Guias de 2026 recomendam que boa parte do conteúdo de concessionária seja educativo: como funciona o financiamento, o que são as taxas, como é avaliado o usado na troca. Vídeo que explica tira o medo de ser enganado e leva a um pedido simples (simular a parcela), que é uma oferta que vale o ano todo e pode rodar meses sem trocar.",
+      "how": [
+        "Grave o vendedor ou o responsável pelo financiamento respondendo UMA dúvida por vídeo: \"quanto preciso de entrada?\", \"o que entra na parcela?\", \"como vocês avaliam meu carro?\".",
+        "Mostre um exemplo real na tela: valor do carro, entrada, número de parcelas e o custo efetivo total (CET), se citar taxa ou parcela.",
+        "Feche com \"simule sua parcela em 2 minutos\" e leve para formulário instantâneo curto (nome, WhatsApp, carro de interesse, se tem usado na troca).",
+        "Grave 3 ou 4 dúvidas e rode como conceitos diferentes no mesmo conjunto; quem pediu simulação vai para o remarketing com o carro que escolheu."
+      ],
+      "hooks": [
+        "\"O que entra de verdade na sua parcela? Vou abrir a conta aqui.\"",
+        "\"Quanto vale o seu carro na troca? É assim que a gente avalia.\"",
+        "\"Dá para financiar com pouca entrada? Depende de três coisas.\""
+      ],
+      "avoid": "\"Aprovação garantida\", \"sem consulta\" ou \"para negativados\": promessa de crédito pode ser reprovada e expõe a loja. Mostrar parcela sem dizer entrada, prazo e CET. Perguntar renda ou situação de crédito no anúncio. Verifique se o Gerenciador pede a categoria especial de produtos financeiros: se pedir, a segmentação por idade, gênero e CEP fica limitada e o criativo é que precisa fazer a seleção.",
+      "sources": [
+        82,
+        83
       ]
     },
     {
@@ -291,7 +354,7 @@
       "formatLabel": "Vídeo curto (Reels)",
       "duration": "até 15 s",
       "ratio": "9:16 e 4:5",
-      "status": "novo",
+      "status": "em-alta",
       "niches": [
         "Restaurantes"
       ],
@@ -321,7 +384,7 @@
       "formatLabel": "Carrossel ou vídeo curto + WhatsApp",
       "duration": "—",
       "ratio": "4:5 e 9:16",
-      "status": "novo",
+      "status": "em-alta",
       "niches": [
         "Restaurantes"
       ],
@@ -402,50 +465,22 @@
       ]
     },
     {
-      "id": "academia-aula-experimental-agendada",
-      "title": "Academia: aula experimental com dia e hora marcados, pelo formulário do anúncio",
-      "format": "video",
-      "formatLabel": "Vídeo curto + formulário instantâneo",
-      "duration": "15 a 30 s",
-      "ratio": "9:16 e 4:5",
-      "status": "em-alta",
-      "niches": [
-        "Academias"
-      ],
-      "why": "Semana grátis sem horário marcado vira cupom que ninguém usa; o que converte é a aula experimental já agendada. Num caso divulgado pela Meta, a rede de academias GymNation teve 64% mais cadastros e custo por cadastro 39% menor com formulário instantâneo do que com formulário no site. Cadastro barato ainda não é aluno: acompanhe quantos aparecem e se matriculam. Dezembro é a hora de montar isso para janeiro: na Gupta Media, o CPM de janeiro de 2025 foi cerca de 24% menor que o de dezembro de 2024.",
-      "how": [
-        "Grave o professor na recepção ou na sala mostrando como é a primeira aula: quem recebe, o que acontece, quanto tempo dura.",
-        "Oferta específica na tela: \"3 aulas grátis\" ou \"primeira aula com avaliação\", com bairro e horários.",
-        "Formulário instantâneo com nome, WhatsApp e uma pergunta: \"Quando você quer começar?\".",
-        "Responda em minutos, já sugerindo dia e hora, e mande lembrete na véspera."
-      ],
-      "hooks": [
-        "\"Vou te mostrar exatamente como é a sua primeira aula aqui.\"",
-        "\"3 aulas grátis em [bairro]. Você escolhe o horário.\"",
-        "\"Nunca treinou? A primeira aula é comigo, no seu ritmo.\""
-      ],
-      "avoid": "\"Você está acima do peso?\", \"Cansado da sua barriga?\" ou qualquer frase sobre o corpo de quem assiste: fere a política de atributos pessoais. Antes e depois de corpo, promessa de quilos ou de prazo, close de barriga ou gordura. Perguntar peso, IMC, lesão ou remédio no formulário, ou mandar isso para o pixel.",
-      "sources": [
-        48
-      ]
-    },
-    {
       "id": "academia-professor-celular",
       "title": "Academia: professor mostra o treino no celular (e já prepara janeiro)",
       "format": "ugc",
       "formatLabel": "Vídeo UGC (professor)",
       "duration": "15 a 30 s",
       "ratio": "9:16",
-      "status": "novo",
+      "status": "em-alta",
       "niches": [
         "Academias"
       ],
-      "why": "Em fitness, vídeo simples do professor costuma vencer comercial caprichado: num levantamento da Web Tonic, conteúdo com o professor teve 1,7 vez o engajamento de conteúdo falado pela marca, e vídeo de demonstração de treino converteu 34% mais que conteúdo de estilo de vida (números de fornecedor, sem método publicado). No Reels do Instagram, a faixa citada de CTR foi de 1,1% a 2,3%, a mais alta entre os posicionamentos. Janeiro costuma ser a melhor janela do ano para academia (1 a 21/1, segundo a Stackmatix): grave em dezembro e deixe as peças aprovadas antes da virada.",
+      "why": "Em fitness, vídeo simples do professor costuma vencer comercial caprichado: num levantamento da Web Tonic, conteúdo com o professor teve 1,7 vez o engajamento de conteúdo falado pela marca, e vídeo de demonstração de treino converteu 34% mais que conteúdo de estilo de vida (números de fornecedor, sem método publicado). No Reels do Instagram, a faixa citada de CTR foi de 1,1% a 2,3%, a mais alta entre os posicionamentos. Janeiro costuma ser a melhor janela do ano para academia (1 a 21/1, segundo a Stackmatix): grave em dezembro e deixe as peças aprovadas antes da virada. Num caso divulgado pela Meta, a rede GymNation teve 64% mais cadastros e custo por cadastro 39% menor com formulário instantâneo do que com formulário no site: aula experimental com horário marcado converte mais que semana grátis solta.",
       "how": [
         "Peça a 2 ou 3 professores para gravarem no celular, na vertical, um exercício ou uma parte da aula explicando para quem nunca treinou.",
         "Texto na tela no primeiro segundo com o que a pessoa vai ver (\"Seu primeiro treino aqui, em 20 segundos\").",
         "Mostre o ambiente de verdade: recepção, área de musculação, a turma da aula coletiva.",
-        "Feche com a oferta e o bairro, e leve para o formulário instantâneo ou WhatsApp com a pergunta \"Quando você quer começar?\".",
+        "Feche com a oferta e o bairro (\"3 aulas grátis\", \"primeira aula com avaliação\") e leve para o formulário instantâneo com a pergunta \"Quando você quer começar?\"; responda em minutos já sugerindo dia e hora.",
         "Em dezembro, grave uma versão \"comece em janeiro\" e suba antes do dia 1º, para não depender da revisão da Meta na virada."
       ],
       "hooks": [
@@ -453,39 +488,11 @@
         "\"20 segundos para você ver como é uma aula de [modalidade] aqui em [bairro].\"",
         "\"Janeiro começa aqui: primeira semana com acompanhamento do professor.\""
       ],
-      "avoid": "Antes e depois de corpo, promessa de quilos ou de resultado garantido e frase que sugira que o corpo de quem assiste precisa ser consertado (\"Cansado da barriga?\"): fere a política de atributos pessoais e pode levar a conta a revisão. Close de barriga ou gordura. Perguntar peso, lesão ou remédio no formulário.",
+      "avoid": "Antes e depois de corpo, promessa de quilos ou de resultado garantido e frase que sugira que o corpo de quem assiste precisa ser consertado (\"Cansado da barriga?\"): fere a política de atributos pessoais e pode levar a conta a revisão. Close de barriga ou gordura. Perguntar peso, IMC, lesão ou remédio no formulário, ou mandar isso para o pixel.",
       "sources": [
         77,
-        78
-      ]
-    },
-    {
-      "id": "carro-volta-estoque",
-      "title": "Volta no carro com o vendedor + catálogo do estoque no remarketing",
-      "format": "video",
-      "formatLabel": "Vídeo UGC + catálogo",
-      "duration": "até 20 s",
-      "ratio": "9:16 (vídeo) e 4:5 ou 1:1 (catálogo)",
-      "status": "em-alta",
-      "niches": [
-        "Automotivo e financiamento"
-      ],
-      "why": "O vendedor dando a volta no carro, com cara de vídeo de celular, mostra o estado real do seminovo e responde a dúvida que trava a compra: \"esse carro é confiável?\". Depois, o anúncio de catálogo puxa foto, preço e modelo do estoque para quem já viu algum carro. A foto principal é o que mais pesa no clique, e em um teste da Meta o catálogo de veículos teve custo por contato cerca de 30% menor.",
-      "how": [
-        "Grave na vertical: frente, lateral, painel, porta-malas e quilometragem, em até 20 s.",
-        "Preço ou parcela na tela desde o começo e chamada para o WhatsApp.",
-        "Para o remarketing, monte o catálogo do estoque com foto principal de frente/lateral, bem iluminada e sem fundo poluído.",
-        "Atualize o estoque todo dia para não anunciar carro já vendido."
-      ],
-      "hooks": [
-        "\"Esse carro é confiável mesmo? Vou te mostrar tudo.\"",
-        "\"[Modelo] [ano], único dono, [x] mil km. Olha o estado.\"",
-        "\"Chegou hoje e não vai durar: dá uma olhada.\""
-      ],
-      "avoid": "Foto de catálogo da montadora no lugar do carro real. Preço na arte diferente do site ou do estoque. Carro vendido ainda no catálogo.",
-      "sources": [
-        21,
-        22
+        78,
+        48
       ]
     },
     {
@@ -538,11 +545,6 @@
       "id": 21,
       "title": "Anúncios de estoque automotivo no Facebook (AdsUploader, 27/10/2026)",
       "url": "https://adsuploader.com/pt/blog/facebook-automotive-inventory-ads"
-    },
-    {
-      "id": 22,
-      "title": "Car Dealership Facebook Inventory Ads (Stackmatix, 3/9/2026)",
-      "url": "https://www.stackmatix.com/blog/car-dealership-facebook-inventory-ads"
     },
     {
       "id": 27,
@@ -650,11 +652,6 @@
       "url": "https://segwise.ai/blog/black-friday-facebook-ads-2026"
     },
     {
-      "id": 71,
-      "title": "Meta Ads Updates (November 2026): What's Changing and What to Do (AdsUploader, atualizado 15/11/2026)",
-      "url": "https://adsuploader.com/blog/meta-ads-updates"
-    },
-    {
       "id": 74,
       "title": "Restaurant Ad Examples That Fill Tables on Facebook (Madgicx, atualizado 12/11/2026)",
       "url": "https://madgicx.com/blog/restaurant-ad-examples"
@@ -673,6 +670,41 @@
       "id": 78,
       "title": "Facebook Ads for Gyms: Membership Campaign Structures (Stackmatix, 6/9/2026)",
       "url": "https://www.stackmatix.com/blog/gym-facebook-ads-membership-campaigns"
+    },
+    {
+      "id": 80,
+      "title": "2026 Holiday Marketing Strategy: What Meta Says Will Win This Season (TechWyse, 28/9/2026)",
+      "url": "https://www.techwyse.com/blog/social-media-marketing/2026-holiday-marketing-strategy-meta-ads"
+    },
+    {
+      "id": 81,
+      "title": "Meta publishes 2026 holiday planning guide (Social Media Today, 11/6/2026)",
+      "url": "https://www.socialmediatoday.com/news/meta-publishes-2026-holiday-planning-guide/822744/"
+    },
+    {
+      "id": 82,
+      "title": "Social Media for Car Dealerships: The 2026 Playbook (Covideo, 8/7/2026)",
+      "url": "https://www.covideo.com/resources/blog/social-media-for-car-dealerships-the-2026/"
+    },
+    {
+      "id": 83,
+      "title": "Facebook Ads for Car Dealerships: The Complete 2026 Strategy Guide (Graphed, 19/7/2026)",
+      "url": "https://www.graphed.com/blog/facebook-ads-for-car-dealerships"
+    },
+    {
+      "id": 84,
+      "title": "12 vehicle ad Dos and Don'ts (Phyron, atualizado 13/11/2026)",
+      "url": "https://www.phyron.com/resources/twelve-vehicle-ad-dos-and-donts-you-need-to-know-before-your-next-campaign"
+    },
+    {
+      "id": 85,
+      "title": "How Long Do Facebook Ads Run? Meta Ad Statistics 2026 (ShortsIntel, 1/11/2026)",
+      "url": "https://www.shortsintel.com/statistics/meta-ad-longevity"
+    },
+    {
+      "id": 86,
+      "title": "Meta Ads Updates November 2026 (AdMakeAI, 2/11/2026)",
+      "url": "https://admakeai.com/blog/meta-ads-updates-november-2026"
     }
   ]
 }
