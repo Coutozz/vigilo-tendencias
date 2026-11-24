@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-23T07:00:00-03:00",
-  "edition": "23 de novembro de 2026",
-  "summary": "Semana sem mudança de impacto alto nas contas: os Termos Comerciais novos seguem suspensos, sem data, e os atuais continuam valendo — no Brasil, a Justiça de São Paulo também barrou a cláusula de rastreamento de sites para associados de entidades de mídia. A novidade local é o Achados, app da Meta lançado no Brasil que reúne itens à venda do Marketplace, Grupos e Instagram, ainda sem anúncios pagos. Para a Black Friday (27/11), não faça mudanças grandes nas campanhas nesta semana, revise as melhorias automáticas do Advantage+ criativo e compare as compras do pixel com as vendas reais.",
+  "updatedAt": "2026-11-24T07:00:00-03:00",
+  "edition": "24 de novembro de 2026",
+  "summary": "Não houve mudança relevante em anúncios desde a edição de 23/11: nenhuma novidade da Meta para anúncios foi publicada entre 17 e 24/11 além do aviso oficial de 18/11 sobre os Termos Comerciais. Atenção: algumas páginas de agências ainda dizem que os termos novos entraram em vigor em 20/11 — isso não aconteceu; a própria Meta confirma que estão suspensos e que só devem voltar depois de uma consulta que vai até o início de 2027. Para a Black Friday (27/11), evite mudanças grandes nas campanhas, revise as melhorias automáticas do Advantage+ criativo e compare as compras do pixel com as vendas reais.",
   "api": {
     "latest": "v27.0",
     "latestDate": "2026-11-04",
@@ -454,7 +454,8 @@
         42,
         43,
         54,
-        60
+        60,
+        61
       ]
     },
     {
@@ -1288,6 +1289,11 @@
       "id": 60,
       "title": "PPC Land: termos de rastreamento de sites da Meta seguem engavetados até 2027",
       "url": "https://ppc.land/metas-website-crawling-terms-stay-shelved-into-2027-as-publisher-talks-run/"
+    },
+    {
+      "id": 61,
+      "title": "Meta Newsroom: nossa abordagem para atualizar os Termos Comerciais (18/11/2026)",
+      "url": "https://about.fb.com/news/2026/11/our-approach-to-updating-our-commercial-terms-of-service/"
     }
   ]
 }
