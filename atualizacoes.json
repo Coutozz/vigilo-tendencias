@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-25T07:00:00-03:00",
-  "edition": "25 de novembro de 2026",
-  "summary": "Não houve mudança relevante em anúncios desde a edição de 24/11: a Meta não publicou nenhuma novidade para anunciantes entre 18 e 25/11 além do aviso oficial de que os novos Termos Comerciais continuam suspensos (nova consulta só no início de 2027). A API segue na v27.0, sem mudanças fora do ciclo depois de 22/10. Faltam dois dias para a Black Friday (27/11): evite mudanças grandes nas campanhas, revise as melhorias automáticas do Advantage+ criativo e a navegação de produtos, e compare as compras do pixel com as vendas reais.",
+  "updatedAt": "2026-11-26T07:00:00-03:00",
+  "edition": "26 de novembro de 2026",
+  "summary": "Não houve mudança relevante para anunciantes no Brasil desde a edição de 25/11. A única novidade é o assistente Muse dentro das mensagens do Instagram, por enquanto só em EUA, Canadá, México, Japão e Singapura. Os novos Termos Comerciais continuam suspensos (a Meta prevê nova consulta no início de 2027) e a API segue na v27.0. A Black Friday é amanhã (27/11): não faça mudanças grandes nas campanhas, acompanhe orçamento e frequência e compare as compras do pixel com as vendas reais.",
   "api": {
     "latest": "v27.0",
     "latestDate": "2026-11-04",
@@ -41,6 +41,24 @@
     }
   ],
   "updates": [
+    {
+      "id": "2026-11-24-muse-instagram-direct",
+      "date": "2026-11-24",
+      "firstSeen": "2026-11-26",
+      "title": "Assistente Muse da Meta chega às mensagens do Instagram (ainda fora do Brasil)",
+      "category": "posicionamentos",
+      "impact": "baixo",
+      "status": "em-vigor",
+      "region": "EUA",
+      "confirmed": true,
+      "summary": "A Meta colocou o agente de IA Muse dentro das mensagens do Instagram em alguns países; o Brasil ainda não está na lista.",
+      "what": "Desde 24/11 o Muse funciona no Direct do Instagram (iOS e Android) nos EUA, Canadá, México, Japão e Singapura. Ele transforma publicações salvas em planos e listas, encontra Reels salvos, responde perguntas sobre um post e resume conversas. Com permissão, ajuda a criar posts e Stories.",
+      "effect": "Nada muda agora nas contas brasileiras. O movimento mostra que a Meta quer que o Muse ajude o usuário a decidir compras a partir do que ele salvou, o que tende a valorizar anúncios e posts que as pessoas salvam.",
+      "action": "Não há o que fazer agora nas contas do Brasil. Vale acompanhar quando o Muse chegar aqui e, nos criativos, continuar estimulando o 'salvar' (cardápios, tabelas de preço, antes e depois, listas).",
+      "sources": [
+        62
+      ]
+    },
     {
       "id": "2026-11-17-achados-app-brasil",
       "date": "2026-11-17",
@@ -1294,6 +1312,11 @@
       "id": 61,
       "title": "Meta Newsroom: nossa abordagem para atualizar os Termos Comerciais (18/11/2026)",
       "url": "https://about.fb.com/news/2026/11/our-approach-to-updating-our-commercial-terms-of-service/"
+    },
+    {
+      "id": 62,
+      "title": "Digital Trends: Meta leva o Muse para as mensagens do Instagram (25/11/2026)",
+      "url": "https://www.digitaltrends.com/social-media/meta-brought-muse-directly-to-instagram-dms-now-you-dont-even-have-to-leave-the-app-to-let-an-ai-plan-your-life/"
     }
   ]
 }
