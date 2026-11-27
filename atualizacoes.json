@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-26T07:00:00-03:00",
-  "edition": "26 de novembro de 2026",
-  "summary": "Não houve mudança relevante para anunciantes no Brasil desde a edição de 25/11. A única novidade é o assistente Muse dentro das mensagens do Instagram, por enquanto só em EUA, Canadá, México, Japão e Singapura. Os novos Termos Comerciais continuam suspensos (a Meta prevê nova consulta no início de 2027) e a API segue na v27.0. A Black Friday é amanhã (27/11): não faça mudanças grandes nas campanhas, acompanhe orçamento e frequência e compare as compras do pixel com as vendas reais.",
+  "updatedAt": "2026-11-27T07:00:00-03:00",
+  "edition": "27 de novembro de 2026",
+  "summary": "Semana calma: nada novo da Meta que mude entrega, custo ou rastreamento desde a edição de 26/11. A única novidade é um conector da AWS que deixa o assistente AWS Quick consultar e editar campanhas pelo servidor MCP de anúncios da Meta (anúncio da AWS, impacto baixo). Os novos Termos Comerciais seguem suspensos até 2027 e a API continua na v27.0. Hoje é Black Friday: evite mudanças grandes, acompanhe orçamento e frequência ao longo do dia e compare as compras do pixel com as vendas reais.",
   "api": {
     "latest": "v27.0",
     "latestDate": "2026-11-04",
@@ -41,6 +41,24 @@
     }
   ],
   "updates": [
+    {
+      "id": "2026-11-21-conector-meta-ads-aws-quick",
+      "date": "2026-11-21",
+      "firstSeen": "2026-11-27",
+      "title": "Contas de anúncios da Meta agora podem ser operadas pelo AWS Quick",
+      "category": "gerenciador",
+      "impact": "baixo",
+      "status": "em-vigor",
+      "region": "Global",
+      "confirmed": false,
+      "summary": "A Amazon lançou um conector que liga o assistente AWS Quick ao servidor MCP de anúncios da Meta.",
+      "what": "Em 21/11 a AWS lançou um conector Meta Ads para o AWS Quick. Ele usa o servidor MCP de anúncios da Meta e permite, em linguagem natural, puxar resultados, criar catálogos e criar ou editar campanhas. O Quick pede permissão antes de qualquer alteração. É preciso ter um portfólio empresarial com acesso à conta de anúncios. O anúncio é da AWS, não da Meta.",
+      "effect": "Nada muda na entrega ou no custo. É mais uma ferramenta de IA de terceiros com acesso de escrita às contas, o que aumenta o risco de alguém da equipe ou do cliente mexer em campanha sem passar pelo gestor.",
+      "action": "Só conecte ferramentas de IA externas às contas dos clientes com autorização e com limites definidos. Se usar, revise nas regras do servidor MCP de anúncios quais ações ficam bloqueadas (criar campanha, mudar orçamento) e confira no histórico de atividades o que foi alterado.",
+      "sources": [
+        63
+      ]
+    },
     {
       "id": "2026-11-24-muse-instagram-direct",
       "date": "2026-11-24",
@@ -1317,6 +1335,11 @@
       "id": 62,
       "title": "Digital Trends: Meta leva o Muse para as mensagens do Instagram (25/11/2026)",
       "url": "https://www.digitaltrends.com/social-media/meta-brought-muse-directly-to-instagram-dms-now-you-dont-even-have-to-leave-the-app-to-let-an-ai-plan-your-life/"
+    },
+    {
+      "id": 63,
+      "title": "Agile Brand Guide — Notícias de marketing e IA de 23/11/2026 (conector Meta Ads no AWS Quick)",
+      "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-23-2026/"
     }
   ]
 }
