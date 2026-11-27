@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-23T05:45:00-03:00",
-  "edition": "23 de novembro de 2026",
-  "summary": "Faltam 4 dias para a Black Friday (27/11): o que está rodando não se mexe até o dia 30, e criativo novo entra em conjunto novo. Já deixe pronta a virada para dezembro: a mensagem troca de desconto para presente, prazo e retirada na loja. Nesta edição, ideias novas para varejo (Natal com prazo e vale-presente) e para automotivo (comparação \"este ou aquele\" e vídeo explicando o financiamento).",
+  "updatedAt": "2026-11-27T10:30:00-03:00",
+  "edition": "27 de novembro de 2026",
+  "summary": "Black Friday hoje: o que está rodando segue até segunda (30/11) e, a partir de 1/12, a mensagem troca de desconto para presente, prazo e retirada na loja. O Gerenciador agora mostra uma nota de diversidade criativa (baixa, média ou alta) e o resultado de cada imagem e vídeo: use isso para cortar cópias e manter de 3 a 5 conceitos realmente diferentes por conjunto. Nesta edição, ideias novas para academias (janeiro começa a ser vendido em dezembro) e para odontologia (depoimento em vídeo curto), além do anúncio feito com posts do próprio perfil.",
   "rules": [
     {
-      "title": "Semana da Black Friday: não mexa no que está rodando, prepare dezembro",
-      "text": "De 26 a 30/11, não faça edição grande nos conjuntos de oferta: criativo novo vai num conjunto novo, para não voltar ao aprendizado (que pede cerca de 50 resultados na semana). O CPM sobe muito: num levantamento da Lebesgue com US$ 22,6 milhões em verba de 2025, o CPM mediano ficou 84% acima de setembro na Black Friday, mas na semana da data a conversão subiu 48% e o custo por compra caiu 20%. Julgue pelo custo por venda, não pelo CPM, e não aumente a verba só porque é Black Friday: escale o que está dando lucro. Deixe aprovadas até 30/11 as peças de dezembro (presente, prazo de entrega, retirada na loja, vale-presente).",
-      "source": 70
+      "title": "Até segunda não mexa; a partir de 1/12, mensagem de presente",
+      "text": "Os anúncios de Black Friday que estão dando venda ficam como estão até 30/11: criativo novo entra em conjunto novo, para não voltar ao aprendizado. De 1/12 em diante, troque desconto por presente, prazo real de entrega, retirada na loja e vale-presente. Em academia e clínica, dezembro é o mês de gravar e aprovar as peças de janeiro: a Stackmatix recomenda subir a campanha de academia entre 26 e 28/12, não no dia 1º.",
+      "source": 90
     },
     {
-      "title": "Menos anúncios por conjunto, mais conceitos diferentes",
-      "text": "A própria Meta diz que anúncio demais no mesmo conjunto pode piorar o resultado: concentre em menos anúncios, cada um com até 10 imagens ou vídeos realmente diferentes (outro gancho, formato ou emoção). Dez versões do mesmo vídeo com outra cor contam como cópia. O conjunto sai do aprendizado com cerca de 50 resultados na semana depois da última grande edição.",
-      "source": 33
+      "title": "Olhe a nota de diversidade criativa de cada conjunto",
+      "text": "O Gerenciador ganhou a coluna \"Diversidade criativa\" (Colunas > Personalizar colunas), com nota baixa, média ou alta, ainda em desenvolvimento. Ela mede quanto as imagens e vídeos se parecem: 20 anúncios com a mesma foto, a mesma abertura e a mesma pessoa falando contam como pequenas edições do mesmo criativo. Para subir a nota, troque o gancho, a pessoa, o estilo visual, o ângulo da mensagem ou a oferta, não só a cor ou o título. Mesmo contas com bastante variedade aparecem como \"baixa\" nos testes iniciais, então use a nota como alerta, não como meta.",
+      "source": 93
     },
     {
-      "title": "Revise o que a Meta liga sozinha (e os termos de IA)",
-      "text": "Além da navegação de produtos (ligada por padrão desde 28/10) e da medição de conversões no aparelho do cliente (desde 12/11), o Advantage+ criativo ganhou em 2/11 a animação de imagem, que transforma foto parada em vídeo para Reels, e desde 19/10 a Meta permite escolher idade e gênero por criativo, o que apareceu ligado por padrão em campanhas de Vendas. As fontes divergem sobre os novos termos que deixam o anunciante responsável por tudo que a IA da Meta gerar: uma diz que entraram em vigor em 20/11, outra que seguem suspensos. Na dúvida, trate como se valessem: abra a prévia de cada anúncio e desligue retoque visual, fundo gerado e tradução em saúde, estética e anúncio com preço.",
-      "source": 39
+      "title": "Termos de IA da Meta adiados: confira a prévia mesmo assim",
+      "text": "A Meta pausou em 5/11 os novos termos que deixariam o anunciante \"único responsável\" pelo que a IA gerar; a data de 20/11 caiu e não há data nova, então seguem valendo os termos atuais. Ao mesmo tempo, a Meta liga mais coisas sozinha: desde 6/11 pode puxar descontos do seu site e de outros anúncios para dentro do anúncio (desligue em Commerce Manager > Merchandising de ofertas se o preço for diferente na loja), e desde 28/10 a navegação de produtos vem ligada. Abra a prévia de cada anúncio e desligue retoque visual, fundo gerado e oferta detectada em saúde, estética e anúncio com preço.",
+      "source": 87
     },
     {
       "title": "Texto na tela no primeiro segundo, gancho sem pergunta",
@@ -25,9 +25,9 @@
       "source": 69
     },
     {
-      "title": "Cada peça em 9:16, 4:5 e 1:1, e veja o resultado de cada uma",
-      "text": "A Meta decide onde mostra: em Cadastros, Vendas e Apps não dá mais para escolher posicionamento manualmente no conjunto, e o Threads virou posicionamento padrão em todas as campanhas desde o fim de outubro. Suba a mesma ideia nas três proporções, começando pelo 9:16. Use o detalhamento por peça no Gerenciador (Detalhamento > Criativo) para ver o resultado de cada imagem, vídeo e título e cortar o que não entrega.",
-      "source": 39
+      "title": "Veja o resultado de cada imagem e vídeo, e corte o que não entrega",
+      "text": "Em Anúncios > Detalhamento > Criativo > Mídia, o Gerenciador mostra gasto, impressões e cliques de cada imagem e vídeo; as variações de texto ficam em Detalhamento > Elemento de criativo dinâmico. Não vale para carrossel e coleção, e cadastros de contato ou agendamento podem não aparecer: não confunda falta de dado com peça ruim. A Meta já não deixa escolher posicionamento manual no conjunto em Vendas, Cadastros e Apps, então suba cada ideia em 9:16, 4:5 e 1:1 e personalize por posicionamento quando precisar.",
+      "source": 95
     },
     {
       "title": "Saúde, estética e academia: fale do serviço, não de quem assiste",
@@ -54,12 +54,12 @@
     {
       "name": "Imagem para vídeo e edição com IA da Meta",
       "trend": "up",
-      "note": "A transformação de imagem em vídeo está no Advantage+ criativo desde 6/10, e em 2/11 chegou a animação de imagem, que faz um Reels a partir da foto do produto dentro do Gerenciador. Bom atalho para quem não tem vídeo, mas confira a prévia: marcas começaram a desligar retoques e fundos gerados por IA em categorias sensíveis, e há dúvida se os novos termos de responsabilidade já valem."
+      "note": "A transformação de imagem em vídeo está no Advantage+ criativo desde 6/10, e em 2/11 chegou a animação de imagem, que faz um Reels a partir da foto do produto. Bom atalho para quem não tem vídeo. Os novos termos de responsabilidade sobre IA foram pausados em 5/11, mas confira a prévia: em saúde, estética e anúncio com preço, desligue retoque, fundo gerado e oferta detectada automaticamente."
     },
     {
-      "name": "Anúncio com criador (parceria)",
-      "trend": "steady",
-      "note": "Os anúncios em parceria já somam receita anualizada de 15 bilhões de dólares para a Meta. Para negócio local, prefira microcriador da cidade e use o criador como mais um conceito no conjunto, não como a única peça."
+      "name": "Anúncio com criador ou com posts do próprio perfil",
+      "trend": "up",
+      "note": "Os anúncios em parceria já somam receita anualizada de 15 bilhões de dólares para a Meta, e desde 5/11 dá para ver o resultado por criador no relatório. Novidade de novembro: um mesmo anúncio aceita até cinco posts orgânicos do perfil, o que facilita anunciar o que já foi bem no Instagram. Para negócio local, prefira microcriador da cidade e os posts com mais comentários, como mais um conceito no conjunto."
     },
     {
       "name": "Anúncio de catálogo (estoque de lojas, carros e imóveis)",
@@ -74,7 +74,7 @@
     {
       "name": "Imagem estática",
       "trend": "steady",
-      "note": "Perdeu volume na Black Friday, mas dura: num levantamento da ShortsIntel com 546 anúncios dos EUA (1/11/2026), a mediana de vida foi de 82 dias para imagem e 68 para vídeo, diferença que a própria fonte considera pequena; 41,6% dos anúncios passavam de 90 dias no ar. Na lista dos 12 anúncios mais antigos ainda no ar da Volume, 6 eram imagem estática. Boa para oferta com preço legível, remarketing, vale-presente e cadastro."
+      "note": "Dura mais do que parece: num levantamento da ShortsIntel com 546 anúncios dos EUA (1/11/2026), a mediana de vida foi de 82 dias para imagem e 68 para vídeo, diferença que a própria fonte considera pequena; 41,6% dos anúncios passavam de 90 dias no ar. Na lista dos 12 anúncios mais antigos ainda no ar da Volume, 6 eram imagem estática. Boa para oferta com preço legível, remarketing, vale-presente e cadastro."
     }
   ],
   "niches": [
@@ -123,41 +123,32 @@
       ]
     },
     {
-      "id": "black-friday-oferta-prova",
-      "title": "Black Friday local: oferta com prova social em vídeo curto",
-      "format": "video",
-      "formatLabel": "Vídeo curto (oferta)",
-      "duration": "até 15 s",
-      "ratio": "9:16 primeiro, depois 4:5 e 1:1",
-      "status": "em-alta",
+      "id": "posts-do-perfil-como-anuncio",
+      "title": "Anuncie o que já deu certo no perfil: até 5 posts orgânicos num anúncio só",
+      "format": "carrossel",
+      "formatLabel": "Posts do perfil (orgânico como anúncio)",
+      "duration": "—",
+      "ratio": "4:5 e 9:16",
+      "status": "novo",
       "niches": [
-        "Varejo e lojas",
-        "Pet",
-        "Restaurantes",
-        "Academias",
-        "Automotivo e financiamento"
+        "Todos"
       ],
-      "why": "A Black Friday é nesta sexta, 27 de novembro. Em dados da AppLovin sobre a Black Friday de 2025, vídeos com menos de 16 s tiveram ganho de ROAS de 83%, mais que o dobro dos de 16 a 29 s. Na semana da data de 2025, segundo a Lebesgue, o CPM mediano subiu 59%, mas a conversão subiu 48% e o custo por compra caiu 20%: quem tem oferta clara e prova paga mais caro pela impressão e ainda vende mais barato.",
+      "why": "Em novembro, a Meta passou a aceitar até cinco posts orgânicos num mesmo anúncio. Post que já teve comentários e salvamentos no perfil traz prova social pronta e tem cara de conteúdo, não de propaganda, o que ajuda a variar o conjunto: os guias sobre diversidade criativa citam posts orgânicos da marca, depoimentos e anúncios com criador como tipos diferentes do vídeo de oferta.",
       "how": [
-        "Escolha 1 a 3 produtos-isca com desconto real e estoque garantido.",
-        "Grave o dono ou vendedor mostrando o produto na mão, com o preço \"de/por\" escrito na tela no primeiro segundo.",
-        "Acrescente prova social real: número de clientes, nota no Google ou foto da loja cheia.",
-        "A partir de agora, suba a contagem regressiva e o prazo real num conjunto novo. De 26 a 30/11, não edite os anúncios que estão rodando; só pause o que piorar muito.",
-        "No varejo com catálogo, use o carrossel de catálogo para público novo e a imagem única do produto visto no remarketing: no estudo da Confect, a imagem única foi 25% pior para público novo e 9% melhor no remarketing.",
-        "Leve para o WhatsApp ou para a rota até a loja."
+        "Liste os 5 posts com mais comentários e salvamentos dos últimos 90 dias (Reels, carrossel ou foto).",
+        "Escolha posts sem preço ou data vencida e com o serviço ou produto aparecendo bem.",
+        "Monte o anúncio com esses posts e um texto curto com a oferta e o bairro; chamada para o WhatsApp ou rota.",
+        "Rode como mais um conceito no conjunto, ao lado do vídeo de oferta, e compare no detalhamento por criativo depois de 7 dias."
       ],
       "hooks": [
-        "\"Black Friday de verdade: esse aqui era R$ [x] e até sexta sai por R$ [y].\"",
-        "\"Mais de [número] clientes de [bairro] já levaram. Agora com [x]% de desconto.\"",
-        "\"Só [x] unidades nesse preço. Quando acabar, acabou.\""
+        "\"O post que mais deu o que falar aqui em [bairro].\"",
+        "\"Vocês pediram, a gente mostrou: [produto/serviço].\"",
+        "\"Mais de [número] comentários: é por isso que o pessoal volta.\""
       ],
-      "avoid": "Desconto inflado (aumentar o preço antes para dar desconto) e preço na arte diferente do da loja. Contagem regressiva falsa ou antes da hora. Deixar as variações automáticas de texto do Advantage+ ligadas em anúncio com preço e prazo. Escalar a verba sem conferir a prévia: a navegação de produtos ligada por padrão pode desviar o toque de quem queria chamar no WhatsApp.",
+      "avoid": "Post com promoção vencida, preço antigo ou música que não pode ser usada em anúncio. Em saúde e estética, post com antes e depois ou que fale da condição de quem assiste.",
       "sources": [
-        54,
-        70,
-        27,
-        68,
-        53
+        89,
+        93
       ]
     },
     {
@@ -167,12 +158,12 @@
       "formatLabel": "Carrossel ou Reels + WhatsApp",
       "duration": "—",
       "ratio": "4:5 e 9:16",
-      "status": "novo",
+      "status": "em-alta",
       "niches": [
         "Varejo e lojas",
         "Pet"
       ],
-      "why": "Depois da Black Friday, quem compra presente quer resolver rápido: preço, prazo e onde pegar. A orientação para dezembro é falar de vale-presente, retirada na loja e prazos claros de entrega, e testar Reels contra imagem com ideias de presente e demonstração do produto. Segundo o guia de fim de ano da Meta para 2026, 1 em cada 3 compradores costuma comprar na loja física depois de ver o produto nas redes: para loja de bairro, dizer \"retire hoje\" pesa tanto quanto o desconto.",
+      "why": "A partir de 1/12, quem compra presente quer resolver rápido: preço, prazo e onde pegar. A orientação para dezembro é falar de vale-presente, retirada na loja e prazos claros de entrega, e testar Reels contra imagem com ideias de presente e demonstração do produto. Segundo o guia de fim de ano da Meta para 2026, 1 em cada 3 compradores costuma comprar na loja física depois de ver o produto nas redes: para loja de bairro, dizer \"retire hoje\" pesa tanto quanto o desconto.",
       "how": [
         "Separe 4 a 6 produtos por faixa: \"até R$ 50\", \"até R$ 100\", \"até R$ 200\".",
         "Carrossel: 1º cartão com a faixa de preço e \"retire hoje na loja\" ou o prazo de entrega real; um cartão por produto com foto real e preço; último cartão com endereço e WhatsApp.",
@@ -193,7 +184,7 @@
     },
     {
       "id": "oferta-permanente-sempre-no-ar",
-      "title": "Uma oferta permanente rodando ao lado da Black Friday",
+      "title": "Uma oferta permanente que roda o ano todo, fora das datas",
       "format": "imagem",
       "formatLabel": "Imagem ou vídeo curto + WhatsApp ou formulário",
       "duration": "—",
@@ -211,7 +202,7 @@
       "how": [
         "Escolha uma oferta que vale o ano todo: avaliação, primeira aula, simulação de parcela, visita técnica ou orçamento em 24 h.",
         "Arte simples com foto real do lugar ou da equipe, a oferta grande e o bairro ou a cidade.",
-        "Deixe numa campanha separada da Black Friday, com verba própria e sem data na arte.",
+        "Deixe numa campanha separada das ofertas de data (Natal, janeiro), com verba própria e sem data na arte.",
         "Use WhatsApp ou formulário com 2 ou 3 perguntas e combine com a equipe responder rápido: quem é atendido em até 5 minutos tem muito mais chance de virar cliente.",
         "Só troque a peça quando o custo por resultado subir de forma consistente, não por calendário."
       ],
@@ -228,44 +219,13 @@
       ]
     },
     {
-      "id": "carro-este-ou-aquele",
-      "title": "Concessionária: \"este ou aquele\" com dois carros lado a lado + catálogo do estoque",
-      "format": "video",
-      "formatLabel": "Vídeo UGC (vendedor) + catálogo",
-      "duration": "20 a 40 s",
-      "ratio": "9:16 (vídeo) e 4:5 ou 1:1 (catálogo)",
-      "status": "novo",
-      "niches": [
-        "Automotivo e financiamento"
-      ],
-      "why": "Comparar dois carros do pátio (\"este ou aquele?\") responde a dúvida real de quem está decidindo e faz a pessoa comentar. Guias de 2026 para concessionárias recomendam que a maior parte do conteúdo seja estoque em movimento, com vendedores reais e não imagens genéricas. Num caso divulgado pela Phyron (fornecedora de vídeo), um grupo de concessionárias que trocou fotos por vídeos do estoque nos anúncios da Meta teve 76% mais contatos e custo por contato 22% menor. Depois, o catálogo puxa foto, preço e modelo para quem já viu algum carro.",
-      "how": [
-        "Escolha dois carros da mesma faixa de preço (ex.: um hatch e um sedã até R$ [x]).",
-        "Grave na vertical o vendedor entre os dois, mostrando porta-malas, painel e quilometragem de cada um.",
-        "Na tela: modelo, ano, km e preço ou parcela de cada carro.",
-        "Termine perguntando qual a pessoa levaria e chamando para o WhatsApp ou para o test drive.",
-        "Para quem assistiu metade do vídeo ou viu o carro no site, rode o catálogo do estoque com foto de frente ou lateral, bem iluminada; atualize o estoque todo dia."
-      ],
-      "hooks": [
-        "\"Mesmo preço, dois carros: qual você levaria?\"",
-        "\"[Modelo A] ou [Modelo B] até R$ [x]? Vou te mostrar a diferença em 30 segundos.\"",
-        "\"Os dois chegaram ontem. Um deles não passa desta semana.\""
-      ],
-      "avoid": "Foto da montadora no lugar do carro real, preço na arte diferente do estoque e carro vendido ainda no catálogo. Falar mal de marca concorrente. Esconder defeito ou quilometragem.",
-      "sources": [
-        82,
-        84,
-        21
-      ]
-    },
-    {
       "id": "carro-financiamento-explica",
       "title": "Financiamento: o vendedor explica parcela, entrada e avaliação do usado em linguagem simples",
       "format": "video",
       "formatLabel": "Vídeo educativo (especialista)",
       "duration": "20 a 45 s",
       "ratio": "9:16 e 4:5",
-      "status": "novo",
+      "status": "em-alta",
       "niches": [
         "Automotivo e financiamento"
       ],
@@ -274,17 +234,21 @@
         "Grave o vendedor ou o responsável pelo financiamento respondendo UMA dúvida por vídeo: \"quanto preciso de entrada?\", \"o que entra na parcela?\", \"como vocês avaliam meu carro?\".",
         "Mostre um exemplo real na tela: valor do carro, entrada, número de parcelas e o custo efetivo total (CET), se citar taxa ou parcela.",
         "Feche com \"simule sua parcela em 2 minutos\" e leve para formulário instantâneo curto (nome, WhatsApp, carro de interesse, se tem usado na troca).",
-        "Grave 3 ou 4 dúvidas e rode como conceitos diferentes no mesmo conjunto; quem pediu simulação vai para o remarketing com o carro que escolheu."
+        "Grave 3 ou 4 dúvidas e rode como conceitos diferentes no mesmo conjunto; quem pediu simulação vai para o remarketing com o carro que escolheu.",
+        "Variação: o vendedor entre dois carros da mesma faixa de preço, comparando a parcela de cada um, para ter um conceito diferente no conjunto."
       ],
       "hooks": [
         "\"O que entra de verdade na sua parcela? Vou abrir a conta aqui.\"",
         "\"Quanto vale o seu carro na troca? É assim que a gente avalia.\"",
-        "\"Dá para financiar com pouca entrada? Depende de três coisas.\""
+        "\"Dá para financiar com pouca entrada? Depende de três coisas.\"",
+        "\"Mesmo preço, dois carros: qual você levaria? E quanto fica a parcela de cada um?\""
       ],
       "avoid": "\"Aprovação garantida\", \"sem consulta\" ou \"para negativados\": promessa de crédito pode ser reprovada e expõe a loja. Mostrar parcela sem dizer entrada, prazo e CET. Perguntar renda ou situação de crédito no anúncio. Verifique se o Gerenciador pede a categoria especial de produtos financeiros: se pedir, a segmentação por idade, gênero e CEP fica limitada e o criativo é que precisa fazer a seleção.",
       "sources": [
+        21,
         82,
-        83
+        83,
+        84
       ]
     },
     {
@@ -328,13 +292,13 @@
       "niches": [
         "Pet"
       ],
-      "why": "Na Biblioteca de Anúncios, anúncios de produtos de tosa e escovação com gancho de problema e solução (\"cansado de pelo pela casa?\") estão no ar desde fevereiro de 2026, cerca de nove meses, segundo a listagem da Atria de 18/11. Na Black Friday, esses mesmos anunciantes só trocaram a frase de abertura pela oferta e mantiveram o vídeo. Para pet shop local, o problema do tutor (pelo no sofá, cheiro, nó no pelo) mostra o serviço sem depender de desconto, e a mediana de vida de anúncios de pet é de 30 dias: planeje uma versão nova por mês.",
+      "why": "Na Biblioteca de Anúncios, anúncios de produtos de tosa e escovação com gancho de problema e solução (\"cansado de pelo pela casa?\") estão no ar desde fevereiro de 2026, cerca de nove meses, segundo a listagem da Atria de 18/11. Em datas de oferta, esses mesmos anunciantes só trocaram a frase de abertura e mantiveram o vídeo. Para pet shop local, o problema do tutor (pelo no sofá, cheiro, nó no pelo) mostra o serviço sem depender de desconto, e a mediana de vida de anúncios de pet é de 30 dias: planeje uma versão nova por mês.",
       "how": [
         "Comece mostrando o problema que o tutor reconhece: pelo no sofá, na roupa preta, no rolo adesivo.",
         "Corte para o pet no banho com remoção de subpelo ou escovação, em cenas rápidas.",
         "Mostre o resultado: a escova cheia de pelo solto e o pet saindo leve.",
         "Na tela, bairro, preço do banho com remoção de subpelo e se tem leva e traz.",
-        "Para a Black Friday, troque só a primeira frase pela oferta e mantenha o resto."
+        "No Natal, troque só a primeira frase (\"banho e tosa para chegar cheiroso na ceia\") e mantenha o resto."
       ],
       "hooks": [
         "\"Pelo no sofá todo dia? Isso aqui resolve por semanas.\"",
@@ -348,36 +312,6 @@
       ]
     },
     {
-      "id": "restaurante-oferta-dia-fixo",
-      "title": "Restaurante: oferta de dia fixo com o preço na tela no primeiro segundo",
-      "format": "video",
-      "formatLabel": "Vídeo curto (Reels)",
-      "duration": "até 15 s",
-      "ratio": "9:16 e 4:5",
-      "status": "em-alta",
-      "niches": [
-        "Restaurantes"
-      ],
-      "why": "Nos anúncios de restaurante que estavam no ar em novembro de 2026 reunidos pela Madgicx, 6 de 8 eram vídeo vertical e a maioria punha o texto na tela no primeiro segundo; o padrão era um prato com nome e preço e uma oferta recorrente (ex.: um prato especial toda quinta \"até acabar\"). Na mesma fonte, o CPM mediano de restaurantes no Meta em setembro de 2026 foi de US$ 2,26, contra US$ 9,72 na média geral: dá para aparecer muito no bairro com pouca verba. Oferta de dia fixo vira hábito e não precisa de peça nova toda semana.",
-      "how": [
-        "Escolha um dia fraco e um carro-chefe: \"Terça do hambúrguer\", \"Quinta da pizza\", \"Feijoada de sábado\".",
-        "Abra no close do prato sendo finalizado, com nome do prato e preço escritos na tela já no primeiro segundo.",
-        "Raio de entrega realista (ex.: até 5 km) e anúncio concentrado no horário da refeição, como 18h às 22h para o jantar.",
-        "Termine com o botão certo para o destino: \"Peça agora\" para o delivery, \"Chame no WhatsApp\" para encomenda ou reserva.",
-        "Use um cupom diferente por anúncio para saber, no caixa, qual peça trouxe o pedido."
-      ],
-      "hooks": [
-        "\"Toda terça aqui em [bairro]: [prato] por R$ [x].\"",
-        "\"Quinta é dia de [prato]. Quando acaba, acabou.\"",
-        "\"Peça hoje até as 22h com o cupom [CÓDIGO] e ganhe a sobremesa.\""
-      ],
-      "avoid": "Foto de banco de imagens ou prato que não existe no cardápio. Preço na arte diferente do aplicativo ou do cardápio. Raio grande demais, em que a comida chega fria. Mudar o dia da oferta toda semana: o hábito é o que faz a peça durar.",
-      "sources": [
-        74,
-        75
-      ]
-    },
-    {
       "id": "restaurante-encomenda-fim-de-ano",
       "title": "Restaurante: encomendas de Natal e confraternização com prazo real",
       "format": "carrossel",
@@ -388,7 +322,7 @@
       "niches": [
         "Restaurantes"
       ],
-      "why": "Depois da Black Friday, a orientação é trocar a mensagem de desconto por presente e prazo, e os custos de mídia seguem altos nos primeiros dias de dezembro. Para restaurante, isso é ceia, kit de festa, bolo e confraternização de empresa, com data-limite real de encomenda. A peça pode subir já na semana da Black Friday, num conjunto separado, e trocar só o prazo depois.",
+      "why": "A partir de dezembro, a orientação é trocar a mensagem de desconto por presente e prazo, e os custos de mídia seguem altos nos primeiros dias de dezembro. Para restaurante, isso é ceia, kit de festa, bolo e confraternização de empresa, com data-limite real de encomenda. Suba a peça em 1/12, num conjunto separado, e troque só a data-limite conforme as encomendas fecham.",
       "how": [
         "Monte o cardápio de fim de ano em 4 a 6 itens com foto real de cada um e o preço por pessoa ou por kit.",
         "Carrossel: 1º cartão com a oferta e o prazo (\"encomendas até 20/12\"), depois um cartão por item, último com o WhatsApp.",
@@ -437,6 +371,36 @@
       ]
     },
     {
+      "id": "odonto-depoimento-curto",
+      "title": "Clínica odontológica: depoimento curto do paciente sobre o atendimento (não sobre o problema)",
+      "format": "ugc",
+      "formatLabel": "Vídeo UGC (depoimento)",
+      "duration": "até 15 s (versão longa até 30 s)",
+      "ratio": "9:16",
+      "status": "novo",
+      "niches": [
+        "Saúde e odontologia",
+        "Estética"
+      ],
+      "why": "Num levantamento da Web Tonic sobre anúncios de odontologia, o vídeo de depoimento teve o menor custo por paciente entre os formatos (US$ 25 a 60, citando análise da Dentalbase), à frente do carrossel e da oferta por tempo limitado. A mesma fonte indica vídeo vertical curto, abaixo de 30 s, e oferta de primeira consulta bem definida como o que mais reduz custo, e recomenda trocar o criativo a cada 4 a 6 semanas. São números de fornecedor dos EUA, use como direção, não como meta.",
+      "how": [
+        "Peça autorização por escrito ao paciente para uso de imagem e voz (LGPD) e confira as regras do CFO para publicidade antes de publicar.",
+        "Grave no celular, na recepção ou na saída da consulta, com 1 pergunta: \"como foi ser atendido aqui?\".",
+        "Corte em até 15 s com a melhor frase sobre o atendimento (pontualidade, explicação, preço claro), legenda grande e o nome da clínica no fim.",
+        "Feche com a oferta de avaliação e o bairro, levando para o WhatsApp com horário sugerido.",
+        "Grave 3 ou 4 pacientes diferentes: cada um conta como conceito diferente na nota de diversidade criativa."
+      ],
+      "hooks": [
+        "\"Eu achei que ia sair daqui sem entender nada. Me explicaram tudo.\"",
+        "\"Fui atendida no horário e já saí sabendo quanto ia custar.\"",
+        "\"A [nome da clínica] em [bairro] foi indicação da minha irmã. Agora eu indico.\""
+      ],
+      "avoid": "Depoimento que fala da condição de quem assiste (\"se você também tem vergonha do sorriso\") ou que promete resultado. Close de boca, procedimento ou antes e depois sem checar as regras do conselho. Paciente sem autorização assinada. Mandar o tipo de tratamento para o pixel ou para listas de clientes.",
+      "sources": [
+        91
+      ]
+    },
+    {
       "id": "odonto-primeira-consulta",
       "title": "Clínica odontológica: \"como é a sua primeira consulta\" com a equipe de verdade",
       "format": "video",
@@ -465,6 +429,36 @@
       ]
     },
     {
+      "id": "academia-janeiro-sem-culpa",
+      "title": "Academia em janeiro: aula experimental com data marcada, vendida desde dezembro (sem \"ano novo, corpo novo\")",
+      "format": "video",
+      "formatLabel": "Vídeo curto (professor + ambiente)",
+      "duration": "15 a 30 s",
+      "ratio": "9:16 e 4:5",
+      "status": "novo",
+      "niches": [
+        "Academias"
+      ],
+      "why": "Janeiro é a janela mais forte do ano para academia: a Stackmatix aponta o pico de procura entre 1 e 7/1 e recomenda subir a campanha entre 26 e 28/12, com verba de 2 a 3 vezes a de um mês normal, concentrada até dia 14. As ofertas que mais convertem nessa época são de entrada fácil (semana grátis, primeiro mês com desconto sem fidelidade, aula com o professor, traga um amigo); plano anual à vista é citado como o que não funciona. Em dezembro, o vale-presente de academia vende como presente de Natal e traz aluno novo (segundo a Zenoti, 25% de quem usa vale-presente é novo na academia; dado da própria fornecedora).",
+      "how": [
+        "Até 20/12: grave 2 ou 3 vídeos curtos com professores mostrando o ambiente real, a turma e o primeiro treino de quem está começando.",
+        "Na tela, no primeiro segundo, a oferta e a data: \"Semana grátis a partir de 2/1\" ou \"Primeiro mês sem fidelidade\".",
+        "Em dezembro, rode um conjunto de vale-presente (\"dê um mês de academia de presente\") e deixe aprovado o conjunto de janeiro para entrar no ar entre 26 e 28/12.",
+        "Leve para formulário instantâneo com \"Quando você quer começar?\" e responda em minutos sugerindo dia e horário.",
+        "Para quem se matriculou em janeiro e não apareceu em 7 dias, rode um lembrete simples com a agenda de aulas da semana."
+      ],
+      "hooks": [
+        "\"Janeiro aqui começa com uma semana grátis e um professor do seu lado.\"",
+        "\"Nunca treinou? A primeira aula é comigo, em [bairro].\"",
+        "\"Presente de Natal que dura o ano: um mês de academia.\""
+      ],
+      "avoid": "\"Ano novo, corpo novo\", \"chega de desculpas\" e qualquer frase que sugira que o corpo de quem assiste está errado: pode cair na política de imagem corporal e de atributos pessoais da Meta. Antes e depois de corpo, promessa de quilos e foto de barriga. Desconto anual à vista como oferta principal.",
+      "sources": [
+        90,
+        92
+      ]
+    },
+    {
       "id": "academia-professor-celular",
       "title": "Academia: professor mostra o treino no celular (e já prepara janeiro)",
       "format": "ugc",
@@ -481,7 +475,7 @@
         "Texto na tela no primeiro segundo com o que a pessoa vai ver (\"Seu primeiro treino aqui, em 20 segundos\").",
         "Mostre o ambiente de verdade: recepção, área de musculação, a turma da aula coletiva.",
         "Feche com a oferta e o bairro (\"3 aulas grátis\", \"primeira aula com avaliação\") e leve para o formulário instantâneo com a pergunta \"Quando você quer começar?\"; responda em minutos já sugerindo dia e hora.",
-        "Em dezembro, grave uma versão \"comece em janeiro\" e suba antes do dia 1º, para não depender da revisão da Meta na virada."
+        "Grave em dezembro a versão \"comece em janeiro\" e deixe aprovada antes do Natal (veja a ideia de janeiro nesta edição)."
       ],
       "hooks": [
         "\"Nunca treinou? Esse é o primeiro exercício que eu passo para todo aluno novo.\"",
@@ -547,24 +541,9 @@
       "url": "https://adsuploader.com/pt/blog/facebook-automotive-inventory-ads"
     },
     {
-      "id": 27,
-      "title": "Black Friday Facebook Ads: Data, Strategies, and AI Automations for 2026 (Triple Whale, 18/8/2026)",
-      "url": "https://www.triplewhale.com/blog/facebook-ads-bfcm"
-    },
-    {
-      "id": 33,
-      "title": "Meta Andromeda 2.0: What Meta Changed and What to Do Now (Segwise, 3/11/2026)",
-      "url": "https://segwise.ai/blog/meta-andromeda-2-0"
-    },
-    {
       "id": 34,
       "title": "Study of $1.3B in Meta Ad Spend Suggests Creative Output, Not Creative Intuition, Drives Results (Net Influencer/Pulse, 27/2/2026)",
       "url": "https://www.pulse.bot/media/news/study-of-13b-in-meta-ad-spend-suggests-creative-output-not-creative-intuition-drives-results-008f4a3e-6d3c-4efa-b0c3-08edc93c60bb"
-    },
-    {
-      "id": 39,
-      "title": "Every Meta Ads Change in 2026, atualizado semanalmente (Common Thread Collective, novembro de 2026)",
-      "url": "https://commonthreadco.com/blogs/coachs-corner/meta-ads-changes-2026"
     },
     {
       "id": 42,
@@ -590,16 +569,6 @@
       "id": 51,
       "title": "Pets & Animals — Creative DNA Benchmarks Q1 2026 (Benly)",
       "url": "https://benly.ai/benchmarks/pets-animals"
-    },
-    {
-      "id": 53,
-      "title": "Black Friday 2026: the 2.6B impression Meta study (Confect, 25/9/2026)",
-      "url": "https://confect.io/tactics/black-friday-2026-meta-ads-study"
-    },
-    {
-      "id": 54,
-      "title": "Black Friday video ads 2026: what to run before November 27 (AdFace, 9/11/2026)",
-      "url": "https://www.adface.ai/blog/black-friday-video-ads-2026"
     },
     {
       "id": 58,
@@ -637,11 +606,6 @@
       "url": "https://admakeai.com/ad-insights/longest-running-ads"
     },
     {
-      "id": 68,
-      "title": "Meta Ads Updates 2026: What They Mean for Your Creative (Segwise, 3/11/2026)",
-      "url": "https://segwise.ai/blog/meta-ads-updates"
-    },
-    {
       "id": 69,
       "title": "Anatomy of a Scaling Meta Ad: 10.000 criativos que escalaram em 2026 (Winning Hunter, 15/9/2026)",
       "url": "https://winninghunter.com/tr/blog/anatomy-of-a-scaling-meta-ad"
@@ -650,16 +614,6 @@
       "id": 70,
       "title": "Black Friday Facebook Ads 2026: Q4 Meta Playbook (Segwise, 3/11/2026)",
       "url": "https://segwise.ai/blog/black-friday-facebook-ads-2026"
-    },
-    {
-      "id": 74,
-      "title": "Restaurant Ad Examples That Fill Tables on Facebook (Madgicx, atualizado 12/11/2026)",
-      "url": "https://madgicx.com/blog/restaurant-ad-examples"
-    },
-    {
-      "id": 75,
-      "title": "Tráfego pago para restaurante e delivery (ValorFinal, atualizado 6/11/2026)",
-      "url": "https://valorfinal.com.br/cursos/trafego-pago/estrategia-por-tipo-de-negocio/restaurante-e-delivery"
     },
     {
       "id": 77,
@@ -697,14 +651,39 @@
       "url": "https://www.phyron.com/resources/twelve-vehicle-ad-dos-and-donts-you-need-to-know-before-your-next-campaign"
     },
     {
-      "id": 85,
-      "title": "How Long Do Facebook Ads Run? Meta Ad Statistics 2026 (ShortsIntel, 1/11/2026)",
-      "url": "https://www.shortsintel.com/statistics/meta-ad-longevity"
+      "id": 87,
+      "title": "Meta Ads Updates and News: November 2026 (AdsUploader, atualizado 25/11/2026)",
+      "url": "https://adsuploader.com/blog/meta-ads-updates"
     },
     {
-      "id": 86,
-      "title": "Meta Ads Updates November 2026 (AdMakeAI, 2/11/2026)",
-      "url": "https://admakeai.com/blog/meta-ads-updates-november-2026"
+      "id": 89,
+      "title": "2026 Meta & Facebook updates and news (SocialBee, atualizado 23/11/2026)",
+      "url": "https://socialbee.com/blog/meta-facebook-updates-news/"
+    },
+    {
+      "id": 90,
+      "title": "January Gym Ad Strategy: Maximizing New Year Resolution Traffic (Stackmatix, 6/9/2026)",
+      "url": "https://www.stackmatix.com/blog/gym-january-new-year-ad-strategy"
+    },
+    {
+      "id": 91,
+      "title": "Dental Ad Creative Statistics & Data 2026 (Web Tonic, atualizado 9/10/2026)",
+      "url": "https://www.webtonic.io/blog/dental-ad-creative-statistics"
+    },
+    {
+      "id": 92,
+      "title": "January gym marketing ideas to convert New Year (Zenoti, 5/1/2026)",
+      "url": "https://www.zenoti.com/thecheckin/january-gym-marketing-ideas"
+    },
+    {
+      "id": 93,
+      "title": "Meta Ads: Why creative diversity matters more than volume (Search Engine Land)",
+      "url": "https://searchengineland.com/meta-ads-creative-diversity-485751"
+    },
+    {
+      "id": 95,
+      "title": "Meta Ads Now Show How Each Creative Performs (Fit Small Business)",
+      "url": "https://fitsmallbusiness.com/sales-marketing/meta-ads-creative-performance-by-asset/"
     }
   ]
 }
