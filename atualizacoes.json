@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-27T07:00:00-03:00",
-  "edition": "27 de novembro de 2026",
-  "summary": "Semana calma: nada novo da Meta que mude entrega, custo ou rastreamento desde a edição de 26/11. A única novidade é um conector da AWS que deixa o assistente AWS Quick consultar e editar campanhas pelo servidor MCP de anúncios da Meta (anúncio da AWS, impacto baixo). Os novos Termos Comerciais seguem suspensos até 2027 e a API continua na v27.0. Hoje é Black Friday: evite mudanças grandes, acompanhe orçamento e frequência ao longo do dia e compare as compras do pixel com as vendas reais.",
+  "updatedAt": "2026-11-28T07:00:00-03:00",
+  "edition": "28 de novembro de 2026",
+  "summary": "Sem mudança relevante da Meta em anúncios desde a edição de 27/11: as buscas desta semana não acharam nada novo que mexa em entrega, custo, rastreamento ou cobrança. Os novos Termos Comerciais seguem suspensos até 2027, a API continua na v27.0 e a medição de conversões no aparelho do cliente (desde 12/11) segue ligada por padrão. No fim de semana pós-Black Friday, evite mudanças grandes nas campanhas, acompanhe frequência e custo por resultado e compare as compras do pixel com as vendas reais antes de cortar ou escalar.",
   "api": {
     "latest": "v27.0",
     "latestDate": "2026-11-04",
